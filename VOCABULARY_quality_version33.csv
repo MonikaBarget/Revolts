@@ -1,0 +1,648 @@
+clearly;1;credibility;q;context
+likely;3;credibility;q;context
+wounded;2;human life;q;context
+zeal;2;skills / achievemnt;quality;context
+principal;5;context;quality;context
+principaux;1;context;quality;context
+principles;3;context;quality;context
+origin;11;context;quality / status;context
+barbarous;3;conflict / violence;quality / status;negative
+barbarously;1;conflict / violence;quality / status;negative
+burned;2;conflict / violence;quality / status;negative
+burning;2;conflict / violence;quality / status;negative
+challengd;1;conflict / violence;quality / status;context
+execrable;1;moral;quality / status;context
+prevailing;1;context;quality / status;context
+certain[e];11;credibility;quality / status;context
+claimed;2;credibility;quality / status;context
+letztverstorbenen;1;death;quality / status;context
+particular(s) / particvlar;16;definition;quality / status;context
+made;12;development / movement;quality / status;context
+cheap;1;economy;quality / status;context
+lang;5;extension;quality / status;context
+long[er];8;extension;quality / status;context
+weit;2;extension;quality / status;context
+weitläufftig;1;extension;quality / status;context
+wider;1;extension;quality / status;context
+brewed;1;food / drink;quality / status;context
+justifying;2;law;quality / status;context
+armed;2;military;quality / status;context
+befestigte;1;military;quality / status;context
+captured;1;military;quality / status;context
+vexatious;1;morals;quality / status;context
+manifold;1;number;quality / status;context
+miscellaneous;3;number;quality / status;context
+vielen;2;number;quality / status;context
+völlige;1;number;quality / status;context
+least;1;number;quality / status;context
+many;4;number;quality / status;context
+winged;1;religion / mythology;quality / status;context
+wiped;1;context;quality / status;context
+woollen;1;fabric;quality / status;context
+mortality;1;human life;quality / status;context
+todten;1;human life;quality / status;context
+lively;1;human life;quality / status;context
+königl;2;politics;quality / status;context
+caesareae;1;politics;quality / status;context
+civil;5;politics;quality / status;context
+käyserl;1;politics;quality / status;context
+liberté;1;politics;quality / status;context
+liberty(s) / liberties;11;politics;quality / status;context
+chaired;1;politics;quality / status;context
+landed;2;relation / posession;quality / status;context
+laye;2;relation / posession;quality / status;context
+laying;3;relation / posession;quality / status;context
+worthless;1;economy?;quality / status;negative
+outlawed;1;legal;quality / status;negative
+villanously;1;morals;quality / status;negative
+violent;1;morals;quality / status;negative
+wicked;2;morals;quality / status;negative
+wilfully;1;morals;quality / status;negative
+murder[ed];16;physical;quality / status;negative
+bloody;2;physical;quality / status;negative
+crohnsüchtige;1;politics;quality / status;negative
+bigoted;1;religion;quality / status;negative
+dangerous;2;context;quality / status / emotion;context
+hundred;4;context;quality / status / emotion;context
+suit(s);2;context;quality / status / emotion;context
+industry;1;context;quality / status / emotion;context
+peace;14;peace / ;quality / status / emotion;context
+politische;2;context;quality / status / emotion;context
+proper;3;context;quality / status / emotion;context
+proposed;2;context;quality / status / emotion;context
+propre;1;context;quality / status / emotion;context
+proscribed;1;context;quality / status / emotion;context
+prostrate;1;context;quality / status / emotion;context
+prov(e)d;2;context;quality / status / emotion;context
+provided;1;context;quality / status / emotion;context
+prudence;1;context;quality / status / emotion;context
+puissant;2;context;quality / status / emotion;context
+pulled;1;context;quality / status / emotion;context
+rated;8;context;quality / status / emotion;context
+real;6;context;quality / status / emotion;context
+recht;7;context;quality / status / emotion;context
+rechten;3;context;quality / status / emotion;context
+rechtglÃ¤ubige;1;context;quality / status / emotion;context
+rechtmÃ¤ssigen;1;context;quality / status / emotion;context
+recommendatory;1;context;quality / status / emotion;context
+refin(e)d;1;context;quality / status / emotion;context
+reformed;1;context;quality / status / emotion;context
+regular;2;context;quality / status / emotion;context
+rejoyce;1;context;quality / status / emotion;context
+relevant;1;context;quality / status / emotion;context
+relief;2;context;quality / status / emotion;context
+religion;9;context;quality / status / emotion;context
+remarkable;7;context;quality / status / emotion;context
+remarquabler;1;context;quality / status / emotion;context
+respect;5;context;quality / status / emotion;context
+respectable;1;context;quality / status / emotion;context
+respectful;1;context;quality / status / emotion;context
+respecting;1;context;quality / status / emotion;context
+respectively;1;context;quality / status / emotion;context
+responsible;2;context;quality / status / emotion;context
+reviv(e)d;1;context;quality / status / emotion;context
+right;13;context;quality / status / emotion;context
+righteous;1;context;quality / status / emotion;context
+riotous;4;context;quality / status / emotion;context
+royal;15;context;quality / status / emotion;context
+royale;2;context;quality / status / emotion;context
+royales;1;context;quality / status / emotion;context
+royall;1;context;quality / status / emotion;context
+satisfaction;2;context;quality / status / emotion;context
+satisfie;1;context;quality / status / emotion;context
+satisfy;2;context;quality / status / emotion;context
+satisfying;1;context;quality / status / emotion;context
+schier;1;context;quality / status / emotion;context
+schleunigern;1;context;quality / status / emotion;context
+schwarzen;1;context;quality / status / emotion;context
+scientific;5;context;quality / status / emotion;context
+selbige;2;context;quality / status / emotion;context
+senilis;1;context;quality / status / emotion;context
+sense;6;context;quality / status / emotion;context
+serious;3;context;quality / status / emotion;context
+seul;1;context;quality / status / emotion;context
+several(l);29;context;quality / status / emotion;context
+sharp;1;context;quality / status / emotion;context
+short;9;context;quality / status / emotion;context
+single;1;context;quality / status / emotion;context
+singular;1;context;quality / status / emotion;context
+slander;1;context;quality / status / emotion;context
+smoking;1;context;quality / status / emotion;context
+sogenannten;1;context;quality / status / emotion;context
+solemnly;1;context;quality / status / emotion;context
+solid;1;context;quality / status / emotion;context
+sonderbaren;1;context;quality / status / emotion;context
+special(l);11;context;quality / status / emotion;context
+spectacled;1;context;quality / status / emotion;context
+speculative;2;context;quality / status / emotion;context
+speedy;4;context;quality / status / emotion;context
+spiritual;2;religion;quality / status / emotion;context
+stile;4;context;quality / status / emotion;context
+still;2;context;quality / status / emotion;context
+succinct;1;context;quality / status / emotion;context
+sumptuous;1;context;quality / status / emotion;context
+sustained;1;context;quality / status / emotion;context
+tendency;1;context;quality / status / emotion;context
+tous;5;context;quality / status / emotion;context
+tout;1;context;quality / status / emotion;context
+transcendent;1;context;quality / status / emotion;context
+unsuccessful;1;skills / ability;quality / status / emotion;context
+unterschieden;1;context;quality / status / emotion;context
+useful;2;skills / ability;quality / status / emotion;context
+usual;1;context;quality / status / emotion;context
+utmost;1;context;quality / status / emotion;context
+valiant / valour;2;skills / ability;quality / status / emotion;context
+variorum;1;context;quality / status / emotion;context
+vast;1;extension;quality / status / emotion;context
+zustande;1;context;quality / status / emotion;context
+verschiedene;1;context;quality / status / emotion;context
+accrue(d);3;context;quality / status / emotion;context
+adjudged;1;context;quality / status / emotion;context
+remnant;1;context;quality / status / emotion;context
+qualifications;1;skills / ability;quality / status / emotion;context
+qualitie;1;context;quality / status / emotion;context
+quality;3;context;quality / status / emotion;context
+ernst;3;context;quality / status / emotion;context
+experience;1;context;quality / status / emotion;context
+ghostly;1;context;quality / status / emotion;context
+merit;2;context;quality / status / emotion;context
+military;9;context;quality / status / emotion;context
+national;6;context;quality / status / emotion;context
+naturalization;1;context;quality / status / emotion;context
+nature;3;context;quality / status / emotion;context
+naval;3;context;quality / status / emotion;context
+near;4;context;quality / status / emotion;context
+necessary;3;context;quality / status / emotion;context
+need;1;context;quality / status / emotion;context
+neighbouring;1;context;quality / status / emotion;context
+number;5;context;quality / status / emotion;context
+numbers;1;context;quality / status / emotion;context
+obsolete;1;context;quality / status / emotion;context
+obtaind;1;context;quality / status / emotion;context
+obtaining;1;context;quality / status / emotion;context
+obviating;1;context;quality / status / emotion;context
+occasionally;1;context;quality / status / emotion;context
+occasion'd /occasioned;5;context;quality / status / emotion;context
+occasions;1;context;quality / status / emotion;context
+occupied;1;context;quality / status / emotion;context
+odious;3;context;quality / status / emotion;context
+offended;2;context;quality / status / emotion;context
+öffentlicher;1;context;quality / status / emotion;context
+open;5;context;quality / status / emotion;context
+optimistically;1;context;quality / status / emotion;context
+orange;2;context;quality / status / emotion;context
+orangie;1;context;quality / status / emotion;context
+oranie;6;context;quality / status / emotion;context
+oranien;5;context;quality / status / emotion;context
+ordinary;3;context;quality / status / emotion;context
+others;13;context;quality / status / emotion;context
+otherwise;2;context;quality / status / emotion;context
+outrageous;1;context;quality / status / emotion;context
+pacis;1;context;quality / status / emotion;context
+payable;1;context;quality / status / emotion;context
+penal;3;context;quality / status / emotion;context
+perfidious;1;context;quality / status / emotion;context
+philanthropic;1;context;quality / status / emotion;context
+plain;9;context;quality / status / emotion;context
+pleasant;1;context;quality / status / emotion;context
+pleasing;1;context;quality / status / emotion;context
+poor;2;context;quality / status / emotion;context
+popish;3;context;quality / status / emotion;context
+popular;1;context;quality / status / emotion;context
+populi;4;context;quality / status / emotion;context
+positive;1;context;quality / status / emotion;context
+practicable;1;context;quality / status / emotion;context
+preachd;3;context;quality / status / emotion;context
+preached;5;context;quality / status / emotion;context
+principally;1;context;quality / status / emotion;context
+private;14;context;quality / status / emotion;context
+privé;2;context;quality / status / emotion;context
+privileges;1;context;quality / status / emotion;context
+probable;1;context;quality / status / emotion;context
+probably;1;context;quality / status / emotion;context
+proceeded;1;context;quality / status / emotion;context
+proceeding;15;context;quality / status / emotion;context
+proceedings;13;context;quality / status / emotion;context
+every;4;context;quality / status / emotion;context
+évidemment;1;context;quality / status / emotion;context
+evil;8;context;quality / status / emotion;context
+evildisposed;1;context;quality / status / emotion;context
+evill;2;context;quality / status / emotion;context
+evils;2;context;quality / status / emotion;context
+exalted;1;context;quality / status / emotion;context
+excellence;1;context;quality / status / emotion;context
+excellent;7;context;quality / status / emotion;context
+extraordinary;2;context;quality / status / emotion;context
+faiblesse;1;context;quality / status / emotion;context
+fiery;1;context;quality / status / emotion;context
+financial;9;context;quality / status / emotion;context
+firmly;1;context;quality / status / emotion;context
+five;3;context;quality / status / emotion;context
+folly;1;context;quality / status / emotion;context
+force(s);16;context;quality / status / emotion;context
+foreign;3;context;quality / status / emotion;context
+former;13;context;quality / status / emotion;context
+formerly;1;context;quality / status / emotion;context
+fortunate;1;context;quality / status / emotion;context
+fortunatus;2;context;quality / status / emotion;context
+forty;3;context;quality / status / emotion;context
+fortyfifth;1;context;quality / status / emotion;context
+fourth;4;context;quality / status / emotion;context
+friendly;2;context;quality / status / emotion;context
+frier;2;context;quality / status / emotion;context
+full;13;context;quality / status / emotion;context
+fuller;1;context;quality / status / emotion;context
+fully;5;context;quality / status / emotion;context
+funffzehn;1;context;quality / status / emotion;context
+gathered;1;context;quality / status / emotion;context
+geheimen;2;context;quality / status / emotion;context
+gemeinen;1;context;quality / status / emotion;context
+gewesener;1;context;quality / status / emotion;context
+ingratitude;1;context;quality / status / emotion;context
+tender;10;context;quality / status / emotion;context
+tenth;1;context;quality / status / emotion;context
+terminating;1;context;quality / status / emotion;context
+terminer;3;context;quality / status / emotion;context
+duty;1;context;quality / status / emotion;context
+old;1;context;quality / status / emotion;context
+thousand;5;context;quality / status / emotion;context
+three;8;context;quality / status / emotion;context
+traiterous;3;context;quality / status / emotion;context
+treasonable;2;context;quality / status / emotion;context
+tres;9;context;quality / status / emotion;context
+tresexcellent;1;context;quality / status / emotion;context
+treshaut;2;context;quality / status / emotion;context
+trespuissant;1;context;quality / status / emotion;context
+triumphal;1;context;quality / status / emotion;context
+true;13;context;quality / status / emotion;context
+truest;1;context;quality / status / emotion;context
+truly;1;context;quality / status / emotion;context
+tryumphant;2;context;quality / status / emotion;context
+tumultuary;1;context;quality / status / emotion;context
+tumultuous;1;context;quality / status / emotion;context
+tuo;4;context;quality / status / emotion;context
+türck;1;context;quality / status / emotion;context
+twelfth;1;context;quality / status / emotion;context
+twelth;1;context;quality / status / emotion;context
+twelve;5;context;quality / status / emotion;context
+twentieth;1;context;quality / status / emotion;context
+twentyfifth;1;context;quality / status / emotion;context
+twentyfirst;1;context;quality / status / emotion;context
+twentyfourth;2;context;quality / status / emotion;context
+twentysecond;2;context;quality / status / emotion;context
+twentysixth;1;context;quality / status / emotion;context
+twentythird;1;context;quality / status / emotion;context
+tyrannical;1;context;quality / status / emotion;context
+umständlich;1;context;quality / status / emotion;context
+unalterable;1;context;quality / status / emotion;context
+unanimously;1;context;quality / status / emotion;context
+unlawful;1;context;quality / status / emotion;context
+uncommon;2;context;quality / status / emotion;context
+unglückseeligen;1;context;quality / status / emotion;context
+united;10;context;quality / status / emotion;context
+uniting;1;context;quality / status / emotion;context
+universal;3;context;quality / status / emotion;context
+universally;1;context;quality / status / emotion;context
+unjustly;1;context;quality / status / emotion;context
+grays;1;context;quality / status / emotion;context
+greens;1;context;quality / status / emotion;context
+especially;2;context;quality / status / emotion;context
+fatal;1;context;quality / status / emotion;context
+form;42;context;quality / status / emotion;context
+foundation;1;context;quality / status / emotion;context
+founded;3;context;quality / status / emotion;context
+gefährliche(n);3;context;quality / status / emotion;context
+geschlossen;2;context;quality / status / emotion;context
+gesetzte;1;context;quality / status / emotion;context
+gestalt;2;context;quality / status / emotion;context
+maxium;1;context;quality / status / emotion;context
+modern;1;context;quality / status / emotion;context
+moral;2;context;quality / status / emotion;context
+mort;4;context;quality / status / emotion;context
+mortal;2;context;quality / status / emotion;context
+much;2;context;quality / status / emotion;context
+northern;1;context;quality / status / emotion;context
+notorious;1;context;quality / status / emotion;context
+common;38;context;quality / status / emotion;context
+commonly;5;context;quality / status / emotion;context
+constitutional;2;context;quality / status / emotion;context
+contempt;1;context;quality / status / emotion;context
+continental;7;context;quality / status / emotion;context
+controversial;1;context;quality / status / emotion;context
+convicted;1;context;quality / status / emotion;context
+convicting;5;context;quality / status / emotion;context
+conviction;2;context;quality / status / emotion;context
+corrupting;1;context;quality / status / emotion;context
+cougious;1;context;quality / status / emotion;context
+cowardly;1;context;quality / status / emotion;context
+critical;1;context;quality / status / emotion;context
+ensuing;2;context;quality / status / emotion;context
+entirely;2;context;quality / status / emotion;context
+equal;1;context;quality / status / emotion;context
+esteemed;1;context;quality / status / emotion;context
+passion;1;context;quality / status / emotion;context
+patience;1;context;quality / status / emotion;context
+admired;1;context;quality / status / emotion;context
+advanced;1;context;quality / status / emotion;context
+advantage(s);19;context;quality / status / emotion;context
+advantages;9;context;quality / status / emotion;context
+affected;1;context;quality / status / emotion;context
+agreed;2;context;quality / status / emotion;context
+alarmed;1;context;quality / status / emotion;context
+alive;2;context;quality / status / emotion;context
+ambiguous;1;context;quality / status / emotion;context
+ample;3;context;quality / status / emotion;context
+angesehen;1;context;quality / status / emotion;context
+angrily;1;context;quality / status / emotion;context
+annihilated;1;context;quality / status / emotion;context
+annihilation;1;context;quality / status / emotion;context
+appear;3;context;quality / status / emotion;context
+appearance;1;context;quality / status / emotion;context
+appearing;1;context;quality / status / emotion;context
+approving;3;context;quality / status / emotion;context
+ardently;1;context;quality / status / emotion;context
+assessed;1;context;quality / status / emotion;context
+atrocious;1;context;quality / status / emotion;context
+authoritie / authority;7;context;quality / status / emotion;context
+autres;1;context;quality / status / emotion;context
+bad;2;context;quality / status / emotion;context
+bandaged;1;context;quality / status / emotion;context
+beauties;1;context;quality / status / emotion;context
+besorglicher;1;context;quality / status / emotion;context
+best;4;context;quality / status / emotion;context
+betrayed;1;context;quality / status / emotion;context
+better;3;context;quality / status / emotion;context
+beunruhigte;1;context;quality / status / emotion;context
+bewährtesten;1;context;quality / status / emotion;context
+bienaimez;1;context;quality / status / emotion;context
+blank;2;context;quality / status / emotion;context
+blinded;1;context;quality / status / emotion;context
+blunt;1;context;quality / status / emotion;context
+bona;1;context;quality / status / emotion;context
+bound;5;context;quality / status / emotion;context
+braun;2;context;quality / status / emotion;context
+brief;9;context;quality / status / emotion;context
+brieff;2;context;quality / status / emotion;context
+brown;2;context;quality / status / emotion;context
+burlesque;1;context;quality / status / emotion;context
+calm;1;context;quality / status / emotion;context
+candor;1;context;quality / status / emotion;context
+carefully;1;context;quality / status / emotion;context
+careless;3;context;quality / status / emotion;context
+cast;21;context;quality / status / emotion;context
+castr;3;context;quality / status / emotion;context
+celebrated;2;context;quality / status / emotion;context
+celebrating;1;context;quality / status / emotion;context
+chiefly;2;context;quality / status / emotion;context
+closed;1;context;quality / status / emotion;context
+coloured;1;context;quality / status / emotion;context
+compleat;2;context;quality / status / emotion;context
+compleated;1;context;quality / status / emotion;context
+complete;5;context;quality / status / emotion;context
+composed;2;context;quality / status / emotion;context
+comprehensive;1;context;quality / status / emotion;context
+comprised;1;context;quality / status / emotion;context
+comprising;1;context;quality / status / emotion;context
+concerned;11;context;quality / status / emotion;context
+concerning;18;context;quality / status / emotion;context
+concise;2;context;quality / status / emotion;context
+concluded;1;context;quality / status / emotion;context
+condemned;2;context;quality / status / emotion;context
+condition;2;context;quality / status / emotion;context
+conditions;1;context;quality / status / emotion;context
+conduct;6;context;quality / status / emotion;context
+conducted;2;context;quality / status / emotion;context
+confidence;1;context;quality / status / emotion;context
+confuted;1;context;quality / status / emotion;context
+consecrated;2;context;quality / status / emotion;context
+consequently;1;context;quality / status / emotion;context
+considerable;1;context;quality / status / emotion;context
+correct;6;context;quality / status / emotion;context
+corrupt;5;context;quality / status / emotion;context
+cronbegierige;1;context;quality / status / emotion;context
+crook;1;context;quality / status / emotion;context
+cut;17;context;quality / status / emotion;context
+dead;2;context;quality / status / emotion;context
+decent;1;context;quality / status / emotion;context
+decorated;1;context;quality / status / emotion;context
+demolished;1;context;quality / status / emotion;context
+denckwürdigen;1;context;quality / status / emotion;context
+dernières;1;context;quality / status / emotion;context
+dernier;1;context;quality / status / emotion;context
+deserv(e)d;1;context;quality / status / emotion;context
+desperandum;1;context;quality / status / emotion;context
+desperate;2;context;quality / status / emotion;context
+destroyed;1;context;quality / status / emotion;context
+different;4;context;quality / status / emotion;context
+directly;1;context;quality / status / emotion;context
+disastrous;1;context;quality / status / emotion;context
+distinct;2;context;quality / status / emotion;context
+distinguished;1;context;quality / status / emotion;context
+ditty;1;context;quality / status / emotion;context
+divers;8;context;quality / status / emotion;context
+doppelten;1;context;quality / status / emotion;context
+double;1;context;quality / status / emotion;context
+dritte;2;context;quality / status / emotion;context
+due;9;context;quality / status / emotion;context
+dying;2;context;quality / status / emotion;context
+easy;3;context;quality / status / emotion;context
+effectual;7;context;quality / status / emotion;context
+effectually;2;context;quality / status / emotion;context
+eifrig;1;context;quality / status / emotion;context
+eigentliche;1;context;quality / status / emotion;context
+eight;6;context;quality / status / emotion;context
+eighteen;1;context;quality / status / emotion;context
+eighth;1;context;quality / status / emotion;context
+eightythree;1;context;quality / status / emotion;context
+either;4;context;quality / status / emotion;context
+elected;2;context;quality / status / emotion;context
+elegiac;2;context;quality / status / emotion;context
+eleventh;1;context;quality / status / emotion;context
+elsewhere;1;context;quality / status / emotion;context
+elysian;1;context;quality / status / emotion;context
+eminent;1;context;quality / status / emotion;context
+employed;2;context;quality / status / emotion;context
+endeavouring;1;context;quality / status / emotion;context
+genauer;1;context;quality / status / emotion;context
+generous;1;context;quality / status / emotion;context
+genuine;1;context;quality / status / emotion;context
+glorious;1;context;quality / status / emotion;context
+glorwürdigsten;1;context;quality / status / emotion;context
+good;7;context;quality / status / emotion;context
+gottlose;1;context;quality / status / emotion;context
+gracious;8;context;quality / status / emotion;context
+grand;8;context;quality / status / emotion;context
+grande;1;context;quality / status / emotion;context
+gratious;1;context;quality / status / emotion;context
+graunted;2;context;quality / status / emotion;context
+gray;2;context;quality / status / emotion;context
+great;35;context;quality / status / emotion;context
+greater;2;context;quality / status / emotion;context
+greatly;1;context;quality / status / emotion;context
+grey;1;context;quality / status / emotion;context
+groÃŸe;1;context;quality / status / emotion;context
+grossen;1;context;quality / status / emotion;context
+grossmÃ¤chtigen;1;context;quality / status / emotion;context
+guilty;3;context;quality / status / emotion;context
+gut;1;context;quality / status / emotion;context
+half;8;context;quality / status / emotion;context
+hanged;2;context;quality / status / emotion;context
+hazardous;1;context;quality / status / emotion;context
+hereditary;1;context;quality / status / emotion;context
+heretable;5;context;quality / status / emotion;context
+heritable;3;context;quality / status / emotion;context
+heroick;1;context;quality / status / emotion;context
+herrschenden;1;context;quality / status / emotion;context
+high;50;context;quality / status / emotion;context
+highly;1;context;quality / status / emotion;context
+holy;2;context;quality / status / emotion;context
+hon[our(able)];17;context;quality / status / emotion;context
+honest;2;context;quality / status / emotion;context
+honesty;1;context;quality / status / emotion;context
+honour;10;context;quality / status / emotion;context
+honourable;9;context;quality / status / emotion;context
+humorous;1;context;quality / status / emotion;context
+ï¸¢gezogen;1;context;quality / status / emotion;context
+abgelassen;1;context;quality / status / emotion;context
+illegal;2;context;quality / status / emotion;context
+illustrious;1;context;quality / status / emotion;context
+immortal;1;context;quality / status / emotion;context
+imperiales;1;context;quality / status / emotion;context
+indemnifie;1;context;quality / status / emotion;context
+indemnifying;3;context;quality / status / emotion;context
+indempnity;1;context;quality / status / emotion;context
+indifferently;1;context;quality / status / emotion;context
+industriously;1;context;quality / status / emotion;context
+infallible;1;context;quality / status / emotion;context
+inform[ing/ed];1;context;quality / status / emotion;context
+inserting;1;context;quality / status / emotion;context
+intended;4;context;quality / status / emotion;context
+interchanged;1;context;quality / status / emotion;context
+interesting;4;context;quality / status / emotion;context
+intestine;2;context;quality / status / emotion;context
+introduced;2;context;quality / status / emotion;context
+involved;1;context;quality / status / emotion;context
+irreversably;1;context;quality / status / emotion;context
+killed;1;context;quality / status / emotion;context
+lined;1;context;quality / status / emotion;context
+lines;2;context;quality / status / emotion;context
+loose / lost;2;context;quality / status / emotion;context
+lorn;1;context;quality / status / emotion;context
+mächtige;2;context;quality / status / emotion;context
+maimed;1;context;quality / status / emotion;context
+main;12;context;quality / status / emotion;context
+mainly;1;context;quality / status / emotion;context
+maintained;2;context;quality / status / emotion;context
+major;8;context;quality / status / emotion;context
+miscellany/ies;2;context;quality / status / emotion;context
+miscellany;2;context;quality / status / emotion;context
+neutralität;1;context;quality / status / emotion;context
+neutrality;1;context;quality / status / emotion;context
+new;34;context;quality / status / emotion;context
+old;30;context;quality / status / emotion;context
+orthodoxa;1;context;quality / status / emotion;context
+particularly;8;context;quality / status / emotion;context
+pecking;1;context;quality / status / emotion;context
+vorgestellet;1;context;quality / status / emotion;context
+white;4;context;quality / status / emotion;context
+allowance;1;context;quality / status / emotion;context
+allowed;1;context;quality / status / emotion;context
+sorts;1;context;quality / status / emotion;context
+verstorben;2;human life;quality / status / emotion;context
+living;2;human life;quality / status / emotion;context
+collected;1;relation / posession;quality / status / emotion;context
+love / beloved;1;moral;quality / status / emotion;positive
+sacrae;1;religion;quality / status / emotion;context
+sacramental;1;religion;quality / status / emotion;context
+mercy;1;religion;quality / status / emotion;positive
+très religieux;1;religion;quality / status / emotion;context
+faith;3;religion;quality / status / emotion;positive
+conscience;1;religion;quality / status / emotion;positive
+almighty;1;religion;quality / status / emotion;positive
+arithmetical;1;science;quality / status / emotion;context
+large;4;spatial extension;quality / status / emotion;context
+limited;1;spatial extension;quality / status / emotion;context
+heights;1;spatial extension;quality / status / emotion;context
+supposititius;1;context;quality / status / emotion;context
+regiersucht;1;politics;quality / status / emotion;negative
+corruption;2;moral;quality / status / emotion;negative
+savage;1;context;quality / status / emotion;negative
+scandalous;1;context;quality / status / emotion;negative
+selfinconsistency;1;context;quality / status / emotion;negative
+shameful;1;context;quality / status / emotion;negative
+suffer( e )d / suffering(s);12;context;quality / status / emotion;negative
+unlawful[l/y];7;context;quality / status / emotion;negative
+unnatural;4;context;quality / status / emotion;negative
+unnatürlichen;1;context;quality / status / emotion;negative
+horrible;1;context;quality / status / emotion;negative
+hostile;1;context;quality / status / emotion;negative
+improper;1;context;quality / status / emotion;negative
+inadequacy;1;context;quality / status / emotion;negative
+inadequately;1;context;quality / status / emotion;negative
+incapable;1;context;quality / status / emotion;negative
+inconveniences;1;context;quality / status / emotion;negative
+infatuated;2;context;quality / status / emotion;negative
+injured / injurious;2;context;quality / status / emotion;negative
+insane;1;context;quality / status / emotion;negative
+inundated;1;context;quality / status / emotion;negative
+malicious[ly] / maliciousness;7;context;quality / status / emotion;negative
+manically;1;context;quality / status / emotion;negative
+mischievous;1;context;quality / status / emotion;negative
+misdemeanor[s];3;context;quality / status / emotion;negative
+misfortunes;1;context;quality / status / emotion;negative
+voyd;1;context;quality / status / emotion;negative
+warlike;1;context;quality / status / emotion;negative
+waste;1;context;quality / status / emotion;negative
+sorrow;2;context;quality / status / emotion;negative
+souffert;1;context;quality / status / emotion;negative
+fürchten;1;conflict / violence;quality / status / emotion;negative
+fury;1;conflict / violence;quality / status / emotion;negative
+abhorrence;1;context;quality / status / emotion;negative
+absence;1;context;quality / status / emotion;negative
+sundry;1;context;quality / status / emotion;context
+surprizing;1;context;quality / status / emotion;context
+preserved;1;peace / protection;quality / status / emotion;positive
+sufficient;1;context;quality / status / emotion;positive
+suit(ed/s);9;context;quality / status / emotion;positive
+humble;5;context;quality / status / emotion;positive
+humbly;3;context;quality / status / emotion;positive
+impartial;4;context;quality / status / emotion;positive
+important;4;context;quality / status / emotion;positive
+infamous;2;context;quality / status / emotion;positive
+loyal;6;context;quality / status / emotion;positive
+peaceable;1;moral;quality / status / emotion;positive
+loyalty;3;politics;quality / status / emotion;positive
+grace;7;religion;quality / status / emotion;positive
+distinguished;1;social status;quality / status / emotion;positive
+victorious;2;skills;quality / status / emotion;positive
+success;10;skills;quality / status / emotion;positive
+successful;4;skills;quality / status / emotion;positive
+trust(s);1;moral;quality / status / emotion;positive
+safety;1;peace / protection;quality / status / emotion;positive
+seasonable(ness);4;context;quality / status / emotion;positive
+sensible;1;context;quality / status / emotion;positive
+sincere;1;context;quality / status / emotion;positive
+tapfere/r;3;context;quality / status / emotion;positive
+truth;1;context;quality / status / emotion;positive
+unmutilated;5;context;quality / status / emotion;positive
+vertue;1;context;quality / status / emotion;positive
+kind;2;context;quality / status / emotion;positive
+warming;1;context;quality / status / emotion;positive
+well;12;context;quality / status / emotion;positive
+welldressed;1;context;quality / status / emotion;positive
+original(s);11;credibility;quality / status / emotion;positive
+worthy;2;economy?;quality / status / emotion;positive
+vindicated;2;morals;quality / status / emotion;positive
+virtue / virtuous;2;morals;quality / status / emotion;positive
+wahrhafften;1;morals;quality / status / emotion;positive
+vollkommenen;1;number;quality / status / emotion;positive
+whole;3;number;quality / status / emotion;positive
+sacred;3;religion;quality / status / emotion;positive
+fide;2;religion;quality / status / emotion;positive
+ability;1;skills / achievement;quality / status / emotion;positive
+loves / loving;3;moral;quality / status / emotion;positive
+fame;1;skills / achievement;quality / status / emotion;positive
+sure;5;context;quality / status / emotion;positive
+sweet;1;context;quality / status / emotion;positive
+happy/iness;3;context;quality / status / emotion;positive
+hoffen;1;context;quality / status / emotion;positive

@@ -1,0 +1,152 @@
+justice;25;law;item / idea;context
+act(s);137;context;item / idea;neutral
+precepts;1;moral;item / idea;context
+dye;4;art / fashion;item / idea;context
+guineas;2;commerce;item / idea;context
+blockade;1;conflict / violence;item / idea;context
+term;9;context;item / idea;context
+test;22;context;item / idea;context
+vacancies;1;context;item / idea;context
+coffin;1;death / burial;item / idea;context
+ale;35;food / drink;item / idea;context
+gin;39;food / drink;item / idea;context
+pennies;1;economy;item / idea;context
+commodities;1;economy;item / idea;context
+revenue;2;economy;item / idea;context
+salary/ies;1;economy;item / idea;context
+sale;3;economy;item / idea;context
+price(s);12;economy;item / idea;context
+goods;2;economy;item / idea;context
+tithe;1;economy/religion;item / idea;context
+business;1;economy;item / idea;context
+calculation;1;economy;item / idea;context
+currency;1;economy;item / idea;context
+budget;1;economy;item / idea;context
+taxes;2;economy;item / idea;context
+dyet;1;food / drink;item / idea;context
+barrel;1;food / drink;item / idea;context
+beer;1;food / drink;item / idea;context
+coffee;6;food / drink;item / idea;context
+curry;1;food / drink;item / idea;context
+d'acres;2;geography;item / idea;context
+blood;3;human life / body;item / idea;context
+bill(s);20;law;item / idea;context
+air(es);14;nature;item / idea;context
+carriage;1;tansport;item / idea;context
+chariot;2;transport;item / idea;context
+salus;1;peace / protection;item / idea;positive
+kunstgriffe;1;skills / achievement;item / idea;positive
+chains;1;conflict / violence;item / idea;context
+popery;2;religion;item / idea;negative
+office;16;context;item / idea;context
+patronage(s);3;context;item / idea;context
+privy;4;context;item / idea;context
+establishment;1;context;item / idea;context
+administration;1;context;item / idea;context
+assize(s);5;context;item / idea;context
+body;3;context;item / idea;context
+government;10;context;item / idea;context
+league;1;context;item / idea;context
+reichsangelegenheiten;1;context;item / idea;context
+remed(y/ies);3;context;item / idea;context
+rents;14;context;item / idea;context
+rum;9;food / drink;item / idea;context
+sachen;6;context;item / idea;context
+sciences;1;context;item / idea;context
+ship(s);4;context;item / idea;context
+shortselling;1;context;item / idea;context
+silk;1;context;item / idea;context
+sophistry;1;context;item / idea;context
+spirit;5;context;item / idea;context
+staatssachen;1;context;item / idea;context
+stock(s);3;context;item / idea;context
+stone(s);6;context;item / idea;context
+stores;1;context;item / idea;context
+straw;5;context;item / idea;context
+sugar;1;food / drink;item / idea;context
+system;1;context;item / idea;context
+tail;2;context;item / idea;context
+tea;4;food / drink;item / idea;context
+tear;1;context;item / idea;context
+tent;7;context;item / idea;context
+thing;4;context;item / idea;context
+thistle;2;nature;item / idea;context
+tolbooth;1;context;item / idea;context
+tools;1;context;item / idea;context
+trade;9;context;item / idea;context
+vessel;1;context;item / idea;context
+vie;14;context;item / idea;context
+vignettes;1;context;item / idea;context
+arts;6;context;item / idea;context
+accessary;1;context;item / idea;context
+glas window;1;context;item / idea;context
+glover;2;context;item / idea;context
+pikes;3;context;item / idea;context
+pipe;1;context;item / idea;context
+popgun;1;context;item / idea;context
+constitution(s);10;politics;item / idea;context
+credit;3;context;item / idea;context
+excise;2;context;item / idea;context
+tree;9;nature;item / idea;context
+architecture;1;context;item / idea;context
+ash;9;context;item / idea;context
+benefit;1;context;item / idea;context
+blinds;1;context;item / idea;context
+care;22;context;item / idea;context
+chapter;1;context;item / idea;context
+clothing;1;context;item / idea;context
+coat;1;context;item / idea;context
+corner;1;context;item / idea;context
+couch;2;context;item / idea;context
+cuff;1;context;item / idea;context
+custom;4;context;item / idea;context
+customs;2;context;item / idea;context
+dress;20;context;item / idea;context
+elmboard;1;context;item / idea;context
+maintenance;3;context;item / idea;context
+money;7;economy;item / idea;context
+waffen;1;context;item / idea;context
+wall;7;context;item / idea;context
+wind;6;nature;item / idea;context
+windows;1;context;item / idea;context
+wine;1;food / drink;item / idea;context
+wood;2;fabric;item / idea;context
+class;1;context;item / idea;context
+cloke (cloak);1;context;item / idea;context
+collection;15;context;item / idea;context
+combination;1;context;item / idea;context
+comedy;1;context;item / idea;context
+commonwealth;1;context;item / idea;context
+light;1;nature;item / idea;context
+limits;1;context;item / idea;context
+line;6;context;item / idea;context
+manner(s);9;context;item / idea;context
+indulgences;1;context;item / idea;context
+case(s);14;context;item / idea;context
+clause;2;law;item / idea;context
+substance;2;context;item / idea;context
+cause(s);15;development / movement;item / idea;context
+circumstances;3;development / movement;item / idea;context
+lehre;1;education;item / idea;context
+lane;6;geographic;item / idea;context
+latrines;1;human life / body;item / idea;context
+lebenslauf;1;human life / body;item / idea;context
+legs;2;human life / body;item / idea;context
+life;8;human life / body;item / idea;context
+love;9;human life / body;item / idea;context
+law;27;law;item / idea;context
+lawful;6;law;item / idea;context
+lawfulness;1;law;item / idea;context
+laws;10;law;item / idea;context
+lex;9;law;item / idea;context
+armaturen;2;military;item / idea;context
+armes;2;military;item / idea;context
+battery;2;military;item / idea;context
+ammunition;2;military;item / idea;context
+canon;1;military;item / idea;context
+legislation;2;politics;item / idea;context
+legislature;1;politics;item / idea;context
+legitimation;1;politics;item / idea;context
+invalidité;1;politics;item / idea;context
+length;1;relation / posession;item / idea;context
+candles;1;religion;item / idea;context

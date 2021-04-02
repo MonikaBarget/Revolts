@@ -1,0 +1,410 @@
+justice general;1;law;person / title / group;context
+justices;17;law;person / title / group;context
+lawyer;1;law;person / title / group;context
+agent;1;context;person / title / group;context
+artists;1;art / media;person / title / group;context
+attendants;1;context;person / title / group;context
+author(s);24;art / media;person / title / group;context
+authorities;1;politics;person / title / group;context
+bakers;1;business;person / title / group;context
+character(s);7;context;person / title / group;context
+charles;19;context;name of person;context
+chief( e ) ;18;politics;person / title / group;context
+children;4;family / private life;person / title / group;context
+clerk;4;business;person / title / group;context
+coalition;1;politics;person / title / group;context
+col[onel];32;military;person / title / group;context
+collins;2;context;name of person;context
+consul;2;politics;person / title / group;context
+creditors;2;business;person / title / group;context
+crew;1;context;person / title / group;context
+dames;1;social status;person / title / group;context
+governor(s);8;politics;person / title / group;context
+guard;6;military;person / title / group;context
+guardian;1;law;person / title / group;context
+guide;1;context;person / title / group;context
+herrn;2;social status;person / title / group;context
+hertzog;2;social status;person / title / group;context
+hospitaler;1;religion;person / title / group;context
+housebreakers;1;context;person / title / group;context
+householders;1;business;person / title / group;context
+gemahlin;1;family / private life;person / title / group;context
+king / könig;1;politics;person / title / group;context
+immigrants;1;law;person / title / group;context
+incendiaries;1;law;person / title / group;n
+individuals;1;context;person / title / group;context
+jesuits / jesuiten;3;religion;person / title / group;context
+;;;;
+;;;;
+jews;1;religion;person / title / group;context
+judge;10;law;person / title / group;context
+herzöge;1;social status;person / title / group;context
+highlandclans;1;context;person / title / group;context
+highlanders;1;context;person / title / group;context
+highness;7;social status;person / title / group;context
+hns;6;context;person / title / group;context
+hoheit;3;social status;person / title / group;context
+head(s);12;politics;person / title / group;context
+backmeister;1;business;person / title / group;context
+bookseller(s);3;art / media;person / title / group;context
+juniuss;1;information / communication;name of person;context
+barrister;1;law;person / title / group;context
+judges;1;law;person / title / group;context
+judico;1;law;person / title / group;context
+jurors;1;law;person / title / group;context
+jury;3;law;person / title / group;context
+legions;2;military;person / title / group;context
+mercenary / mercenaries;1;military;person / title / group;context
+colonel;2;military;person / title / group;context
+comander;1;military;person / title / group;context
+commander(s);9;military;person / title / group;context
+britons;1;national;person / title / group;context
+brittains;1;national;person / title / group;context
+chancellor;1;politics;person / title / group;context
+citizens;2;politics;person / title / group;context
+cityguard;2;politics;person / title / group;context
+conspirators;1;politics;person / title / group;context
+könige;1;politics;person / title / group;context
+kaiser;1;politics;person / title / group;context
+kanzlei;1;politics;person / title / group;context
+kayserl;1;politics;person / title / group;context
+butler;1;profession;person / title / group;context
+cammerpage;1;profession;person / title / group;context
+archbishop;4;religion;person / title / group;context
+bishop;9;religion;person / title / group;context
+cardinal;1;religion;person / title / group;context
+catholic(s);9;religion;person / title / group;context
+chaplains;1;religion;person / title / group;context
+clergé;1;religion;person / title / group;context
+clergy;3;religion;person / title / group;context
+jacobite;10;politics;person / title / group;negative
+abettors;2;law;person / title / group;negative
+abbé;2;religion;person / title / group;neutral
+composers;1;art / media;person / title / group;context
+esq.;22;social status;person / title / group;context
+usurer;1;profession;person / title / group;context
+lay(man);12;religion;person / title / group;context
+troops / truppen;3;military;person / title / group;context
+fleet;4;military;person / title / group;context
+recorder;1;context;person / title / group;context
+tasker;1;context;person / title / group;context
+resetters;1;context;person / title / group;context
+persons;1;context;person / title / group;context
+societ(y/ies);2;context;person / title / group;context
+massen;1;context;person / title / group;context
+miller;1;context;name of person;context
+nation;22;national;person / title / group;context
+native(s);3;national;person / title / group;context
+commissioner(s);10;context;person / title / group;context
+commons;14;politics;person / title / group;context
+constituents;2;politics;person / title / group;context
+senate;2;politics;person / title / group;context
+anyone;1;context;person / title / group;context
+anzahl;1;context;person / title / group;context
+assembly / assemblies;6;context;person / title / group;context
+audience;1;art / media;person / title / group;context
+brownists;1;context;person / title / group;context
+capt[ain];17;military;person / title / group;context
+captain(s);12;military;person / title / group;context
+committees;3;context;person / title / group;context
+company / ies;3;context;person / title / group;context
+concitatoribus;1;context;person / title / group;context
+convention;7;context;person / title / group;context
+corporation;1;context;person / title / group;context
+councell;2;context;person / title / group;context
+david;6;context;name of person;context
+defender(s);3;context;person / title / group;context
+delegate(s);9;context;person / title / group;context
+deputy;2;context;person / title / group;context
+dudley;1;context;name of person;context
+dupes;1;social status;person / title / group;context
+earl;21;social status;person / title / group;context
+earle;7;social status;person / title / group;context
+editor;3;art / media;person / title / group;context
+einheimischen;1;national;person / title / group;context
+elector;1;politics;person / title / group;context
+emeutes;1;context;person / title / group;context
+empereur;1;politics;person / title / group;context
+empress;1;politics;person / title / group;context
+enemy / ies;8;context;person / title / group;context
+heir / erben;3;context;person / title / group;context
+esq(uire(s));35;context;person / title / group;context
+excellency / excellenz;7;context;person / title / group;context
+;1;context;person / title / group;context
+witness / eyewitness;2;law;person / title / group;context
+;;;;
+family / familie[n];2;family / private life;person / title / group;context
+farmer;1;business;person / title / group;context
+figure(s);5;context;person / title / group;context
+foe(s);5;context;person / title / group;context
+fools;1;social status;person / title / group;context
+forestallers;1;context;person / title / group;context
+forger;2;law;person / title / group;context
+freeholders;2;social status;person / title / group;context
+fugitive(s);15;law;person / title / group;context
+fuzileers;1;military;person / title / group;context
+gang;3;politics;person / title / group;context
+garrisons;1;military;person / title / group;context
+geistlichkeit;1;religion;person / title / group;context
+general;46;military;person / title / group;context
+général;2;military;person / title / group;context
+générale;1;military;person / title / group;context
+generall;1;military;person / title / group;context
+generals;1;military;person / title / group;context
+gentleman('s) / gentlemen;12;social status;person / title / group;context
+gentry;1;social status;person / title / group;context
+gesandschafft;1;politics;person / title / group;context
+ghost;3;religion / mythology;person / title / group;context
+hangman;1;law;person / title / group;context
+hrn;1;social status;person / title / group;context
+informer(s);9;context;person / title / group;context
+inhabitants;7;context;person / title / group;context
+intelligencer;2;context;person / title / group;context
+investors;2;context;person / title / group;context
+invisible observator;1;context;person / title / group;context
+iudge;1;context;person / title / group;context
+l'anglois;1;context;person / title / group;context
+leutenamt;1;context;person / title / group;context
+lord(s);96;context;person / title / group;context
+lunatics;1;context;person / title / group;context
+magistrate(s);11;context;person / title / group;context
+maj[esty]/maiesties/majesties;181;context;person / title / group;context
+majestät;2;context;person / title / group;context
+majestatis;1;context;person / title / group;context
+majesté;2;context;person / title / group;context
+majority;1;context;person / title / group;context
+member(s);22;context;person / title / group;context
+merchant(s);4;context;person / title / group;context
+messire;2;context;person / title / group;context
+mgr;2;context;person / title / group;context
+militia;3;military;person / title / group;context
+minister(s);11;context;person / title / group;context
+ministry;3;context;person / title / group;context
+mons[ieur];20;social status;person / title / group;context
+multitudes;1;context;person / title / group;context
+murderers;2;law;person / title / group;context
+;;;;
+nobility / noble[man];5;context;person / title / group;context
+;;;;
+oberbefehlhaber;1;military;person / title / group;context
+observator;2;art / media;person / title / group;context
+outlaws;1;law;person / title / group;context
+;;;;
+patriot;1;politics;person / title / group;context
+paupers;1;social status;person / title / group;context
+peasants;1;business;person / title / group;context
+peers;2;context;person / title / group;context
+painter / peintre;3;art / media;person / title / group;context
+people;46;context;person / title / group;context
+person(s) / personne(s) / Person(en);125;context;person / title / group;context
+petitioners;2;politics;person / title / group;context
+placemen;1;context;person / title / group;context
+president;4;context;person / title / group;context
+primate;1;context;person / title / group;context
+princes;4;context;person / title / group;context
+princesse / princessin;3;social status;person / title / group;context
+;;;;
+printer(s);11;context;person / title / group;context
+printsellers;1;context;person / title / group;context
+prin(t)z(en);16;context;person / title / group;context
+prisoners;5;context;person / title / group;context
+procurator;1;context;person / title / group;context
+protector;2;context;person / title / group;context
+protestirende;1;context;person / title / group;context
+public[k] / publique / publica;39;context;person / title / group;context
+;;;;
+;;;;
+;;;;
+publisher(s);8;art / media;person / title / group;context
+queen(e/s);47;politics;person / title / group;context
+raht;1;politics;person / title / group;context
+rebel(l)s;18;context;person / title / group;context
+reformers;1;context;person / title / group;context
+regent;4;politics;person / title / group;context
+;;;;
+religious / religieuses;5;context;person / title / group;context
+resident(en);10;context;person / title / group;context
+revolutionary;2;context;person / title / group;context
+king / rex/regis;9;context;person / title / group;context
+rioters;2;context;person / title / group;context
+knight / ritter;2;context;person / title / group;context
+robbers;1;context;person / title / group;context
+king / roy;31;context;person / title / group;context
+satirist;1;context;person / title / group;context
+satyr;1;context;person / title / group;context
+schoolmaster;1;context;person / title / group;context
+scotin;1;context;person / title / group;context
+scotsman;1;context;person / title / group;context
+scribenten;1;art / media;person / title / group;context
+seamen;1;context;person / title / group;context
+secretary;8;context;person / title / group;context
+seigneurs;1;social status;person / title / group;context
+select men;1;context;person / title / group;context
+senators;1;politics;person / title / group;context
+servants;1;business;person / title / group;context
+sheriff[s];4;law;person / title / group;context
+;;;;
+signior;1;social status;person / title / group;context
+sir;24;social status;person / title / group;context
+slave[s];3;social status;person / title / group;context
+;;;;
+soldiers;5;military;person / title / group;context
+solicitor;2;context;person / title / group;context
+spaniard;1;context;person / title / group;context
+speakers;1;politics;person / title / group;context
+spy;1;politics;person / title / group;context
+squire;7;social status;person / title / group;context
+staff;1;military;person / title / group;context
+statesgeneral;1;context;person / title / group;context
+steward;2;context;person / title / group;context
+steward deputes;1;context;person / title / group;context
+stewart;1;context;person / title / group;context
+successors;1;politics;person / title / group;context
+supporters;1;politics;person / title / group;context
+teachers;1;education;person / title / group;context
+tenants;4;law;person / title / group;context
+tenor;1;context;person / title / group;context
+thieves;1;law;person / title / group;context
+townguard;1;military;person / title / group;context
+townsmen;1;social status;person / title / group;context
+tradesmen;1;business;person / title / group;context
+traitor(s) / traytors;12;politics;person / title / group;context
+undersecretary;1;politics;person / title / group;context
+vicar;1;religion;person / title / group;context
+vicepresident;1;politics;person / title / group;context
+vindicator;1;context;person / title / group;context
+viscount;3;social status;person / title / group;context
+volunteer(s);14;military;person / title / group;context
+ward(s);37;context;person / title / group;context
+weavers;2;business;person / title / group;context
+whigs;1;politics;person / title / group;context
+whiteboy(s);3;politics;person / title / group;context
+williamite;2;politics;person / title / group;context
+witnesses;1;law;person / title / group;context
+writer;1;art / media;person / title / group;context
+yeomanry;1;military;person / title / group;context
+d'orange;1;dynasty;person / title / group;context
+apprentice;1;economy;person / title / group;context
+bankrupts;1;economy;person / title / group;context
+clothiers;1;economy;person / title / group;context
+cooper;2;economy;person / title / group;context
+dealers;1;economy;person / title / group;context
+debtors;4;economy;person / title / group;context
+docteur;1;economy;person / title / group;context
+doctor;1;economy;person / title / group;context
+physician;1;economy;person / title / group;context
+postboy;1;economy;person / title / group;context
+postmasters;1;economy;person / title / group;context
+breechesmaker;1;economy;person / title / group;context
+tutors;1;education;person / title / group;context
+sons;65;family / private life;person / title / group;context
+father(s);2;family / private life;person / title / group;context
+friend(s);15;family / private life;person / title / group;context
+amis;1;family / private life;person / title / group;context
+daughter(s);3;family / private life;person / title / group;context
+lover(s);6;human life / body;person / title / group;context
+heir(s);2;law;person / title / group;context
+sheriffes;2;law;person / title / group;context
+advocate(s);3;law;person / title / group;context
+appellant(s);3;law;person / title / group;context
+attorney general;1;law;person / title / group;context
+respondent;1;law;person / title / group;context
+recipient;1;media;person / title / group;context
+landforces;1;military;person / title / group;context
+regiment;1;military;person / title / group;context
+regulars;1;military;person / title / group;context
+rank(s);11;military;person / title / group;context
+navy;1;military;person / title / group;context
+gardes;1;military;person / title / group;context
+admiral;1;military;person / title / group;context
+;1;military;person / title / group;context
+army/ies;18;military;person / title / group;context
+battalion;1;military;person / title / group;context
+brigadier;2;military;person / title / group;context
+brigadier general / briggadeer general;3;military;person / title / group;context
+;;;;
+captain lieutenant;2;military;person / title / group;context
+captains;1;military;person / title / group;context
+conquérant;1;military;person / title / group;context
+deserters;1;military;person / title / group;context
+lieutenant;17;military;person / title / group;context
+lifeguards;1;military;person / title / group;context
+americans;1;nation;person / title / group;context
+deutsche(n);5;nation;person / title / group;context
+dutch[man];14;nation;person / title / group;context
+;;;;
+engelländer;1;nation;person / title / group;context
+englishman;1;nation;person / title / group;context
+bavarians;1;nation;person / title / group;context
+scots;5;nationality;person / title / group;context
+soveraign / sovereign;2;politics;person / title / group;context
+representatives;4;politics;person / title / group;context
+prince;24;politics;person / title / group;context
+alderman;2;politics;person / title / group;context
+adherents;8;politics;person / title / group;context
+admirers;1;politics;person / title / group;context
+king(s) / könig(e/s/n);220;politics;person / title / group;context
+;;;;
+queen / königin;3;politics;person / title / group;context
+königreich;5;politics;person / title / group;context
+kurfürst(en);3;politics;person / title / group;context
+loyalists;2;politics;person / title / group;context
+mankind;1;politics;person / title / group;context
+mayor;3;politics;person / title / group;context
+mayst;1;politics;person / title / group;context
+politician;1;politics;person / title / group;context
+postmastergeneral;1;politics;person / title / group;context
+pretender[s] / prätendent[en];12;politics;person / title / group;context
+;;;;
+provost;4;politics;person / title / group;context
+tinners;1;business;person / title / group;context
+manufacturers;1;business;person / title / group;context
+adjutant;1;military;person / title / group;context
+sentinel;1;profession;person / title / group;context
+landlord;1;relation / posession;person / title / group;context
+reverend;2;religion;person / title / group;positive
+true protestant;1;religion;person / title / group;positive
+pope;5;religion;person / title / group;context
+l'evêque;1;religion;person / title / group;context
+god;6;religion;person / title / group;positive
+angel;2;religion;person / title / group;positive
+antichrist;1;religion;person / title / group;negative
+church government;1;religion;person / title / group;context
+dean;1;religion;person / title / group;context
+devil;1;religion;person / title / group;negative
+dominican;1;religion;person / title / group;context
+faithful;2;religion;person / title / group;positive
+monck;1;religion;person / title / group;context
+papists;3;religion;person / title / group;context
+preacher(s);3;religion;person / title / group;negative
+presbyterian;3;religion;person / title / group;context
+priest;4;religion;person / title / group;context
+;;;;
+protestants / protestant(en);15;religion;person / title / group;context
+provinzial;1;religion;person / title / group;context
+quaker(s);9;religion;person / title / group;context
+rector;1;religion;person / title / group;context
+saint;4;religion;person / title / group;positive
+seminary priests;1;religion;person / title / group;context
+zealot;1;religion;person / title / group;negative
+sir;4;social status;person / title / group;context
+lad[s];3;social status;person / title / group;context
+man('s) / men;2;social status;person / title / group;context
+burger / burghers / burgesses;3;social status;person / title / group;context
+baron;7;social status;person / title / group;context
+baronet;2;social status;person / title / group;context
+beggars;1;social status;person / title / group;context
+;;;;
+du[t]chess;2;social status;person / title / group;context
+duke / duc[e];27;social status;person / title / group;context
+knight;2;social status;person / title / group;context
+;;;;
+lady;27;social status;person / title / group;context
+marquess / marquis;3;social status;person / title / group;context
+master(s);12;social status;person / title / group;context
+man / men;149;social status;person / title / group;context
+runaway;1;law;person / title / group;negative
+enemy feinde;1;context;person / title / group;negative
+accomplices;1;crime;person / title / group;negative
+seperatists;1;political group;person / title / group;negative
+highwayman;2;social status;person / title / group;negative

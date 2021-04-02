@@ -1,0 +1,179 @@
+magistracy;1;context;location / institution;context
+bank;3;economy;location / institution;context
+bar;18;law;location / institution;context
+assizes;1;law;location / institution;context
+bench;6;law;location / institution;context
+conventicles;3;religion;location / institution;context
+archdiocese;1;religion;location / institution;context
+church;17;religion;location / institution;context
+churches;1;religion;location / institution;context
+academies;1;context;location / institution;neutral
+judiciary;1;law;location / institution;context
+province;6;context;location / institution;context
+provintzen;1;context;location / institution;context
+vianen;1;context;location / institution;context
+covnt garden;1;context;location / institution;context
+bigshot walk;1;context;location / institution;context
+burg;35;building;location / institution;context
+throne;2;context;location / institution;context
+treasury;3;context;location / institution;context
+neighbourhood;1;context;location / institution;context
+parish;3;context;location / institution;context
+parish church;2;context;location / institution;context
+archive;1;context;location / institution;context
+council;29;context;location / institution;context
+cour / court(s);42;context;location / institution;context
+église;2;context;location / institution;context
+empire;1;context;location / institution;context
+greatmasterhoushold;1;context;location / institution;context
+greatseal;1;context;location / institution;context
+livery;3;context;location / institution;context
+parish / paroisse;1;context;location / institution;context
+university;2;context;location / institution;context
+workhouse;1;context;location / institution;context
+workshop;1;context;location / institution;context
+nations;3;context;location / institution;context
+ground(s);7;context;location / institution;context
+realm;5;context;location / institution;context
+reich( e );16;context;location / institution;context
+republic;1;context;location / institution;context
+residence;1;context;location / institution;context
+rome('s);4;context;location / institution;context
+room;2;context;location / institution;context
+route;1;context;location / institution;context
+royaumes;1;context;location / institution;context
+rue;16;context;location / institution;context
+schools;1;context;location / institution;context
+sea;21;context;location / institution;context
+settlement;1;context;location / institution;context
+shop;10;context;location / institution;context
+side(s);24;context;location / institution;context
+south;9;context;location / institution;context
+state / staat(s) ;35;context;location / institution;context
+street(s);12;context;location / institution;context
+tower;2;context;location / institution;context
+town(s);18;context;location / institution;context
+place(s);15;context;location / institution;context
+port(s);42;context;location / institution;context
+ports;4;context;location / institution;context
+ford;15;context;location / institution;context
+turnpikes;2;context;location / institution;context
+(White-)hall;37;context;location / institution;context
+quarters;2;context;location / institution;context
+forest;2;context;location / institution;context
+miles;1;context;location / institution;context
+estate(s);8;context;location / institution;context
+field(s);10;context;location / institution;context
+floor;1;context;location / institution;context
+garden;2;context;location / institution;context
+tavern;1;context;location / institution;context
+territories;1;context;location / institution;context
+area;2;context;location / institution;context
+away;5;context;location / institution;context
+chappel;1;context;location / institution;context
+council chamber;1;context;location / institution;context
+country/ies;14;context;location / institution;context
+county/ies;24;context;location / institution;context
+custom house;1;context;location / institution;context
+districts;1;context;location / institution;context
+dominions;1;context;location / institution;context
+dwellinghouse;1;context;location / institution;context
+harbour;1;context;location / institution;context
+haymarket;1;context;location / institution;context
+hedges;1;context;location / institution;context
+highland(s);8;context;location / institution;context
+highway;2;context;location / institution;context
+hill(s);2;context;location / institution;context
+hotel;1;context;location / institution;context
+inland;1;context;location / institution;context
+inn;10;context;location / institution;context
+island;2;context;location / institution;context
+isles;1;context;location / institution;context
+lieu;18;context;location / institution;context
+manor;1;context;location / institution;context
+newgate;3;context;location / institution;context
+outhouse;1;context;location / institution;context
+peninsula;1;context;location / institution;context
+salisburycourt;1;context;location / institution;context
+shire;9;context;location / institution;context
+coffeehouse;1;context;location / institution;context
+städte;1;context;location / institution;context
+state / staat(en);13;context;location / institution;context
+storehouse;1;context;location / institution;context
+tyburn;1;context;location / institution;context
+versailles;1;context;location / institution;context
+westminster / vvestminster / westminsterhall;9;context;location / institution;context
+way(s);18;context;location / institution;context
+west;13;context;location / institution;context
+world;3;context;location / institution;context
+yards;1;context;location / institution;context
+hall;24;context;location / institution;context
+headquarters;1;context;location / institution;context
+hospital;2;context;location / institution;context
+house(s);46;context;location / institution;context
+highways;1;context;location / institution;context
+abroad;2;context;location / institution;context
+inclosures;1;context;location / institution;context
+burgh;32;context;location / institution;context
+college;1;education;location / institution;context
+coffeehouse;2;food / drink;location / institution;context
+kent;7;geographic;location / institution;context
+kings county;1;geographic;location / institution;context
+leicestershire;1;geographic;location / institution;context
+europe;1;geographic;location / institution;context
+leyden;1;geographic;location / institution;context
+limerick;1;geographic;location / institution;context
+lisbon;1;geographic;location / institution;context
+london;32;geographic;location / institution;context
+lower canada;1;geographic;location / institution;context
+manchester;3;geographic;location / institution;context
+massachusetts;4;geographic;location / institution;context
+massachusetts bay;2;geographic;location / institution;context
+mercat cross;1;geographic;location / institution;context
+bay;3;geography;location / institution;context
+berlin;2;geography;location / institution;context
+birmingham;6;geography;location / institution;context
+bohemia;4;geography;location / institution;context
+borders;2;geography;location / institution;context
+boston;16;geography;location / institution;context
+boyn;1;geography;location / institution;context
+bretagne;3;geography;location / institution;context
+bristol;6;geography;location / institution;context
+bristolbridge;1;geography;location / institution;context
+britain;17;geography;location / institution;context
+britannia;4;geography;location / institution;context
+bromleystreet;1;geography;location / institution;context
+brunswick;1;geography;location / institution;context
+bunkerhill;1;geography;location / institution;context
+calais;1;geography;location / institution;context
+cambridge;2;geography;location / institution;context
+carlile;1;geography;location / institution;context
+cashire;1;geography;location / institution;context
+charingcross;1;geography;location / institution;context
+charlestown;1;geography;location / institution;context
+chester;7;geography;location / institution;context
+chiddingstone;1;geography;location / institution;context
+cities;6;geography;location / institution;context
+citties;1;geography;location / institution;context
+city;23;geography;location / institution;context
+corsica;4;geography;location / institution;context
+dänemark;1;geography;location / institution;context
+tipperary;3;geography;location / institution;context
+batiments;1;military;location / institution;context
+amsterdam;2;national;location / institution;context
+burroughs;1;political entity;location / institution;context
+capitale;1;political entity;location / institution;context
+colony / colonies;6;political entity;location / institution;context
+kingdom;30;politics;location / institution;context
+kingdom;20;politics;location / institution;context
+kingdome;4;politics;location / institution;context
+kingdoms;4;politics;location / institution;context
+kingdons;1;politics;location / institution;context
+meetinghouse;1;politics;location / institution;context
+königreiche(n);2;politics;location / institution;context
+königscrohne;1;politics;location / institution;context
+castle;15;politics;location / institution;context
+crown / cron[e] / crohn;16;power;location / institution;context
+église;1;religion;location / institution;context
+chapel;1;religion;location / institution;context
+aberdeen;1;geography;location / institution;neutral
