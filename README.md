@@ -1,4 +1,4 @@
-## Riots, revolts and revolutions in the eighteenth-century British Empire
+### Uprisings in the eighteenth-century British Empire
 
 This repository contains metadata analyses and visualisations relating to different types of political unrest in the eighteenth-century British Empire.
 
