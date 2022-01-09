@@ -8,6 +8,12 @@ The interactive map is based on events found in print-publications of the eighte
 
 [Link](https://monikabarget.github.io/Revolts)
 
+### Interactive map of rebellion sermons
+
+Map of places in the British Isles where anti-rebellion sermons between 1684 and 1800 were printed (based on metadata extracted from WorldCat).
+
+[Link](https://monikabarget.github.io/Revolts)
+
 ### Tagged vocabulary extracted from eighteenth-century publications
 
 Vocabulary relating to agents, media and political concepts of the eighteenth-century have been semi-automatically extracted from eighteenth-century publications and tagged in order to consistently analyse discourse developments over time and across space.
