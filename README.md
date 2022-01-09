@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Riots, revolts and revolutions in the eighteenth-century British Empire
 
-You can use the [editor on GitHub](https://github.com/MonikaBarget/Revolts/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains metadata analyses and visualisations relating to different types of political unrest in the eighteenth-century British Empire.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Interactive map of uprisings (classified by insurrection type)
 
-### Markdown
+### Vocabulary extracted from eighteenth-century publications
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### List of ....
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MonikaBarget/Revolts/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Static maps and charts based on these data will be published in print.
