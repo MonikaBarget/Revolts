@@ -16,9 +16,9 @@ Vocabulary relating to agents, media and political concepts of the eighteenth-ce
 
 ### Timelines of media publications
 
-a) [Timeline of religious newspapers published between 1600 and 1800](https://monikabarget.github.io/Revolts)
-b) [Timeline of royal and parliamentary proclamations](https://monikabarget.github.io/Revolts)
-c) [Timeline of publications relating to the "voice of people"](https://monikabarget.github.io/Revolts)
+- [Timeline of religious newspapers published between 1600 and 1800](https://monikabarget.github.io/Revolts)
+- [Timeline of royal and parliamentary proclamations](https://monikabarget.github.io/Revolts)
+- [Timeline of publications relating to the "voice of people"](https://monikabarget.github.io/Revolts)
 
 ***
 
