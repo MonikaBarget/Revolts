@@ -1,0 +1,579 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.094278,57.149717 ]
+    },
+    "properties": {
+    "Place":"Aberdeen",
+    "Region (modern)":"Scotland",
+    "Continent":"Europe",
+    "Full Address":"Aberdeen Scotland Europe ",
+    "Number":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.4921829,38.9784453 ]
+    },
+    "properties": {
+    "Place":"Annapolis",
+    "Region (modern)":"USA",
+    "Continent":"America",
+    "Full Address":"Annapolis USA America ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.652792,54.3502798 ]
+    },
+    "properties": {
+    "Place":"Armagh",
+    "Region (modern)":"Northern Ireland",
+    "Continent":"Europe",
+    "Full Address":"Armagh Northern Ireland Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.93012,54.597285 ]
+    },
+    "properties": {
+    "Place":"Belfast",
+    "Region (modern)":"Northern Ireland",
+    "Continent":"Europe",
+    "Full Address":"Belfast Northern Ireland Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "Place":"Boston (MA)",
+    "Region (modern)":"USA",
+    "Continent":"America",
+    "Full Address":"Boston (MA) USA America ",
+    "Number":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "Place":"Bristol",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Bristol England Europe ",
+    "Number":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.7104932,52.2429228 ]
+    },
+    "properties": {
+    "Place":"Bury St Edmund's",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Bury St Edmund's England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.121817,52.205337 ]
+    },
+    "properties": {
+    "Place":"Cambridge",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Cambridge England Europe ",
+    "Number":25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.4756035,51.8985143 ]
+    },
+    "properties": {
+    "Place":"Cork",
+    "Region (modern)":"Ireland",
+    "Continent":"Europe",
+    "Full Address":"Cork Ireland Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "Place":"Dublin",
+    "Region (modern)":"Ireland",
+    "Continent":"Europe",
+    "Full Address":"Dublin Ireland Europe ",
+    "Number":84
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.081112,52.512255 ]
+    },
+    "properties": {
+    "Place":"Dudley",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Dudley England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.584852,54.77525 ]
+    },
+    "properties": {
+    "Place":"Durham",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Durham England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "Place":"Edinburgh",
+    "Region (modern)":"Scotland",
+    "Continent":"Europe",
+    "Full Address":"Edinburgh Scotland Europe ",
+    "Number":27
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.533899,50.718412 ]
+    },
+    "properties": {
+    "Place":"Exeter",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Exeter England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5339054,50.7184031 ]
+    },
+    "properties": {
+    "Place":"Exon (Exeter)",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Exon (Exeter) England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.251806,55.864237 ]
+    },
+    "properties": {
+    "Place":"Glasgow",
+    "Region (modern)":"Scotland",
+    "Continent":"Europe",
+    "Full Address":"Glasgow Scotland Europe ",
+    "Number":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.3274198,53.7676236 ]
+    },
+    "properties": {
+    "Place":"Hull",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Hull England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.14822,52.056736 ]
+    },
+    "properties": {
+    "Place":"Ipswich",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Ipswich England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1397592,52.6368778 ]
+    },
+    "properties": {
+    "Place":"Leicester",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Leicester England Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.3730747,51.3396955 ]
+    },
+    "properties": {
+    "Place":"Leipzig",
+    "Region (modern)":"Germany",
+    "Continent":"Europe",
+    "Full Address":"Leipzig Germany Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.540579,53.230688 ]
+    },
+    "properties": {
+    "Place":"Lincoln",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Lincoln England Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9915726,53.4083714 ]
+    },
+    "properties": {
+    "Place":"Liverpool",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Liverpool England Europe ",
+    "Number":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "Place":"London",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"London England Europe ",
+    "Number":480
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.2426305,53.4807593 ]
+    },
+    "properties": {
+    "Place":"Manchester",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Manchester England Europe ",
+    "Number":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.61778,54.978252 ]
+    },
+    "properties": {
+    "Place":"Newcastle upon Tyne",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Newcastle upon Tyne England Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.902656,52.240477 ]
+    },
+    "properties": {
+    "Place":"Northampton",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Northampton England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.297355,52.6308859 ]
+    },
+    "properties": {
+    "Place":"Norwich",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Norwich England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1581086,52.9547832 ]
+    },
+    "properties": {
+    "Place":"Nottingham",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Nottingham England Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577263,51.7520209 ]
+    },
+    "properties": {
+    "Place":"Oxford",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Oxford England Europe ",
+    "Number":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1652215,39.9525839 ]
+    },
+    "properties": {
+    "Place":"Philadelphia",
+    "Region (modern)":"USA",
+    "Continent":"America",
+    "Full Address":"Philadelphia USA America ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4777326,51.9244201 ]
+    },
+    "properties": {
+    "Place":"Rotterdam",
+    "Region (modern)":"Netherlands",
+    "Continent":"Europe",
+    "Full Address":"Rotterdam Netherlands Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8967155,42.51954 ]
+    },
+    "properties": {
+    "Place":"Salem",
+    "Region (modern)":"Massachusetts",
+    "Continent":"America",
+    "Full Address":"Salem Massachusetts America ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.794472,51.068785 ]
+    },
+    "properties": {
+    "Place":"Salisbury",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Salisbury England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.8048782,51.0932288 ]
+    },
+    "properties": {
+    "Place":"Sarum",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Sarum England Europe ",
+    "Number":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.7553268,52.7073029 ]
+    },
+    "properties": {
+    "Place":"Shrewsbury",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Shrewsbury England Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.4043509,50.9097004 ]
+    },
+    "properties": {
+    "Place":"Southampton",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Southampton England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.148731,52.456891 ]
+    },
+    "properties": {
+    "Place":"Stourbridge",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Stourbridge England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.3831843,43.653226 ]
+    },
+    "properties": {
+    "Place":"Toronto",
+    "Region (modern)":"Canada",
+    "Continent":"America",
+    "Full Address":"Toronto Canada America ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.505924,53.683298 ]
+    },
+    "properties": {
+    "Place":"Wakefield",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Wakefield England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1356583,51.4974948 ]
+    },
+    "properties": {
+    "Place":"Westminster",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"Westminster England Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0872979,53.9599651 ]
+    },
+    "properties": {
+    "Place":"York",
+    "Region (modern)":"England",
+    "Continent":"Europe",
+    "Full Address":"York England Europe ",
+    "Number":25
+    }
+  }
+]
+}
