@@ -30,4 +30,4 @@ Vocabulary relating to agents, media and political concepts of the eighteenth-ce
 
 Static maps and charts based on the data will subsequently be published in print. 
 
-[Related publications by Monika Barget](https://github.com/MonikaBarget/Revolts/publications)
+[Related publications by Monika Barget](https://monikabarget.github.io/Revolts/publications.html)
