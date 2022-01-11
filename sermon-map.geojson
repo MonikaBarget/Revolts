@@ -1,0 +1,538 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.2638648,42.3870475 ]
+    },
+    "properties": {
+    "Place":"Aberdeen",
+    "Continent":"Europe",
+    "Full Address":"Aberdeen Europe ",
+    "Number":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.4921829,38.9784453 ]
+    },
+    "properties": {
+    "Place":"Annapolis",
+    "Continent":"America",
+    "Full Address":"Annapolis America ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.652792,54.3502798 ]
+    },
+    "properties": {
+    "Place":"Armagh",
+    "Continent":"Europe",
+    "Full Address":"Armagh Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.93012,54.597285 ]
+    },
+    "properties": {
+    "Place":"Belfast",
+    "Continent":"Europe",
+    "Full Address":"Belfast Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "Place":"Boston (MA)",
+    "Continent":"America",
+    "Full Address":"Boston (MA) America ",
+    "Number":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "Place":"Bristol",
+    "Continent":"Europe",
+    "Full Address":"Bristol Europe ",
+    "Number":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.7104932,52.2429228 ]
+    },
+    "properties": {
+    "Place":"Bury St Edmund's",
+    "Continent":"Europe",
+    "Full Address":"Bury St Edmund's Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.121817,52.205337 ]
+    },
+    "properties": {
+    "Place":"Cambridge",
+    "Continent":"Europe",
+    "Full Address":"Cambridge Europe ",
+    "Number":25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.4756035,51.8985143 ]
+    },
+    "properties": {
+    "Place":"Cork",
+    "Continent":"Europe",
+    "Full Address":"Cork Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "Place":"Dublin",
+    "Continent":"Europe",
+    "Full Address":"Dublin Europe ",
+    "Number":84
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.081112,52.512255 ]
+    },
+    "properties": {
+    "Place":"Dudley",
+    "Continent":"Europe",
+    "Full Address":"Dudley Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.584852,54.77525 ]
+    },
+    "properties": {
+    "Place":"Durham",
+    "Continent":"Europe",
+    "Full Address":"Durham Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "Place":"Edinburgh",
+    "Continent":"Europe",
+    "Full Address":"Edinburgh Europe ",
+    "Number":27
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.533899,50.718412 ]
+    },
+    "properties": {
+    "Place":"Exeter",
+    "Continent":"Europe",
+    "Full Address":"Exeter Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5282997,50.7268724 ]
+    },
+    "properties": {
+    "Place":"Exon (Exeter)",
+    "Continent":"Europe",
+    "Full Address":"Exon (Exeter) Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.251806,55.864237 ]
+    },
+    "properties": {
+    "Place":"Glasgow",
+    "Continent":"Europe",
+    "Full Address":"Glasgow Europe ",
+    "Number":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.3274198,53.7676236 ]
+    },
+    "properties": {
+    "Place":"Hull",
+    "Continent":"Europe",
+    "Full Address":"Hull Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.14822,52.056736 ]
+    },
+    "properties": {
+    "Place":"Ipswich",
+    "Continent":"Europe",
+    "Full Address":"Ipswich Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.170197,52.5783307 ]
+    },
+    "properties": {
+    "Place":"Leicester",
+    "Continent":"Europe",
+    "Full Address":"Leicester Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.3730747,51.3396955 ]
+    },
+    "properties": {
+    "Place":"Leipzig",
+    "Continent":"Europe",
+    "Full Address":"Leipzig Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.6832347,40.8578666 ]
+    },
+    "properties": {
+    "Place":"Lincoln",
+    "Continent":"Europe",
+    "Full Address":"Lincoln Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9915726,53.4083714 ]
+    },
+    "properties": {
+    "Place":"Liverpool",
+    "Continent":"Europe",
+    "Full Address":"Liverpool Europe ",
+    "Number":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "Place":"London",
+    "Continent":"Europe",
+    "Full Address":"London Europe ",
+    "Number":480
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.2426305,53.4807593 ]
+    },
+    "properties": {
+    "Place":"Manchester",
+    "Continent":"Europe",
+    "Full Address":"Manchester Europe ",
+    "Number":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.61778,54.978252 ]
+    },
+    "properties": {
+    "Place":"Newcastle upon Tyne",
+    "Continent":"Europe",
+    "Full Address":"Newcastle upon Tyne Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.902656,52.240477 ]
+    },
+    "properties": {
+    "Place":"Northampton",
+    "Continent":"Europe",
+    "Full Address":"Northampton Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.297355,52.6308859 ]
+    },
+    "properties": {
+    "Place":"Norwich",
+    "Continent":"Europe",
+    "Full Address":"Norwich Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1581086,52.9547832 ]
+    },
+    "properties": {
+    "Place":"Nottingham",
+    "Continent":"Europe",
+    "Full Address":"Nottingham Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577263,51.7520209 ]
+    },
+    "properties": {
+    "Place":"Oxford",
+    "Continent":"Europe",
+    "Full Address":"Oxford Europe ",
+    "Number":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1652215,39.9525839 ]
+    },
+    "properties": {
+    "Place":"Philadelphia",
+    "Continent":"America",
+    "Full Address":"Philadelphia America ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4777326,51.9244201 ]
+    },
+    "properties": {
+    "Place":"Rotterdam",
+    "Continent":"Europe",
+    "Full Address":"Rotterdam Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.0318412,44.8853181 ]
+    },
+    "properties": {
+    "Place":"Salem",
+    "Continent":"Europe",
+    "Full Address":"Salem Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.794472,51.068785 ]
+    },
+    "properties": {
+    "Place":"Salisbury",
+    "Continent":"Europe",
+    "Full Address":"Salisbury Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.8048782,51.0932288 ]
+    },
+    "properties": {
+    "Place":"Sarum",
+    "Continent":"Europe",
+    "Full Address":"Sarum Europe ",
+    "Number":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.7553268,52.7073029 ]
+    },
+    "properties": {
+    "Place":"Shrewsbury",
+    "Continent":"Europe",
+    "Full Address":"Shrewsbury Europe ",
+    "Number":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.4043509,50.9097004 ]
+    },
+    "properties": {
+    "Place":"Southampton",
+    "Continent":"Europe",
+    "Full Address":"Southampton Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.148731,52.456891 ]
+    },
+    "properties": {
+    "Place":"Stourbridge",
+    "Continent":"Europe",
+    "Full Address":"Stourbridge Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.6009058,40.4642335 ]
+    },
+    "properties": {
+    "Place":"Toronto",
+    "Continent":"America",
+    "Full Address":"Toronto America ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0861621,42.5148117 ]
+    },
+    "properties": {
+    "Place":"Wakefield",
+    "Continent":"Europe",
+    "Full Address":"Wakefield Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1595389,51.5145337 ]
+    },
+    "properties": {
+    "Place":"Westminster",
+    "Continent":"Europe",
+    "Full Address":"Westminster Europe ",
+    "Number":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0872979,53.9599651 ]
+    },
+    "properties": {
+    "Place":"York",
+    "Continent":"Europe",
+    "Full Address":"York Europe ",
+    "Number":25
+    }
+  }
+]
+}
