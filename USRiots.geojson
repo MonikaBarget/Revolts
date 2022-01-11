@@ -1,0 +1,243 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.8595756,40.2720151 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Brodhead's Coshocton expedition",
+    "Agents":"American victory",
+    "Results":"American victory",
+    "Label":"Coshocton, Ohio",
+    "Place (modern)":"Coshocton, Ohio",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.3824374,42.4072107 ]
+    },
+    "properties": {
+    "From":1786,
+    "to":"1787",
+    "Name":"Shays' Rebellion ",
+    "Agents":"United States Massachusetts state militia Privately-funded local militia in Massachusetts against court proceedings collecting taxes and debts",
+    "Results":"#",
+    "Label":"Western Massachusetts",
+    "Place (modern)":"Massachusetts, USA",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0059728,40.7127753 ]
+    },
+    "properties": {
+    "From":1788,
+    "to":"#",
+    "Name":"Doctors' Riot (New York City)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"New York City",
+    "Place (modern)":"New York City",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "From":1791,
+    "to":"#",
+    "Name":"The Mina conspiracy, a slave revolt in the self-organized African-American Mina community.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"North America",
+    "Place (modern)":"United States",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9949266,39.9504343 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"Whiskey Rebellion / Whiskey Insurrection",
+    "Agents":"Protests over taxes leads to the Whiskey Rebellion in Pittsburgh and the Monongahela Valley. President George Washington invokes martial law and crushes insurrection with 13,000 troops.",
+    "Results":"#",
+    "Label":"Monongahela Valley, USA",
+    "Place (modern)":"Monongahela Valley, USA",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.8814915,40.4345183 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"Whiskey Rebellion / Whiskey Insurrection",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Western Pennsylvania, USA",
+    "Place (modern)":"Western Pennsylvania, USA",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.5917278,39.2914894 ]
+    },
+    "properties": {
+    "From":1798,
+    "to":"#",
+    "Name":"USS Delaware vs La Croyable",
+    "Agents":"American victory",
+    "Results":"American victory",
+    "Label":"Great Egg Harbor Bay, New Jersey, United States",
+    "Place (modern)":"Great Egg Harbor Bay, New Jersey, United States",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.5687103,-24.3570767 ]
+    },
+    "properties": {
+    "From":1799,
+    "to":"#",
+    "Name":"Action of 9 February 1799",
+    "Agents":"American victory",
+    "Results":"American victory",
+    "Label":"Off Nevis, Caribbean Sea, Atlantic",
+    "Place (modern)":"Southern Africa",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.1945247,41.2033216 ]
+    },
+    "properties": {
+    "From":1799,
+    "to":"1800",
+    "Name":"Fries's Rebellion",
+    "Agents":"Fries's Rebellion was a tax revolt among Pennsylvania Dutch farmers led by John Fries",
+    "Results":"#",
+    "Label":"Pennsylvania, North America",
+    "Place (modern)":"Pennsylvania, North America",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.6568942,37.4315734 ]
+    },
+    "properties": {
+    "From":1800,
+    "to":"#",
+    "Name":"Gabriel Prosser's suppressed slave rebellion in Virginia.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Virginia, USA",
+    "Place (modern)":"Virginia, USA",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.9000751,32.1656221 ]
+    },
+    "properties": {
+    "From":1803,
+    "to":"#",
+    "Name":"The Igbo Landing, a slave ship revolt off the coast of St. Simons, Georgia, in which the enslaved Igbo people committed mass suicide rather than submit to slavery in the United States.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Georgia, United States",
+    "Place (modern)":"Georgia, United States",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.455303,38.3087423 ]
+    },
+    "properties": {
+    "From":1805,
+    "to":"#",
+    "Name":"An unsuccessful slave rebellion at Chatham Manor",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Chatham Manor, United States??",
+    "Place (modern)":"Chatham Manor, United States??",
+    "Historic affiliation":"United States of America"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.254618,33.130446 ]
+    },
+    "properties": {
+    "From":1600,
+    "to":"1866",
+    "Name":"Navajo Wars",
+    "Agents":"United States victory; Navajo moved to reservations in United States.",
+    "Results":"United States victory; Navajo moved to reservations in United States.",
+    "Label":"Mexico",
+    "Place (modern)":"Mexico / Southwestern United States",
+    "Historic affiliation":"United States of America / native Americans"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.1646726,34.257038 ]
+    },
+    "properties": {
+    "From":1793,
+    "to":"#",
+    "Name":"Battle of Hightower",
+    "Agents":"Cherokee defeated",
+    "Results":"Cherokee defeated",
+    "Label":"Hightower / High Town Cherokee village",
+    "Place (modern)":"Rome, Georgia, United States",
+    "Historic affiliation":"United States of America / native Americans"
+    }
+  }
+]
+}

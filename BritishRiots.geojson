@@ -1,0 +1,4782 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.2438622,42.7538211 ]
+    },
+    "properties": {
+    "From":1653,
+    "to":"#",
+    "Name":"Glencairn-Rising",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Scottish Highlands",
+    "Place (modern)":"Scottish Highlands",
+    "Historic affiliation":"British  Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.5140841,53.3271538 ]
+    },
+    "properties": {
+    "From":1798,
+    "to":"#",
+    "Name":"Irish Rebellion / United Irish Rising (failed)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Ireland (in particular Leinster and Ulster",
+    "Place (modern)":"Leinster, Ireland",
+    "Historic affiliation":"British Emire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.7062637,57.4490738 ]
+    },
+    "properties": {
+    "From":1513,
+    "to":"",
+    "Name":"Battle of Glendale",
+    "Agents":"The Battle of Glendale was a battle fought on the Inner Hebridean Isle of Skye, between the MacDonalds of Sleat and the MacDonalds of Clanranald, against the MacLeods of Harris and Dunvegan and the MacLeods of Lewis.",
+    "Results":"Inconclusive",
+    "Label":"Glendale, Isle of Skye",
+    "Place (modern)":"Glendale, Isle of Skye",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1517,
+    "to":"1517",
+    "Name":"Evil May Day (London, England)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.4742999,54.8183479 ]
+    },
+    "properties": {
+    "From":1522,
+    "to":"#",
+    "Name":"Schlacht von Knockavoe",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Knockavoe",
+    "Place (modern)":"Knockavoe",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.72191,55.598676 ]
+    },
+    "properties": {
+    "From":1526,
+    "to":"#",
+    "Name":"Battle of Melrose",
+    "Agents":"Victory for Douglas, Earl of Angus",
+    "Results":"Victory for Douglas, Earl of Angus",
+    "Label":"Melrose, Scotland",
+    "Place (modern)":"Melrose, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9605206,58.9809401 ]
+    },
+    "properties": {
+    "From":1529,
+    "to":"#",
+    "Name":"Battle of Summerdale",
+    "Agents":"Victory for Orkney Sinclairs",
+    "Results":"Victory for Orkney Sinclairs",
+    "Label":"boundary of the parishes of Orphir and Stenness in Mainland, Orkney, Scotland.",
+    "Place (modern)":"Orkney, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0872979,53.9599651 ]
+    },
+    "properties": {
+    "From":1536,
+    "to":"#",
+    "Name":"Pilgrimage of Grace",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"York, Yorkshire, England",
+    "Place (modern)":"York, Yorkshire, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.435973,55.378051 ]
+    },
+    "properties": {
+    "From":1536,
+    "to":"#",
+    "Name":"The Pilgrimage of Grace against the Reformation of Henry VIII of England.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Britain",
+    "Place (modern)":"Britain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.0527125,50.2660471 ]
+    },
+    "properties": {
+    "From":1549,
+    "to":"#",
+    "Name":" The Prayer Book Rebellion in Cornwall and Devon, England.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Cornwall & Devon",
+    "Place (modern)":"Cornwall, United Kingdom",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.8864021,52.6139686 ]
+    },
+    "properties": {
+    "From":1549,
+    "to":"#",
+    "Name":"Kett's Rebellion",
+    "Agents":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
+    "Results":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
+    "Label":"Norfolk, England",
+    "Place (modern)":"Norfolk, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1549,
+    "to":"#",
+    "Name":"Kett's Rebellion",
+    "Agents":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
+    "Results":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
+    "Label":"England",
+    "Place (modern)":"England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.0527125,50.2660471 ]
+    },
+    "properties": {
+    "From":1549,
+    "to":"#",
+    "Name":"Prayer Book Rebellion",
+    "Agents":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
+    "Results":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
+    "Label":"Cornwall and  Devon",
+    "Place (modern)":"Cornwall",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.5180323,35.4673272 ]
+    },
+    "properties": {
+    "From":1549,
+    "to":"#",
+    "Name":"Prayer Book Rebellion",
+    "Agents":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
+    "Results":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
+    "Label":" Cornwall and  Devon",
+    "Place (modern)":"Devon",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.435973,55.378051 ]
+    },
+    "properties": {
+    "From":1554,
+    "to":"#",
+    "Name":"Wyatt-Verschwörung",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Britain",
+    "Place (modern)":"Britain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.69675,58.2342222 ]
+    },
+    "properties": {
+    "From":1555,
+    "to":"#",
+    "Name":"Battle of Garbharry",
+    "Agents":"Sutherland victory",
+    "Results":"Sutherland victory",
+    "Label":"Foot of the mountain Beinn-mhor, in Berriedale, Scotland",
+    "Place (modern)":"Foot of the mountain Beinn-mhor, in Berriedale, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9862145,40.7667881 ]
+    },
+    "properties": {
+    "From":1565,
+    "to":"#",
+    "Name":"Chaseabout Raid",
+    "Agents":"Victory for Mary",
+    "Results":"Victory for Mary",
+    "Label":"Scottish Lowlands",
+    "Place (modern)":"Scottish Lowlands",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.4205876,36.1180015 ]
+    },
+    "properties": {
+    "From":1568,
+    "to":"1573",
+    "Name":"Marian civil war",
+    "Agents":"Victory for supporters of King James VI",
+    "Results":"Victory for supporters of King James VI",
+    "Label":"Kingdom of scotland",
+    "Place (modern)":"Kingdom of scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.5378133,43.2163324 ]
+    },
+    "properties": {
+    "From":1569,
+    "to":"1570",
+    "Name":"Rising of the North",
+    "Agents":"Elizabethan victory, Elizabeth's authority strengthened Aristocracy of North weakened",
+    "Results":"Elizabethan victory,\nElizabeth's authority strengthened\nAristocracy of North weakened",
+    "Label":"Northern England",
+    "Place (modern)":"Northern England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.4612549,51.824267 ]
+    },
+    "properties": {
+    "From":1570,
+    "to":"#",
+    "Name":"Battle of Bun Garbhain",
+    "Agents":"Cameron victory",
+    "Results":"Cameron victory",
+    "Label":"Bun Garbhain by Loch Eil",
+    "Place (modern)":"Bun Garbhain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.7220941,40.3413606 ]
+    },
+    "properties": {
+    "From":1570,
+    "to":"#",
+    "Name":"Battle of Torran-Roy",
+    "Agents":"The Earl of Caithnesss forces under Sutherland of Duffus are initially defeated by the Murrays of Aberscross who supported the Earl of Sutherland at Torran-Roy. However, the Murrays are soon after defeated by the Earl of Caithness's forces which included the Mackays at Dornoch",
+    "Results":"The Earl of Caithnesss forces under Sutherland of Duffus are initially defeated by the Murrays of Aberscross who supported the Earl of Sutherland at Torran-Roy. However, the Murrays are soon after defeated by the Earl of Caithness's forces which included the Mackays at Dornoch",
+    "Label":"Torran-Roy",
+    "Place (modern)":"Torran-Roy",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6920536,53.1423672 ]
+    },
+    "properties": {
+    "From":1573,
+    "to":"#",
+    "Name":"Desmond-Rebellionen",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Iwamura Castle",
+    "Place (modern)":"Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.93012,54.597285 ]
+    },
+    "properties": {
+    "From":1574,
+    "to":"#",
+    "Name":"Betrayal of Clannabuidhe",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Belfast, Ireland",
+    "Place (modern)":"Belfast, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6920536,53.1423672 ]
+    },
+    "properties": {
+    "From":1583,
+    "to":"#",
+    "Name":"Second Desmond Rebellion",
+    "Agents":"English victoryFamine throughout MunsterPlantation of Munster",
+    "Results":"English victory\nFamine throughout Munster\nPlantation of Munster",
+    "Label":"Provinces of Munster and Leinster, Ireland",
+    "Place (modern)":"Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.14161,54.1043937 ]
+    },
+    "properties": {
+    "From":1586,
+    "to":"#",
+    "Name":"Battle of Ardnaree",
+    "Agents":"English victory",
+    "Results":"English victory",
+    "Label":"near Ardnaree, County Mayo",
+    "Place (modern)":"near Ardnaree, County Mayo",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.3124341,29.9012437 ]
+    },
+    "properties": {
+    "From":1586,
+    "to":"#",
+    "Name":"Raid on St. Augustine",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"St. Augustine, Florida",
+    "Place (modern)":"St. Augustine, Florida",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.5723953,19.0018663 ]
+    },
+    "properties": {
+    "From":1590,
+    "to":"#",
+    "Name":"Watts' West Indies and Virginia expedition",
+    "Agents":"English victory / Expedition success",
+    "Results":"English victory / Expedition success",
+    "Label":"West Indies / Virginia",
+    "Place (modern)":"Between Hispaniola, Santiago colony (present-day Jamaica), & Cuba",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.4,55.2 ]
+    },
+    "properties": {
+    "From":1593,
+    "to":"#",
+    "Name":"Battle of Dryfe Sands (Scottish clan battle between the Johnstones and Maxwells)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Annandale, Scotland",
+    "Place (modern)":"Annandale, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9612273,54.7616555 ]
+    },
+    "properties": {
+    "From":1594,
+    "to":"1603",
+    "Name":" The Nine Years' War or 'Tyrone's Rebellion' in Ulster, Ireland against English rule in Ireland.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Ulster, Ireland",
+    "Place (modern)":"Ulster, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -28.6964752,38.5912552 ]
+    },
+    "properties": {
+    "From":1594,
+    "to":"#",
+    "Name":"Action of Faial",
+    "Agents":"English victory",
+    "Results":"English victory",
+    "Label":"Off Faial Island, Azores, Atlantic Ocean",
+    "Place (modern)":"Faial",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2464674,51.7612056 ]
+    },
+    "properties": {
+    "From":1596,
+    "to":"#",
+    "Name":"Oxfordshire Rising of 1596",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Oxfordshire, England",
+    "Place (modern)":"Oxfordshire, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.4364169,57.565426 ]
+    },
+    "properties": {
+    "From":1597,
+    "to":"#",
+    "Name":"Battle of Logiebride",
+    "Agents":"Results vary from different sources",
+    "Results":"Results vary from different sources",
+    "Label":"Conon Bridge, Rosshire, Scotland",
+    "Place (modern)":"Conon Bridge, Rosshire, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.3139981,57.522162 ]
+    },
+    "properties": {
+    "From":1601,
+    "to":"#",
+    "Name":"Battle of Carinish",
+    "Agents":"MacDonald victory",
+    "Results":"MacDonald victory",
+    "Label":"Carinish, North Uist",
+    "Place (modern)":"Carinish, North Uist",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1246254,51.5007292 ]
+    },
+    "properties": {
+    "From":1601,
+    "to":"#",
+    "Name":"Stand-off at Bengrime",
+    "Agents":"No battle",
+    "Results":"No battle",
+    "Label":"Bengrime, Sutherland, Scotland",
+    "Place (modern)":"Bengrime",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.4856781,51.5742447 ]
+    },
+    "properties": {
+    "From":1601,
+    "to":"#",
+    "Name":"The Earl of Essex Rebellion",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Essex",
+    "Place (modern)":"Essex",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.7793541,55.030269 ]
+    },
+    "properties": {
+    "From":1608,
+    "to":"#",
+    "Name":"Battle of Kilmacrennan",
+    "Agents":"Crown victory",
+    "Results":"Crown victory",
+    "Label":"Kilmacrennan, Ireland",
+    "Place (modern)":"Kilmacrennan, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.1040967,54.6548993 ]
+    },
+    "properties": {
+    "From":1608,
+    "to":"#",
+    "Name":"O'Doherty's Rebellion",
+    "Agents":"Crown victory",
+    "Results":"Crown victory",
+    "Label":"Ulster",
+    "Place (modern)":"County Donegal, Ulster, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2303706,55.2655024 ]
+    },
+    "properties": {
+    "From":1608,
+    "to":"#",
+    "Name":"Siege of Tory Island",
+    "Agents":"Crown victory",
+    "Results":"Crown victory",
+    "Label":"Tory Island, Ireland",
+    "Place (modern)":"Tory Island, County Donegal, Ulster, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2551187,54.5259614 ]
+    },
+    "properties": {
+    "From":1609,
+    "to":"#",
+    "Name":"Indian Wars",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"North America",
+    "Place (modern)":"North America",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.7165681,47.6871013 ]
+    },
+    "properties": {
+    "From":1628,
+    "to":"#",
+    "Name":"Action of 17 July 1628",
+    "Agents":"English victory",
+    "Results":"English victory",
+    "Label":"St. Lawrence River, near present-day Rimouski, Quebec",
+    "Place (modern)":"Saint Lawrence River",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0059728,40.7127753 ]
+    },
+    "properties": {
+    "From":1638,
+    "to":"1731",
+    "Name":"Border disputes between New York and Connecticut",
+    "Agents":"Both sides claim victory",
+    "Results":"Both sides claim victory",
+    "Label":"ConnecticutNew York border, Long Island Sound",
+    "Place (modern)":"New York, United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1639,
+    "to":"#",
+    "Name":"Bishops' War",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6920536,53.1423672 ]
+    },
+    "properties": {
+    "From":1641,
+    "to":"1641",
+    "Name":" The Irish Rebellion of 1641",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Ireland",
+    "Place (modern)":"Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1642,
+    "to":"1660",
+    "Name":" The English Revolution, commencing as a civil war between Parliament and the King, and culminating in the execution of Charles I and the establishment of a republican Commonwealth, which was succeeded several years later by the Protectorate of Oliver Cromwell.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"England",
+    "Place (modern)":"England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.774936,50.83761 ]
+    },
+    "properties": {
+    "From":1642,
+    "to":"#",
+    "Name":"Siege of Chichester",
+    "Agents":"Parliamentarian victory",
+    "Results":"Parliamentarian victory",
+    "Label":"Chichester, England",
+    "Place (modern)":"Chichester, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0879769,50.8197675 ]
+    },
+    "properties": {
+    "From":1642,
+    "to":"#",
+    "Name":"Siege of Portsmouth",
+    "Agents":"Parliamentarian victory",
+    "Results":"Parliamentarian victory",
+    "Label":"Portsmouth, Hampshire, England",
+    "Place (modern)":"Portsmouth, Hampshire, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9400718,53.5284751 ]
+    },
+    "properties": {
+    "From":1643,
+    "to":"#",
+    "Name":"Battle of Portlester",
+    "Agents":"Irish Confederate Victory",
+    "Results":"Irish Confederate Victory",
+    "Label":"Portlester, Meath, Ireland",
+    "Place (modern)":"Portlester, Meath, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.831672,52.681602 ]
+    },
+    "properties": {
+    "From":1643,
+    "to":"#",
+    "Name":"Siege of Lichfield",
+    "Agents":"Royalist victory",
+    "Results":"Royalist victory",
+    "Label":"Lichfield, England",
+    "Place (modern)":"Lichfield, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.149331,52.56279 ]
+    },
+    "properties": {
+    "From":1644,
+    "to":"#",
+    "Name":"Relief of Montgomery Castle",
+    "Agents":"Parliamentarian victory",
+    "Results":"Parliamentarian victory",
+    "Label":"Montgomery, Powys",
+    "Place (modern)":"Montgomery, Wales",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.80657,53.0700391 ]
+    },
+    "properties": {
+    "From":1644,
+    "to":"#",
+    "Name":"Relief of Newark",
+    "Agents":"Royalist victory",
+    "Results":"Royalist victory",
+    "Label":"Newark-on-Trent, Nottinghamshire",
+    "Place (modern)":"Newark-on-Trent, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.8915829,52.5159097 ]
+    },
+    "properties": {
+    "From":1647,
+    "to":"#",
+    "Name":"Sack of Cashel",
+    "Agents":"English Parliamentarians take the town and massacre its garrison",
+    "Results":"English Parliamentarians take the town and massacre its garrison",
+    "Label":"Cashel, Tipperary, Ireland",
+    "Place (modern)":"Cashel, Tipperary, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "From":1648,
+    "to":"#",
+    "Name":"Whiggamore Raid",
+    "Agents":"Edinburgh taken by Kirk Party Committee of Estates relocates to Stirling Ensuing Battle of Stirling",
+    "Results":"Edinburgh taken by Kirk Party\nCommittee of Estates relocates to Stirling\nEnsuing Battle of Stirling",
+    "Label":"Edinburgh, Scotland",
+    "Place (modern)":"Edinburgh, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.224721,57.477773 ]
+    },
+    "properties": {
+    "From":1650,
+    "to":"#",
+    "Name":"Siege of Inverness",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Inverness, Scotland",
+    "Place (modern)":"Inverness, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.218002,52.5776957 ]
+    },
+    "properties": {
+    "From":1650,
+    "to":"#",
+    "Name":"Siege of Kilkenny",
+    "Agents":"English Parliamentarian victory",
+    "Results":"English Parliamentarian victory",
+    "Label":"County Kilkenny",
+    "Place (modern)":"County Kilkenny",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0192882,42.347747 ]
+    },
+    "properties": {
+    "From":1656,
+    "to":"#",
+    "Name":"Battle of Bloody Run",
+    "Agents":"American Indian victory",
+    "Results":"American Indian victory",
+    "Label":"Parent's Creek hence Bloody Run, near Fort Detroit, New France (now in Detroit, Michigan)",
+    "Place (modern)":"Parent's Creek hence Bloody Run, near Fort Detroit, New France (now in Detroit, Michigan)",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.766224,38.242697 ]
+    },
+    "properties": {
+    "From":1661,
+    "to":"#",
+    "Name":"Londoner Kutschenstreit",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"#",
+    "Place (modern)":"#",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.354965,11.5786576 ]
+    },
+    "properties": {
+    "From":1665,
+    "to":"1857",
+    "Name":"Piracy on Lake Nicaragua",
+    "Agents":"The lake is known to have been controlled by pirates as early as 1665 when Henry Morgan led six shallow draft canoes up the San Juan for an attack on Granada.",
+    "Results":"Piracy and filibustering suppressed by 1857.",
+    "Label":"Lake Nicaragua, San Juan River, Nicaragua",
+    "Place (modern)":"Lake Nicaragua",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1668,
+    "to":"#",
+    "Name":"Bawdy House Riots (London, England)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.524667,41.4475686 ]
+    },
+    "properties": {
+    "From":1675,
+    "to":"#",
+    "Name":"Great Swamp Fight",
+    "Agents":"New England victory",
+    "Results":"New England victory",
+    "Label":"South Kingstown, Rhode Island",
+    "Place (modern)":"South Kingstown, Rhode Island",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8226541,43.9653889 ]
+    },
+    "properties": {
+    "From":1675,
+    "to":"1676",
+    "Name":"King Philip's War between Indians and English settlers, sometimes called Metacom's Rebellion.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Southern New England",
+    "Place (modern)":"Southern New England, USA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.6568942,37.4315734 ]
+    },
+    "properties": {
+    "From":1676,
+    "to":"#",
+    "Name":"Bacon's Rebellion in Virginia",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Virginia, North America",
+    "Place (modern)":"Virginia, USA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.4205876,36.1180015 ]
+    },
+    "properties": {
+    "From":1680,
+    "to":"1688",
+    "Name":"The Killing Time",
+    "Agents":"Presbyterianism accepted in 1690 Act of Settlement",
+    "Results":"Presbyterianism accepted in 1690 Act of Settlement",
+    "Label":"Kingdom of Scotland (predominantly southwest)",
+    "Place (modern)":"Kingdom of scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1685,
+    "to":"#",
+    "Name":"Argyll Rebellion (to overthrow King James II)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.999461,50.7772135 ]
+    },
+    "properties": {
+    "From":1685,
+    "to":"#",
+    "Name":"Monmouth Rebellion",
+    "Agents":"Royalist victory",
+    "Results":"Royalist victory",
+    "Label":"South West England",
+    "Place (modern)":"South West England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.435973,55.378051 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"1689",
+    "Name":"Glorious Revolution",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Britain, Ireland, North America",
+    "Place (modern)":"Britain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6920536,53.1423672 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"1689",
+    "Name":"Glorious Revolution",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Britain, Ireland, North America",
+    "Place (modern)":"Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2551187,54.5259614 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"1689",
+    "Name":"Glorious Revolution",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Britain, Ireland, North America",
+    "Place (modern)":"North America",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2551187,54.5259614 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"#",
+    "Name":"King William’s War",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"North America",
+    "Place (modern)":"North America",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.416007,51.055688 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"#",
+    "Name":"Wincanton Skirmish",
+    "Agents":"Indecisive",
+    "Results":"Indecisive",
+    "Label":"Wincanton, Somerset",
+    "Place (modern)":"Wincanton, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "From":1689,
+    "to":"#",
+    "Name":"Rising in Boston 1689",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Boston, Massachussetts",
+    "Place (modern)":"Boston, Massachussetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8736698,43.1978624 ]
+    },
+    "properties": {
+    "From":1689,
+    "to":"#",
+    "Name":"Raid on Dover",
+    "Agents":"French and Wabanaki Confederacy victory",
+    "Results":"French and Wabanaki Confederacy victory",
+    "Label":"Dover, New Hampshire",
+    "Place (modern)":"Dover, New Hampshire",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.5206349,43.8794098 ]
+    },
+    "properties": {
+    "From":1689,
+    "to":"#",
+    "Name":"Siege of Pemaquid",
+    "Agents":"The Siege of Pemaquid (August 2–3, 1689) was a successful attack by a large band of Abenaki Indians on the English fort at Pemaquid, Fort Charles.",
+    "Results":"#",
+    "Label":"Pemaquid, Fort Charles, North America",
+    "Place (modern)":"Pemaquid, Fort Charles, North America",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.7750355,43.2686152 ]
+    },
+    "properties": {
+    "From":1690,
+    "to":"#",
+    "Name":"Raid on Salmon Falls",
+    "Agents":"Acadian and Wabanaki Confederacy victory",
+    "Results":"Acadian and Wabanaki Confederacy victory",
+    "Label":"Salmon Falls",
+    "Place (modern)":"Salmon Falls (present-day Berwick, Maine)",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.9406898,53.4239331 ]
+    },
+    "properties": {
+    "From":1691,
+    "to":"#",
+    "Name":"Siege of Athlone",
+    "Agents":"Williamite victory",
+    "Results":"Williamite victory",
+    "Label":"Athlone, Ireland",
+    "Place (modern)":"Athlone, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8885454,43.1311368 ]
+    },
+    "properties": {
+    "From":1694,
+    "to":"#",
+    "Name":"Raid on Oyster River",
+    "Agents":"New France and Abenaki victory",
+    "Results":"New France and Abenaki victory",
+    "Label":"Oyster River",
+    "Place (modern)":"Oyster River (present-day Durham, New Hampshire)",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "From":1700,
+    "to":"#",
+    "Name":"Riot on the Pretender's Birthday",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Bristol, England",
+    "Place (modern)":"Bristol, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2551187,54.5259614 ]
+    },
+    "properties": {
+    "From":1702,
+    "to":"#",
+    "Name":"Queen Anne’s War",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"North America",
+    "Place (modern)":"North America",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.2601759,43.7435343 ]
+    },
+    "properties": {
+    "From":1703,
+    "to":"#",
+    "Name":"Battle of Falmouth",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Falmouth, Maine",
+    "Place (modern)":"Falmouth, Maine",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "From":1706,
+    "to":"1875",
+    "Name":"Comanche Wars",
+    "Agents":"Initial Comanche victory over Spain and Mexico Final Texan and United States victory",
+    "Results":"Initial Comanche victory over Spain and Mexico\nFinal Texan and United States victory",
+    "Label":"South-central United States (Texas, Oklahoma, New Mexico, Kansas, Colorado) and northern Mexico",
+    "Place (modern)":"United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1707,
+    "to":"#",
+    "Name":"Union Act Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1708,
+    "to":"#",
+    "Name":"Planned Invasion of 1708",
+    "Agents":"British victory over the Jacobites France unable to disembark troops Strategic gains for France as the British had to divert troops away to Scotland",
+    "Results":"British victory over the Jacobites\nFrance unable to disembark troops\nStrategic gains for France as the British had to divert troops away to Scotland",
+    "Label":"Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "From":1710,
+    "to":"#",
+    "Name":"Boston Bread Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Boston, MA",
+    "Place (modern)":"Boston, MA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0909852,51.5123443 ]
+    },
+    "properties": {
+    "From":1710,
+    "to":"#",
+    "Name":"Sacheverell Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London City, England",
+    "Place (modern)":"London City, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.0192997,35.7595731 ]
+    },
+    "properties": {
+    "From":1711,
+    "to":"#",
+    "Name":"Cary's Rebellion against the government in North Carolina",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"North Carolina, North America",
+    "Place (modern)":"North Carolina, USA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577263,51.7520209 ]
+    },
+    "properties": {
+    "From":1712,
+    "to":"#",
+    "Name":"(intended) Queen's Birthday Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"[London and Oxford] ",
+    "Place (modern)":"Oxford, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1712,
+    "to":"#",
+    "Name":"(intended) Queen's Birthday Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"[London and Oxford] ",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0059728,40.7127753 ]
+    },
+    "properties": {
+    "From":1712,
+    "to":"#",
+    "Name":"(unsuccessful) New York Slave Revolt of 1712",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"New York",
+    "Place (modern)":"New York",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1712,
+    "to":"#",
+    "Name":"King William's birthday Riot / Theatre Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1713,
+    "to":"1713",
+    "Name":"Dublin election riot (Dublin, Kingdom of Ireland)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4290148,53.8337367 ]
+    },
+    "properties": {
+    "From":1714,
+    "to":"#",
+    "Name":"Coronation Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Britain",
+    "Place (modern)":"Great Britain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577263,51.7520209 ]
+    },
+    "properties": {
+    "From":1714,
+    "to":"#",
+    "Name":"Oxford Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Oxford, England",
+    "Place (modern)":"Oxford, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"#",
+    "Name":"Jacobite Rebellion / the '15",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"England and Scotland",
+    "Place (modern)":"England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"#",
+    "Name":"Jacobite Rebellion / the '15",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"England and Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"#",
+    "Name":"Jacobite Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Manchester, cities in northern England and Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.2426305,53.4807593 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"#",
+    "Name":"Jacobite rising in the north of England and in Cornwall",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Manchester, cities in northern England and Scotland",
+    "Place (modern)":"Manchester, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.256825,57.695955 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"#",
+    "Name":"Skirmish of Alness",
+    "Agents":"Mackenzie Jacobite victory, government loyal forces retreated[1]",
+    "Results":"Mackenzie Jacobite victory, government loyal forces retreated[1]",
+    "Label":"Alness, Scotland",
+    "Place (modern)":"Alness, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.121817,52.205337 ]
+    },
+    "properties": {
+    "From":1716,
+    "to":"#",
+    "Name":"Cambridge clashes between Whigs and Tories",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Cambridge, England",
+    "Place (modern)":"Cambridge, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577263,51.7520209 ]
+    },
+    "properties": {
+    "From":1716,
+    "to":"#",
+    "Name":"Prince's Birthday Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Oxford, England",
+    "Place (modern)":"Oxford, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.74922,40.463667 ]
+    },
+    "properties": {
+    "From":1719,
+    "to":"#",
+    "Name":"‘The Nineteen’",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Spain, Scotland",
+    "Place (modern)":"Spain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1719,
+    "to":"#",
+    "Name":"‘The Nineteen’",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Spain, Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1719,
+    "to":"1720",
+    "Name":"Calico Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1719,
+    "to":"#",
+    "Name":"Jacobite rising of 1719",
+    "Agents":"Government victory",
+    "Results":"Government victory",
+    "Label":"Scotland, Great Britain",
+    "Place (modern)":"Scotland, Great Britain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.4,18.3166667 ]
+    },
+    "properties": {
+    "From":1720,
+    "to":"#",
+    "Name":"Capture of the William",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Discovery Bay, Jamaica",
+    "Place (modern)":"Dry Harbor Bay, Jamaica, Caribbean Sea",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1721,
+    "to":"#",
+    "Name":"Atterbury Plot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.754934,57.343383 ]
+    },
+    "properties": {
+    "From":1721,
+    "to":"#",
+    "Name":"Battle of Glen Affric",
+    "Agents":"Clan Mackenzie & Clan MacRae victory",
+    "Results":"Clan Mackenzie & Clan MacRae victory",
+    "Label":"Glen Affric, Scotland",
+    "Place (modern)":"Glen Affric, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.7811645,-0.7726462 ]
+    },
+    "properties": {
+    "From":1722,
+    "to":"#",
+    "Name":"Battle of Cape Lopez",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Cape Lopez",
+    "Place (modern)":"Cape Lopez",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.2479061,39.1201705 ]
+    },
+    "properties": {
+    "From":1723,
+    "to":"#",
+    "Name":"Capture of the Fancy ",
+    "Agents":"(conflict with pirates)",
+    "Results":"#",
+    "Label":"Delaware Bay, Atlantic Ocean",
+    "Place (modern)":"Delaware Bay, Atlantic Ocean",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8635506,43.2683199 ]
+    },
+    "properties": {
+    "From":1723,
+    "to":"#",
+    "Name":"Northeast Coast Campaign",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Berwick, York County, Maine",
+    "Place (modern)":"Berwick, York County, Maine",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.4719972,43.2934375 ]
+    },
+    "properties": {
+    "From":1724,
+    "to":"1725",
+    "Name":"Grey Lock's War",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Vermont and western Massachusetts",
+    "Place (modern)":"Vermont and western Massachusetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.540579,53.230688 ]
+    },
+    "properties": {
+    "From":1726,
+    "to":"#",
+    "Name":"Lincoln Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Lincoln, England",
+    "Place (modern)":"Lincoln, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.06627,50.152571 ]
+    },
+    "properties": {
+    "From":1727,
+    "to":"#",
+    "Name":"Food Riot ",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Falmouth, England",
+    "Place (modern)":"Falmouth, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.297508,18.109581 ]
+    },
+    "properties": {
+    "From":1728,
+    "to":"1740",
+    "Name":"The First Maroon War, an uprising of Jamaican Maroons against the British Empire.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Jamaica",
+    "Place (modern)":"Jamaica",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.4766623,39.7210786 ]
+    },
+    "properties": {
+    "From":1730,
+    "to":"#",
+    "Name":"Cresap's War (inner-colonial conflict)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Pennsylvania–Maryland border",
+    "Place (modern)":"Pennsylvania–Maryland border",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.7280952,18.3368114 ]
+    },
+    "properties": {
+    "From":1733,
+    "to":"#",
+    "Name":"1733 slave insurrection on St. John",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Saint John",
+    "Place (modern)":"Saint John, U.S. Virgin Islands",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "From":1736,
+    "to":"#",
+    "Name":" Porteous Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Edinburgh, Scotland",
+    "Place (modern)":"Edinburgh, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1736,
+    "to":"#",
+    "Name":"Gin Act Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1736,
+    "to":"#",
+    "Name":"Malt Tax Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.251806,55.864237 ]
+    },
+    "properties": {
+    "From":1736,
+    "to":"#",
+    "Name":"Porteous Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Glasgow, Scotland",
+    "Place (modern)":"Glasgow, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.1637245,33.836081 ]
+    },
+    "properties": {
+    "From":1739,
+    "to":"#",
+    "Name":"Stono Rebellion (slave uprising)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"South Carolina, USA",
+    "Place (modern)":"South Carolina, USA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3560985,53.717856 ]
+    },
+    "properties": {
+    "From":1740,
+    "to":"1741",
+    "Name":"Food Riots / Irish Famine",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Ireland (e.g. Drogheda and other parts of the Empire",
+    "Place (modern)":"Drogheda, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0059728,40.7127753 ]
+    },
+    "properties": {
+    "From":1741,
+    "to":"#",
+    "Name":"New York Conspiracy (purported plot by slaves and poor whites)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"New York, United States",
+    "Place (modern)":"New York, United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1652215,39.9525839 ]
+    },
+    "properties": {
+    "From":1742,
+    "to":"#",
+    "Name":" Philadelphia Election Riot (Philadelphia, British America)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Philadelphia, United States",
+    "Place (modern)":"Philadelphia, United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1743,
+    "to":"#",
+    "Name":"London Gin Riots (London, England)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2551187,54.5259614 ]
+    },
+    "properties": {
+    "From":1744,
+    "to":"#",
+    "Name":"King George’s War",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"North America",
+    "Place (modern)":"North America",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -59.98439,45.9097099 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"#",
+    "Name":"Capture of the Vigilant",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off Fortress Louisbourg",
+    "Place (modern)":"off Fortress Louisbourg",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"1746",
+    "Name":"Jacobite Rebellion, the '45",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Scotland and Northern England",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.5378133,43.2163324 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"1746",
+    "Name":"Jacobite Rebellion, the '45",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Scotland and Northern England",
+    "Place (modern)":"Northern England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4290148,53.8337367 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"1746",
+    "Name":"Jacobite rising of 1745",
+    "Agents":"Government victory End of Jacobitism as a significant political force",
+    "Results":"Government victory\nEnd of Jacobitism as a significant political force",
+    "Label":"Great Britain",
+    "Place (modern)":"Great Britain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8635506,43.2683199 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"#",
+    "Name":"Northeast Coast Campaign",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Berwick, York County, Maine",
+    "Place (modern)":"Berwick, York County, Maine",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.6300729,43.0448483 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"#",
+    "Name":"Raid on Saratoga",
+    "Agents":"French victory",
+    "Results":"French victory",
+    "Label":"Saratoga, North America",
+    "Place (modern)":"Saratoga, New York",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.043487,57.0700895 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"1746",
+    "Name":"Siege of Ruthven Barracks",
+    "Agents":"The siege of Ruthven Barracks that took place over the 10 – 11 February 1746 was part of the Jacobite rising of 1745.",
+    "Results":"#",
+    "Label":"Ruthven, Scotland",
+    "Place (modern)":"Ruthven, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2636976,53.3546948 ]
+    },
+    "properties": {
+    "From":1746,
+    "to":"#",
+    "Name":"Atholl raids",
+    "Agents":"Jacobite victory",
+    "Results":"Jacobite victory",
+    "Label":"Atholl, Ireland",
+    "Place (modern)":"Atholl, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.028026,57.87907 ]
+    },
+    "properties": {
+    "From":1746,
+    "to":"#",
+    "Name":"Battle of Dornoch",
+    "Agents":"Jacobite victory",
+    "Results":"Jacobite victory",
+    "Label":"Dornoch, Sutherland",
+    "Place (modern)":"Dornoch, Sutherland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8635506,43.2683199 ]
+    },
+    "properties": {
+    "From":1746,
+    "to":"#",
+    "Name":"Northeast Coast Campaign",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Berwick, York County, Maine",
+    "Place (modern)":"Berwick, York County, Maine",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.123614,57.060844 ]
+    },
+    "properties": {
+    "From":1746,
+    "to":"#",
+    "Name":"Raids on Lochaber and Shiramore",
+    "Agents":"British-Hanoverian Government victory: the north and western Highlands were cleared of Jacobite rebels, but the Jacobite leader Charles Edward Stuart escaped to France",
+    "Results":"British-Hanoverian Government victory: the north and western Highlands were cleared of Jacobite rebels, but the Jacobite leader Charles Edward Stuart escaped to France",
+    "Label":"Lochaber, Scotland",
+    "Place (modern)":"Lochaber and Shiramore (Badenoch), Scottish Highlands",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.8427246,56.910099 ]
+    },
+    "properties": {
+    "From":1746,
+    "to":"#",
+    "Name":"Skirmish of Arisaig",
+    "Agents":"Unknown",
+    "Results":"Unknown",
+    "Label":"Arisaig, Scottish Highlands",
+    "Place (modern)":"Arisaig, Scottish Highlands",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.716118,56.8587865 ]
+    },
+    "properties": {
+    "From":1746,
+    "to":"#",
+    "Name":"Skirmish of Loch Ailort",
+    "Agents":"Unknown",
+    "Results":"Unknown",
+    "Label":"Loch Ailort, Scottish Highlands",
+    "Place (modern)":"Loch Ailort, Scottish Highlands",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.417472,58.4761469 ]
+    },
+    "properties": {
+    "From":1746,
+    "to":"#",
+    "Name":"Skirmish of Tongue",
+    "Agents":"British-Hanoverian Government victory",
+    "Results":"British-Hanoverian Government victory",
+    "Label":"Tongue, Sutherland",
+    "Place (modern)":"Tongue, Highland, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "From":1747,
+    "to":"#",
+    "Name":"Knowles Riot / Impressment Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Boston, Massachusetts",
+    "Place (modern)":"Boston, Massachusetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8635506,43.2683199 ]
+    },
+    "properties": {
+    "From":1747,
+    "to":"#",
+    "Name":"Northeast Coast Campaign",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Berwick, York County, Maine",
+    "Place (modern)":"Berwick, York County, Maine",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.9944444,37.0233333 ]
+    },
+    "properties": {
+    "From":1748,
+    "to":"#",
+    "Name":"Action of 18 March 1748",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off Cape St Vincent, Spain",
+    "Place (modern)":"off Cape St Vincent, Spain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.9461784,34.0397867 ]
+    },
+    "properties": {
+    "From":1748,
+    "to":"#",
+    "Name":"Raid on Brunswick Town",
+    "Agents":"British colonial victory",
+    "Results":"British colonial victory",
+    "Label":"Brunswick Town",
+    "Place (modern)":"Brunswick Town",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.305423,45.102319 ]
+    },
+    "properties": {
+    "From":1749,
+    "to":"#",
+    "Name":"Siege of Grand Pre",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Grand-Pré, Nova Scotia (present-day Hortonville, Nova Scotia)",
+    "Place (modern)":"Grandé Pre, Nova Scotia, Canada",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.21057,45.734741 ]
+    },
+    "properties": {
+    "From":1750,
+    "to":"#",
+    "Name":"Battle at Chignecto",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Isthmus of Chignecto",
+    "Place (modern)":"Chignecto, Nova Scotia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.655879,51.796078 ]
+    },
+    "properties": {
+    "From":1751,
+    "to":"#",
+    "Name":"Tring Witch Hunt",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Tring, Hertfordshire, England",
+    "Place (modern)":"Tring, Hertfordshire, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.106849,51.015344 ]
+    },
+    "properties": {
+    "From":1754,
+    "to":"1754",
+    "Name":" Taunton, England",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Taunton, England",
+    "Place (modern)":"Taunton, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0792403,53.9590858 ]
+    },
+    "properties": {
+    "From":1756,
+    "to":"#",
+    "Name":"Sheffield Food Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Yorkshire, England",
+    "Place (modern)":"Yorkshire, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.1632157,45.5570384 ]
+    },
+    "properties": {
+    "From":1758,
+    "to":"#",
+    "Name":"Action of 29 April 1758",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Bay of Biscay, France",
+    "Place (modern)":"Bay of Biscay, France",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.3188354,44.3770053 ]
+    },
+    "properties": {
+    "From":1758,
+    "to":"#",
+    "Name":"Lunenburg Campaign",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Lunenburg, Nova Scotia, Canada",
+    "Place (modern)":"Lunenburg, Nova Scotia, Canada",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1759,
+    "to":"#",
+    "Name":"Rioting in Dublin (rumours of a union between Ireland and Britain)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1166601,42.3770029 ]
+    },
+    "properties": {
+    "From":1760,
+    "to":"#",
+    "Name":"Tacky’s Rebellion",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Colony of Jamaica",
+    "Place (modern)":"Colony of Jamaica",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.297508,18.109581 ]
+    },
+    "properties": {
+    "From":1760,
+    "to":"#",
+    "Name":"Tacky's War (uprising of enslaved Akan people against British colonialists)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Jamaica",
+    "Place (modern)":"Jamaica",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2885962,36.5270612 ]
+    },
+    "properties": {
+    "From":1761,
+    "to":"#",
+    "Name":"Action of 17 July 1761",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Off Cádiz, Atlantic Ocean",
+    "Place (modern)":"Off Cádiz, Atlantic Ocean",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.5566638,52.2217725 ]
+    },
+    "properties": {
+    "From":1761,
+    "to":"#",
+    "Name":"Beginning of the Whiteboy Movement",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Munster, Ireland",
+    "Place (modern)":"Munster, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.584852,54.77525 ]
+    },
+    "properties": {
+    "From":1761,
+    "to":"#",
+    "Name":"Durham Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Durham, England",
+    "Place (modern)":"Durham, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.1121439,54.972665 ]
+    },
+    "properties": {
+    "From":1761,
+    "to":"#",
+    "Name":"Hexham Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Hexham, Yorkshire",
+    "Place (modern)":"Hexham, Yorkshire",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9612273,54.7616555 ]
+    },
+    "properties": {
+    "From":1763,
+    "to":"#",
+    "Name":"Oakboy / Hearts of Oak (agrarian disturbances)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Ulster, Ireland",
+    "Place (modern)":"Ulster, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.4846115,45.0522366 ]
+    },
+    "properties": {
+    "From":1763,
+    "to":"1766",
+    "Name":"Pontiac's War by numerous North American Indian tribes who joined the uprising in an effort to drive British soldiers and settlers out of the Great Lakes region.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Great Lakes, USA",
+    "Place (modern)":"Great Lakes, USA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.2271531,42.4473497 ]
+    },
+    "properties": {
+    "From":1765,
+    "to":"1783",
+    "Name":"American Revolution",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Lexington, Massachussetts",
+    "Place (modern)":"Lexington, Massachussetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.2105713,42.9941628 ]
+    },
+    "properties": {
+    "From":1765,
+    "to":"1769",
+    "Name":"Spitalfield Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"East End of London",
+    "Place (modern)":"East End, London",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "From":1765,
+    "to":"#",
+    "Name":"Stamp Tax Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Boston, Massachusetts",
+    "Place (modern)":"Boston, Massachusetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.0752618,52.5200852 ]
+    },
+    "properties": {
+    "From":1766,
+    "to":"1766",
+    "Name":" Food Riots (Black Country and elsewhere, England)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Black Country, England",
+    "Place (modern)":"Black Country, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 79.0746957,12.2252841 ]
+    },
+    "properties": {
+    "From":1767,
+    "to":"#",
+    "Name":"Battle of Tiruvannamalai",
+    "Agents":"Decisive East India Company victory",
+    "Results":"Decisive East India Company victory",
+    "Label":"Tiruvannamalai",
+    "Place (modern)":"Tiruvannamalai",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.9623327,30.9842977 ]
+    },
+    "properties": {
+    "From":1768,
+    "to":"#",
+    "Name":"Louisiana Rebellion of 1768",
+    "Agents":"Spanish victory",
+    "Results":"Spanish victory",
+    "Label":"Louisiana, North America",
+    "Place (modern)":"Louisiana, United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.087738,51.502781 ]
+    },
+    "properties": {
+    "From":1768,
+    "to":"#",
+    "Name":"St. George's Fields Massacre",
+    "Agents":"Horse Grenadier Guards3rd regiment of Foot guards",
+    "Results":"#",
+    "Label":"St George's Fields, Southwark, in South London",
+    "Place (modern)":"Southwark, South London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.9623327,30.9842977 ]
+    },
+    "properties": {
+    "From":1768,
+    "to":"#",
+    "Name":"The Louisiana Rebellion of 1768 by Creole and German settlers objecting to the turnover of the Louisiana Territory from New France to New Spain.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Louisiana, United States",
+    "Place (modern)":"Louisiana, United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.1863473,13.2509747 ]
+    },
+    "properties": {
+    "From":1769,
+    "to":"1773",
+    "Name":"First Carib War (Carib inhabitants of Saint Vincent vs. British military)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Saint Vincent island",
+    "Place (modern)":"Saint Vincent island",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.9800824,41.2122261 ]
+    },
+    "properties": {
+    "From":1769,
+    "to":"1799",
+    "Name":"Pennamite-Yankee War",
+    "Agents":"The Pennamite–Yankee Wars or Yankee–Pennamite Wars were a series of conflicts consisting of the First Pennamite War (1769–1770), the Second Pennamite War (1774), and the Third Pennamite War (1784), in which the Wyoming Valley along the North Branch of the Susquehanna River was disputed between settlers from Connecticut (Yankees) and Pennsylvania (Pennamites).",
+    "Results":"Land titles preserved and transferred to Pennsylvania as part of larger legal settlement",
+    "Label":"Susquehanna River",
+    "Place (modern)":"Susquehanna River",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0748478,51.5189263 ]
+    },
+    "properties": {
+    "From":1769,
+    "to":"#",
+    "Name":"Spitalfield Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Spitalfields, London, England",
+    "Place (modern)":"Spitalfields, London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9612273,54.7616555 ]
+    },
+    "properties": {
+    "From":1769,
+    "to":"#",
+    "Name":"Steelboy / Hearts of Steel disturbances",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Ulster, Ireland",
+    "Place (modern)":"Ulster, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "From":1770,
+    "to":"#",
+    "Name":"Boston Massacre",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Boston, Massachusetts",
+    "Place (modern)":"Boston, Massachusetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0872979,53.9599651 ]
+    },
+    "properties": {
+    "From":1770,
+    "to":"#",
+    "Name":"Petition of the Freeholders of the Co. of York",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"York, England",
+    "Place (modern)":"York, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1770,
+    "to":"#",
+    "Name":"Petition of the Livery of London",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.7306313,43.0948033 ]
+    },
+    "properties": {
+    "From":1772,
+    "to":"#",
+    "Name":"Pine Tree Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Weare, New Hampshire",
+    "Place (modern)":"Weare, New Hampshire,",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "From":1773,
+    "to":"#",
+    "Name":"Boston Tea Party",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Boston, Province of Massachusetts Bay",
+    "Place (modern)":"Boston, Massachusetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "From":1773,
+    "to":"#",
+    "Name":"Boston Tea Party",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Boston, Province of Massachusetts Bay",
+    "Place (modern)":"Boston, Massachusetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.2271531,42.4473497 ]
+    },
+    "properties": {
+    "From":1775,
+    "to":"#",
+    "Name":"Battle of Lexington and Concord (American War of Independence till 1783)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Lexington, New England",
+    "Place (modern)":"Lexington, New England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.9036487,41.6376043 ]
+    },
+    "properties": {
+    "From":1775,
+    "to":"#",
+    "Name":"Battle off Fairhaven",
+    "Agents":"Patriot forces retrieve two patriot vessels from HMS Falcon",
+    "Results":"Patriot forces retrieve two patriot vessels from HMS Falcon",
+    "Label":"Fairhaven, Massachusetts",
+    "Place (modern)":"Fairhaven, Massachusetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.7074571,37.2707022 ]
+    },
+    "properties": {
+    "From":1775,
+    "to":"#",
+    "Name":"Gunpowder Incident",
+    "Agents":"British sailors remove military suppliesMilitia uprising peacefully resolved",
+    "Results":"British sailors remove military supplies\nMilitia uprising peacefully resolved",
+    "Label":"Williamsburg, Virginia",
+    "Place (modern)":"Williamsburg, Virginia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9915726,53.4083714 ]
+    },
+    "properties": {
+    "From":1775,
+    "to":"#",
+    "Name":"Seamen’s revolt",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Liverpool, England",
+    "Place (modern)":"Liverpool, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.1637245,33.836081 ]
+    },
+    "properties": {
+    "From":1775,
+    "to":"#",
+    "Name":"Snow Campaign",
+    "Agents":"Patriot victory",
+    "Results":"Patriot victory",
+    "Label":"Appalachian Mountains, South Carolina",
+    "Place (modern)":"Appalachian Mountains, South Carolina",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "From":1776,
+    "to":"#",
+    "Name":"arsonist attacks on British seaports",
+    "Agents":"#",
+    "Results":"#",
+    "Label":" Bristol and Plymouth, England",
+    "Place (modern)":"Bristol, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.1426565,50.3754565 ]
+    },
+    "properties": {
+    "From":1776,
+    "to":"#",
+    "Name":"arsonist attacks on British seaports",
+    "Agents":"#",
+    "Results":"#",
+    "Label":" Bristol and Plymouth, England",
+    "Place (modern)":"Plymouth, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0439392,42.3334312 ]
+    },
+    "properties": {
+    "From":1776,
+    "to":"#",
+    "Name":"Fortification of Dorchester Heights",
+    "Agents":"British forces evacuate Boston on March 17",
+    "Results":"British forces evacuate Boston on March 17",
+    "Label":"Dorchester Heights, North America",
+    "Place (modern)":"Dorchester Heights, United States of America",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.2179326,43.2994285 ]
+    },
+    "properties": {
+    "From":1776,
+    "to":"1777",
+    "Name":"New York and New Jersey Campaign",
+    "Agents":"New York: British victory British control New York City for the rest of the war New Jersey: American victory Americans retain control of New Jersey Continental Army preserved",
+    "Results":"New York: British victory\nBritish control New York City for the rest of the war\nNew Jersey: American victory\nAmericans retain control of New Jersey\nContinental Army preserved",
+    "Label":"New York and New Jersey",
+    "Place (modern)":"New York, U. S. state",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -63.5727683,44.6475811 ]
+    },
+    "properties": {
+    "From":1777,
+    "to":"#",
+    "Name":"Capture of the USS Hancock",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off Halifax, Nova Scotia",
+    "Place (modern)":"off Halifax, Nova Scotia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.1398137,43.0422845 ]
+    },
+    "properties": {
+    "From":1777,
+    "to":"#",
+    "Name":"Saratoga-Feldzug",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Upstate New York",
+    "Place (modern)":"Upstate New York",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.186021,34.089613 ]
+    },
+    "properties": {
+    "From":1778,
+    "to":"#",
+    "Name":"Action of 17 June 1778",
+    "Agents":"Minor British success",
+    "Results":"Minor British success",
+    "Label":"23 miles (37 km) south of The Lizard",
+    "Place (modern)":"23 miles (37 km) south of The Lizard",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.1945247,41.2033216 ]
+    },
+    "properties": {
+    "From":1778,
+    "to":"#",
+    "Name":"Big Runaway",
+    "Agents":"British victory, American evacuation of the West Branch Susquehanna Valley",
+    "Results":"British victory, American evacuation of the West Branch Susquehanna Valley",
+    "Label":"Pennsylvania, United States",
+    "Place (modern)":"Pennsylvania, United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.2179326,43.2994285 ]
+    },
+    "properties": {
+    "From":1778,
+    "to":"#",
+    "Name":"Carleton's Raid",
+    "Agents":"Successful British raid",
+    "Results":"Successful British raid",
+    "Label":"New York, U. S. state",
+    "Place (modern)":"New York, U. S. state",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.251806,55.864237 ]
+    },
+    "properties": {
+    "From":1778,
+    "to":"1779",
+    "Name":"Catholic Relief Act Riots ",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Edinburgh and Glasgow, Scotland",
+    "Place (modern)":"Glasgow, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "From":1778,
+    "to":"1779",
+    "Name":"Catholic Relief Act Riots ",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Edinburgh and Glasgow, Scotland",
+    "Place (modern)":"Edinburgh, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.6639389,39.2273346 ]
+    },
+    "properties": {
+    "From":1778,
+    "to":"#",
+    "Name":"Clow Rebellion",
+    "Agents":"Patriot Victory",
+    "Results":"Patriot Victory",
+    "Label":"Kenton, Delaware",
+    "Place (modern)":"Kenton, Delaware",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.4000792,31.2166272 ]
+    },
+    "properties": {
+    "From":1778,
+    "to":"#",
+    "Name":"Frederica naval action",
+    "Agents":"United States victory",
+    "Results":"United States victory",
+    "Label":"#",
+    "Place (modern)":"off St. Simons Island, Georgia, Frederica River",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.2179326,43.2994285 ]
+    },
+    "properties": {
+    "From":1778,
+    "to":"1782",
+    "Name":"Northern theater of the American Revolutionary War after Saratoga",
+    "Agents":"Tactically Inconclusive Strategic American victory New York remains under British control for the rest of the war Hundreds of Native American villages are burnt down by American troops as retaliation",
+    "Results":"Tactically Inconclusive\nStrategic American victory\nNew York remains under British control for the rest of the war\nHundreds of Native American villages are burnt down by American troops as retaliation",
+    "Label":"New York, New Jersey, Pennsylvania, and New England",
+    "Place (modern)":"New York, U. S. state",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -25.6755944,37.7412488 ]
+    },
+    "properties": {
+    "From":1779,
+    "to":"#",
+    "Name":"Action of 14 September 1779",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off the Azores, Atlantic",
+    "Place (modern)":"off the Azores, Atlantic",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.2612615,41.1408363 ]
+    },
+    "properties": {
+    "From":1779,
+    "to":"#",
+    "Name":"Burning of Fairfield",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Fairfield, North America",
+    "Place (modern)":"Fairfield, Connecticut",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.1357662,49.2137711 ]
+    },
+    "properties": {
+    "From":1779,
+    "to":"#",
+    "Name":"Franco-Dutch Invasion of Jersey",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Jersey",
+    "Place (modern)":"Jersey, Channel Islands",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.168063,25.9859369 ]
+    },
+    "properties": {
+    "From":1779,
+    "to":"1781",
+    "Name":"Gulf Coast campaign",
+    "Agents":"Allied victory",
+    "Results":"Allied victory",
+    "Label":"British West Florida",
+    "Place (modern)":"British West Florida",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2608796,53.3444316 ]
+    },
+    "properties": {
+    "From":1779,
+    "to":"#",
+    "Name":"Irish Volunteers parade (demanding removal of restrictions on Irish trade)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"College Green, Dublin, Ireland",
+    "Place (modern)":"College Green, Dublin, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.134961,40.789142 ]
+    },
+    "properties": {
+    "From":1780,
+    "to":"#",
+    "Name":"Action of 7 June 1780",
+    "Agents":"The action of 7 June 1780 took place during the American War of Independence between the frigates Hermione and HMS Iris.",
+    "Results":"Inconclusive",
+    "Label":"15 miles off Long Island",
+    "Place (modern)":"Long Island, USA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.2077645,37.3160706 ]
+    },
+    "properties": {
+    "From":1780,
+    "to":"#",
+    "Name":"Bird's invasion of Kentucky",
+    "Agents":"British/Indian tactical victory",
+    "Results":"British/Indian tactical victory",
+    "Label":"Kentucky County, Virginia",
+    "Place (modern)":"Kentucky County, Virginia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.197388,40.6542423 ]
+    },
+    "properties": {
+    "From":1780,
+    "to":"#",
+    "Name":"Elizabethtown and Newark Raid",
+    "Agents":"British tactical victoryStrategically unimportant",
+    "Results":"British tactical victory\nStrategically unimportant",
+    "Label":"Elizabethtown and Newark, New Jersey",
+    "Place (modern)":"Elizabethport, New Jersey",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.515625,56.511018 ]
+    },
+    "properties": {
+    "From":1780,
+    "to":"#",
+    "Name":"Englisch-Niederländischer Krieg",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"North Sea",
+    "Place (modern)":"North Sea",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1780,
+    "to":"#",
+    "Name":"Gordon Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1780,
+    "to":"#",
+    "Name":"Gordon Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.5049863,37.3770935 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Action at Osborne's",
+    "Agents":"British Victory",
+    "Results":"British Victory",
+    "Label":"James River at Osborne's, Chesterfield County, Virginia",
+    "Place (modern)":"James River at Osborne's, Chesterfield County, Virginia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5930556,42.648611 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Action of 2 September 1781",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Cape Ann, Massachusetts",
+    "Place (modern)":"Cape Ann, Massachusetts",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.2702429,42.9029599 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Action of 25 February 1781",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off Cape Finisterre, Spain",
+    "Place (modern)":"off Cape Finisterre, Spain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.8183804,41.2625965 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Battle of Pine's Bridge",
+    "Agents":"Loyalist victory",
+    "Results":"Loyalist victory",
+    "Label":"Yorktown, NY",
+    "Place (modern)":"Yorktown, NY",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.3598354,45.0917598 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Battle off Cape Split",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off Wolfville, Nova Scotia",
+    "Place (modern)":"off Wolfville, Nova Scotia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.1945247,41.2033216 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Pennsylvania Line Mutiny / Pennsylvania Winter Mutiny",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Pennsylvania, North America",
+    "Place (modern)":"Pennsylvania, USA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.4253776,36.0117388 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Pyle's Massacre",
+    "Agents":"Patriot victory",
+    "Results":"Patriot victory",
+    "Label":"present-day Alamance County, North Carolina",
+    "Place (modern)":"Alamance County, North Carolina, United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.4360481,37.5407246 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Raid on Richmond",
+    "Agents":"British Victory Severe damage done to Richmond.",
+    "Results":"British Victory\nSevere damage done to Richmond.",
+    "Label":"present-day Richmond, Virginia, and the surrounding area.",
+    "Place (modern)":"Richmond, Virginia, USA",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 85.3131194,25.0960742 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"The Revolt in Bihar ",
+    "Agents":"was an uprising by certain chieftains in the Indian state of Bihar against the British East India Company.",
+    "Results":"#",
+    "Label":"Bihar, Asia",
+    "Place (modern)":"Bihar, Asia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0059728,40.7127753 ]
+    },
+    "properties": {
+    "From":1781,
+    "to":"#",
+    "Name":"Treason of Benedict Arnold",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"West Point and New York, North America",
+    "Place (modern)":"New York, United States",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 91.8824544,24.9050139 ]
+    },
+    "properties": {
+    "From":1782,
+    "to":"#",
+    "Name":"1782 Sylhet uprising",
+    "Agents":"British victory Suppression of revolt",
+    "Results":"British victory\nSuppression of revolt",
+    "Label":"Sylhet Shahi Eidgah, Sylhet",
+    "Place (modern)":"Sylhet Shahi Eidgah, Sylhet",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.0151234,48.7474427 ]
+    },
+    "properties": {
+    "From":1782,
+    "to":"#",
+    "Name":"Action of 4 September 1782",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off Île de Batz, France",
+    "Place (modern)":"off Île de Batz, France",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.024174,14.641528 ]
+    },
+    "properties": {
+    "From":1782,
+    "to":"#",
+    "Name":"Action of 6 December 1782",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Off Martinique, Caribbean",
+    "Place (modern)":"Off Martinique, Caribbean",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.0087746,33.1260618 ]
+    },
+    "properties": {
+    "From":1782,
+    "to":"#",
+    "Name":"Battle of Wambaw",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Wambaw",
+    "Place (modern)":"Berkeley County, South Carolina",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.3188354,44.3770053 ]
+    },
+    "properties": {
+    "From":1782,
+    "to":"#",
+    "Name":"Raid on Lunenburg, Nova Scotia",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Lunenburg, Nova Scotia, Canada",
+    "Place (modern)":"Lunenburg, Nova Scotia, Canada",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 91.8687063,24.8949294 ]
+    },
+    "properties": {
+    "From":1782,
+    "to":"#",
+    "Name":"The Sylhet uprising",
+    "Agents":"The Sylhet uprising was a religiously-motivated revolt in the Sylhet region against the British East India Company",
+    "Results":"#",
+    "Label":"Sylhet, Asia",
+    "Place (modern)":"Sylhet, Asia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.7669352,54.5082725 ]
+    },
+    "properties": {
+    "From":1782,
+    "to":"#",
+    "Name":"Ulster Volunteer Convention",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Dugannon, Ireland",
+    "Place (modern)":"Dugannon, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.551,16.265 ]
+    },
+    "properties": {
+    "From":1783,
+    "to":"#",
+    "Name":"Action of 15 February 1783",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off Guadeloupe, Caribbean Sea",
+    "Place (modern)":"off Guadeloupe, Caribbean Sea",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.9676365,14.5401107 ]
+    },
+    "properties": {
+    "From":1783,
+    "to":"#",
+    "Name":"Action of 17 February 1783",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Caribbean sea in between Jamaica & Cuba",
+    "Place (modern)":"Caribbean sea in between Jamaica & Cuba",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.6523119,54.3500658 ]
+    },
+    "properties": {
+    "From":1784,
+    "to":"#",
+    "Name":"Formation of (Protestant) Peep O'Day Boys and (Catholic) Defenders",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Co. Armagh, Ireland",
+    "Place (modern)":"Co. Armagh, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.5566638,52.2217725 ]
+    },
+    "properties": {
+    "From":1785,
+    "to":"#",
+    "Name":"Whiteboy / Rightboy disturbances",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Munster, Ireland",
+    "Place (modern)":"Munster, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1786,
+    "to":"#",
+    "Name":"Margeret Nicholson's assault on King George III",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, Engand",
+    "Place (modern)":"London, Engand",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.39628,25.03428 ]
+    },
+    "properties": {
+    "From":1787,
+    "to":"#",
+    "Name":"The Abaco Slave Revolt was the first slave revolt in the Bahamas.",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Bahamas",
+    "Place (modern)":"Bahamas",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.3703662,11.8744775 ]
+    },
+    "properties": {
+    "From":1790,
+    "to":"#",
+    "Name":"Capture of Cannanore",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Cannanore",
+    "Place (modern)":"Kannur",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.896335,18.335765 ]
+    },
+    "properties": {
+    "From":1790,
+    "to":"#",
+    "Name":"Slave revolt in the British Virgin Islands",
+    "Agents":"The first slave revolt in the British Virgin Islands",
+    "Results":"#",
+    "Label":"Virgin Islands",
+    "Place (modern)":"Virgin Islands",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1791,
+    "to":"#",
+    "Name":"Bastille Day Commemorations on July 14",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Dublin, Belfast and other larger cities in Ireland and Britain",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.93012,54.597285 ]
+    },
+    "properties": {
+    "From":1791,
+    "to":"#",
+    "Name":"Bastille Day Commemorations on July 14",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Dublin, Belfast and other larger cities in Ireland and Britain",
+    "Place (modern)":"Belfast, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.890401,52.486243 ]
+    },
+    "properties": {
+    "From":1791,
+    "to":"#",
+    "Name":"Priestley Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Birmingham, England",
+    "Place (modern)":"Birmingham, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.890401,52.486243 ]
+    },
+    "properties": {
+    "From":1791,
+    "to":"#",
+    "Name":"Priestley Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Birmingham, England",
+    "Place (modern)":"Birmingham, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.890401,52.486243 ]
+    },
+    "properties": {
+    "From":1791,
+    "to":"#",
+    "Name":"Priestley Riots (Birmingham, England)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Birmingham, England",
+    "Place (modern)":"Birmingham, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.470085,53.381129 ]
+    },
+    "properties": {
+    "From":1791,
+    "to":"#",
+    "Name":"Sheffield Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Sheffield, England",
+    "Place (modern)":"Sheffield, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.470085,53.381129 ]
+    },
+    "properties": {
+    "From":1792,
+    "to":"#",
+    "Name":"Broomhall Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Sheffield, England",
+    "Place (modern)":"Sheffield, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "From":1792,
+    "to":"#",
+    "Name":"King's Birthday Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Edinburgh, Scotland",
+    "Place (modern)":"Edinburgh, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "From":1793,
+    "to":"#",
+    "Name":"Bristol Bridge Massacre",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Bristol, England",
+    "Place (modern)":"Bristol, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0274243,38.9848808 ]
+    },
+    "properties": {
+    "From":1793,
+    "to":"#",
+    "Name":"Sampson Incident",
+    "Agents":"Successful recapture of the American ship.",
+    "Results":"Successful recapture of the American ship.",
+    "Label":"West Indies, Caribbean Sea",
+    "Place (modern)":"Caribbean Basin",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4290148,53.8337367 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"Alleged French Invasion",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"[Great Britain]",
+    "Place (modern)":"[Great Britain]",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"High Treason Trial of Thomas Hardy (London Corresponding Society)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"High Treason Trials of David Downie and Robert Watt (Friends of the People / British Convention) ",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Edinburgh, Scotland",
+    "Place (modern)":"Edinburgh, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4290148,53.8337367 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"High Treason Trials of James Coigly and Arthur O'Connor",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Great Britain",
+    "Place (modern)":"Great Britain",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"Trial of Members of the London Corresponding Society",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 150.75,-33.6 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"Battle of Richmond Hill",
+    "Agents":"Colonial victory",
+    "Results":"Colonial victory",
+    "Label":"Richmond, New South Wales",
+    "Place (modern)":"Richmond, New South Wales",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.6029059,54.4093603 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"Battle of the Diamond / Foundation of the Orange Society",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Loughgall, Co. Armagh, Ireland",
+    "Place (modern)":"Loughgall, Co. Armagh, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"Food Riots / Bread Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"England and Scotland",
+    "Place (modern)":"England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"Food Riots / Bread Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"England and Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"London Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"Opening of Parliament Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"Pop-Gun-Plot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"Revolt of the housewives",
+    "Agents":"food riots",
+    "Results":"#",
+    "Label":"England",
+    "Place (modern)":"England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.8332528,41.4368528 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"1796",
+    "Name":"Second Maroon War",
+    "Agents":"Maroon surrender",
+    "Results":"Maroon surrender",
+    "Label":"Colony of Jamaica",
+    "Place (modern)":"Colony of Jamaica",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.890401,52.486243 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"#",
+    "Name":"Snow Hill Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Birmingham, England",
+    "Place (modern)":"Birmingham, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4290148,53.8337367 ]
+    },
+    "properties": {
+    "From":1796,
+    "to":"#",
+    "Name":"(alleged) Jacobin Plot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"[Great Britain]",
+    "Place (modern)":"[Great Britain]",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 33.0375,34.5666667 ]
+    },
+    "properties": {
+    "From":1796,
+    "to":"#",
+    "Name":"Action of 13 October 1796",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"off Cape Gata, Mediterranean Sea",
+    "Place (modern)":"off Cape Gata, Mediterranean Sea",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9932676,53.4074458 ]
+    },
+    "properties": {
+    "From":1796,
+    "to":"#",
+    "Name":"Atlantic raid of June 1796",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Western Approaches, Atlantic Ocean",
+    "Place (modern)":"Western Approaches, Atlantic Ocean",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.087738,51.502781 ]
+    },
+    "properties": {
+    "From":1796,
+    "to":"#",
+    "Name":"John Hartland Riot",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Southwark, England",
+    "Place (modern)":"Southwark, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.954526,55.94451 ]
+    },
+    "properties": {
+    "From":1797,
+    "to":"#",
+    "Name":"Massacre of Tranent (East Lothian, Scotland)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Tranent, East Lothian, Scotland",
+    "Place (modern)":"Tranent, East Lothian, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.265032,52.370878 ]
+    },
+    "properties": {
+    "From":1797,
+    "to":"#",
+    "Name":"Rugby School Rebellion",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Rugby, England",
+    "Place (modern)":"Rugby, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1797,
+    "to":"#",
+    "Name":"Failed Scottish Rebellion",
+    "Agents":"The failed Scottish Rebellion against the Kingdom of Great Britain",
+    "Results":"#",
+    "Label":"Scotland",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.5953421,50.8568438 ]
+    },
+    "properties": {
+    "From":1797,
+    "to":"#",
+    "Name":"Nore mutinies ",
+    "Agents":"were two major mutinies by sailors of the British Royal Navy.",
+    "Results":"#",
+    "Label":"Nore, England",
+    "Place (modern)":"Nore, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0988836,50.7705217 ]
+    },
+    "properties": {
+    "From":1797,
+    "to":"#",
+    "Name":"Spithead mutinies ",
+    "Agents":"were two major mutinies by sailors of the British Royal Navy.",
+    "Results":"#",
+    "Label":"Spithead, England",
+    "Place (modern)":"Spithead, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.954526,55.94451 ]
+    },
+    "properties": {
+    "From":1797,
+    "to":"#",
+    "Name":"Tranent militia riot",
+    "Agents":"The Massacre of Tranent took place on 29 August 1797 in the town of Tranent, East Lothian, Scotland. On 28 August a proclamation was drawn up by local people to object to the conscription of Scots into the British Militia.",
+    "Results":"#",
+    "Label":"Tranent, East Lothian, Scotland",
+    "Place (modern)":"Tranent, East Lothian, Scotland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9945422,53.2210179 ]
+    },
+    "properties": {
+    "From":1798,
+    "to":"#",
+    "Name":"Battle of Rathangan",
+    "Agents":"British victory, rebels repulsed 28 May",
+    "Results":"British victory, rebels repulsed 28 May",
+    "Label":"Rathangan, County Kildare, Ireland",
+    "Place (modern)":"Rathangan, County Kildare, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9612273,54.7616555 ]
+    },
+    "properties": {
+    "From":1798,
+    "to":"#",
+    "Name":"Irish Rebellion / United Irish Rising (failed)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Ireland (in particular Leinster and Ulster",
+    "Place (modern)":"Ulster, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 88.4025743,22.9925312 ]
+    },
+    "properties": {
+    "From":1799,
+    "to":"#",
+    "Name":"Action of 28 February 1799",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Off the Hooghly River, Bay of Bengal",
+    "Place (modern)":"Off the Hooghly River, Bay of Bengal",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.0175712,39.6952629 ]
+    },
+    "properties": {
+    "From":1799,
+    "to":"#",
+    "Name":"Action of 6 February 1799",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Off Majorca",
+    "Place (modern)":"Off Majorca",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.0298654,10.4697685 ]
+    },
+    "properties": {
+    "From":1799,
+    "to":"#",
+    "Name":"Cutting out of the Herminone",
+    "Agents":"British victory",
+    "Results":"British victory",
+    "Label":"Puerto Cabello",
+    "Place (modern)":"Puerto Cabello, Captaincy General of Venezuela",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 82.9739144,25.3176452 ]
+    },
+    "properties": {
+    "From":1799,
+    "to":"#",
+    "Name":"massacre of Benares",
+    "Agents":"Das Massaker von Benares ist der Name des kleinen und erfolglosen Aufstands von Wazir Ali Khan, der 1799 in Benares in Nordindien Nawab von Awadh abgesetzt hatte und bei dem fünf Beamte und Zivilisten der British East India Company ermordet wurden.",
+    "Results":"#",
+    "Label":"Benares, India",
+    "Place (modern)":"Benares, India",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1803,
+    "to":"#",
+    "Name":"1803 rebellion / Rising of Robert Emmet",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":" Dublin, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1803,
+    "to":"#",
+    "Name":"The rebellion of Robert Emmet",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.0030714,-33.7348232 ]
+    },
+    "properties": {
+    "From":1804,
+    "to":"#",
+    "Name":"Castle Hill convict rebellion",
+    "Agents":"Rebellion crushed",
+    "Results":"Rebellion crushed",
+    "Label":"Castle Hill",
+    "Place (modern)":"Castle Hill, Colony of New South Wales, Australia",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.2092955,-33.8688197 ]
+    },
+    "properties": {
+    "From":1808,
+    "to":"1810",
+    "Name":"Rum Rebellion.",
+    "Agents":"Deposition and arrest of NSW Governor William Bligh.Imposition of martial law.Withdrawal and disbandment of NSW Corps in disgrace.Appointment of Lachlan Macquarie as governor.",
+    "Results":"Deposition and arrest of NSW Governor William Bligh.\nImposition of martial law.\nWithdrawal and disbandment of NSW Corps in disgrace.\nAppointment of Lachlan Macquarie as governor.",
+    "Label":"Sydney, New South Wales",
+    "Place (modern)":"Sydney, New South Wales",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "From":1809,
+    "to":"#",
+    "Name":" Old Price Riots, 1809 (London, England)",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1240436,51.5116571 ]
+    },
+    "properties": {
+    "From":1809,
+    "to":"#",
+    "Name":"Old Price Riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Covent Garden, London, England",
+    "Place (modern)":"Covent Garden, London, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.3073659,52.456703 ]
+    },
+    "properties": {
+    "From":1816,
+    "to":"#",
+    "Name":"Ely and Littleport riots of 1816",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Littleport, Cambridgeshire, England",
+    "Place (modern)":"Littleport, Cambridgeshire, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1058058,51.5465063 ]
+    },
+    "properties": {
+    "From":1816,
+    "to":"#",
+    "Name":"Spa Fields riots",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Islington, England",
+    "Place (modern)":"Islington, England",
+    "Historic affiliation":"British Empire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.2426305,53.4807593 ]
+    },
+    "properties": {
+    "From":1819,
+    "to":"#",
+    "Name":"Peterloo Massacre",
+    "Agents":"#",
+    "Results":"#",
+    "Label":"Manchester, England",
+    "Place (modern)":"Manchester, England",
+    "Historic affiliation":"British Empire"
+    }
+  }
+]
+}
