@@ -1,10 +1,10 @@
 ### Uprisings in the eighteenth-century British Empire
 
-This repository contains metadata analyses and visualisations relating to different types of political unrest in the eighteenth-century British Empire.
+This repository contains metadata analyses and visualisations relating to different types of unrest in the eighteenth-century British Empire.
 
-1) [Interactive map of uprisings (classified by insurrection type)](https://monikabarget.github.io/Revolts/map-events.html)
+1) [Tables and maps of events (classified by insurrection type)](https://monikabarget.github.io/Revolts/events.html)
 
-2) [Visualisation of rebellion sermons](https://monikabarget.github.io/Revolts/map-sermons.html)
+2) [Visualisation of rebellion sermons](https://monikabarget.github.io/Revolts/sermons.html)
 
 3) [Tagged vocabulary extracted from eighteenth-century publications](https://monikabarget.github.io/Revolts/vocabulary.html)
 
