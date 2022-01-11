@@ -8,11 +8,11 @@ The interactive map is based on events found in print-publications of the eighte
 
 [Link](https://monikabarget.github.io/Revolts)
 
-### Interactive map of rebellion sermons
+### Visualisation of rebellion sermons
 
-Map of places in the British Isles where anti-rebellion sermons between 1684 and 1800 were printed (based on metadata extracted from WorldCat).
+Zoomable map of places in the British Isles where anti-rebellion sermons between 1684 and 1800 were printed (based on metadata extracted from WorldCat):
 
-[Link](https://monikabarget.github.io/Revolts)
+[Number of sermons per place](https://github.com/MonikaBarget/Revolts/blob/master/sermons-per-place.geojson)
 
 ### Tagged vocabulary extracted from eighteenth-century publications
 
@@ -20,9 +20,9 @@ Vocabulary relating to agents, media and political concepts of the eighteenth-ce
 
 [Link](https://monikabarget.github.io/Revolts)
 
-### Timelines of media publications
+### Overviews of British and colonial media production
 
-- [Timeline of religious newspapers published between 1600 and 1800](https://monikabarget.github.io/Revolts)
+- [Searchable table of religious periodicals published between 1600 and 1800](https://github.com/MonikaBarget/Revolts/blob/master/List%20of%20religious%20newspapers%26journals_GITHUB.csv)
 - [Timeline of royal and parliamentary proclamations](https://monikabarget.github.io/Revolts)
 - [Timeline of publications relating to the "voice of people"](https://monikabarget.github.io/Revolts)
 
