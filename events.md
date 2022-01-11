@@ -2,8 +2,8 @@
 
 #### Table of 74 selected events of (alleged / planned) unrest, classified by type:
 
-| Year | Event:                                                                                   | Context                                                                                                                                                        | Type                           |
-| ---- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| Year | Event | Context |  Type  |                                                                                                                                           
+| --- | --- | --- | --- |
 | 1685 | Monmouth Rebellion                                                                       | against the succession of Catholic James, Duke of York                                                                                                         | system of government           |
 | 1688 | Glorious Revolution                                                                      | against a Catholic succession                                                                                                                                  | system of government           |
 | 1700 | Riot on the Pretender's Birthday                                                         | local pro-Jacobite riot                                                                                                                                        | politicial freedoms / opinions |
