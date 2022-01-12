@@ -18,4 +18,4 @@ Static maps and charts based on the data will subsequently be published in print
 
 [Related publications by Monika Barget](https://monikabarget.github.io/Revolts/publications.html)
 
-*Image: The riot in Broad Street on 7 June, 1780, engraving by James Heath after a painting by Francis Wheatle, https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg*
+*Image: The riot in Broad Street on 7 June, 1780, engraving by James Heath after a painting by Francis Wheatle, [https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg](https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg)*
