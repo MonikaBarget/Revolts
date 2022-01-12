@@ -15,9 +15,9 @@
 
 3) [Map of rebellion sermon publication](https://monikabarget.github.io/Revolts/sermons.html)
 
-4) <a href="/overviews#overviews">Overviews of British and colonial media production</a>
+4) <a href="/overviews">Overviews of British and colonial media production</a>
 
-5) <a href="/overviews#vocabulary">Tagged vocabulary extracted from eighteenth-century publications</a>
+5) <a href="/overviews">Tagged vocabulary extracted from eighteenth-century publications</a>
 
 <hr>
 
