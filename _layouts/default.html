@@ -23,7 +23,8 @@
         <header>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-          <img src="./assets/GordonRiots.jpg" width="100" alt="banner" />
+          <img src="./assets/GordonRiots.jpg" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name" />
+
         </header>
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
