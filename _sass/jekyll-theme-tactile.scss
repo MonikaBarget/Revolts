@@ -213,6 +213,16 @@ img {
    padding: 10px;
 }
 
+section {
+  display: flex;
+}
+section.space-around {
+  justify-content: space-around;
+}
+section.space-between {  
+  justify-content: space-between;
+}
+
 /* COMMON STYLES */
 
 hr {
