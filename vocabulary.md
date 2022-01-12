@@ -5,7 +5,7 @@
 
 Vocabulary relating to agents, media and political concepts of the eighteenth-century have been semi-automatically extracted from eighteenth-century publications and tagged in order to consistently analyse discourse developments over time and across space.
 
-[Vocabulary relating to progession and development](VOCABULARY_development_version27.csv)
+[Vocabulary relating to (physical) movement and development](VOCABULARY_development_version27.csv)
 
 [Vocabulary relating to information / communication channels](https://github.com/MonikaBarget/Revolts/blob/master/VOCABULARY_information_version44.csv)
 
