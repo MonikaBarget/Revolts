@@ -1,4 +1,4 @@
-[<img src="./assets/home.png" width="80" align="right"/>](https://monikabarget.github.io/Revolts/)
+[<img src="./assets/home.png" width="60" align="right"/>](https://monikabarget.github.io/Revolts/)
 
 
 ### Overviews of British and colonial media production
