@@ -9,80 +9,525 @@ The hyperlinks lead to external resources provoding additional background inform
 An **extended and fully searchable table** of violent conflicts in the British Empire and the independent United States between 1513 and 1819 can be viewed [here](https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv). The table is work in progress -- information on agents and outcomes may be missing, and the table is necessarily incomplete. The information given is based on several SPARQL queries relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches in the entire Wikidata database.
 
 
-| Year | Event | Context |  Type  |                                                                                                                                           
-| --- | --- | --- | --- |
-| 1685 | [Monmouth Rebellion](https://en.wikipedia.org/wiki/Monmouth_Rebellion)                                                                       | against the succession of Catholic James, Duke of York                                                                                                         | system of government           |
-| 1688 | Glorious Revolution                                                                      | against a Catholic succession                                                                                                                                  | system of government           |
-| 1700 | Riot on the Pretender's Birthday                                                         | local pro-Jacobite riot                                                                                                                                        | politicial freedoms / opinions |
-| 1706-7 | [Union Act Riots](https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/mob-unrest-and-disorder-for-scotland/)                                                                          | against union between Scotland and England                                                                                                                     | system of government           |
-| 1708 | Planned Invasion of 1708                                                                 | attempted Jacobite invasion                                                                                                                                    | system of government           |
-| 1710 | [Boston Bread Riot](https://en.wikipedia.org/wiki/Boston_Bread_Riot) | food riot                                                                                                                                                      | economic concerns              |
-| 1710 | [Sacheverell Riots](https://en.wikipedia.org/wiki/Sacheverell_riots)                                                                         | supporting controversial preacher Dr. Henry Sacheverell                                                                                                        | cultural / religious concerns  |
-| 1712 | (intended) Queen's Birthday Riot                                                         | commemorating Elizabeth I's birthday                                                                                                                           | politicial freedoms / opinions |
-| 1712 | King William's birthday Riot / Dublin Theatre Riot                                       | riot between Whig and Tory partisans                                                                                                                           | politicial freedoms / opinions |
-| 1714 | Oxford Riots                                                                             | Tory riots opposing the celebration of George, the Prince of Wales's birthday                                                                                  | politicial freedoms / opinions |
-| 1714 | Coronation Riots                                                                         | protest against Hanoverian dynasty                                                                                                                             | politicial freedoms / opinions |
-| 1715 | Jacobite Riots                                                                           | protest against Hanoverian dynasty                                                                                                                             | politicial freedoms / opinions |
-| 1715 | Jacobite Rebellion, the '15                                                              | attempted restoration of the Stuart monarchy                                                                                                                   | system of government           |
-| 1716 | Cambridge disturbances                                                                   | Tory riots                                                                                                                                                     | politicial freedoms / opinions |
-| 1716 | Prince's Birthday Riot                                                                   | riot on the Prince's birthday                                                                                                                                  | politicial freedoms / opinions |
-| 1719 | [Calico Riots](https://era.library.ualberta.ca/items/ef2ffbd4-ce87-4ac2-bd00-cc972c4fbb2f/view/2dbe16e5-b612-4d5d-b9ab-843992ea5a65/Harris_Mark_C_201506_PhD.pdf)                                                                              | protest of (female) London weavers                                                                                                                                      | social / economic concerns     |
-| 1719 | ‚The Nineteen’                                                                           | attempted Jacobite invasion supported by Spain                                                                                                                 | system of government           |
-| 1721 | [Atterbury Plot](https://en.wikipedia.org/wiki/Atterbury_Plot)                                                                            | aristocratic / clerical plot to overthrow the Hanoverian dynasty                                                                                               | system of government           |
-| 1726 | [Lincoln Riot](https://books.google.nl/books?id=K5JOAAAAIAAJ&pg=PA207&lpg=PA207&dq=Lincoln+Riot+1726&source=bl&ots=1wuORw7lPN&sig=ACfU3U0cWyxWIM03NJngeYEHuOJ41NddIw&hl=en&sa=X&ved=2ahUKEwiiw5OBvqz1AhUSsaQKHTRSBqEQ6AF6BAgLEAM#v=onepage&q=Lincoln%20Riot%201726&f=false)                                                                             | riot against the removal of the spires on the cathedral of Lincoln                                                                                             | cultural / religious concerns  |
-| 1727 | [Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)                                                                                 | food riot                                                                                                                                                      | social / economic concerns     |
-| 1736 | [Malt Tax Riot](https://en.wikipedia.org/wiki/Malt_Tax_Riot)                                                                            | taxation riot                                                                                                                                                  | social / economic concerns     |
-| 1736 | [Porteous Riots (Edinburgh)](https://www.britannica.com/event/Porteous-Riots)                                                                            | riots sparked by the hanging of a smuggler                                                                                                                     | army and peace-keeping         |
-| 1736 | [Gin Act Riots](http://news.bbc.co.uk/hi/english/static/in_depth/programmes/2001/booze/history.stm)                                                                            | taxation riot                                                                                                                                                  | social / economic concerns     |
-| 1740 | [Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)                                                                                | food riot                                                                                                                                                      | social / economic concerns     |
-| 1744 | Planned Invasion of 1744                                                                 | attempted invasion                                                                                                                                             | system of government           |
-| 1745 | Jacobite Rebellion, the '45                                                              | attempt to restore the Stuart dynasty                                                                                                                          | system of government           |
-| 1745 | [Knowles Riot / Impressment Riot](https://en.wikipedia.org/wiki/Knowles_Riot)                                                              | protest against navy impressment                                                                                                                          | army and peace-keeping           |
-| 1751 | Tring Witch Hunt                                                                         | violence against suspected witch                                                                                                                               | social / economic concerns     |
-| 1756 | [Sheffield Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)                                                                      | food riot                                                                                                                                                      | social / economic concerns     |
-| 1761 | [Durham Riot](https://en.wikipedia.org/wiki/Durham_Riot)                                                                              | opposition to the new ballotting system for militia recruitment                                                                                                | army and peace-keeping         |
-| 1761 | [Hexham Riot](https://en.wikipedia.org/wiki/Hexham_Riot)                                                                              | riot against new militia regulations                                                                                                                           | army and peace-keeping         |
-| 1765 | Stamp Tax Riot                                                                           | taxation riot                                                                                                                                                  | social / economic concerns     |
-| 1765 | Workhouse Riot                                                                           | demolition of a workhouse                                                                                                                                      | social / economic concerns     |
-| 1768 | St. George's Fields Massacre                                                             | protest in favour of oppositional politician John Wilkes                                                                                                       | politicial freedoms / opinions |
-| 1769 | Spitalfield Riots                                                                        | labour protest of weavers                                                                                                                                      | social / economic concerns     |
-| 1770 | Petition of the Livery of London                                                         | conflicts relating to the Middlesex election                                                                                                                   | politicial freedoms / opinions |
-| 1770 | [Boston Massacre](https://www.britannica.com/event/Boston-Massacre)                                                                          | anti-British / patriot riot resulting in military intervention                                                                                                 | system of government           |
-| 1770 | Petition of the Freeholders of the Co. of York                                           | protest against "inadequate" representation in Parliament                                                                                                      | politicial freedoms / opinions |
-| 1773 | [Boston Tea Party](https://www.britannica.com/event/Boston-Tea-Party)                                                                         | colonial conflict over trade and taxation                                                                                                                      | social / economic concerns     |
-| 1775 | Battle of Lexington and Concord                                                          | first skirmish of the American Revolution                                                                                                                      | army and peace-keeping         |
-| 1775 | Seamen riot                                                                              | seamen riot                                                                                                                                                    | social / economic concerns     |
-| 1776 | arsonist attacks on British seaports                                                     | acts of sabotage / arson committed by craftsman James Aitken in favour of the American cause                                                                   | politicial freedoms / opinions |
-| 1778 | Catholic Relief Act Riots / Edinburgh Riot                                               | riot against Catholic emancipation                                                                                                                             | cultural / religious concerns  |
-| 1778 | Catholic Relief Act Riots / Glasgow Riot                                                 | riot against Catholic emancipation                                                                                                                             | cultural / religious concerns  |
-| 1780 | [Gordon Riots](https://en.wikipedia.org/wiki/Gordon_Riots)                                                                             | riot against Catholic emancipation                                                                                                                             | cultural / religious concerns  |
-| 1781 | Treason of Benedict Arnold                                                               | military defection                                                                                                                                             | army and peace-keeping         |
-| 1781 | Pennsylvania Line mutiny / Pennsylvania Winter mutiny                                    | mutiny                                                                                                                                                         | army and peace-keeping         |
-| 1781 | Shays' Rebellion                                                                         | anti-federalist uprising                                                                                                                                       | system of government           |
-| 1786 | Margeret Nicholson's assault on King George III                                          | attempt to kill George III                                                                                                                                     | \[system of government\]       |
-| 1791 | [Priestley Riots](https://en.wikipedia.org/wiki/Priestley_Riots)                                                                           | rioting alledgedly inspired by the French Revolution and with treasonous intentions                                                                            | system of government           |
-| 1791 | Sheffield Riot                                                                           | violence against the debtors' goal and the residence of Vicar Wilkinson                                                                                        | social / economic concerns     |
-| 1792 | [Broomhall Riots](https://www.ourbroomhall.org.uk/content/explore/topics/politics/the-broom-hall-riots)                                                                          | protest against intended enclosure of land                                                                                                                     | social / economic concerns     |
-| 1792 | King's Birthday Riot                                                                     | planned riot aimed against the Lord Advocate, Dundas; connected to rising food prices and the unpopular Corn Law                                               | social / economic concerns     |
-| 1793 | Bristol Bridge Massacre                                                                  | taxation riot against bridge tool                                                                                                                              | social / economic concerns     |
-| 1794 | trial of members of the London Corresponding Society                                     | accusations of planned violence and treason against John Hardy and other members of the London Corresponding Society                                           | system of government           |
-| 1794 | Whiskey Rebellion / Whiskey Insurrection                                                 | taxation conflict                                                                                                                                              | social / economic concerns     |
-| 1794 | high treason trials of James Coigly and Arthur O'Connor                                  | treason charges related to unrest in Ireland                                                                                                                   | system of government           |
-| 1794 | Alleged French Invasion                                                                  | fear of invasion by revolutionary France                                                                                                                       | system of government           |
-| 1794 | High Treason Trials of Thomas Hardy and the LCS                                          |                                                                                                                                                                | system of government           |
-| 1795 | Pop-Gun-Plot                                                                             | alleged conspirary to muder King George III                                                                                                                    | system of government           |
-| 1795 | Snow Hill Riot                                                                           | attack on Pickard's Mill                                                                                                                                       | social / economic concerns     |
-| 1794-6 | [Food Riots / Bread Riots](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)                                                                 | against high food prices                                                                                                                                       | social / economic concerns     |
-| 1795 | London Riot                                                                              | working-class protest in favour of parliamentary reform                                                                                                        | social / economic concerns     |
-| 1795 | Opening of Parliament Riots                                                              | popular uprising in the City of London, including an attack on the king's coach; linked with political tension upon the opening of a new session in Parliament | politicial freedoms / opinions |
-| 1796 | John Hartland Riot                                                                       | riot by a drunken crowd                                                                                                                                        | \[unclear\]                    |
-| 1796 | (alleged) Jacobin Plot                                                                   | accusation against Irish military staff to have plotted a French revolutionary invasion                                                                        | system of government           |
-| 1797 | Tranent militia riot                                                                     | escalated mass protest with heavy casulties                                                                                                                    | \[unclear\]                    |
-| 1798 | Irish Rebellion                                                                          | riot for parliamentary reform                                                                                                                                  | politicial freedoms / opinions |
-| 1803 | 1803 rebellion                                                                           | conspiracy to reach constitutional reforms                                                                                                                     | system of government           |
-| 1809 | [Old Price Riots](https://en.wikipedia.org/wiki/Old_Price_Riots)                                                                          | riot against rising theatre prices                                                                                                                             | social / economic concerns     |
-| 1816 | [Spa Fields riots](https://en.wikipedia.org/wiki/Spa_Fields_riots)                                                                         | riots developing from political mass meetings in opposition to government policy                                                                               | system of government           |
-| 1816 | [Ely and Littleport riots of 1816](https://en.wikipedia.org/wiki/Ely_and_Littleport_riots_of_1816)                                                         | riots in reaction to unemployment and price rises                                                                                                              | social / economic concerns     |
-| 1819 | [Peterloo Massacre](https://www.britannica.com/event/Peterloo-Massacre)                                                                        | riot for parliamentary reform                                                                                                                                  | politicial freedoms / opinions |
+<table>
+    <tr>
+        <td>Year</td>
+        <td>Event</td>
+        <td>Context</td>
+        <td>Type</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1685</td>
+        <td>[Monmouth Rebellion](https://en.wikipedia.org/wiki/Monmouth_Rebellion)</td>
+        <td>against the succession of Catholic James, Duke of York</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1688</td>
+        <td>Glorious Revolution</td>
+        <td>against a Catholic succession</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1700</td>
+        <td>Riot on the Pretender's Birthday</td>
+        <td>local pro-Jacobite riot</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1706-7</td>
+        <td>[Union Act Riots](https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/mob-unrest-and-disorder-for-scotland/)</td>
+        <td>against union between Scotland and England</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1708</td>
+        <td>Planned Invasion of 1708</td>
+        <td>attempted Jacobite invasion</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1710</td>
+        <td>[Boston Bread Riot](https://en.wikipedia.org/wiki/Boston_Bread_Riot)</td>
+        <td>food riot</td>
+        <td>economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1710</td>
+        <td>[Sacheverell Riots](https://en.wikipedia.org/wiki/Sacheverell_riots)</td>
+        <td>supporting controversial preacher Dr. Henry Sacheverell</td>
+        <td>cultural / religious concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1712</td>
+        <td>(intended) Queen's Birthday Riot</td>
+        <td>commemorating Elizabeth I's birthday</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1712</td>
+        <td>King William's birthday Riot / Dublin Theatre Riot</td>
+        <td>riot between Whig and Tory partisans</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1714</td>
+        <td>Oxford Riots</td>
+        <td>Tory riots opposing the celebration of George, the Prince of Wales's birthday</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1714</td>
+        <td>Coronation Riots</td>
+        <td>protest against Hanoverian dynasty</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1715</td>
+        <td>Jacobite Riots</td>
+        <td>protest against Hanoverian dynasty</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1715</td>
+        <td>Jacobite Rebellion, the '15</td>
+        <td>attempted restoration of the Stuart monarchy</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1716</td>
+        <td>Cambridge disturbances</td>
+        <td>Tory riots</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1716</td>
+        <td>Prince's Birthday Riot</td>
+        <td>riot on the Prince's birthday</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1719</td>
+        <td>[Calico Riots](https://era.library.ualberta.ca/items/ef2ffbd4-ce87-4ac2-bd00-cc972c4fbb2f/view/2dbe16e5-b612-4d5d-b9ab-843992ea5a65/Harris_Mark_C_201506_PhD.pdf)</td>
+        <td>protest of (female) London weavers</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1719</td>
+        <td>‚The Nineteen’</td>
+        <td>attempted Jacobite invasion supported by Spain</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1721</td>
+        <td>[Atterbury Plot](https://en.wikipedia.org/wiki/Atterbury_Plot)</td>
+        <td>aristocratic / clerical plot to overthrow the Hanoverian dynasty</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1726</td>
+        <td>[Lincoln Riot](https://books.google.nl/books?id=K5JOAAAAIAAJ&pg=PA207&lpg=PA207&dq=Lincoln+Riot+1726&source=bl&ots=1wuORw7lPN&sig=ACfU3U0cWyxWIM03NJngeYEHuOJ41NddIw&hl=en&sa=X&ved=2ahUKEwiiw5OBvqz1AhUSsaQKHTRSBqEQ6AF6BAgLEAM#v=onepage&q=Lincoln%20Riot%201726&f=false)</td>
+        <td>riot against the removal of the spires on the cathedral of Lincoln</td>
+        <td>cultural / religious concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1727</td>
+        <td>[Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)</td>
+        <td>food riot</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1736</td>
+        <td>[Malt Tax Riot](https://en.wikipedia.org/wiki/Malt_Tax_Riot)</td>
+        <td>taxation riot</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1736</td>
+        <td>[Porteous Riots (Edinburgh)](https://www.britannica.com/event/Porteous-Riots)</td>
+        <td>riots sparked by the hanging of a smuggler</td>
+        <td>army and peace-keeping</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1736</td>
+        <td>[Gin Act Riots](http://news.bbc.co.uk/hi/english/static/in_depth/programmes/2001/booze/history.stm)</td>
+        <td>taxation riot</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1740</td>
+        <td>[Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)</td>
+        <td>food riot</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1744</td>
+        <td>Planned Invasion of 1744</td>
+        <td>attempted invasion</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1745</td>
+        <td>Jacobite Rebellion, the '45</td>
+        <td>attempt to restore the Stuart dynasty</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1745</td>
+        <td>[Knowles Riot / Impressment Riot](https://en.wikipedia.org/wiki/Knowles_Riot)</td>
+        <td>protest against navy impressment</td>
+        <td>army and peace-keeping</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1751</td>
+        <td>Tring Witch Hunt</td>
+        <td>violence against suspected witch</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1756</td>
+        <td>[Sheffield Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)</td>
+        <td>food riot</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1761</td>
+        <td>[Durham Riot](https://en.wikipedia.org/wiki/Durham_Riot)</td>
+        <td>opposition to the new ballotting system for militia recruitment</td>
+        <td>army and peace-keeping</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1761</td>
+        <td>[Hexham Riot](https://en.wikipedia.org/wiki/Hexham_Riot)</td>
+        <td>riot against new militia regulations</td>
+        <td>army and peace-keeping</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1765</td>
+        <td>Stamp Tax Riot</td>
+        <td>taxation riot</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1765</td>
+        <td>Workhouse Riot</td>
+        <td>demolition of a workhouse</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1768</td>
+        <td>St. George's Fields Massacre</td>
+        <td>protest in favour of oppositional politician John Wilkes</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1769</td>
+        <td>Spitalfield Riots</td>
+        <td>labour protest of weavers</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1770</td>
+        <td>Petition of the Livery of London</td>
+        <td>conflicts relating to the Middlesex election</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1770</td>
+        <td>[Boston Massacre](https://www.britannica.com/event/Boston-Massacre)</td>
+        <td>anti-British / patriot riot resulting in military intervention</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1770</td>
+        <td>Petition of the Freeholders of the Co. of York</td>
+        <td>protest against "inadequate" representation in Parliament</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1773</td>
+        <td>[Boston Tea Party](https://www.britannica.com/event/Boston-Tea-Party)</td>
+        <td>colonial conflict over trade and taxation</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1775</td>
+        <td>Battle of Lexington and Concord</td>
+        <td>first skirmish of the American Revolution</td>
+        <td>army and peace-keeping</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1775</td>
+        <td>Seamen riot</td>
+        <td>seamen riot</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1776</td>
+        <td>arsonist attacks on British seaports</td>
+        <td>acts of sabotage / arson committed by craftsman James Aitken in favour of the American cause</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1778</td>
+        <td>Catholic Relief Act Riots / Edinburgh Riot</td>
+        <td>riot against Catholic emancipation</td>
+        <td>cultural / religious concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1778</td>
+        <td>Catholic Relief Act Riots / Glasgow Riot</td>
+        <td>riot against Catholic emancipation</td>
+        <td>cultural / religious concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1780</td>
+        <td>[Gordon Riots](https://en.wikipedia.org/wiki/Gordon_Riots)</td>
+        <td>riot against Catholic emancipation</td>
+        <td>cultural / religious concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1781</td>
+        <td>Treason of Benedict Arnold</td>
+        <td>military defection</td>
+        <td>army and peace-keeping</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1781</td>
+        <td>Pennsylvania Line mutiny / Pennsylvania Winter mutiny</td>
+        <td>mutiny</td>
+        <td>army and peace-keeping</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1781</td>
+        <td>Shays' Rebellion</td>
+        <td>anti-federalist uprising</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1786</td>
+        <td>Margeret Nicholson's assault on King George III</td>
+        <td>attempt to kill George III</td>
+        <td>\[system of government\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1791</td>
+        <td>[Priestley Riots](https://en.wikipedia.org/wiki/Priestley_Riots)</td>
+        <td>rioting alledgedly inspired by the French Revolution and with treasonous intentions</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1791</td>
+        <td>Sheffield Riot</td>
+        <td>violence against the debtors' goal and the residence of Vicar Wilkinson</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1792</td>
+        <td>[Broomhall Riots](https://www.ourbroomhall.org.uk/content/explore/topics/politics/the-broom-hall-riots)</td>
+        <td>protest against intended enclosure of land</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1792</td>
+        <td>King's Birthday Riot</td>
+        <td>planned riot aimed against the Lord Advocate, Dundas; connected to rising food prices and the unpopular Corn Law</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1793</td>
+        <td>Bristol Bridge Massacre</td>
+        <td>taxation riot against bridge tool</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1794</td>
+        <td>trial of members of the London Corresponding Society</td>
+        <td>accusations of planned violence and treason against John Hardy and other members of the London Corresponding Society</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1794</td>
+        <td>Whiskey Rebellion / Whiskey Insurrection</td>
+        <td>taxation conflict</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1794</td>
+        <td>high treason trials of James Coigly and Arthur O'Connor</td>
+        <td>treason charges related to unrest in Ireland</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1794</td>
+        <td>Alleged French Invasion</td>
+        <td>fear of invasion by revolutionary France</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1794</td>
+        <td>High Treason Trials of Thomas Hardy and the LCS</td>
+        <td></td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1795</td>
+        <td>Pop-Gun-Plot</td>
+        <td>alleged conspirary to muder King George III</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1795</td>
+        <td>Snow Hill Riot</td>
+        <td>attack on Pickard's Mill</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1794-6</td>
+        <td>[Food Riots / Bread Riots](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)</td>
+        <td>against high food prices</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1795</td>
+        <td>London Riot</td>
+        <td>working-class protest in favour of parliamentary reform</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1795</td>
+        <td>Opening of Parliament Riots</td>
+        <td>popular uprising in the City of London, including an attack on the king's coach; linked with political tension upon the opening of a new session in Parliament</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1796</td>
+        <td>John Hartland Riot</td>
+        <td>riot by a drunken crowd</td>
+        <td>\[unclear\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1796</td>
+        <td>(alleged) Jacobin Plot</td>
+        <td>accusation against Irish military staff to have plotted a French revolutionary invasion</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1797</td>
+        <td>Tranent militia riot</td>
+        <td>escalated mass protest with heavy casulties</td>
+        <td>\[unclear\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1798</td>
+        <td>Irish Rebellion</td>
+        <td>riot for parliamentary reform</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1803</td>
+        <td>1803 rebellion</td>
+        <td>conspiracy to reach constitutional reforms</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1809</td>
+        <td>[Old Price Riots](https://en.wikipedia.org/wiki/Old_Price_Riots)</td>
+        <td>riot against rising theatre prices</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1816</td>
+        <td>[Spa Fields riots](https://en.wikipedia.org/wiki/Spa_Fields_riots)</td>
+        <td>riots developing from political mass meetings in opposition to government policy</td>
+        <td>system of government</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1816</td>
+        <td>[Ely and Littleport riots of 1816](https://en.wikipedia.org/wiki/Ely_and_Littleport_riots_of_1816)</td>
+        <td>riots in reaction to unemployment and price rises</td>
+        <td>social / economic concerns</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1819</td>
+        <td>[Peterloo Massacre](https://www.britannica.com/event/Peterloo-Massacre)</td>
+        <td>riot for parliamentary reform</td>
+        <td>politicial freedoms / opinions</td>
+        <td></td>
+    </tr>
+</table>
 
 
