@@ -1,6 +1,14 @@
 ### Conflict in the eighteenth-century British Empire
 
-<img src="./assets/GordonRiots.jpg" alt="wikimedia" width="450" align="left" /> This repository contains metadata analyses and visualisations relating to different types of public conflict in the eighteenth-century British Empire.
+
+<figure>
+    <img src="./assets/GordonRiots.jpg" alt="wikimedia" width="200" align="left" /> 
+    <figcaption>The riot in Broad Street on 7 June, 1780, engraving by James Heath after a painting by Francis Wheatle, [https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg](https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg)</figcaption>
+</figure>
+
+
+
+This repository contains metadata analyses and visualisations relating to different types of public conflict in the eighteenth-century British Empire.
 
 1) [Chronological table of events (classified)](https://monikabarget.github.io/Revolts/event-table.html)
 
@@ -14,8 +22,8 @@
 
 ***
 
-Static maps and charts based on the data will subsequently be published in print. 
+All data and visualisations published in this repository can be shared and re-used under a CC-BY license. Updates and corrections are welcome. Static maps and charts based on the data will subsequently be published in print.
 
 [Related publications by Monika Barget](https://monikabarget.github.io/Revolts/publications.html)
 
-*Image: The riot in Broad Street on 7 June, 1780, engraving by James Heath after a painting by Francis Wheatle, [https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg](https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg)*
+[CONTACT](https://monikabarget.github.io/Revolts/contact.html)
