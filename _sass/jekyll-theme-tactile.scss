@@ -90,7 +90,7 @@ header h2 {
 
 #container {
   min-height: 595px;
-  background: transparent url(./assets/paper2.jpg) 75% 0 no-repeat;
+  background: transparent url(./assets/paper2.jpg) 50% 0 no-repeat;
 }
 
 .inner {
@@ -156,11 +156,6 @@ a.button span {
   padding-left: 50px;
 }
 
-#download-zip span {
-  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
-}
-#download-tar-gz span {
-  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
