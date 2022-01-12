@@ -25,13 +25,7 @@
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </header>
         <section id="menu" class="clearfix">
-	{% if site.github.public %}
-	  {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
-	  {% else %}
           <a href="https://pages.github.com">MENU</a>
-	  {% endif %}
-	{% endif %}
         </section>
         <hr>
         <section id="main_content">
