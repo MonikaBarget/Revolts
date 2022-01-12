@@ -1,6 +1,3 @@
-[<img src="./assets/home.png" width="60" align="right"/>](https://monikabarget.github.io/Revolts/)
-[<img src="./assets/write.png" width="60" align="right"/>](https://monikabarget.github.io/Revolts/contact.html)
-
 ### Tagged vocabulary extracted from eighteenth-century publications
 
 Vocabulary relating to agents, media and political concepts of the eighteenth-century have been semi-automatically extracted from eighteenth-century publications and tagged in order to consistently analyse discourse developments over time and across space.
