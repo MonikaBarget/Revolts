@@ -2,7 +2,7 @@
 
 
 <figure>
-    <img src="./assets/GordonRiots.jpg" alt="wikimedia" width="200" align="left" /> 
+    <img src="./assets/GordonRiots.jpg" alt="wikimedia" width="200" align="left" padding="25" /> 
     <figcaption>The riot in Broad Street on 7 June, 1780, engraving by James Heath after a painting by Francis Wheatle, [https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg](https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg)</figcaption>
 </figure>
 
