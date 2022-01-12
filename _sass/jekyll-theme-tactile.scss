@@ -202,16 +202,20 @@ ul, ol, dl {
 
 figcaption {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 10px;
+  font-size: 15px;
   line-height: 1.5;
   color: #24252b;
   padding: 5px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #f4f1f1 url(../images/body-bg.png) 0 0 repeat;
+  background: #b5cecf url(./assets/page3.png) 0 0 repeat;
 }
 
 figure {
-   padding: 5px;
+   padding: 10px;
+}
+
+img {
+   padding: 10px;
 }
 
 /* COMMON STYLES */
