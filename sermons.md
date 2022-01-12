@@ -1,6 +1,3 @@
-[<img src="./assets/home.png" width="60" align="right"/>](https://monikabarget.github.io/Revolts/)
-[<img src="./assets/write.png" width="60" align="right"/>](https://monikabarget.github.io/Revolts/contact.html)
-
 ### Visualisation of rebellion sermons
 
 Zoomable map of places in the British Isles where anti-rebellion sermons between 1684 and 1800 were printed (based on metadata extracted from WorldCat):
