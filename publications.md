@@ -1,3 +1,6 @@
+[<img src="./assets/home.png" width="80" align="right"/>](https://monikabarget.github.io/Revolts/)
+
+
 **Related publications:**
 
 Barget, Monika. ‘The Agreeable Contrast - British Caricatures of the 1745 Jacobite Rebellion’. In: New Approaches to Religion and the Enlightenment, edited by Brett McInelly and Paul Kerry. Vancouver, British Columbia: Fairleigh Dickinson University Press, 2018.
