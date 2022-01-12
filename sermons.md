@@ -1,4 +1,4 @@
-[<img src="./assets/home.png" width="90" align="right"/>](https://monikabarget.github.io/Revolts/sermon-map/sermon-map.html)
+[<img src="./assets/home.png" width="80" align="right"/>](https://monikabarget.github.io/Revolts/)
 
 
 ### Visualisation of rebellion sermons
