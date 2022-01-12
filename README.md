@@ -21,6 +21,6 @@
 
 <hr>
 
-<p>All data and visualisations published in this repository can be shared and re-used under a <a href="https://creativecommons.org">CC-BY license</a>. Updates and corrections are welcome. Static maps and charts based on the data will subsequently be published in print.</p>
+<p>All data and visualisations published in this repository can be shared and re-used under a <a href="https://creativecommons.org/">CC-BY license</a>. Updates and corrections are welcome. Static maps and charts based on the data will subsequently be published in print.</p>
 
 [CONTACT](https://monikabarget.github.io/Revolts/contact.html)
