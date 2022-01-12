@@ -1,6 +1,3 @@
-[<img src="./assets/home.png" width="60" align="right"/>](https://monikabarget.github.io/Revolts/)
-[<img src="./assets/write.png" width="60" align="right"/>](https://monikabarget.github.io/Revolts/contact.html)
-
 ### Events
 
 #### Table of selected events of (alleged / planned) unrest
