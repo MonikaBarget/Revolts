@@ -45,8 +45,9 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-spacing: 0;
+	border-spacing: 2;
 	border-collapse: collapse;
+	text-align: left;
 }
 
 /* LAYOUT STYLES */
@@ -54,7 +55,7 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 1em;
   line-height: 1.5;
-  color: #6d6d6d;
+  color: #24252b;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   background: #f4f1f1 url(../images/body-bg.png) 0 0 repeat;
 }
