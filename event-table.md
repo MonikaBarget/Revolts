@@ -1,10 +1,12 @@
 ### Events
 
-#### Table of 74 selected events of (alleged / planned) unrest
+#### Table of selected events of (alleged / planned) unrest
 
 The events listed took place in the British Isles and / or the American colonies and point to the strong cultural and political exchanges between the different parts of the Empire. The classifications of the events on the right-hand side give a general overview of the different motivations behind 18th-century uprisings although the factors mentioned are by no means exclusive. There were, in fact, many overlaps between religious / cultural, social / economic and political aims. 
 
 The hyperlinks lead to external resources provoding additional background information. Whenever possible, articles in the Encyclopedia Britannica, (local) government websites or academic e-publications have been linked. In other cases, Wikipedia articles have been linked as a starting point for further research.
+
+An **extended and fully searchable table** of violent conflicts in the British Empire and the independent United States between 1513 and 1819 can be viewed [here](https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv). The table is work in progress -- information on agents and outcomes may be missing, and the table is necessarily incomplete. The information given is based on several SPARQL queries relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches in the entire Wikidata database.
 
 
 | Year | Event | Context |  Type  |                                                                                                                                           
