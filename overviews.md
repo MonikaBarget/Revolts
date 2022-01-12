@@ -1,4 +1,4 @@
-<h3 id="overviews">Overviews of British and colonial media production</h3>
+<h3>Overviews of British and colonial media production</h3>
 
 The following table lists religious periodicals published in Britain and the colonies between 1600 and 1800. Please use the slider at the bottom to scroll right and see the additional information on publication dates, publication places and denominational affiliations. The table is fully searchable. Keywords can be entred in the search box in the top-left corner of the table:
 
@@ -6,7 +6,7 @@ The following table lists religious periodicals published in Britain and the col
 
 Other tables and charts relating to the publication of **provincial papers** and the circulation of manuscript material will follow over time.
 
-<h3 id="vocabulary">Tagged vocabulary extracted from eighteenth-century publications</h3>
+<h3>Tagged vocabulary extracted from eighteenth-century publications</h3>
 
 Vocabulary relating to agents, media and political concepts of the eighteenth-century have been semi-automatically extracted from eighteenth-century publications and tagged in order to consistently analyse discourse developments over time and across space.
 
