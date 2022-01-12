@@ -1,6 +1,6 @@
 ### Uprisings in the eighteenth-century British Empire
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Heath_after_Wheatley_-_Gordon_Riots_1780.jpg" alt="wikimedia" width=25%> This repository contains metadata analyses and visualisations relating to different types of unrest in the eighteenth-century British Empire.
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Heath_after_Wheatley_-_Gordon_Riots_1780.jpg" alt="wikimedia" width=25% align="left"> This repository contains metadata analyses and visualisations relating to different types of unrest in the eighteenth-century British Empire.
 
 1) [Tables and maps of events (classified by insurrection type)](https://monikabarget.github.io/Revolts/events.html)
 
