@@ -1,6 +1,6 @@
 ### Conflict in the eighteenth-century British Empire
 
-<img src="./assets/GordonRiots.jpg" alt="wikimedia" width="500" align="left" /> This repository contains metadata analyses and visualisations relating to different types of public conflict in the eighteenth-century British Empire.
+<img src="./assets/GordonRiots.jpg" alt="wikimedia" width="450" align="left" /> This repository contains metadata analyses and visualisations relating to different types of public conflict in the eighteenth-century British Empire.
 
 1) [Chronological table of events (classified)](https://monikabarget.github.io/Revolts/event-table.html)
 
