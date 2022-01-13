@@ -123,7 +123,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1719</td>
-        <td><a href="https://era.library.ualberta.ca/items/ef2ffbd4-ce87-4ac2-bd00-cc972c4fbb2f/view/2dbe16e5-b612-4d5d-b9ab-843992ea5a65/Harris_Mark_C_201506_PhD.pdf"><Calico Riots></td>
+        <td><a href="https://era.library.ualberta.ca/items/ef2ffbd4-ce87-4ac2-bd00-cc972c4fbb2f/view/2dbe16e5-b612-4d5d-b9ab-843992ea5a65/Harris_Mark_C_201506_PhD.pdf">Calico Riots</a></td>
         <td>protest of (female) London weavers</td>
         <td>social / economic concerns</td>
         <td></td>
