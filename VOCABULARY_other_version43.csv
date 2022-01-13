@@ -1,20 +1,20 @@
-vesting;1;economy;(power) relation;context
-rat;93;wild life;animal;context
-staggs;1;wild life;animal;context
-animali;1;wild life;animal;context
-bull;2;domestic;animal;context
-cock;1;domestic;animal;context
-horse;1;domestic;animal;context
-lion;90;wild life;animal;context
-wolf;2;wild life;animal;context
-bee;11;wild life;animal;context
-arms;6;human life;body;context
-ear;59;human life;body;context
-heart;1;human life;body;context
-coeur;1;human life;body;context
-bath;2;context;context;context
-count;68;context;context;context
-part(s);52;context;context;context
-board;5;context;context;context
-land(s);11;context;context;context
-cedar;1;context;item / idea;context
+vesting,1,economy,(power) relation,context
+rat,93,wild life,animal,context
+staggs,1,wild life,animal,context
+animali,1,wild life,animal,context
+bull,2,domestic,animal,context
+cock,1,domestic,animal,context
+horse,1,domestic,animal,context
+lion,90,wild life,animal,context
+wolf,2,wild life,animal,context
+bee,11,wild life,animal,context
+arms,6,human life,body,context
+ear,59,human life,body,context
+heart,1,human life,body,context
+coeur,1,human life,body,context
+bath,2,context,context,context
+count,68,context,context,context
+part(s),52,context,context,context
+board,5,context,context,context
+land(s),11,context,context,context
+cedar,1,context,item / idea,context
