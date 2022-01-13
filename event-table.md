@@ -8,7 +8,6 @@ The hyperlinks lead to external resources provoding additional background inform
 
 An **extended and fully searchable table** of violent conflicts in the British Empire and the independent United States between 1513 and 1819 can be viewed [here](https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv). The table is work in progress -- information on agents and outcomes may be missing, and the table is necessarily incomplete. The information given is based on several SPARQL queries relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches in the entire Wikidata database.
 
-
 <table>
     <tr>
         <td>Year</td>
@@ -138,7 +137,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1721</td>
-        <td><a href="https://en.wikipedia.org/wiki/Atterbury_Plot>Atterbury Plot</a></td>
+        <td><a href="https://en.wikipedia.org/wiki/Atterbury_Plot">Atterbury Plot</a></td>
         <td>aristocratic / espiscopal plot to overthrow the Hanoverian dynasty</td>
         <td>system of government</td>
         <td></td>
