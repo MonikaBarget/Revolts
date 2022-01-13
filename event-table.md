@@ -19,7 +19,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1685</td>
-        <td>[Monmouth Rebellion](https://en.wikipedia.org/wiki/Monmouth_Rebellion)</td>
+        <td><a href="https://en.wikipedia.org/wiki/Monmouth_Rebellion">Monmouth Rebellion</a></td>
         <td>against the succession of Catholic James, Duke of York</td>
         <td>system of government</td>
         <td></td>
@@ -40,7 +40,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1706-7</td>
-        <td>[Union Act Riots](https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/mob-unrest-and-disorder-for-scotland/)</td>
+        <td><a href="https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/mob-unrest-and-disorder-for-scotland/">Union Act Riots</a></td>
         <td>against union between Scotland and England</td>
         <td>system of government</td>
         <td></td>
@@ -54,14 +54,14 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1710</td>
-        <td>[Boston Bread Riot](https://en.wikipedia.org/wiki/Boston_Bread_Riot)</td>
+        <td><a href="https://en.wikipedia.org/wiki/Boston_Bread_Riot">Boston Bread Riot</a></td>
         <td>food riot</td>
         <td>economic concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1710</td>
-        <td>[Sacheverell Riots](https://en.wikipedia.org/wiki/Sacheverell_riots)</td>
+        <td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
         <td>supporting controversial preacher Dr. Henry Sacheverell</td>
         <td>cultural / religious concerns</td>
         <td></td>
@@ -103,7 +103,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1715</td>
-        <td>Jacobite Rebellion, the '15</td>
+        <td>Jacobite Rebellion / the '15</td>
         <td>attempted restoration of the Stuart monarchy</td>
         <td>system of government</td>
         <td></td>
@@ -124,7 +124,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1719</td>
-        <td>[Calico Riots](https://era.library.ualberta.ca/items/ef2ffbd4-ce87-4ac2-bd00-cc972c4fbb2f/view/2dbe16e5-b612-4d5d-b9ab-843992ea5a65/Harris_Mark_C_201506_PhD.pdf)</td>
+        <td><a href="https://era.library.ualberta.ca/items/ef2ffbd4-ce87-4ac2-bd00-cc972c4fbb2f/view/2dbe16e5-b612-4d5d-b9ab-843992ea5a65/Harris_Mark_C_201506_PhD.pdf"><Calico Riots></td>
         <td>protest of (female) London weavers</td>
         <td>social / economic concerns</td>
         <td></td>
@@ -138,49 +138,49 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1721</td>
-        <td>[Atterbury Plot](https://en.wikipedia.org/wiki/Atterbury_Plot)</td>
-        <td>aristocratic / clerical plot to overthrow the Hanoverian dynasty</td>
+        <td><a href="https://en.wikipedia.org/wiki/Atterbury_Plot>Atterbury Plot</a></td>
+        <td>aristocratic / espiscopal plot to overthrow the Hanoverian dynasty</td>
         <td>system of government</td>
         <td></td>
     </tr>
     <tr>
         <td>1726</td>
-        <td>[Lincoln Riot](https://books.google.nl/books?id=K5JOAAAAIAAJ&pg=PA207&lpg=PA207&dq=Lincoln+Riot+1726&source=bl&ots=1wuORw7lPN&sig=ACfU3U0cWyxWIM03NJngeYEHuOJ41NddIw&hl=en&sa=X&ved=2ahUKEwiiw5OBvqz1AhUSsaQKHTRSBqEQ6AF6BAgLEAM#v=onepage&q=Lincoln%20Riot%201726&f=false)</td>
+            <td><a href="https://books.google.nl/books?id=K5JOAAAAIAAJ&pg=PA207&lpg=PA207&dq=Lincoln+Riot+1726&source=bl&ots=1wuORw7lPN&sig=ACfU3U0cWyxWIM03NJngeYEHuOJ41NddIw&hl=en&sa=X&ved=2ahUKEwiiw5OBvqz1AhUSsaQKHTRSBqEQ6AF6BAgLEAM#v=onepage&q=Lincoln%20Riot%201726&f=false">Lincoln Riot</a></td>
         <td>riot against the removal of the spires on the cathedral of Lincoln</td>
         <td>cultural / religious concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1727</td>
-        <td>[Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)</td>
+            <td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Food Riot</a></td>
         <td>food riot</td>
         <td>social / economic concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1736</td>
-        <td>[Malt Tax Riot](https://en.wikipedia.org/wiki/Malt_Tax_Riot)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Malt_Tax_Riot">Malt Tax Riot</a></td>
         <td>taxation riot</td>
         <td>social / economic concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1736</td>
-        <td>[Porteous Riots (Edinburgh)](https://www.britannica.com/event/Porteous-Riots)</td>
-        <td>riots sparked by the hanging of a smuggler</td>
+            <td><a href="https://www.britannica.com/event/Porteous-Riots)">Porteous Riots</a></td>
+        <td>riots in Edinburgh sparked by the hanging of a smuggler</td>
         <td>army and peace-keeping</td>
         <td></td>
     </tr>
     <tr>
         <td>1736</td>
-        <td>[Gin Act Riots](http://news.bbc.co.uk/hi/english/static/in_depth/programmes/2001/booze/history.stm)</td>
+            <td><a href="http://news.bbc.co.uk/hi/english/static/in_depth/programmes/2001/booze/history.stm">Gin Act Riots</a></td>
         <td>taxation riot</td>
         <td>social / economic concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1740</td>
-        <td>[Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)</td>
+            <td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Food Riot</a></td>
         <td>food riot</td>
         <td>social / economic concerns</td>
         <td></td>
@@ -194,14 +194,14 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1745</td>
-        <td>Jacobite Rebellion, the '45</td>
+        <td>Jacobite Rebellion / the '45</td>
         <td>attempt to restore the Stuart dynasty</td>
         <td>system of government</td>
         <td></td>
     </tr>
     <tr>
         <td>1745</td>
-        <td>[Knowles Riot / Impressment Riot](https://en.wikipedia.org/wiki/Knowles_Riot)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Knowles_Riot">Knowles Riot / Impressment Riot</a></td>
         <td>protest against navy impressment</td>
         <td>army and peace-keeping</td>
         <td></td>
@@ -215,21 +215,21 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1756</td>
-        <td>[Sheffield Food Riot](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)</td>
+            <td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Sheffield Food Riot></a></td>
         <td>food riot</td>
         <td>social / economic concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1761</td>
-        <td>[Durham Riot](https://en.wikipedia.org/wiki/Durham_Riot)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Durham_Riot">Durham Riot</a></td>
         <td>opposition to the new ballotting system for militia recruitment</td>
         <td>army and peace-keeping</td>
         <td></td>
     </tr>
     <tr>
         <td>1761</td>
-        <td>[Hexham Riot](https://en.wikipedia.org/wiki/Hexham_Riot)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Hexham_Riot">Hexham Riot</a></td>
         <td>riot against new militia regulations</td>
         <td>army and peace-keeping</td>
         <td></td>
@@ -271,7 +271,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1770</td>
-        <td>[Boston Massacre](https://www.britannica.com/event/Boston-Massacre)</td>
+            <td><a href="https://www.britannica.com/event/Boston-Massacre">Boston Massacre</a></td>
         <td>anti-British / patriot riot resulting in military intervention</td>
         <td>system of government</td>
         <td></td>
@@ -285,7 +285,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1773</td>
-        <td>[Boston Tea Party](https://www.britannica.com/event/Boston-Tea-Party)</td>
+            <td><a href="https://www.britannica.com/event/Boston-Tea-Party">Boston Tea Party</a></td>
         <td>colonial conflict over trade and taxation</td>
         <td>social / economic concerns</td>
         <td></td>
@@ -299,8 +299,8 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1775</td>
-        <td>Seamen riot</td>
-        <td>seamen riot</td>
+        <td><a href="https://en.wikipedia.org/wiki/1775_Liverpool_Seamen%27s_revolt">Seamen's revolt</a></td>
+        <td>public protest, sabotage and prison escapes in Liverpool led by seamen</td>
         <td>social / economic concerns</td>
         <td></td>
     </tr>
@@ -313,21 +313,21 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1778</td>
-        <td>Catholic Relief Act Riots / Edinburgh Riot</td>
+        <td>Catholic Relief Act Riots / Edinburgh</td>
         <td>riot against Catholic emancipation</td>
         <td>cultural / religious concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1778</td>
-        <td>Catholic Relief Act Riots / Glasgow Riot</td>
+        <td>Catholic Relief Act Riots / Glasgow</td>
         <td>riot against Catholic emancipation</td>
         <td>cultural / religious concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1780</td>
-        <td>[Gordon Riots](https://en.wikipedia.org/wiki/Gordon_Riots)</td>
+        <td><a href="https://en.wikipedia.org/wiki/Gordon_Riots">Gordon Riots</a></td>
         <td>riot against Catholic emancipation</td>
         <td>cultural / religious concerns</td>
         <td></td>
@@ -362,7 +362,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1791</td>
-        <td>[Priestley Riots](https://en.wikipedia.org/wiki/Priestley_Riots)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Priestley_Riots">Priestley Riots</a></td>
         <td>rioting alledgedly inspired by the French Revolution and with treasonous intentions</td>
         <td>system of government</td>
         <td></td>
@@ -376,7 +376,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1792</td>
-        <td>[Broomhall Riots](https://www.ourbroomhall.org.uk/content/explore/topics/politics/the-broom-hall-riots)</td>
+            <td><a href="https://www.ourbroomhall.org.uk/content/explore/topics/politics/the-broom-hall-riots">Broomhall Riots</a></td>
         <td>protest against intended enclosure of land</td>
         <td>social / economic concerns</td>
         <td></td>
@@ -384,7 +384,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     <tr>
         <td>1792</td>
         <td>King's Birthday Riot</td>
-        <td>planned riot aimed against the Lord Advocate, Dundas; connected to rising food prices and the unpopular Corn Law</td>
+        <td>planned protest against the Lord Advocate, Dundas; connected to rising food prices and the unpopular Corn Law</td>
         <td>social / economic concerns</td>
         <td></td>
     </tr>
@@ -425,7 +425,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1794</td>
-        <td>High Treason Trials of Thomas Hardy and the LCS</td>
+        <td>High Treason Trials of Thomas Hardy and the London Corresponding Society</td>
         <td></td>
         <td>system of government</td>
         <td></td>
@@ -446,7 +446,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1794-6</td>
-        <td>[Food Riots / Bread Riots](https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34)</td>
+            <td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Food Riots / Bread Riots</a></td>
         <td>against high food prices</td>
         <td>social / economic concerns</td>
         <td></td>
@@ -502,28 +502,28 @@ An **extended and fully searchable table** of violent conflicts in the British E
     </tr>
     <tr>
         <td>1809</td>
-        <td>[Old Price Riots](https://en.wikipedia.org/wiki/Old_Price_Riots)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Old_Price_Riots">Old Price Riots</a></td>
         <td>riot against rising theatre prices</td>
         <td>social / economic concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1816</td>
-        <td>[Spa Fields riots](https://en.wikipedia.org/wiki/Spa_Fields_riots)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Spa_Fields_riots">Spa Fields riots</a></td>
         <td>riots developing from political mass meetings in opposition to government policy</td>
         <td>system of government</td>
         <td></td>
     </tr>
     <tr>
         <td>1816</td>
-        <td>[Ely and Littleport riots of 1816](https://en.wikipedia.org/wiki/Ely_and_Littleport_riots_of_1816)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Ely_and_Littleport_riots_of_1816">Ely and Littleport riots</a></td>
         <td>riots in reaction to unemployment and price rises</td>
         <td>social / economic concerns</td>
         <td></td>
     </tr>
     <tr>
         <td>1819</td>
-        <td>[Peterloo Massacre](https://www.britannica.com/event/Peterloo-Massacre)</td>
+            <td><a href="https://www.britannica.com/event/Peterloo-Massacre">Peterloo Massacre</a></td>
         <td>riot for parliamentary reform</td>
         <td>politicial freedoms / opinions</td>
         <td></td>
