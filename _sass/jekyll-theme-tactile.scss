@@ -106,6 +106,12 @@ header h2 {
   margin-bottom: 40px;
 }
 
+#download-zip span {
+  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
+}
+#download-tar-gz span {
+  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
+
 a.button {
   display: block;
   float: left;
