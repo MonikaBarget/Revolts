@@ -1,6 +1,6 @@
 ### Events
 
-#### Table of selected events of (alleged / planned) unrest
+#### Table of selected (alleged / planned) unrest
 
 The events listed took place in the British Isles and / or the American colonies and point to the strong cultural and political exchanges between the different parts of the Empire. The classifications of the events on the right-hand side give a general overview of the different motivations behind 18th-century uprisings although the factors mentioned are by no means exclusive. There were, in fact, many overlaps between religious / cultural, social / economic and political aims. 
 
