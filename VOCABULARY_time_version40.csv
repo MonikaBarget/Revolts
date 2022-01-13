@@ -1,109 +1,109 @@
-antient;1;age;time;context
-auld;1;age;time;context
-syne;1;context;time;context
-future;3;context;time;context
-geschichte;3;context;time;context
-temporal;2;context;time;context
-thereafter;1;context;time;context
-time(s);20;context;time;context
-Tuesday;7;context;time;context
-aera;1;context;time;context
-age(d);58;context;time;context
-ancient;2;context;time;context
-années;1;context;time;context
-antiquities;1;context;time;context
-augusts;1;context;time;context
-date(d);51;context;time;context
-day(s);81;context;time;context
-histoire;2;context;time;context
-historic;2;context;time;context
-historical;1;context;time;context
-historie;2;context;time;context
-historisch-politische;1;context;time;context
-history;15;context;time;context
-hitherto;1;context;time;context
-hours;2;context;time;context
-ehemaligen;1;context;time;context
-ietzo;1;context;time;context
-immediately;1;context;time;context
-immerdar;1;context;time;context
-moment;1;context;time;context
-period;4;context;time;context
-zeit;5;context;time;context
-saturday;4;day ;time;context
-sunday;1;day ;time;context
-thursday;4;day ;time;context
-friday;3;day ;time;context
-jour;12;day ;time;context
-monday;6;day ;time;context
-wednesday;2;day of the week;time;context
-occasion;9;event;time;context
-birthday;1;human life ;time;context
-calendar;1;item;time;context
-clock;5;item;time;context
-february;5;month;time;context
-november;5;month;time;context
-novembre;1;month;time;context
-octobr(is);5;month;time;context
-december;5;month;time;context
-monat;1;month;time;context
-month;4;month;time;context
-oct;27;month;time;context
-young;4;age;time;context
-younger;1;age;time;context
-youth;3;age;time;context
-primo;1;sequence;time;context
-quarterial;2;sequence;time;context
-recently;1;sequence;time;context
-septennial;1;sequence;time;context
-series;1;sequence;time;context
-stets;1;sequence;time;context
-subsequent;2;sequence;time;context
-suivant;1;sequence;time;context
-till;4;sequence;time;context
-final;1;sequence;time;context
-nunc;4;sequence;time;context
-permanent;1;sequence;time;context
-preceded;2;sequence;time;context
-afterwards;1;sequence;time;context
-bißheriges;1;sequence;time;context
-current;1;sequence;time;context
-d'après;2;sequence;time;context
-early / earliest;6;sequence;time;context
-heutige;1;sequence;time;context
-jetzigen;1;sequence;time;context
-monthly;1;sequence;time;context
-never;3;sequence;time;context
-next;1;sequence;time;context
-tomorrow;1;sequence;time;context
-vorigen;1;sequence;time;context
-vormahls;1;sequence;time;context
-weekly;3;sequence;time;context
-whilst;2;sequence;time;context
-yearly;1;sequence;time;context
-yesterday;2;sequence;time;context
-zugetragen;1;sequence;time;context
-zugleich;3;sequence;time;context
-künfftigen;1;sequence;time;context
-previous;2;sequence;time;context
-bisshero;2;sequence;time;context
-neue[sten];3;sequence;time;context
-jüngsthin;1;sequence;time;context
-junior;1;age;time;context
-kurtzbündige;1;duration;time;context
-kurzer;1;duration;time;context
-last;13;sequence;time;context
-present;45;sequence;time;context
-instant;3;sequence;time;context
-evening;1;time of day;time;context
-afternoon;1;time of day;time;context
-morning;4;time of day;time;context
-night;3;time of day;time;context
-o'clock;4;time of day;time;context
-anno;8;year;time;context
-annoq;1;year;time;context
-year(e/s);23;year;time;context
-fastday;1;religion;time;neutral
-fasts;1;religion;time;neutral
-itzigen;1;sequence;time;neutral
-jahr;1;year;time;neutral
+antient,1,age,time,context
+auld,1,age,time,context
+syne,1,context,time,context
+future,3,context,time,context
+geschichte,3,context,time,context
+temporal,2,context,time,context
+thereafter,1,context,time,context
+time(s),20,context,time,context
+Tuesday,7,context,time,context
+aera,1,context,time,context
+age(d),58,context,time,context
+ancient,2,context,time,context
+annÃ©es,1,context,time,context
+antiquities,1,context,time,context
+augusts,1,context,time,context
+date(d),51,context,time,context
+day(s),81,context,time,context
+histoire,2,context,time,context
+historic,2,context,time,context
+historical,1,context,time,context
+historie,2,context,time,context
+historisch-politische,1,context,time,context
+history,15,context,time,context
+hitherto,1,context,time,context
+hours,2,context,time,context
+ehemaligen,1,context,time,context
+ietzo,1,context,time,context
+immediately,1,context,time,context
+immerdar,1,context,time,context
+moment,1,context,time,context
+period,4,context,time,context
+zeit,5,context,time,context
+saturday,4,day ,time,context
+sunday,1,day ,time,context
+thursday,4,day ,time,context
+friday,3,day ,time,context
+jour,12,day ,time,context
+monday,6,day ,time,context
+wednesday,2,day of the week,time,context
+occasion,9,event,time,context
+birthday,1,human life ,time,context
+calendar,1,item,time,context
+clock,5,item,time,context
+february,5,month,time,context
+november,5,month,time,context
+novembre,1,month,time,context
+octobr(is),5,month,time,context
+december,5,month,time,context
+monat,1,month,time,context
+month,4,month,time,context
+oct,27,month,time,context
+young,4,age,time,context
+younger,1,age,time,context
+youth,3,age,time,context
+primo,1,sequence,time,context
+quarterial,2,sequence,time,context
+recently,1,sequence,time,context
+septennial,1,sequence,time,context
+series,1,sequence,time,context
+stets,1,sequence,time,context
+subsequent,2,sequence,time,context
+suivant,1,sequence,time,context
+till,4,sequence,time,context
+final,1,sequence,time,context
+nunc,4,sequence,time,context
+permanent,1,sequence,time,context
+preceded,2,sequence,time,context
+afterwards,1,sequence,time,context
+biÃŸheriges,1,sequence,time,context
+current,1,sequence,time,context
+d'aprÃ¨s,2,sequence,time,context
+early / earliest,6,sequence,time,context
+heutige,1,sequence,time,context
+jetzigen,1,sequence,time,context
+monthly,1,sequence,time,context
+never,3,sequence,time,context
+next,1,sequence,time,context
+tomorrow,1,sequence,time,context
+vorigen,1,sequence,time,context
+vormahls,1,sequence,time,context
+weekly,3,sequence,time,context
+whilst,2,sequence,time,context
+yearly,1,sequence,time,context
+yesterday,2,sequence,time,context
+zugetragen,1,sequence,time,context
+zugleich,3,sequence,time,context
+kÃ¼nfftigen,1,sequence,time,context
+previous,2,sequence,time,context
+bisshero,2,sequence,time,context
+neue[sten],3,sequence,time,context
+jÃ¼ngsthin,1,sequence,time,context
+junior,1,age,time,context
+kurtzbÃ¼ndige,1,duration,time,context
+kurzer,1,duration,time,context
+last,13,sequence,time,context
+present,45,sequence,time,context
+instant,3,sequence,time,context
+evening,1,time of day,time,context
+afternoon,1,time of day,time,context
+morning,4,time of day,time,context
+night,3,time of day,time,context
+o'clock,4,time of day,time,context
+anno,8,year,time,context
+annoq,1,year,time,context
+year(e/s),23,year,time,context
+fastday,1,religion,time,neutral
+fasts,1,religion,time,neutral
+itzigen,1,sequence,time,neutral
+jahr,1,year,time,neutral
