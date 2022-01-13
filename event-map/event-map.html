@@ -1,0 +1,2334 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/MarkerCluster.css">
+        <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+        <style>
+        #map {
+            width: 1332px;
+            height: 748px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet.markercluster.js"></script>
+        <script src="data/MAP_events_1.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[-78.58977294483913,-175.14051326760153],[79.65752129992524,176.59785414716742]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_OSMStandard_0');
+        map.getPane('pane_OSMStandard_0').style.zIndex = 400;
+        var layer_OSMStandard_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            pane: 'pane_OSMStandard_0',
+            opacity: 1.0,
+            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OSMStandard_0;
+        map.addLayer(layer_OSMStandard_0);
+        function pop_MAP_events_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Name</th>\
+                        <td>' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_MAP_events_1_0(feature) {
+            switch(String(feature.properties['From'])) {
+                default:
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,0,4,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1513':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,0,6,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1517':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(1,1,9,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1522':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(2,2,12,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1526':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(3,3,16,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1529':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(4,3,20,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1536':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(6,4,24,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1549':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(7,5,28,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1554':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(9,7,32,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1555':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(10,8,36,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1565':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(12,10,40,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1568':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(14,11,44,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1569':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(17,12,48,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1570':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(19,13,52,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1573':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(21,14,57,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1574':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(23,15,61,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1583':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(26,16,66,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1586':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(28,16,70,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1590':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(31,16,75,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1593':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(34,17,79,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1594':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(37,17,84,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1596':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(40,17,88,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1597':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(43,17,93,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1599':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(46,17,97,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1600':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(49,17,101,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1601':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(52,16,104,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1608':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(55,15,108,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1609':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(58,15,111,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1628':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(61,15,113,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1638':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(65,15,116,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1639':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(68,15,118,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1641':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(71,15,119,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1642':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(74,16,121,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1643':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,17,122,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1644':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(80,18,123,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1647':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(83,19,124,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1648':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(86,20,125,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1650':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(89,21,126,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1653':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(92,22,126,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1656':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(95,23,127,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1665':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(98,25,128,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1668':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(101,26,128,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1675':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(104,27,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1676':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(107,28,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1680':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(110,29,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1685':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(113,30,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1688':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(116,31,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1689':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(118,33,130,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1690':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(121,34,130,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1691':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(124,35,130,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1694':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(127,36,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1697':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(130,37,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1700':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,38,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1702':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(136,39,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1703':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(139,40,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1706':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(142,42,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1707':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(145,43,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1708':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(148,43,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1710':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(151,44,128,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1711':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(154,45,128,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1712':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(157,46,127,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1713':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(160,47,126,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1714':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(163,48,126,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1715':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(167,50,125,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1716':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(170,51,125,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1719':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(173,51,124,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1720':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(176,52,123,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1721':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(179,53,123,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1722':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(182,54,121,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1723':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(185,55,120,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1724':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(188,56,119,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1726':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(191,58,118,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1727':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(194,59,117,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1728':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(197,60,116,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1730':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(200,61,115,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1733':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(203,62,114,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1736':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(206,64,112,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1739':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(209,65,111,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1740':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(212,67,110,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1741':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(215,68,108,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1742':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(217,70,107,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1743':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(220,72,105,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1744':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(223,74,104,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1745':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(225,77,102,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1746':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,79,101,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1747':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(231,81,99,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1748':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(233,83,98,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1749':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(235,86,97,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1750':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(236,88,96,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1751':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(238,91,95,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1754':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,94,94,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1756':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(242,97,93,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1758':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(243,100,92,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1759':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(244,104,92,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1760':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(245,107,92,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1761':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(246,111,92,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1763':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(247,114,92,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1765':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(248,117,92,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1766':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(249,121,93,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1767':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(250,124,93,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1768':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(250,128,94,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1769':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(251,132,96,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1770':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,135,97,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1771':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,139,98,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1772':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,142,100,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1773':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,146,102,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1775':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,150,104,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1776':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,153,106,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1777':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,157,107,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1778':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,160,109,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1779':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,163,111,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1780':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,167,114,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1781':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,170,116,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1782':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,174,119,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1784':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,178,121,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1785':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,181,124,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1786':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,185,126,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1787':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,188,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1788':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,191,132,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1790':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,195,135,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1791':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,198,138,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1792':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,202,141,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1793':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,205,144,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1794':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,208,147,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1795':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,212,150,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1796':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,215,153,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1797':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,219,156,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1798':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,223,160,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1799':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,226,163,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1800':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,230,167,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1803':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,233,170,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1804':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,237,173,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1805':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,240,177,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1808':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,243,181,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1809':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,247,184,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1816':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,250,188,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '1819':
+                    return {
+                pane: 'pane_MAP_events_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,253,191,1.0)',
+                interactive: true,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_MAP_events_1');
+        map.getPane('pane_MAP_events_1').style.zIndex = 401;
+        map.getPane('pane_MAP_events_1').style['mix-blend-mode'] = 'normal';
+        var layer_MAP_events_1 = new L.geoJson(json_MAP_events_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_MAP_events_1',
+            layerName: 'layer_MAP_events_1',
+            pane: 'pane_MAP_events_1',
+            onEachFeature: pop_MAP_events_1,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_MAP_events_1_0(feature));
+            },
+        });
+        var cluster_MAP_events_1 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_MAP_events_1.addLayer(layer_MAP_events_1);
+
+        bounds_group.addLayer(layer_MAP_events_1);
+        cluster_MAP_events_1.addTo(map);
+        setBounds();
+        var i = 0;
+        layer_MAP_events_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Name'] !== null?String('<div style="color: #000000; font-size: 6pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Name']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_MAP_events_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_MAP_events_1]);
+        map.on("zoomend", function(){
+            resetLabels([layer_MAP_events_1]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_MAP_events_1]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_MAP_events_1]);
+        });
+        </script>
+    </body>
+</html>
