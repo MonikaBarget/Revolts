@@ -219,13 +219,13 @@ img {
    padding: 10px;
 }
 
-section.menu {
+nav {
   display: flex;
 }
-section.space-around {
+nav.space-around {
   justify-content: space-around;
 }
-section.space-between {  
+nav.space-between {  
   justify-content: space-between;
 }
 
