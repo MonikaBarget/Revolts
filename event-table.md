@@ -65,25 +65,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>opposition to King James II/VII</td>
 <td>Protestant Succession established</td>
 <td>Britain / Ireland / North America</td>
-<td>North America</td>
-
+<td>United States of America</td>
 <td>government</td>
-
-
 </tr>
-<tr>
-<td align="right">1688</td>
-<td>#</td>
-<td>Wincanton Skirmish</td>
-<td>small patrol of the English Army led by the Irish officer Patrick Sarsfield / clashed with a detachment of the invading Dutch Army</td>
-<td>Indecisive</td>
-<td>Wincanton / Somerset</td>
-<td>Wincanton / England</td>
 
-<td>government</td>
-
-
-</tr>
 <tr>
 <td align="right">1689</td>
 <td>#</td>
@@ -92,11 +77,9 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Boston / Massachussetts</td>
 <td>Boston / Massachussetts</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1689</td>
 <td>#</td>
@@ -105,11 +88,9 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>French and Wabanaki Confederacy victory</td>
 <td>Dover / New Hampshire</td>
 <td>Dover / New Hampshire</td>
-
 <td>colonial expansion / consolidation</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1689</td>
 <td>#</td>
@@ -144,11 +125,9 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Williamite victory</td>
 <td>Athlone / Ireland</td>
 <td>Athlone / Ireland</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1694</td>
 <td>#</td>
