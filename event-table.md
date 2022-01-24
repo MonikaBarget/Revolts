@@ -170,7 +170,6 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Fort Komenda</td>
 <td>Fort Komenda / Ghana</td>
-<td>British Empire / Dutch Republic / Kingdom of Eguafo</td>
 <td>colonial expansion / consolidation</td>
 
 
@@ -260,10 +259,8 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Comanche / Spain / later: Mexico and the USA</td>
 <td>Initial Comanche victory over Spain and Mexico,<br/>final Texan and United States victory</td>
 <td>South-central United States (Texas / Oklahoma / New Mexico / Kansas / Colorado) and northern Mexico</td>
-<td>United States</td>
-<td>Spanish Empire / United States</td>
+<td>Texas, United States</td>
 <td>colonial expansion / consolidation</td>
-
 
 </tr>
 <tr>
@@ -274,7 +271,6 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Scotland / Britain</td>
 <td>Scotland / Britain</td>
-
 <td>government</td>
 
 
@@ -625,7 +621,6 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Vermont and Maine</td>
 <td>Vermont and Maine</td>
-<td>British Empire / native Americans / French Empire</td>
 <td>colonial expansion / consolidation</td>
 
 
@@ -1870,7 +1865,6 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>failed</td>
 <td>Ireland (in particular Leinster and Ulster</td>
 <td>Leinster / Ireland</td>
-<td>British Emire</td>
 <td>government</td>
 
 
