@@ -8,6 +8,7 @@ The hyperlinks lead to external resources provoding additional background inform
 
 An **extended and fully searchable table** of violent conflicts in the British Empire and the independent United States between 1513 and 1819 can be viewed [here](https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv). The table is work in progress -- information on agents and outcomes may be missing, and the table is necessarily incomplete. The information given is based on several SPARQL queries relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches in the entire Wikidata database.
 
+
 <table class="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">START</th>
 <th title="Field #2">END</th>
@@ -16,10 +17,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <th title="Field #5">OUTCOME</th>
 <th title="Field #6">PLACE (HIST.)</th>
 <th title="Field #7">PLACE (MODERN)</th>
-<th title="Field #8">AFFILIATION</th>
 <th title="Field #9">RELEVANCE</th>
-<th title="Field #10">CHAPTER</th>
-<th title="Field #11">ADDITIONS</th>
 </tr></thead>
 <tbody><tr>
 <td align="right">1685</td>
@@ -29,10 +27,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Royalist victory</td>
 <td>South West England</td>
 <td>South West England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1688</td>
@@ -42,10 +40,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Protestant Succession established</td>
 <td>Britain / Ireland / North America</td>
 <td>Britain</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1688</td>
@@ -55,10 +53,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Protestant Succession established</td>
 <td>Britain / Ireland / North America</td>
 <td>Ireland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1688</td>
@@ -68,10 +66,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Protestant Succession established</td>
 <td>Britain / Ireland / North America</td>
 <td>North America</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1688</td>
@@ -81,10 +79,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Indecisive</td>
 <td>Wincanton / Somerset</td>
 <td>Wincanton / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1689</td>
@@ -94,10 +92,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Boston / Massachussetts</td>
 <td>Boston / Massachussetts</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1689</td>
@@ -107,10 +105,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>French and Wabanaki Confederacy victory</td>
 <td>Dover / New Hampshire</td>
 <td>Dover / New Hampshire</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1689</td>
@@ -120,10 +118,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>successful attack</td>
 <td>Pemaquid / Fort Charles / North America</td>
 <td>Pemaquid / Fort Charles / North America</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1690</td>
@@ -133,10 +131,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Acadian and Wabanaki Confederacy victory</td>
 <td>Salmon Falls</td>
 <td>Salmon Falls (present-day Berwick / Maine)</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1691</td>
@@ -146,10 +144,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Williamite victory</td>
 <td>Athlone / Ireland</td>
 <td>Athlone / Ireland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1694</td>
@@ -159,10 +157,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>New France and Abenaki victory</td>
 <td>Oyster River</td>
 <td>Oyster River (present-day Durham / New Hampshire)</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1694</td>
@@ -174,8 +172,8 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Fort Komenda / Ghana</td>
 <td>British Empire / Dutch Republic / Kingdom of Eguafo</td>
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1697</td>
@@ -185,10 +183,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>French victory</td>
 <td>Haverhill / Province of Massachusetts Bay</td>
 <td>Haverhill / Massachusetts</td>
-<td>British Empire / Kingdom of France</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1700</td>
@@ -198,10 +196,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Clerkenwell / England</td>
 <td>Clerkenwell / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td> </td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1700</td>
@@ -211,10 +209,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Whitechapel / England</td>
 <td>Whitechapel / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td> </td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1700</td>
@@ -224,10 +222,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Dublin / Ireland</td>
 <td>Dublin / Ireland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1700</td>
@@ -237,10 +235,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Bristol / England</td>
 <td>Bristol / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1703</td>
@@ -250,10 +248,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Falmouth / Maine</td>
 <td>Falmouth / Maine</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1706</td>
@@ -265,8 +263,8 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>United States</td>
 <td>Spanish Empire / United States</td>
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1706</td>
@@ -276,10 +274,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Scotland / Britain</td>
 <td>Scotland / Britain</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1708</td>
@@ -289,10 +287,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>British victory over the Jacobites /<br/>France unable to disembark troops /<br/>strategic gains for France as the British had to divert troops away to Scotland</td>
 <td>Scotland</td>
 <td>Scotland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1709</td>
@@ -302,10 +300,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>British Isles</td>
 <td>Great Britain</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1710</td>
@@ -315,10 +313,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Boston / MA</td>
 <td>Boston / MA</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1710</td>
@@ -328,10 +326,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Gainsborough / Lincolnshire / England</td>
 <td>Gainsborough / Lincolnshire / England</td>
-<td>British Empire</td>
+
 <td>religion / cultural identity</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1710</td>
@@ -341,10 +339,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Wrexham / Wales</td>
 <td>Wrexham / Wales</td>
-<td>British Empire</td>
+
 <td>religion / cultural identity</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1710</td>
@@ -354,10 +352,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Barnstaple / Devon / England</td>
 <td>Barnstaple / Devon / England</td>
-<td>British Empire</td>
+
 <td>religion / cultural identity</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1710</td>
@@ -367,10 +365,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>London City / England</td>
 <td>London City / England</td>
-<td>British Empire</td>
+
 <td>religion / cultural identity</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1711</td>
@@ -380,10 +378,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>North Carolina / North America</td>
 <td>North Carolina / USA</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1712</td>
@@ -393,10 +391,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>[London and Oxford] </td>
 <td>Oxford / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1712</td>
@@ -406,10 +404,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>[London and Oxford] </td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1712</td>
@@ -419,10 +417,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>New York</td>
 <td>New York</td>
-<td>British Empire</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1712</td>
@@ -432,10 +430,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Dublin / Ireland</td>
 <td>Dublin / Ireland</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1713</td>
@@ -445,10 +443,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Dublin / Kingdom of Ireland</td>
 <td>Dublin / Ireland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1714</td>
@@ -458,10 +456,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>England / Britain</td>
 <td>England / Britain</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1714</td>
@@ -471,10 +469,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Oxford / England</td>
 <td>Oxford / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1715</td>
@@ -484,10 +482,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>failed</td>
 <td>England and Scotland</td>
 <td>England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1715</td>
@@ -497,23 +495,23 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>failed</td>
 <td>England and Scotland</td>
 <td>Scotland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1715</td>
 <td>#</td>
 <td>1715 England Riots / Rebellion Riots</td>
 <td>High Church adherents attacked Dissenting meeting-houses</td>
-<td> </td>
+
 <td>England / Britain</td>
 <td>England / Britain</td>
-<td>British Empire</td>
+
 <td>religion / cultural identity</td>
-<td> </td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1715</td>
@@ -523,10 +521,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Manchester / cities in northern England and Scotland</td>
 <td>Scotland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1715</td>
@@ -536,10 +534,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Manchester / cities in northern England and Scotland</td>
 <td>Manchester / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1716</td>
@@ -549,10 +547,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Cambridge / England</td>
 <td>Cambridge / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1716</td>
@@ -562,10 +560,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>&quot;rabble broke the windows of those who were celebrating and provoked the rioting by soldiers / scholars and townsmen&quot;</td>
 <td>Oxford / England</td>
 <td>Oxford / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1719</td>
@@ -575,10 +573,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>failed</td>
 <td>Spain / Scotland</td>
 <td>Spain</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1719</td>
@@ -588,10 +586,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>failed</td>
 <td>Spain / Scotland</td>
 <td>Scotland / Great Britain</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1719</td>
@@ -601,10 +599,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1721</td>
@@ -614,10 +612,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>failed</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1722</td>
@@ -629,8 +627,8 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Vermont and Maine</td>
 <td>British Empire / native Americans / French Empire</td>
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1726</td>
@@ -640,10 +638,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Lincoln / England</td>
 <td>Lincoln / England</td>
-<td>British Empire</td>
-<td>##</td>
-<td>##</td>
-<td> </td>
+
+
+
+
 </tr>
 <tr>
 <td align="right">1727</td>
@@ -653,10 +651,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Falmouth / England</td>
 <td>Falmouth / England</td>
-<td>British Empire</td>
-<td>##</td>
-<td>##</td>
-<td> </td>
+
+
+
+
 </tr>
 <tr>
 <td align="right">1728</td>
@@ -666,10 +664,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Jamaica</td>
 <td>Jamaica</td>
-<td>British Empire</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1730</td>
@@ -679,10 +677,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>border conflict between Pennsylvania and Maryland</td>
 <td>Pennsylvania–Maryland border</td>
 <td>Pennsylvania–Maryland border</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1733</td>
@@ -692,10 +690,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Saint John / Virgin Islands</td>
 <td>Saint John / U.S. Virgin Islands</td>
-<td>British Empire</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1736</td>
@@ -705,10 +703,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1736</td>
@@ -718,10 +716,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Scotland</td>
 <td>Scotland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1736</td>
@@ -731,10 +729,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Scotland</td>
 <td>Scotland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1739</td>
@@ -744,10 +742,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>British Isles</td>
 <td>Great Britain</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1739</td>
@@ -757,10 +755,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>South Carolina / USA</td>
 <td>South Carolina / USA</td>
-<td>British Empire</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1740</td>
@@ -770,10 +768,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>permanent change in the country&#39;s demographic and economic landscape</td>
 <td>Ireland (e.g. Drogheda and other parts of the Empire</td>
 <td>Drogheda / Ireland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1741</td>
@@ -783,10 +781,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>New York / United States</td>
 <td>New York / United States</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1742</td>
@@ -796,10 +794,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Philadelphia / United States</td>
 <td>Philadelphia / United States</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1743</td>
@@ -809,10 +807,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1744</td>
@@ -822,10 +820,9 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Normandy / France</td>
 <td>Normandy / France</td>
-<td>British Empire / Kingdom of France</td>
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1745</td>
@@ -835,10 +832,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Government victory / end of Jacobitism as a significant political force</td>
 <td>Scotland and Northern England</td>
 <td>Scotland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1745</td>
@@ -848,10 +845,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Government victory / end of Jacobitism as a significant political force</td>
 <td>Scotland and Northern England</td>
 <td>Northern England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1747</td>
@@ -861,10 +858,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Boston / Massachusetts</td>
 <td>Boston / Massachusetts</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1751</td>
@@ -874,10 +871,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Tring / Hertfordshire / England</td>
 <td>Tring / Hertfordshire / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1754</td>
@@ -887,10 +884,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Taunton / England</td>
 <td>Taunton / England</td>
-<td>British Empire</td>
+
 <td>elections</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1756</td>
@@ -900,10 +897,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Yorkshire / England</td>
 <td>Yorkshire / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1759</td>
@@ -913,10 +910,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Dublin / Ireland</td>
 <td>Dublin / Ireland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1759</td>
@@ -926,10 +923,9 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Normandy / France</td>
 <td>Normandy / France</td>
-<td>British Empire / Kingdom of France</td>
 <td>alleged / planned</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1760</td>
@@ -939,10 +935,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Colony of Jamaica</td>
 <td>Jamaica</td>
-<td>British Empire</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1761</td>
@@ -952,10 +948,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Munster / Ireland</td>
 <td>Munster / Ireland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1761</td>
@@ -965,10 +961,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Durham / England</td>
 <td>Durham / England</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1761</td>
@@ -978,10 +974,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Hexham / Yorkshire</td>
 <td>Hexham / Yorkshire</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1763</td>
@@ -991,10 +987,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Ulster / Ireland</td>
 <td>Ulster / Ireland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1765</td>
@@ -1004,10 +1000,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>demolition of a workhouse</td>
 <td>Northern England</td>
 <td>Northern England / United Kingdom</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td> </td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1765</td>
@@ -1017,10 +1013,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>American independence / establishment of republican government</td>
 <td>Lexington / Massachussetts</td>
 <td>Lexington / Massachussetts</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1765</td>
@@ -1030,10 +1026,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>East End of London</td>
 <td>East End / London</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1765</td>
@@ -1043,10 +1039,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Boston / Massachusetts</td>
 <td>Boston / Massachusetts</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1766</td>
@@ -1056,10 +1052,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Black Country / England</td>
 <td>Black Country / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1768</td>
@@ -1069,10 +1065,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>St George&#39;s Fields / Southwark / in South London</td>
 <td>Southwark / South London / England</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1769</td>
@@ -1082,10 +1078,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>County Antrim / Ulster / Ireland</td>
 <td>County Antrim / Ulster</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1770</td>
@@ -1095,10 +1091,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Boston / Massachusetts</td>
 <td>Boston / Massachusetts</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1770</td>
@@ -1108,10 +1104,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>York / England</td>
 <td>York / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1770</td>
@@ -1121,10 +1117,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>economic / socialLECTION</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1772</td>
@@ -1134,10 +1130,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>British Isles</td>
 <td>Great Britain</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1772</td>
@@ -1147,10 +1143,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Weare / New Hampshire</td>
 <td>Weare / New Hampshire /</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1773</td>
@@ -1160,10 +1156,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Boston / Province of Massachusetts Bay</td>
 <td>Boston / Massachusetts</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1775</td>
@@ -1173,23 +1169,23 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Lexington / New England</td>
 <td>Lexington / New England</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1775</td>
 <td>#</td>
-<td>Seamen’s revolt</td>
+<td><a href="https://en.wikipedia.org/wiki/1775_Liverpool_Seamen%27s_revolt">Seamen's revolt</a></td>
 <td>public protest / sabotage and prison escapes in Liverpool led by seamen</td>
 <td>#</td>
 <td>Liverpool / England</td>
 <td>Liverpool / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1775</td>
@@ -1199,10 +1195,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Patriot victory</td>
 <td>Appalachian Mountains / South Carolina</td>
 <td>Appalachian Mountains / South Carolina</td>
-<td>British Empire</td>
+
 <td>supplementary conflict</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1776</td>
@@ -1212,10 +1208,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>conviction and death sentence</td>
 <td> Bristol and Plymouth / England</td>
 <td>Plymouth / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1776</td>
@@ -1225,10 +1221,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Nottingham / Northern England</td>
 <td>Nottingham / England / Britian</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1778</td>
@@ -1238,10 +1234,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Edinburgh and Glasgow / Scotland</td>
 <td>Glasgow / Scotland</td>
-<td>British Empire</td>
+
 <td>religion / cultural identity</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1778</td>
@@ -1251,10 +1247,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Edinburgh and Glasgow / Scotland</td>
 <td>Edinburgh / Scotland</td>
-<td>British Empire</td>
+
 <td>religion / cultural identity</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1778</td>
@@ -1264,10 +1260,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Patriot Victory</td>
 <td>Kenton / Delaware</td>
 <td>Kenton / Delaware</td>
-<td>British Empire</td>
+
 <td>supplementary conflict</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1779</td>
@@ -1277,10 +1273,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>College Green / Dublin / Ireland</td>
 <td>College Green / Dublin / Ireland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1779</td>
@@ -1290,23 +1286,22 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Cape Colony</td>
 <td>Cape Colony</td>
-<td>British Empire / Dutch Republic</td>
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1780</td>
 <td>#</td>
-<td>Gordon Riots</td>
+<td><a href="https://en.wikipedia.org/wiki/Gordon_Riots">Gordon Riots</a></td>
 <td>citizens of London protesting against Catholic Emancipaton</td>
 <td>estimated 300-700 deaths / damaged reputation of John Wilkes and the British monarchy</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>religion / cultural identity</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1781</td>
@@ -1316,10 +1311,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Pennsylvania / North America</td>
 <td>Pennsylvania / USA</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1781</td>
@@ -1329,10 +1324,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Bihar / Asia</td>
 <td>Bihar / Asia</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1781</td>
@@ -1342,10 +1337,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Arnold eventually leaves America</td>
 <td>West Point and New York / North America</td>
 <td>New York / United States</td>
-<td>British Empire</td>
+
 <td>supplementary conflict</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1782</td>
@@ -1355,10 +1350,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>British victory /<br/>suppression of revolt</td>
 <td>Sylhet Shahi Eidgah / Asia</td>
 <td>Sylhet Shahi Eidgah / Asia</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1782</td>
@@ -1368,10 +1363,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>delegates from Ulster Volunteer units adopt resolutions</td>
 <td>Dugannon / Ireland</td>
 <td>Dugannon / Ireland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1784</td>
@@ -1381,10 +1376,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Co. Armagh / Ireland</td>
 <td>Co. Armagh / Ireland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1785</td>
@@ -1394,10 +1389,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Munster / Ireland</td>
 <td>Munster / Ireland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1786</td>
@@ -1407,10 +1402,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>attacker was certified insane and confined in a hospital</td>
 <td>London / Engand</td>
 <td>London / Engand</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1786</td>
@@ -1420,10 +1415,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Western Massachusetts</td>
 <td>Massachusetts / USA</td>
-<td>United States of America</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1787</td>
@@ -1433,10 +1428,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Bahamas</td>
 <td>Bahamas</td>
-<td>British Empire</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1788</td>
@@ -1446,10 +1441,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>New York City</td>
 <td>New York City</td>
-<td>United States of America</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1790</td>
@@ -1459,10 +1454,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Virgin Islands</td>
 <td>Virgin Islands</td>
-<td>British Empire</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1791</td>
@@ -1472,10 +1467,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Dublin / Belfast and other larger cities in Ireland and Britain</td>
 <td>Dublin / Ireland</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1791</td>
@@ -1485,23 +1480,23 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Dublin / Belfast and other larger cities in Ireland and Britain</td>
 <td>Belfast / Ireland</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1791</td>
 <td>#</td>
-<td>Priestley Riots</td>
+<td><a href="https://en.wikipedia.org/wiki/Priestley_Riots">Priestley Riots</a></td>
 <td>local inhabitants protesting against alleged celebration of the French Revolution</td>
 <td>#</td>
 <td>Birmingham / England</td>
 <td>Birmingham / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1791</td>
@@ -1511,10 +1506,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Sheffield / England</td>
 <td>Sheffield / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1791</td>
@@ -1524,23 +1519,23 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Louisiana / North America</td>
 <td>Louisiana / USA</td>
-<td>United States of America</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1792</td>
 <td>#</td>
-<td>Broomhall Riots</td>
+<td><a href="https://www.ourbroomhall.org.uk/content/explore/topics/politics/the-broom-hall-riots">Broomhall Riots</a></td>
 <td>protest against intended enclosure of land</td>
 <td>#</td>
 <td>Sheffield / England</td>
 <td>Sheffield / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1792</td>
@@ -1550,10 +1545,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1793</td>
@@ -1563,10 +1558,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>clashes with militia</td>
 <td>Bristol / England</td>
 <td>Bristol / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1794</td>
@@ -1576,10 +1571,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>[Great Britain]</td>
 <td>[Great Britain]</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1794</td>
@@ -1589,10 +1584,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1794</td>
@@ -1602,10 +1597,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1794</td>
@@ -1615,10 +1610,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England / Britain</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1794</td>
@@ -1628,10 +1623,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>President George Washington invokes martial law and crushes insurrection with 13 /000 men.</td>
 <td>Monongahela Valley / USA</td>
 <td>Monongahela Valley / USA</td>
-<td>United States of America</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1794</td>
@@ -1641,10 +1636,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>President George Washington invokes martial law and crushes insurrection with 13 /000 men.</td>
 <td>Western Pennsylvania / USA</td>
 <td>Western Pennsylvania / USA</td>
-<td>United States of America</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1654,10 +1649,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>The Peep o&#39; Day Boys were the victors / killing some 6 Defenders / with some wounded Peep o day boys in return.</td>
 <td>Loughgall / Co. Armagh / Ireland</td>
 <td>Loughgall / Co. Armagh / Ireland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1667,10 +1662,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>England and Scotland</td>
 <td>England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1680,10 +1675,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>England and Scotland</td>
 <td>Scotland</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1693,10 +1688,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1706,10 +1701,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1719,10 +1714,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-<td>British Empire</td>
+
 <td>alleged / planned</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1732,10 +1727,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>England</td>
 <td>England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1745,10 +1740,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Maroon surrender</td>
 <td>Colony of Jamaica</td>
 <td>Colony of Jamaica</td>
-<td>British Empire</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1758,10 +1753,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Birmingham / England</td>
 <td>Birmingham / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1795</td>
@@ -1771,10 +1766,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td> in Cuba / Jamaica (Second Maroon War / Dominica (Colihault Uprising / Louisiana (Pointe Coupée conspiracy / Saint Lucia (Bush War / so-called &quot;Guerre des Bois&quot; / Saint Vincent (Second Carib War / Grenada (Fédon&#39;s rebellion / Curaçao (led by Tula / Guyana (Demerara Rebellion and in Coro / Venezuela (led by José Leonardo Chirino.[149]</td>
 <td>Carribean Islands</td>
-<td>British Empire / Kingdom of France</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1796</td>
@@ -1784,10 +1779,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>[Great Britain]</td>
 <td>[Great Britain]</td>
-<td>British Empire</td>
+
 <td>alleged / planned</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1796</td>
@@ -1797,10 +1792,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>John Hartland tried</td>
 <td>St. George&#39;s-Fields / Southwark / England</td>
 <td>Southwark / England</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1797</td>
@@ -1810,10 +1805,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Rugby / England</td>
 <td>Rugby / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1797</td>
@@ -1823,10 +1818,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>rebellion failed</td>
 <td>Scotland</td>
 <td>Scotland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1797</td>
@@ -1836,10 +1831,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Nore / England</td>
 <td>Nore / England</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1797</td>
@@ -1849,10 +1844,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Spithead / England</td>
 <td>Spithead / England</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1797</td>
@@ -1862,10 +1857,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Tranent / East Lothian / Scotland</td>
 <td>Tranent / East Lothian / Scotland</td>
-<td>British Empire</td>
+
 <td>military regulations / peace-keeping</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1798</td>
@@ -1877,8 +1872,8 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Leinster / Ireland</td>
 <td>British Emire</td>
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1799</td>
@@ -1888,10 +1883,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>rising unsuccessful</td>
 <td>Benares / India</td>
 <td>Benares / India</td>
-<td>British Empire</td>
+
 <td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1799</td>
@@ -1901,10 +1896,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>England / Britain</td>
 <td>England / Britain</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1799</td>
@@ -1914,10 +1909,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Pennsylvania / North America</td>
 <td>Pennsylvania / North America</td>
-<td>United States of America</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1800</td>
@@ -1927,10 +1922,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>rebellion suppressed</td>
 <td>Virginia / USA</td>
 <td>Virginia / USA</td>
-<td>United States of America</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1803</td>
@@ -1940,10 +1935,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>principal leader / Robert Emmet / executed, others exiled</td>
 <td>Dublin / Ireland</td>
 <td> Dublin / Ireland</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1803</td>
@@ -1953,10 +1948,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>enslaved Igbo people committed mass suicide rather than submit to slavery in the United States</td>
 <td>Georgia / United States</td>
 <td>Georgia / United States</td>
-<td>United States of America</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1804</td>
@@ -1966,10 +1961,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Rebellion crushed violently: many rioters killed</td>
 <td>Castle Hill / Colony of New South Wales</td>
 <td>Castle Hill / New South Wales / Australia</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1805</td>
@@ -1979,10 +1974,10 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>rebellion unsuccessful</td>
 <td>Chatham Manor / United States</td>
 <td>Chatham Manor / United States</td>
-<td>United States of America</td>
+
 <td>slavery / rights of freed slaves</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1808</td>
@@ -1992,61 +1987,61 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>Deposition and arrest of NSW Governor William Bligh.<br/>Imposition of martial law.<br/>Withdrawal and disbandment of NSW Corps in disgrace.<br/>Appointment of Lachlan Macquarie as governor.</td>
 <td>Sydney / New South Wales</td>
 <td>Sydney / New South Wales / Australia</td>
-<td>British Empire</td>
+
 <td>government</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1809</td>
 <td>#</td>
-<td>Old Price Riots</td>
+<td><a href="https://en.wikipedia.org/wiki/Old_Price_Riots">Old Price Riots</a></td>
 <td>local protest against rising price of threatre tickets</td>
 <td>#</td>
 <td>Covent Garden / London / England</td>
 <td>Covent Garden / London / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1816</td>
 <td>#</td>
-<td>Ely and Littleport riots</td>
+<td><a href="https://en.wikipedia.org/wiki/Ely_and_Littleport_riots_of_1816">Ely and Littleport riots</a></td>
 <td>reaction to unemployment and price rises</td>
 <td>#</td>
 <td>Littleport / Cambridgeshire / England</td>
 <td>Littleport / Cambridgeshire / England</td>
-<td>British Empire</td>
+
 <td>economic / social</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1816</td>
 <td>#</td>
-<td>Spa Fields riots</td>
+<td><a href="https://en.wikipedia.org/wiki/Spa_Fields_riots">Spa Fields riots</a></td>
 <td>riots developing from political mass meetings in opposition to government policy</td>
 <td>#</td>
 <td>Islington / England</td>
 <td>Islington / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 <tr>
 <td align="right">1819</td>
 <td>#</td>
-<td>Peterloo Massacre</td>
+<td><a href="https://www.britannica.com/event/Peterloo-Massacre">Peterloo Massacre</a></td>
 <td>riot for parliamentary reform</td>
 <td>#</td>
 <td>Manchester / England</td>
 <td>Manchester / England</td>
-<td>British Empire</td>
+
 <td>political freedoms / personal rights</td>
-<td>##</td>
-<td> </td>
+
+
 </tr>
 </tbody></table>
