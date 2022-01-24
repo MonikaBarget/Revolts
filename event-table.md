@@ -9,22 +9,22 @@ The hyperlinks lead to external resources provoding additional background inform
 An **extended and fully searchable table** of violent conflicts in the British Empire and the independent United States between 1513 and 1819 can be viewed [here](https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv). The table is work in progress -- information on agents and outcomes may be missing, and the table is necessarily incomplete. The information given is based on several SPARQL queries relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches in the entire Wikidata database.
 
 <table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">1685</th>
-<th title="Field #2">#</th>
-<th title="Field #3">Argyll Rebellion</th>
-<th title="Field #4">to overthrow King James II</th>
-<th title="Field #5">#</th>
-<th title="Field #6">Scotland</th>
-<th title="Field #7">Scotland</th>
-<th title="Field #8">British Empire</th>
-<th title="Field #9">government</th>
-<th title="Field #10">##</th>
-<th title="Field #11">FIELD11</th>
+<thead><tr><th title="Field #1">START</th>
+<th title="Field #2">END</th>
+<th title="Field #3">EVENT</th>
+<th title="Field #4">AGENTS</th>
+<th title="Field #5">OUTCOME</th>
+<th title="Field #6">PLACE (HIST.)</th>
+<th title="Field #7">PLACE (MODERN)</th>
+<th title="Field #8">AFFILIATION</th>
+<th title="Field #9">RELEVANCE</th>
+<th title="Field #10">CHAPTER</th>
+<th title="Field #11">ADDITIONS</th>
 </tr></thead>
 <tbody><tr>
 <td align="right">1685</td>
 <td>#</td>
-<td>Monmouth Rebellion</td>
+<td><a href="https://en.wikipedia.org/wiki/Monmouth_Rebellion">Monmouth Rebellion</a></td>
 <td>Duke of Monmouth against royal forces</td>
 <td>Royalist victory</td>
 <td>South West England</td>
@@ -271,7 +271,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1706</td>
 <td>1707</td>
-<td>Union Act Riots</td>
+<td><a href="https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/mob-unrest-and-disorder-for-scotland/">Union Act Riots</a></td>
 <td>civil unrest and disorder in Scottish towns</td>
 <td>#</td>
 <td>Scotland / Britain</td>
@@ -297,7 +297,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1709</td>
 <td>1710</td>
-<td>Food Riots in Britain</td>
+<td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Food Riots</a></td>
 <td>uprising of the poor</td>
 <td>#</td>
 <td>British Isles</td>
@@ -310,7 +310,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1710</td>
 <td>1713</td>
-<td>Boston Bread Riots</td>
+<td><a href="https://en.wikipedia.org/wiki/Boston_Bread_Riot">Boston Bread Riot</a></td>
 <td>series of three riots by the poor</td>
 <td>#</td>
 <td>Boston / MA</td>
@@ -323,7 +323,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1710</td>
 <td>#</td>
-<td>Sacheverell Riot</td>
+<td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
 <td>local support for oppositional (high Church) preacher Henry Sacheverell / attacks on the homes and meeting-houses of Dissenters</td>
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Gainsborough / Lincolnshire / England</td>
@@ -336,7 +336,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1710</td>
 <td>#</td>
-<td>Sacheverell Riot</td>
+<td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
 <td>support for oppositional (high Church) preacher Henry Sacheverell / attacks on the homes and meeting-houses of Dissenters</td>
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Wrexham / Wales</td>
@@ -349,7 +349,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1710</td>
 <td>#</td>
-<td>Sacheverell Riot</td>
+<td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
 <td>support for oppositional (high Church) preacher Henry Sacheverell / attacks on the homes and meeting-houses of Dissenters</td>
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Barnstaple / Devon / England</td>
@@ -362,7 +362,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1710</td>
 <td>#</td>
-<td>Sacheverell Riot</td>
+<td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
 <td>local support for oppositional (high Church) preacher Henry Sacheverell / attacks on the homes and meeting-houses of Dissenters</td>
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>London City / England</td>
@@ -596,7 +596,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1719</td>
 <td>1720</td>
-<td>Calico Riots</td>
+<td><a href="https://era.library.ualberta.ca/items/ef2ffbd4-ce87-4ac2-bd00-cc972c4fbb2f/view/2dbe16e5-b612-4d5d-b9ab-843992ea5a65/Harris_Mark_C_201506_PhD.pdf">Calico Riots</a></td>
 <td>London weavers protest against cotton imports from India</td>
 <td>#</td>
 <td>London / England</td>
@@ -609,7 +609,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1721</td>
 <td>#</td>
-<td>Atterbury Plot</td>
+<td><a href="https://en.wikipedia.org/wiki/Atterbury_Plot">Atterbury Plot</a></td>
 <td>conspiracy led by Francis Atterbury / Bishop of Rochester and Dean of Westminster / aimed at the restoration of the House of Stuart</td>
 <td>failed</td>
 <td>London / England</td>
@@ -635,7 +635,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1726</td>
 <td>#</td>
-<td>Lincoln Riot</td>
+<td><a href="https://books.google.nl/books?id=K5JOAAAAIAAJ&pg=PA207&lpg=PA207&dq=Lincoln+Riot+1726&source=bl&ots=1wuORw7lPN&sig=ACfU3U0cWyxWIM03NJngeYEHuOJ41NddIw&hl=en&sa=X&ved=2ahUKEwiiw5OBvqz1AhUSsaQKHTRSBqEQ6AF6BAgLEAM#v=onepage&q=Lincoln%20Riot%201726&f=false">Lincoln Riot</a></td>
 <td>local riot against the removal of the spires on the cathedral of Lincoln</td>
 <td>#</td>
 <td>Lincoln / England</td>
@@ -648,7 +648,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1727</td>
 <td>1729</td>
-<td>Food Riot </td>
+<td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Food Riot</a></td>
 <td>uprising of the poor</td>
 <td>#</td>
 <td>Falmouth / England</td>
@@ -700,7 +700,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1736</td>
 <td>#</td>
-<td>Porteous Riots</td>
+<td><a href="https://www.britannica.com/event/Porteous-Riots)">Porteous Riots</a></td>
 <td>local population opposing Captain Porteous /sparked by the hanging of a smuggler</td>
 <td>#</td>
 <td>Edinburgh / Scotland</td>
@@ -713,7 +713,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1736</td>
 <td>#</td>
-<td>Gin Act Riots</td>
+<td><a href="http://news.bbc.co.uk/hi/english/static/in_depth/programmes/2001/booze/history.stm">Gin Act Riots</a></td>
 <td>taxation riot</td>
 <td>#</td>
 <td>Scotland</td>
@@ -726,7 +726,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1736</td>
 <td>#</td>
-<td>Malt Tax Riot</td>
+<td><a href="https://en.wikipedia.org/wiki/Malt_Tax_Riot">Malt Tax Riot</a></td>
 <td>taxation riot</td>
 <td>#</td>
 <td>Scotland</td>
@@ -854,35 +854,9 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td> </td>
 </tr>
 <tr>
-<td align="right">1745</td>
-<td>1746</td>
-<td>Northeast Coast Campaign</td>
-<td>New England colonists versus French colonists and Wabanaki Native Americans</td>
-<td>#</td>
-<td>Berwick / York County / Maine</td>
-<td>Berwick / York County / Maine</td>
-<td>British Empire</td>
-<td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
-</tr>
-<tr>
-<td align="right">1745</td>
-<td>#</td>
-<td>Raid on Saratoga</td>
-<td>attack by a French and Native American force on the settlement of Saratoga / New York</td>
-<td>French victory</td>
-<td>Saratoga / North America</td>
-<td>Saratoga / New York / USA</td>
-<td>British Empire</td>
-<td>colonial expansion / consolidation</td>
-<td>##</td>
-<td> </td>
-</tr>
-<tr>
 <td align="right">1747</td>
 <td>#</td>
-<td>Knowles Riot / Impressment Riot</td>
+<td><a href="https://en.wikipedia.org/wiki/Knowles_Riot">Knowles Riot / Impressment Riot</a></td>
 <td>protest against navy impressment</td>
 <td>#</td>
 <td>Boston / Massachusetts</td>
@@ -921,7 +895,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1756</td>
 <td>#</td>
-<td>Sheffield Food Riot</td>
+<td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Sheffield Food Riot></a></td>
 <td>social / economic grievances</td>
 <td>#</td>
 <td>Yorkshire / England</td>
@@ -986,7 +960,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1761</td>
 <td>#</td>
-<td>Durham Riot</td>
+<td><a href="https://en.wikipedia.org/wiki/Durham_Riot">Durham Riot</a></td>
 <td>opposition to the new ballotting system for militia recruitment</td>
 <td>#</td>
 <td>Durham / England</td>
@@ -999,7 +973,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1761</td>
 <td>#</td>
-<td>Hexham Riot</td>
+<td><a href="https://en.wikipedia.org/wiki/Hexham_Riot">Hexham Riot</a></td>
 <td>riot against new militia regulations</td>
 <td>#</td>
 <td>Hexham / Yorkshire</td>
@@ -1116,7 +1090,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1770</td>
 <td>#</td>
-<td>Boston Massacre</td>
+<td><a href="https://www.britannica.com/event/Boston-Massacre">Boston Massacre</a></td>
 <td>anti-British / patriot riot resulting in military intervention</td>
 <td>#</td>
 <td>Boston / Massachusetts</td>
@@ -1181,7 +1155,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <tr>
 <td align="right">1773</td>
 <td>#</td>
-<td>Boston Tea Party</td>
+<td><a href="https://www.britannica.com/event/Boston-Tea-Party">Boston Tea Party</a></td>
 <td>conflict over trade and taxation</td>
 <td>#</td>
 <td>Boston / Province of Massachusetts Bay</td>
