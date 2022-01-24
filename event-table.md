@@ -366,8 +366,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>[London and Oxford] </td>
 <td>Oxford / England</td>
-
-<td>government</td>
+<td>alleged / planned</td>
 
 
 </tr>
@@ -379,8 +378,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>[London and Oxford] </td>
 <td>London / England</td>
-
-<td>government</td>
+<td>alleged / planned</td>
 
 
 </tr>
@@ -480,7 +478,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>1715 England Riots / Rebellion Riots</td>
 <td>High Church adherents attacked Dissenting meeting-houses</td>
-
+<td>#</td>
 <td>England / Britain</td>
 <td>England / Britain</td>
 
@@ -612,9 +610,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Lincoln / England</td>
 <td>Lincoln / England</td>
-
-
-
+<td>religion / cultural identity</td>
 
 </tr>
 <tr>
@@ -625,11 +621,9 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>Falmouth / England</td>
 <td>Falmouth / England</td>
-
-
-
-
+<td>economic / social</td>
 </tr>
+  
 <tr>
 <td align="right">1728</td>
 <td>1740</td>
@@ -1078,9 +1072,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>York / England</td>
 <td>York / England</td>
-
 <td>political freedoms / personal rights</td>
-
 
 </tr>
 <tr>
@@ -1091,9 +1083,7 @@ An **extended and fully searchable table** of violent conflicts in the British E
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-
-<td>economic / socialLECTION</td>
-
+<td>elections</td>
 
 </tr>
 <tr>
