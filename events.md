@@ -6,7 +6,7 @@ The **interactive map below** is based on events of violent protest (including p
 
 The random **colour scheme** reflects **different types of events** which can be selected from the **interactive legend on the right**. These categories are based on my own preliminary tagging in the corresponding [data table](https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv) and necessarily subject to an interpretation and simplification of the insurgents' motives. For instance, unrests in Ireland have either been tagged as social / economic, concerning political freedoms, or government-related although religion also played a part. The rationale behind these categorisations is further discussed in the print publication. 
 
-**Event descriptions** (especially information on agents and outcomes) have been harvested from the **Wikipedia info boxes**. [Python scripts for webautomation](https://dhlab.hypotheses.org/1939) have automatically read the information from the HMTL tables behind the info boxes. Checking and updating the data is an on-going process. The current version of the geocoded data can be downloaded in <a href="https://github.com/MonikaBarget/Revolts/blob/master/MAP_events.geojson">GeoJSON format</a>.
+**Event descriptions** (especially information on agents and outcomes) have been harvested from the **Wikipedia info boxes**. [Python scripts for webautomation](https://dhlab.hypotheses.org/1939) have automatically read the information from the HMTL tables behind the info boxes. Checking and updating the data is an on-going process. The current version of the geocoded data can be downloaded in <a href="https://github.com/MonikaBarget/Revolts/blob/master/MAP_events.geojson" target="_blank">GeoJSON format</a>.
 
 
 
