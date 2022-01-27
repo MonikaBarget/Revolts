@@ -16,8 +16,8 @@
 <col style="width:10%">
 <col style="width:40%"> 
 <col style="width:20%">
-<col style="width:0%">
-<col style="width:0%">
+<col data-visible="false">
+<col data-visible="false">
 <col style="width:20%"> 
 <thead><tr><th title="Field #1">START</th>
 <th title="Field #2">END</th>
