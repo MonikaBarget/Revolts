@@ -1,6 +1,6 @@
 ### Interactive map of uprisings
 
-The **interactive map** below is based on events of violent protest (including planned and alleged uprisings) found in print-publications of the eighteenth century as well as Wikidata and Wikipedia. In order to show that many regions of 18th-century conflict had also been affected by unrest in previous centuries, events between 1500 and 1800 have been mapped. The zoomable map in this repository displays the approximate location of events and provides additional information in **pop-up labels**. Although displayed as point geometries, some events affected larger areas (see place details in label).
+The **interactive map below** is based on events of violent protest (including planned and alleged uprisings) found in print-publications of the eighteenth century as well as Wikidata and Wikipedia. In order to show that many regions of 18th-century conflict had also been affected by unrest in previous centuries, events between 1500 and 1800 have been mapped. The zoomable map in this repository displays the approximate location of events and provides additional information in **pop-up labels**. Although displayed as point geometries, some events affected larger areas (see place details in label).
 
 [<img src="./assets/MAP_screenshot-events.png"/>](https://monikabarget.github.io/Revolts/event-map/event-map.html)
 
