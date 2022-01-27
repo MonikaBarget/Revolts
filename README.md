@@ -6,7 +6,6 @@
     <figcaption>The riot in Broad Street on 7 June, 1780, engraving by James Heath after a painting by Francis Wheatle, <a href="https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg">Wikimedia Commons</a></figcaption>
 </figure>
 
-<br />
 <p>This repository contains data analyses and visualisations relating to different types of public conflict in the eighteenth-century British Empire. The aim of the comparative presentation of a wide range of events from local food riots to uprisings of transcontinental relevance such as the Jacobite Rebellions is to highlight recurring structural features and to discuss violent opposition in the context of state-formation.</p>
 <br />
 <hr>
