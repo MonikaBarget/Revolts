@@ -100,7 +100,7 @@ From,to,Name,Agents,Results,Label,Place (modern),Latitude,Longitude,Historic aff
 1712,#,(intended) Queen's Birthday Riot,#,#,[London and Oxford],"London, England",51.5072178,-0.1275862,British Empire,government,##
 1712,#,(unsuccessful) New York Slave Revolt of 1712,slaves,#,New York,New York,40.7127753,-74.0059728,British Empire,slavery / rights of freed slaves,##
 1712,#,King William's birthday Riot / Theatre Riot,riot between Whig and Tory partisans,#,"Dublin, Ireland","Dublin, Ireland",53.3498053,-6.2603097,British Empire,political freedoms / personal rights,##
-1713,1713,Dublin election riot,#,#,"Dublin, Kingdom of Ireland","Dublin, Ireland",53.3498053,-6.2603097,British Empire,government,##
+1713,1713,Dublin election riot,#,#,"Dublin, Kingdom of Ireland","Dublin, Ireland",53.3498053,-6.2603097,British Empire,elections,##
 1714,#,Coronation Riots,"protest against the coronation of the first Hanoverian king of Great Britain, George I",#,"England, Britain","England, Britain",52.3555177,-1.1743197,British Empire,government,##
 1714,#,Oxford Riots,Tory riots on the occasion of the Prince of Wales's birthday,#,"Oxford, England","Oxford, England",51.7520209,-1.2577263,British Empire,government,##
 1715,#,Jacobite Rebellion / the '15,attempted restoration of the Stuart monarchy,failed,England and Scotland,England,52.3555177,-1.1743197,British Empire,government,##
@@ -134,7 +134,7 @@ From,to,Name,Agents,Results,Label,Place (modern),Latitude,Longitude,Historic aff
 1739,#,Stono Rebellion,slave uprising,#,"South Carolina, USA","South Carolina, USA",33.836081,-81.1637245,British Empire,slavery / rights of freed slaves,##
 1740,1741,Food Riots / Irish Famine,"hungry townspeople ""vented their frustration on grain dealers, meal-mongers and bakers, and when they turned to direct action the most likely flashpoints were markets or warehouses""",permanent change in the country's demographic and economic landscape,Ireland (e.g. Drogheda and other parts of the Empire,"Drogheda, Ireland",53.717856,-6.3560985,British Empire,social / economic,##
 1741,#,New York Conspiracy,purported plot by slaves (and poor whites) to depose the colonial government,#,"New York, United States","New York, United States",40.7127753,-74.0059728,British Empire,government,##
-1742,#,Philadelphia Election Riot,inhabitants of Philadelphia in British America,#,"Philadelphia, United States","Philadelphia, United States",39.9525839,-75.1652215,British Empire,political freedoms / personal rights,##
+1742,#,Philadelphia Election Riot,inhabitants of Philadelphia in British America,#,"Philadelphia, United States","Philadelphia, United States",39.9525839,-75.1652215,British Empire,elections,##
 1743,#,"London Gin Riots (London, England)",taxation riot,#,"London, England","London, England",51.5072178,-0.1275862,British Empire,social / economic,##
 1744,#,Planned French Invasion of Britain,Jacobites in exile and their supporters,#,"Normandy, France","Normandy, France",48.8798704,0.1712529,British Empire / Kingdom of France,government,##
 1745,1746,"Jacobite Rebellion, the '45",Jacobites versus Hanoverian dynasty,"Government victory, end of Jacobitism as a significant political force",Scotland and Northern England,Scotland,56.4906712,-4.2026458,British Empire,government,##
