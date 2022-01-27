@@ -6,7 +6,7 @@
 
 <p>The <strong>hyperlinks</strong> lead to external resources provoding additional background information. Articles in the Encyclopedia Britannica, (local) government websites or academic e-publications have been linked alongside Wikipedia entries as starting points for further research.</p>
 
-<p>More details are also given in the <a href="https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv"><strong>fully searchable table</strong></a> of violent conflicts in the British Empire and the independent United States between 1513 and 1819. The table is work in progress -- information on agents and outcomes may be missing or dubitable. The information given is based on several <a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL queries</a> relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches via the <a href="https://query.wikidata.org/">Wikidata Query Service</a>.</p>
+<p>More details are also given in the <a href="https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv" target="_blank"><strong>fully searchable table</strong></a> of violent conflicts in the British Empire and the independent United States between 1513 and 1819. The table is work in progress -- information on agents and outcomes may be missing or dubitable. The information given is based on several <a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL queries</a> relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches via the <a href="https://query.wikidata.org/">Wikidata Query Service</a>.</p>
 
 <hr>
 <strong>Selected events between the Monmouth Rebellion and Peterloo Massacre:</strong>
