@@ -1,6 +1,4 @@
-### Events
-
-#### Table of selected (alleged / planned) unrest
+### Table of selected (alleged / planned) unrest
 
 <p>The events listed took place in the British Isles and / or overseas colonies and point to the strong cultural and political exchanges between the different parts of the Empire.</p>
 
