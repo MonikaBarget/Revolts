@@ -13,11 +13,9 @@
     "Name":"Battle of Glendale",
     "Agents":"The Battle of Glendale was a battle fought on the Inner Hebridean Isle of Skye, between the MacDonalds of Sleat and the MacDonalds of Clanranald, against the MacLeods of Harris and Dunvegan and the MacLeods of Lewis.",
     "Results":"Inconclusive",
-    "Label":"Glendale, Isle of Skye",
-    "Place (modern)":"Glendale, Isle of Skye",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Glendale, Isle of Skye",
+    "Geocoded location":"Glendale, Isle of Skye",
+    "Context":"involving clans"
     }
   },
   {
@@ -32,11 +30,9 @@
     "Name":"Evil May Day",
     "Agents":"local inhabitants rioting against foreigners (called \"strangers\") living in London",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -51,11 +47,9 @@
     "Name":"Battle of Knockavoe",
     "Agents":"between the O'Donnells, led by Hugh Dubh O'Donnell and Manus O'Donnell, both sons of Sir Hugh Dubh O'Donnell, against the O'Neills",
     "Results":"O'Neills and their supporters were surprised and routed",
-    "Label":"Knockavoe",
-    "Place (modern)":"Knockavoe",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Knockavoe",
+    "Geocoded location":"Knockavoe",
+    "Context":"involving clans"
     }
   },
   {
@@ -70,11 +64,9 @@
     "Name":"Battle of Melrose",
     "Agents":"Douglas, Earl of Angus",
     "Results":"Victory for Douglas, Earl of Angus",
-    "Label":"Melrose, Scotland",
-    "Place (modern)":"Melrose, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Melrose, Scotland",
+    "Geocoded location":"Melrose, Scotland",
+    "Context":"involving clans"
     }
   },
   {
@@ -89,11 +81,9 @@
     "Name":"Battle of Summerdale",
     "Agents":"Orkney Sinclairs",
     "Results":"Victory for Orkney Sinclairs",
-    "Label":"boundary of the parishes of Orphir and Stenness in Mainland, Orkney, Scotland",
-    "Place (modern)":"Orkney, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"boundary of the parishes of Orphir and Stenness in Mainland, Orkney, Scotland",
+    "Geocoded location":"Orkney, Scotland",
+    "Context":"involving clans"
     }
   },
   {
@@ -108,11 +98,9 @@
     "Name":"Pilgrimage of Grace",
     "Agents":"local Catholics led by Robert Aske, against the Reformation of Henry VIII",
     "Results":"#",
-    "Label":"York, Yorkshire, England",
-    "Place (modern)":"York, Yorkshire, England",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"York, Yorkshire, England",
+    "Geocoded location":"York, Yorkshire, England",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -127,11 +115,9 @@
     "Name":"The Prayer Book Rebellion in Cornwall and Devon, England",
     "Agents":"popular revolt in Cornwall and Devon sparked by the introduction of the Book of Common Prayer",
     "Results":"#",
-    "Label":"Cornwall",
-    "Place (modern)":"Cornwall, United Kingdom",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Cornwall",
+    "Geocoded location":"Cornwall, United Kingdom",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -146,11 +132,9 @@
     "Name":"The Prayer Book Rebellion in Cornwall and Devon, England",
     "Agents":"popular revolt in Cornwall and Devon sparked by the introduction of the Book of Common Prayer",
     "Results":"#",
-    "Label":"Devon",
-    "Place (modern)":"Devon, United Kingdom",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Devon",
+    "Geocoded location":"Devon, United Kingdom",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -165,11 +149,9 @@
     "Name":"Kett's Rebellion",
     "Agents":"revolt during the reign of Edward VI, largely in response to the enclosure of land",
     "Results":"Victory for Edwardian forces, rebellion suppressed, execution of rebel commanders",
-    "Label":"Norfolk, England",
-    "Place (modern)":"Norfolk, England",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Norfolk, England",
+    "Geocoded location":"Norfolk, England",
+    "Context":"social / economic"
     }
   },
   {
@@ -184,11 +166,9 @@
     "Name":"Wyatt-Verschwörung",
     "Agents":"popular rising opposing Queen Mary's intention to marry Philip of Spain",
     "Results":"#",
-    "Label":"Britain",
-    "Place (modern)":"Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Britain",
+    "Geocoded location":"Britain",
+    "Context":"government"
     }
   },
   {
@@ -203,11 +183,9 @@
     "Name":"Battle of Garbharry",
     "Agents":"Clan Sutherland",
     "Results":"Sutherland victory",
-    "Label":"Foot of the mountain Beinn-mhor, in Berriedale, Scotland",
-    "Place (modern)":"Foot of the mountain Beinn-mhor, in Berriedale, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Foot of the mountain Beinn-mhor, in Berriedale, Scotland",
+    "Geocoded location":"Foot of the mountain Beinn-mhor, in Berriedale, Scotland",
+    "Context":"involving clans"
     }
   },
   {
@@ -222,11 +200,9 @@
     "Name":"Chaseabout Raid",
     "Agents":"rebellion by James Stewart, 1st Earl of Moray, against his half sister, Mary, Queen of Scots",
     "Results":"Victory for Mary",
-    "Label":"Scottish Lowlands",
-    "Place (modern)":"Scottish Lowlands",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Scottish Lowlands",
+    "Geocoded location":"Scottish Lowlands",
+    "Context":"government"
     }
   },
   {
@@ -241,11 +217,9 @@
     "Name":"Marian civil war",
     "Agents":"supporters of King James VI",
     "Results":"Victory for supporters of King James VI",
-    "Label":"Kingdom of scotland",
-    "Place (modern)":"Kingdom of scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Kingdom of scotland",
+    "Geocoded location":"Kingdom of scotland",
+    "Context":"government"
     }
   },
   {
@@ -260,11 +234,9 @@
     "Name":"Rising of the North",
     "Agents":"Catholic nobles trying to depose Queen Elizabeth I of England and replace her with Mary, Queen of Scots",
     "Results":"Elizabethan victory,\n Elizabeth's authority strengthened,\n aristocracy of North weakened",
-    "Label":"Northern England",
-    "Place (modern)":"Northern England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Northern England",
+    "Geocoded location":"Northern England",
+    "Context":"government"
     }
   },
   {
@@ -279,11 +251,9 @@
     "Name":"Battle of Bun Garbhain",
     "Agents":"Clan Cameron",
     "Results":"Cameron victory",
-    "Label":"Bun Garbhain by Loch Eil",
-    "Place (modern)":"Bun Garbhain",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Bun Garbhain by Loch Eil",
+    "Geocoded location":"Bun Garbhain, Scotland",
+    "Context":"involving clans"
     }
   },
   {
@@ -298,11 +268,9 @@
     "Name":"Battle of Torran-Roy",
     "Agents":"Earl of Caithnesss / Sutherland of Duffus versus the Murrays of Aberscross",
     "Results":"Earl of Caithnesss forces initially defeated / Murrays can later win a victory",
-    "Label":"Torran-Roy, Sutherland, Scotland",
-    "Place (modern)":"Torran-Roy, Sutherland, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Torran-Roy, Sutherland, Scotland",
+    "Geocoded location":"Torran-Roy, Sutherland, Scotland",
+    "Context":"involving clans"
     }
   },
   {
@@ -317,11 +285,9 @@
     "Name":"First Desmond Rebellion",
     "Agents":"rebellions by the Earl of Desmond, the head of the Fitzmaurice/FitzGerald Dynasty in Munster, and his followers, the Geraldines and their allies, against the threat of the extension of their South Welsh Tewdwr cousins and of Elizabethan English government",
     "Results":"#",
-    "Label":"Iwamura Castle",
-    "Place (modern)":"Munster, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Iwamura Castle",
+    "Geocoded location":"Munster, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -336,11 +302,9 @@
     "Name":"Betrayal of Clannabuidhe / Clandeboye massacre",
     "Agents":"massacre of the O'Neills of Lower Clandeboye by the English forces of The 1st Earl of Essex",
     "Results":"#",
-    "Label":"Belfast, Ireland",
-    "Place (modern)":"Belfast, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Belfast, Ireland",
+    "Geocoded location":"Belfast, Ireland",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -355,11 +319,9 @@
     "Name":"Second Desmond Rebellion",
     "Agents":"rebellions by the Earl of Desmond, the head of the Fitzmaurice/FitzGerald Dynasty in Munster, and his followers, the Geraldines and their allies, against the threat of the extension of their South Welsh Tewdwr cousins and of Elizabethan English government",
     "Results":"English victory;\n famine throughout Munster\n Plantation of Munster",
-    "Label":"Provinces of Munster and Leinster, Ireland",
-    "Place (modern)":"Munster, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Provinces of Munster and Leinster, Ireland",
+    "Geocoded location":"Munster, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -374,11 +336,9 @@
     "Name":"Battle of Ardnaree",
     "Agents":"Tudor conquest of Ireland",
     "Results":"English victory",
-    "Label":"near Ardnaree, County Mayo",
-    "Place (modern)":"near Ardnaree, County Mayo",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"near Ardnaree, County Mayo",
+    "Geocoded location":"near Ardnaree, County Mayo",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -393,11 +353,9 @@
     "Name":"Watts' West Indies and Virginia expedition",
     "Agents":"#",
     "Results":"English victory / Expedition success",
-    "Label":"West Indies / Virginia",
-    "Place (modern)":"Between Hispaniola, Santiago colony (present-day Jamaica), & Cuba",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"West Indies / Virginia",
+    "Geocoded location":"Between Hispaniola, Santiago colony (present-day Jamaica), & Cuba",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -412,11 +370,9 @@
     "Name":"Battle of Dryfe Sands",
     "Agents":"Scottish clan battle between the Johnstones and Maxwells",
     "Results":"#",
-    "Label":"Annandale, Scotland",
-    "Place (modern)":"Annandale, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Annandale, Scotland",
+    "Geocoded location":"Annandale, Scotland",
+    "Context":"involving clans"
     }
   },
   {
@@ -431,11 +387,9 @@
     "Name":"The Nine Years' War or 'Tyrone's Rebellion' in Ulster, Ireland",
     "Agents":"against English rule in Ireland",
     "Results":"#",
-    "Label":"Ulster, Ireland",
-    "Place (modern)":"Ulster, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Ulster, Ireland",
+    "Geocoded location":"Ulster, Ireland",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -450,11 +404,9 @@
     "Name":"Oxfordshire Rising of 1596",
     "Agents":"intended march on London to protest against bad harvest and unprecedented poverty",
     "Results":"#",
-    "Label":"Oxfordshire, England",
-    "Place (modern)":"Oxfordshire, England",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Oxfordshire, England",
+    "Geocoded location":"Oxfordshire, England",
+    "Context":"social / economic"
     }
   },
   {
@@ -469,11 +421,9 @@
     "Name":"Battle of Logiebride / Tumult in Ross",
     "Agents":"disturbance at the Logie Candlemas market between men of the Clan Mackenzie against men of the Clan Munro and the Bain family of Tulloch Castle",
     "Results":"Results vary from different sources",
-    "Label":"Conon Bridge, Rosshire, Scotland",
-    "Place (modern)":"Conon Bridge, Rosshire, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Conon Bridge, Rosshire, Scotland",
+    "Geocoded location":"Conon Bridge, Rosshire, Scotland",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -488,11 +438,9 @@
     "Name":"Raid on Tabasco (English military expedition during the Anglo–Spanish War)",
     "Agents":"#",
     "Results":"#",
-    "Label":"Tabasco, New Spain",
-    "Place (modern)":"Tabasco / Villahermosa, Mexico",
-    "Historic affiliation":"British Empire / Spanish Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Tabasco, New Spain",
+    "Geocoded location":"Tabasco / Villahermosa, Mexico",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -507,11 +455,9 @@
     "Name":"Navajo Wars",
     "Agents":"intermittant conflict over white expansion",
     "Results":"United States victory; Navajo moved to reservations in United States.",
-    "Label":"Mexico",
-    "Place (modern)":"Mexico / Southwestern United States",
-    "Historic affiliation":"United States of America / native Americans",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Mexico",
+    "Geocoded location":"Mexico / Southwestern United States",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -526,11 +472,9 @@
     "Name":"Battle of Carinish",
     "Agents":"Scottish clan battle / feuding between Clan MacLeod of Dunvegan",
     "Results":"MacDonald victory",
-    "Label":"Carinish, North Uist",
-    "Place (modern)":"Carinish, North Uist",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Carinish, North Uist",
+    "Geocoded location":"Carinish, North Uist",
+    "Context":"involving clans"
     }
   },
   {
@@ -545,11 +489,9 @@
     "Name":"Stand-off at Bengrime",
     "Agents":"stand-off between the armies of John Gordon, 13th Earl of Sutherland (chief of Clan Sutherland) and George Sinclair, 5th Earl of Caithness (chief of Clan Sinclair)",
     "Results":"No battle",
-    "Label":"Bengrime, Sutherland, Scotland",
-    "Place (modern)":"Sutherlandshire, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Bengrime, Sutherland, Scotland",
+    "Geocoded location":"Sutherlandshire, Scotland",
+    "Context":"involving clans"
     }
   },
   {
@@ -564,11 +506,9 @@
     "Name":"The Earl of Essex Rebellion",
     "Agents":"led by Robert Devereux, 2nd Earl of Essex, in 1601 against Queen Elizabeth I of England and the court faction led by Sir Robert Cecil",
     "Results":"unsuccessful",
-    "Label":"Essex",
-    "Place (modern)":"Essex",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Essex",
+    "Geocoded location":"Essex",
+    "Context":"government"
     }
   },
   {
@@ -583,11 +523,9 @@
     "Name":"Gunpowder Plot",
     "Agents":"Catholic plan to blow up the House of Lords",
     "Results":"unsuccessful",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":""
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"government"
     }
   },
   {
@@ -602,11 +540,9 @@
     "Name":"Battle of Kilmacrennan",
     "Agents":"skirmish fought during O'Doherty's Rebellion",
     "Results":"Crown victory",
-    "Label":"Kilmacrennan, Ireland",
-    "Place (modern)":"Kilmacrennan, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Kilmacrennan, Ireland",
+    "Geocoded location":"Kilmacrennan, Ireland",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -621,11 +557,9 @@
     "Name":"O'Doherty's Rebellion",
     "Agents":"Sir Cahir O'Doherty, lord of Inishowen, began an uprising against the Crown authorities",
     "Results":"Crown victory",
-    "Label":"Ulster",
-    "Place (modern)":"County Donegal, Ulster, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Ulster",
+    "Geocoded location":"County Donegal, Ulster, Ireland",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -640,11 +574,9 @@
     "Name":"Siege of Tory Island",
     "Agents":"O'Doherty's rebels against the Crown",
     "Results":"Crown victory",
-    "Label":"Tory Island, Ireland",
-    "Place (modern)":"Tory Island, County Donegal, Ulster, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Tory Island, Ireland",
+    "Geocoded location":"Tory Island, County Donegal, Ulster, Ireland",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -659,11 +591,9 @@
     "Name":"Indian Wars",
     "Agents":"Jamestown settlers vs. Native Americans",
     "Results":"temporary peace agreement",
-    "Label":"Virginia, North America",
-    "Place (modern)":"Virginia, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Virginia, North America",
+    "Geocoded location":"Virginia, USA",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -678,11 +608,9 @@
     "Name":"Action of 17 July 1628",
     "Agents":"#",
     "Results":"English victory",
-    "Label":"St. Lawrence River, near present-day Rimouski, Quebec",
-    "Place (modern)":"Saint Lawrence River",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"St. Lawrence River, near present-day Rimouski, Quebec",
+    "Geocoded location":"Saint Lawrence River",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -697,11 +625,9 @@
     "Name":"Border disputes between New York and Connecticut",
     "Agents":"colonies of New York and Connecticut disputed the precise location of their shared border",
     "Results":"Both sides claim victory",
-    "Label":"ConnecticutNew York border, Long Island Sound",
-    "Place (modern)":"New York, United States",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"ConnecticutNew York border, Long Island Sound",
+    "Geocoded location":"New York, United States",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -716,11 +642,9 @@
     "Name":"Bishops' War",
     "Agents":"Royal forces vs. Scottish Covenanters",
     "Results":"Covenanter victory",
-    "Label":"Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -735,11 +659,9 @@
     "Name":"Irish Rebellion",
     "Agents":"#",
     "Results":"#",
-    "Label":"Ireland",
-    "Place (modern)":"Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Ireland",
+    "Geocoded location":"Ireland",
+    "Context":"government"
     }
   },
   {
@@ -754,11 +676,9 @@
     "Name":"English Revolution / English Civil Wars",
     "Agents":"civil war between supporters of Parliament and adherents of the Crown",
     "Results":"execution of Charles I and the temporary establishment of a republican Commonwealth",
-    "Label":"England",
-    "Place (modern)":"England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"England",
+    "Geocoded location":"England",
+    "Context":"government"
     }
   },
   {
@@ -773,11 +693,9 @@
     "Name":"Siege of Chichester",
     "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
     "Results":"Parliamentarian victory",
-    "Label":"Chichester, England",
-    "Place (modern)":"Chichester, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Chichester, England",
+    "Geocoded location":"Chichester, England",
+    "Context":"government"
     }
   },
   {
@@ -792,11 +710,9 @@
     "Name":"Siege of Portsmouth",
     "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
     "Results":"Parliamentarian victory",
-    "Label":"Portsmouth, Hampshire, England",
-    "Place (modern)":"Portsmouth, Hampshire, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Portsmouth, Hampshire, England",
+    "Geocoded location":"Portsmouth, Hampshire, England",
+    "Context":"government"
     }
   },
   {
@@ -811,11 +727,9 @@
     "Name":"Battle of Portlester",
     "Agents":"between the Ulster Army under Eoghan Ó Néill and a largely Protestant government force from Dublin under Lord Moore",
     "Results":"Irish Confederate Victory",
-    "Label":"Portlester, Meath, Ireland",
-    "Place (modern)":"Portlester, Meath, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Portlester, Meath, Ireland",
+    "Geocoded location":"Portlester, Meath, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -830,11 +744,9 @@
     "Name":"Siege of Lichfield",
     "Agents":"Royalists under the command of Prince Rupert besieged the Parliamentary garrison under the command of Colonel Russell",
     "Results":"Royalist victory",
-    "Label":"Lichfield, Staffordshire, England",
-    "Place (modern)":"Lichfield, Staffordshire, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Lichfield, Staffordshire, England",
+    "Geocoded location":"Lichfield, Staffordshire, England",
+    "Context":"government"
     }
   },
   {
@@ -849,11 +761,9 @@
     "Name":"Relief of Montgomery Castle",
     "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
     "Results":"Parliamentarian victory",
-    "Label":"Montgomery, Powys",
-    "Place (modern)":"Montgomery, Wales",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Montgomery, Powys",
+    "Geocoded location":"Montgomery, Wales",
+    "Context":"government"
     }
   },
   {
@@ -868,11 +778,9 @@
     "Name":"Relief of Newark",
     "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
     "Results":"Royalist victory",
-    "Label":"Newark-on-Trent, Nottinghamshire",
-    "Place (modern)":"Newark-on-Trent, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Newark-on-Trent, Nottinghamshire",
+    "Geocoded location":"Newark-on-Trent, England",
+    "Context":"government"
     }
   },
   {
@@ -887,11 +795,9 @@
     "Name":"Sack of Cashel",
     "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
     "Results":"English Parliamentarians take the town and massacre its garrison",
-    "Label":"Cashel, Tipperary, Ireland",
-    "Place (modern)":"Cashel, Tipperary, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Cashel, Tipperary, Ireland",
+    "Geocoded location":"Cashel, Tipperary, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -906,11 +812,9 @@
     "Name":"Whiggamore Raid",
     "Agents":"Kirk faction of the Covenanters vs. Committee of Estates / Engagers",
     "Results":"Edinburgh taken by Kirk Party, \n Committee of Estates relocates to Stirling",
-    "Label":"Edinburgh, Scotland",
-    "Place (modern)":"Edinburgh, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Edinburgh, Scotland",
+    "Geocoded location":"Edinburgh, Scotland",
+    "Context":"government"
     }
   },
   {
@@ -925,11 +829,9 @@
     "Name":"Siege of Inverness",
     "Agents":"Scottish Royalists vs. Covenanters (Clan Fraser of Lovat)",
     "Results":"Covenanters withstand the siege and Royalists are forced to retreat",
-    "Label":"Inverness, Scotland",
-    "Place (modern)":"Inverness, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Inverness, Scotland",
+    "Geocoded location":"Inverness, Scotland",
+    "Context":"government"
     }
   },
   {
@@ -944,11 +846,9 @@
     "Name":"Siege of Kilkenny",
     "Agents":"Irish Confederates versus New Model Army of the English Parliamentarians",
     "Results":"English Parliamentarian victory",
-    "Label":"County Kilkenny",
-    "Place (modern)":"County Kilkenny",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"County Kilkenny",
+    "Geocoded location":"County Kilkenny",
+    "Context":"government"
     }
   },
   {
@@ -963,11 +863,9 @@
     "Name":"Glencairn-Rising",
     "Agents":"Royalists rising against Oliver Cromwell's Protectorate",
     "Results":"#",
-    "Label":"Scottish Highlands",
-    "Place (modern)":"Scottish Highlands",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Scottish Highlands",
+    "Geocoded location":"Scottish Highlands",
+    "Context":"government"
     }
   },
   {
@@ -982,11 +880,9 @@
     "Name":"Battle of Bloody Run",
     "Agents":"Conferederation of Native Americans versus British soliders",
     "Results":"Native American victory, Captain Dalyell killed",
-    "Label":"Parent's Creek hence Bloody Run, near Fort Detroit, New France (now in Detroit, Michigan)",
-    "Place (modern)":"Parent's Creek hence Bloody Run, near Fort Detroit, New France (now in Detroit, Michigan)",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Parent's Creek hence Bloody Run, near Fort Detroit, New France (now in Detroit, Michigan)",
+    "Geocoded location":"Parent's Creek hence Bloody Run, near Fort Detroit, New France (now in Detroit, Michigan)",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1001,11 +897,9 @@
     "Name":"Piracy on Lake Nicaragua",
     "Agents":"pirates",
     "Results":"Piracy and filibustering suppressed by 1857",
-    "Label":"Lake Nicaragua, San Juan River, Nicaragua",
-    "Place (modern)":"Lake Nicaragua",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Lake Nicaragua, San Juan River, Nicaragua",
+    "Geocoded location":"Lake Nicaragua",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -1020,11 +914,9 @@
     "Name":"Bawdy House Riots",
     "Agents":"Dissenters against King's proclamation on conventicles (lay worship)",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -1039,11 +931,9 @@
     "Name":"Great Swamp Fight",
     "Agents":"#",
     "Results":"New England victory",
-    "Label":"South Kingstown, Rhode Island",
-    "Place (modern)":"South Kingstown, Rhode Island",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"South Kingstown, Rhode Island",
+    "Geocoded location":"South Kingstown, Rhode Island",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1058,11 +948,9 @@
     "Name":"King Philip's War / Metacom's Rebellion",
     "Agents":"between Native Americans and English settlers",
     "Results":"#",
-    "Label":"Southern New England",
-    "Place (modern)":"Southern New England, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Southern New England",
+    "Geocoded location":"Southern New England, USA",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1077,11 +965,9 @@
     "Name":"Wheeler's Surprise",
     "Agents":"ambush by the Nipmuc",
     "Results":"Siege unsuccessful. Follow up battle fought to a draw.",
-    "Label":"Brookfield, Massachusetts",
-    "Place (modern)":"Brookfield, Massachusetts (present-day West Brookfield and probably New Braintree)",
-    "Historic affiliation":"British Empire / Native Americans",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Brookfield, Massachusetts",
+    "Geocoded location":"Brookfield, Massachusetts (present-day West Brookfield and probably New Braintree)",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1096,11 +982,9 @@
     "Name":"Bacon's Rebellion / Virginia Rebellion",
     "Agents":"armed rebellion by Virginia settlers against Governor Berkeley",
     "Results":"#",
-    "Label":"Virginia, North America",
-    "Place (modern)":"Virginia, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Virginia, North America",
+    "Geocoded location":"Virginia, USA",
+    "Context":"government"
     }
   },
   {
@@ -1115,11 +999,9 @@
     "Name":"Popish Plot",
     "Agents":"fictitious/alleged plot of Jesuits planning the assassination of King Charles II",
     "Results":"multiple arrests and execution of innocents",
-    "Label":"England, Britain",
-    "Place (modern)":"England, Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":""
+    "Places of event":"England, Britain",
+    "Geocoded location":"England, Britain",
+    "Context":"government"
     }
   },
   {
@@ -1134,11 +1016,9 @@
     "Name":"The Killing Time",
     "Agents":"between the Presbyterian Covenanter movement, based largely in the south west of the country, and the government forces of Kings Charles II and James VII",
     "Results":"Presbyterianism accepted in 1690 Act of Settlement",
-    "Label":"Kingdom of Scotland (predominantly southwest)",
-    "Place (modern)":"Kingdom of scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Kingdom of Scotland (predominantly southwest)",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -1153,11 +1033,9 @@
     "Name":"Argyll Rebellion",
     "Agents":"to overthrow King James II",
     "Results":"#",
-    "Label":"Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"government"
     }
   },
   {
@@ -1172,11 +1050,9 @@
     "Name":"Monmouth Rebellion",
     "Agents":"Duke of Monmouth against royal forces",
     "Results":"Royalist victory",
-    "Label":"South West England",
-    "Place (modern)":"South West England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"South West England",
+    "Geocoded location":"South West England",
+    "Context":"government"
     }
   },
   {
@@ -1191,11 +1067,9 @@
     "Name":"Glorious Revolution",
     "Agents":"opposition to King James II/VII",
     "Results":"Protestant Succession established",
-    "Label":"Britain, Ireland, North America",
-    "Place (modern)":"Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Britain, Ireland, North America",
+    "Geocoded location":"Britain",
+    "Context":"government"
     }
   },
   {
@@ -1210,11 +1084,9 @@
     "Name":"Glorious Revolution",
     "Agents":"opposition to King James II/VII",
     "Results":"Protestant Succession established",
-    "Label":"Britain, Ireland, North America",
-    "Place (modern)":"Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Britain, Ireland, North America",
+    "Geocoded location":"Ireland",
+    "Context":"government"
     }
   },
   {
@@ -1229,11 +1101,9 @@
     "Name":"Glorious Revolution",
     "Agents":"opposition to King James II/VII",
     "Results":"Protestant Succession established",
-    "Label":"Britain, Ireland, North America",
-    "Place (modern)":"North America",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Britain, Ireland, North America",
+    "Geocoded location":"New England, USA",
+    "Context":"government"
     }
   },
   {
@@ -1248,11 +1118,9 @@
     "Name":"Wincanton Skirmish",
     "Agents":"small patrol of the English Army led by the Irish officer Patrick Sarsfield, clashed with a detachment of the invading Dutch Army",
     "Results":"Indecisive",
-    "Label":"Wincanton, Somerset",
-    "Place (modern)":"Wincanton, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Wincanton, Somerset",
+    "Geocoded location":"Wincanton, England",
+    "Context":"government"
     }
   },
   {
@@ -1267,11 +1135,9 @@
     "Name":"Rising in Boston",
     "Agents":"against Governor Sir Edmund Andros",
     "Results":"#",
-    "Label":"Boston, Massachussetts",
-    "Place (modern)":"Boston, Massachussetts",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Boston, Massachussetts",
+    "Geocoded location":"Boston, Massachussetts",
+    "Context":"government"
     }
   },
   {
@@ -1286,11 +1152,9 @@
     "Name":"Raid on Dover / Cochecho Massacre",
     "Agents":"French and Wabanaki Confederacy vs. New England Colonies",
     "Results":"French and Wabanaki Confederacy victory",
-    "Label":"Dover, New Hampshire",
-    "Place (modern)":"Dover, New Hampshire",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Dover, New Hampshire",
+    "Geocoded location":"Dover, New Hampshire",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1305,11 +1169,9 @@
     "Name":"Siege of Pemaquid",
     "Agents":"attack Abenaki warriors on the English fort",
     "Results":"successful attack",
-    "Label":"Pemaquid, Fort Charles, North America",
-    "Place (modern)":"Pemaquid, Fort Charles, North America",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Pemaquid, Fort Charles, North America",
+    "Geocoded location":"Pemaquid, Fort Charles, North America",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1324,11 +1186,9 @@
     "Name":"Raid on Salmon Falls",
     "Agents":"Acadian and Wabanaki Confederacy",
     "Results":"Acadian and Wabanaki Confederacy victory",
-    "Label":"Salmon Falls",
-    "Place (modern)":"Salmon Falls (present-day Berwick, Maine)",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Salmon Falls",
+    "Geocoded location":"Salmon Falls (present-day Berwick, Maine)",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1343,11 +1203,9 @@
     "Name":"Siege of Athlone",
     "Agents":"Jacobites versus Williamites",
     "Results":"Williamite victory",
-    "Label":"Athlone, Ireland",
-    "Place (modern)":"Athlone, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Athlone, Ireland",
+    "Geocoded location":"Athlone, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -1362,11 +1220,9 @@
     "Name":"Raid on Oyster River",
     "Agents":"French colonists, Abenaki warriors, English-speaking settlers",
     "Results":"New France and Abenaki victory",
-    "Label":"Oyster River",
-    "Place (modern)":"Oyster River (present-day Durham, New Hampshire)",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Oyster River",
+    "Geocoded location":"Oyster River (present-day Durham, New Hampshire)",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1381,11 +1237,9 @@
     "Name":"Komenda Wars",
     "Agents":"wars largely between the Dutch West India Company and the British Royal African Company",
     "Results":"#",
-    "Label":"Fort Komenda",
-    "Place (modern)":"Fort Komenda, Ghana",
-    "Historic affiliation":"British Empire / Dutch Republic / Kingdom of Eguafo",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Fort Komenda",
+    "Geocoded location":"Fort Komenda, Ghana",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1400,11 +1254,9 @@
     "Name":"Raid on Haverhill",
     "Agents":"French-speaking colonists, English-speaking colonists",
     "Results":"French victory",
-    "Label":"Haverhill, Province of Massachusetts Bay",
-    "Place (modern)":"Haverhill, Massachusetts",
-    "Historic affiliation":"British Empire / Kingdom of France",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Haverhill, Province of Massachusetts Bay",
+    "Geocoded location":"Haverhill, Massachusetts",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1419,11 +1271,9 @@
     "Name":"Riot on the Pretender's Birthday",
     "Agents":"supporters of the Stuart dynasty",
     "Results":"#",
-    "Label":"Clerkenwell, England",
-    "Place (modern)":"Clerkenwell, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":""
+    "Places of event":"Clerkenwell, England",
+    "Geocoded location":"Clerkenwell, England",
+    "Context":"government"
     }
   },
   {
@@ -1438,11 +1288,9 @@
     "Name":"Riot on the Pretender's Birthday",
     "Agents":"supporters of the Stuart dynasty",
     "Results":"#",
-    "Label":"Whitechapel, England",
-    "Place (modern)":"Whitechapel, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":""
+    "Places of event":"Whitechapel, England",
+    "Geocoded location":"Whitechapel, England",
+    "Context":"government"
     }
   },
   {
@@ -1457,11 +1305,9 @@
     "Name":"Riot on the Pretender's Birthday",
     "Agents":"Catholic mob",
     "Results":"#",
-    "Label":"Dublin, Ireland",
-    "Place (modern)":"Dublin, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Dublin, Ireland",
+    "Geocoded location":"Dublin, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -1476,11 +1322,9 @@
     "Name":"Riot on the Pretender's Birthday",
     "Agents":"supporters of the Stuart dynasty",
     "Results":"#",
-    "Label":"Bristol, England",
-    "Place (modern)":"Bristol, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Bristol, England",
+    "Geocoded location":"Bristol, England",
+    "Context":"government"
     }
   },
   {
@@ -1495,11 +1339,9 @@
     "Name":"Battle of Falmouth",
     "Agents":"New France and Wabanaki Confederacy vs. Massachusetts Bay Colony",
     "Results":"#",
-    "Label":"Falmouth, Maine",
-    "Place (modern)":"Falmouth, Maine",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Falmouth, Maine",
+    "Geocoded location":"Falmouth, Maine",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1514,11 +1356,9 @@
     "Name":"Comanche Wars",
     "Agents":"Comanche, Spain, later: Mexico and the USA",
     "Results":"Initial Comanche victory over Spain and Mexico;\n final Texan and United States victory",
-    "Label":"South-central United States (Texas, Oklahoma, New Mexico, Kansas, Colorado) and northern Mexico",
-    "Place (modern)":"United States",
-    "Historic affiliation":"Spanish Empire / United States",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"South-central United States (Texas, Oklahoma, New Mexico, Kansas, Colorado) and northern Mexico",
+    "Geocoded location":"United States",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -1533,11 +1373,9 @@
     "Name":"Union Act Riots",
     "Agents":"civil unrest and disorder in Scottish towns",
     "Results":"#",
-    "Label":"Scotland, Britain",
-    "Place (modern)":"Scotland, Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Scotland, Britain",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"government"
     }
   },
   {
@@ -1552,11 +1390,9 @@
     "Name":"Planned Invasion of 1708",
     "Agents":"Jacobites in French, French supporters of the Stuart dynasty",
     "Results":"British victory over the Jacobites,\n France unable to disembark troops,\n strategic gains for France as the British had to divert troops away to Scotland",
-    "Label":"Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"government"
     }
   },
   {
@@ -1571,11 +1407,9 @@
     "Name":"Food Riots in Britain",
     "Agents":"uprising of the poor",
     "Results":"#",
-    "Label":"British Isles",
-    "Place (modern)":"Great Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"British Isles",
+    "Geocoded location":"Great Britain",
+    "Context":"economic / social"
     }
   },
   {
@@ -1590,11 +1424,9 @@
     "Name":"Boston Bread Riots",
     "Agents":"series of three riots by the poor",
     "Results":"#",
-    "Label":"Boston, MA",
-    "Place (modern)":"Boston, MA",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Boston, MA",
+    "Geocoded location":"Boston, MA",
+    "Context":"social / economic"
     }
   },
   {
@@ -1609,11 +1441,9 @@
     "Name":"Sacheverell Riot",
     "Agents":"local support for oppositional (high Church) preacher Henry Sacheverell, attacks on the homes and meeting-houses of Dissenters",
     "Results":"one of the riots that led to the passing of the Riot Act",
-    "Label":"Gainsborough, Lincolnshire, England",
-    "Place (modern)":"Gainsborough, Lincolnshire, England",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Gainsborough, Lincolnshire, England",
+    "Geocoded location":"Gainsborough, Lincolnshire, England",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -1628,11 +1458,9 @@
     "Name":"Sacheverell Riot",
     "Agents":"support for oppositional (high Church) preacher Henry Sacheverell, attacks on the homes and meeting-houses of Dissenters",
     "Results":"one of the riots that led to the passing of the Riot Act",
-    "Label":"Wrexham, Wales",
-    "Place (modern)":"Wrexham, Wales",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Wrexham, Wales",
+    "Geocoded location":"Wrexham, Wales",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -1647,11 +1475,9 @@
     "Name":"Sacheverell Riot",
     "Agents":"support for oppositional (high Church) preacher Henry Sacheverell, attacks on the homes and meeting-houses of Dissenters",
     "Results":"one of the riots that led to the passing of the Riot Act",
-    "Label":"Barnstaple, Devon, England",
-    "Place (modern)":"Barnstaple, Devon, England",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Barnstaple, Devon, England",
+    "Geocoded location":"Barnstaple, Devon, England",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -1666,11 +1492,9 @@
     "Name":"Sacheverell Riot",
     "Agents":"local support for oppositional (high Church) preacher Henry Sacheverell, attacks on the homes and meeting-houses of Dissenters",
     "Results":"one of the riots that led to the passing of the Riot Act",
-    "Label":"London City, England",
-    "Place (modern)":"London City, England",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"London City, England",
+    "Geocoded location":"London City, England",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -1685,11 +1509,9 @@
     "Name":"Cary's Rebellion",
     "Agents":"against the government in North Carolina",
     "Results":"#",
-    "Label":"North Carolina, North America",
-    "Place (modern)":"North Carolina, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"North Carolina, North America",
+    "Geocoded location":"North Carolina, USA",
+    "Context":"government"
     }
   },
   {
@@ -1704,11 +1526,9 @@
     "Name":"(intended) Queen's Birthday Riot",
     "Agents":"#",
     "Results":"#",
-    "Label":"[London and Oxford]",
-    "Place (modern)":"Oxford, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"[London and Oxford]",
+    "Geocoded location":"Oxford, England",
+    "Context":"government"
     }
   },
   {
@@ -1723,11 +1543,9 @@
     "Name":"(intended) Queen's Birthday Riot",
     "Agents":"#",
     "Results":"#",
-    "Label":"[London and Oxford]",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"[London and Oxford]",
+    "Geocoded location":"London, England",
+    "Context":"government"
     }
   },
   {
@@ -1742,11 +1560,9 @@
     "Name":"(unsuccessful) New York Slave Revolt of 1712",
     "Agents":"slaves",
     "Results":"#",
-    "Label":"New York",
-    "Place (modern)":"New York",
-    "Historic affiliation":"British Empire",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"New York",
+    "Geocoded location":"New York, USA",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -1761,11 +1577,9 @@
     "Name":"King William's birthday Riot / Theatre Riot",
     "Agents":"riot between Whig and Tory partisans",
     "Results":"#",
-    "Label":"Dublin, Ireland",
-    "Place (modern)":"Dublin, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Dublin, Ireland",
+    "Geocoded location":"Dublin, Ireland",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -1780,11 +1594,9 @@
     "Name":"Dublin election riot",
     "Agents":"#",
     "Results":"#",
-    "Label":"Dublin, Kingdom of Ireland",
-    "Place (modern)":"Dublin, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"elections",
-    "Chapter":"##"
+    "Places of event":"Dublin, Kingdom of Ireland",
+    "Geocoded location":"Dublin, Ireland",
+    "Context":"elections"
     }
   },
   {
@@ -1799,11 +1611,9 @@
     "Name":"Coronation Riots",
     "Agents":"protest against the coronation of the first Hanoverian king of Great Britain, George I",
     "Results":"#",
-    "Label":"England, Britain",
-    "Place (modern)":"England, Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"England, Britain",
+    "Geocoded location":"England, Britain",
+    "Context":"government"
     }
   },
   {
@@ -1818,11 +1628,9 @@
     "Name":"Oxford Riots",
     "Agents":"Tory riots on the occasion of the Prince of Wales's birthday",
     "Results":"#",
-    "Label":"Oxford, England",
-    "Place (modern)":"Oxford, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Oxford, England",
+    "Geocoded location":"Oxford, England",
+    "Context":"government"
     }
   },
   {
@@ -1837,11 +1645,9 @@
     "Name":"Jacobite Rebellion / the '15",
     "Agents":"attempted restoration of the Stuart monarchy",
     "Results":"failed",
-    "Label":"England and Scotland",
-    "Place (modern)":"England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"England and Scotland",
+    "Geocoded location":"England",
+    "Context":"government"
     }
   },
   {
@@ -1856,11 +1662,9 @@
     "Name":"Jacobite Rebellion / the '15",
     "Agents":"attempted restoration of the Stuart monarchy",
     "Results":"failed",
-    "Label":"England and Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"England and Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"government"
     }
   },
   {
@@ -1875,11 +1679,9 @@
     "Name":"1715 England Riots / Rebellion Riots",
     "Agents":"High Church adherents attacked Dissenting meeting-houses",
     "Results":"",
-    "Label":"England, Britain",
-    "Place (modern)":"England, Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":""
+    "Places of event":"England, Britain",
+    "Geocoded location":"England, Britain",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -1894,11 +1696,9 @@
     "Name":"Jacobite Riots",
     "Agents":"local risings in support of the Jacobite cause",
     "Results":"#",
-    "Label":"Manchester, cities in northern England and Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Manchester, cities in northern England and Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"government"
     }
   },
   {
@@ -1913,11 +1713,9 @@
     "Name":"Jacobite Riots",
     "Agents":"local risings in support of the Jacobite cause",
     "Results":"#",
-    "Label":"Manchester, cities in northern England and Scotland",
-    "Place (modern)":"Manchester, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Manchester, cities in northern England and Scotland",
+    "Geocoded location":"Manchester, England",
+    "Context":"government"
     }
   },
   {
@@ -1932,11 +1730,9 @@
     "Name":"Skirmish of Alness",
     "Agents":"Mackenzie Jacobites versus supporters of the Hanoverian dynasty",
     "Results":"Mackenzie Jacobite victory, government-loyal forces retreated",
-    "Label":"Alness, Scotland",
-    "Place (modern)":"Alness, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Alness, Scotland",
+    "Geocoded location":"Alness, Scotland",
+    "Context":"government"
     }
   },
   {
@@ -1951,11 +1747,9 @@
     "Name":"Cambridge clashes",
     "Agents":"between Whigs and Tories",
     "Results":"#",
-    "Label":"Cambridge, England",
-    "Place (modern)":"Cambridge, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Cambridge, England",
+    "Geocoded location":"Cambridge, England",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -1970,11 +1764,9 @@
     "Name":"Prince's Birthday Riot",
     "Agents":"Heads of University and Mayor \"neglected to make any public rejoicings\"",
     "Results":"rabble broke the windows of those who were celebrating and provoked the rioting by soldiers, scholars and townsmen",
-    "Label":"Oxford, England",
-    "Place (modern)":"Oxford, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Oxford, England",
+    "Geocoded location":"Oxford, England",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -1989,11 +1781,9 @@
     "Name":"‘The Nineteen’ / Jacobite rising of 1719",
     "Agents":"attempt to restore the exiled James Francis Edward Stuart",
     "Results":"failed",
-    "Label":"Spain, Scotland",
-    "Place (modern)":"Spain",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Spain, Scotland",
+    "Geocoded location":"Spain",
+    "Context":"government"
     }
   },
   {
@@ -2008,11 +1798,9 @@
     "Name":"‘The Nineteen’ / Jacobite rising of 1719",
     "Agents":"attempt to restore the exiled James Francis Edward Stuart",
     "Results":"failed",
-    "Label":"Spain, Scotland",
-    "Place (modern)":"Scotland, Great Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Spain, Scotland",
+    "Geocoded location":"Scotland, Great Britain",
+    "Context":"government"
     }
   },
   {
@@ -2027,11 +1815,9 @@
     "Name":"Calico Riots",
     "Agents":"London weavers protest against cotton imports from India",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"social / economic"
     }
   },
   {
@@ -2046,11 +1832,9 @@
     "Name":"Capture of the sloop William",
     "Agents":"single ship action fought between John \"Calico Jack\" Rackham and English privateer Jonathan Barnet",
     "Results":"British victory, capture of John \"Calico Jack\" Rackham",
-    "Label":"Discovery Bay, Jamaica",
-    "Place (modern)":"Dry Harbor Bay, Jamaica, Caribbean Sea",
-    "Historic affiliation":"British Empire",
-    "Context":"privateering / piracy",
-    "Chapter":"##"
+    "Places of event":"Discovery Bay, Jamaica",
+    "Geocoded location":"Dry Harbor Bay, Jamaica, Caribbean Sea",
+    "Context":"privateering / piracy"
     }
   },
   {
@@ -2065,11 +1849,9 @@
     "Name":"Atterbury Plot",
     "Agents":"conspiracy led by Francis Atterbury, Bishop of Rochester and Dean of Westminster, aimed at the restoration of the House of Stuart",
     "Results":"failed",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"government"
     }
   },
   {
@@ -2084,11 +1866,9 @@
     "Name":"Battle of Glen Affric",
     "Agents":"Clan Mackenzie & Clan MacRae",
     "Results":"Clan Mackenzie & Clan MacRae victory",
-    "Label":"Glen Affric, Scotland",
-    "Place (modern)":"Glen Affric, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"involving clans",
-    "Chapter":"##"
+    "Places of event":"Glen Affric, Scotland",
+    "Geocoded location":"Glen Affric, Scotland",
+    "Context":"involving clans"
     }
   },
   {
@@ -2103,11 +1883,9 @@
     "Name":"Battle of Cape Lopez",
     "Agents":"Royal Navy man-of-war under Captain Chaloner Ogle defeated the pirate ship of Bartholomew Roberts",
     "Results":"British victory",
-    "Label":"Cape Lopez",
-    "Place (modern)":"Cape Lopez",
-    "Historic affiliation":"British Empire",
-    "Context":"privateering / piracy",
-    "Chapter":"##"
+    "Places of event":"Cape Lopez",
+    "Geocoded location":"Cape Lopez",
+    "Context":"privateering / piracy"
     }
   },
   {
@@ -2122,11 +1900,9 @@
     "Name":"Dummer's War / Father Rale's War / Lovewell's War / Greylock's War / the Three Years' War / the 4th Anglo-Abenaki War / Wabanaki-New England War",
     "Agents":"series of battles between New England and the Wabanaki Confederacy (specifically the Miꞌkmaq, Maliseet, and Abenaki) allied with New France",
     "Results":"#",
-    "Label":"Vermont and Maine",
-    "Place (modern)":"Vermont and Maine",
-    "Historic affiliation":"British Empire / native Americans / French Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Vermont and Maine",
+    "Geocoded location":"Vermont and Maine",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2141,11 +1917,9 @@
     "Name":"Capture of the Fancy",
     "Agents":"pirates",
     "Results":"British victory over two pirate ships",
-    "Label":"Delaware Bay, Atlantic Ocean",
-    "Place (modern)":"Delaware Bay, Atlantic Ocean",
-    "Historic affiliation":"British Empire",
-    "Context":"privateering / piracy",
-    "Chapter":"##"
+    "Places of event":"Delaware Bay, Atlantic Ocean",
+    "Geocoded location":"Delaware Bay, Atlantic Ocean",
+    "Context":"privateering / piracy"
     }
   },
   {
@@ -2160,11 +1934,9 @@
     "Name":"Northeast Coast Campaign",
     "Agents":"New England colonies versus French colonists and Native Americans",
     "Results":"French and Wabanaki Confederacy victory",
-    "Label":"Berwick, York County, Maine",
-    "Place (modern)":"Berwick, York County, Maine",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Berwick, York County, Maine",
+    "Geocoded location":"Berwick, York County, Maine",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2179,11 +1951,9 @@
     "Name":"Grey Lock's War",
     "Agents":"New England colonies versus Abenaki (initially not allied with the French)",
     "Results":"#",
-    "Label":"Vermont and western Massachusetts",
-    "Place (modern)":"Vermont and western Massachusetts",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Vermont and western Massachusetts",
+    "Geocoded location":"Vermont and western Massachusetts",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2198,11 +1968,9 @@
     "Name":"Lincoln Riot",
     "Agents":"local riot against the removal of the spires on the cathedral of Lincoln",
     "Results":"#",
-    "Label":"Lincoln, England",
-    "Place (modern)":"Lincoln, England",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Lincoln, England",
+    "Geocoded location":"Lincoln, England",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -2217,11 +1985,9 @@
     "Name":"Food Riot",
     "Agents":"uprising of the poor",
     "Results":"#",
-    "Label":"Falmouth, England",
-    "Place (modern)":"Falmouth, England",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Falmouth, England",
+    "Geocoded location":"Falmouth, England",
+    "Context":"social / economic"
     }
   },
   {
@@ -2236,11 +2002,9 @@
     "Name":"First Maroon War",
     "Agents":"uprising of Jamaican Maroons against the British Empire",
     "Results":"#",
-    "Label":"Jamaica",
-    "Place (modern)":"Jamaica",
-    "Historic affiliation":"British Empire",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Jamaica",
+    "Geocoded location":"Jamaica",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -2253,13 +2017,11 @@
     "From":1730,
     "to":"#",
     "Name":"Cresap's War / Conojocular War",
-    "Agents":"inner-colonial conflict",
-    "Results":"Pennsylvania–Maryland border",
-    "Label":"#",
-    "Place (modern)":"Pennsylvania–Maryland border",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Agents":"Pennsylvania–Maryland border",
+    "Results":"#",
+    "Places of event":"Pennsylvania–Maryland border",
+    "Geocoded location":"Pennsylvania–Maryland border",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2274,11 +2036,9 @@
     "Name":"Slave insurrection on St. John",
     "Agents":"slaves",
     "Results":"#",
-    "Label":"Saint John, Virgin Islands",
-    "Place (modern)":"Saint John, U.S. Virgin Islands",
-    "Historic affiliation":"British Empire",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Saint John, Virgin Islands",
+    "Geocoded location":"Saint John, U.S. Virgin Islands",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -2293,11 +2053,9 @@
     "Name":"Porteous Riots",
     "Agents":"local population opposing Captain Porteous,sparked by the hanging of a smuggler",
     "Results":"#",
-    "Label":"Edinburgh, Scotland",
-    "Place (modern)":"Edinburgh, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Edinburgh, Scotland",
+    "Geocoded location":"Edinburgh, Scotland",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -2312,11 +2070,9 @@
     "Name":"Gin Act Riots",
     "Agents":"taxation riot",
     "Results":"#",
-    "Label":"Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"social / economic"
     }
   },
   {
@@ -2331,11 +2087,9 @@
     "Name":"Malt Tax Riot",
     "Agents":"taxation riot",
     "Results":"#",
-    "Label":"Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"social / economic"
     }
   },
   {
@@ -2350,11 +2104,9 @@
     "Name":"Food Riots",
     "Agents":"uprising of the poor",
     "Results":"#",
-    "Label":"British Isles",
-    "Place (modern)":"Great Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"British Isles",
+    "Geocoded location":"Great Britain",
+    "Context":"economic / social"
     }
   },
   {
@@ -2369,11 +2121,9 @@
     "Name":"Stono Rebellion",
     "Agents":"slave uprising",
     "Results":"#",
-    "Label":"South Carolina, USA",
-    "Place (modern)":"South Carolina, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"South Carolina, USA",
+    "Geocoded location":"South Carolina, USA",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -2388,11 +2138,9 @@
     "Name":"Food Riots / Irish Famine",
     "Agents":"hungry townspeople \"vented their frustration on grain dealers, meal-mongers and bakers, and when they turned to direct action the most likely flashpoints were markets or warehouses\"",
     "Results":"permanent change in the country's demographic and economic landscape",
-    "Label":"Ireland (e.g. Drogheda and other parts of the Empire",
-    "Place (modern)":"Drogheda, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Ireland (e.g. Drogheda and other parts of the Empire",
+    "Geocoded location":"Drogheda, Ireland",
+    "Context":"social / economic"
     }
   },
   {
@@ -2407,11 +2155,9 @@
     "Name":"New York Conspiracy",
     "Agents":"purported plot by slaves (and poor whites) to depose the colonial government",
     "Results":"#",
-    "Label":"New York, United States",
-    "Place (modern)":"New York, United States",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"New York, United States",
+    "Geocoded location":"New York, United States",
+    "Context":"government"
     }
   },
   {
@@ -2426,11 +2172,9 @@
     "Name":"Philadelphia Election Riot",
     "Agents":"inhabitants of Philadelphia in British America",
     "Results":"#",
-    "Label":"Philadelphia, United States",
-    "Place (modern)":"Philadelphia, United States",
-    "Historic affiliation":"British Empire",
-    "Context":"elections",
-    "Chapter":"##"
+    "Places of event":"Philadelphia, United States",
+    "Geocoded location":"Philadelphia, United States",
+    "Context":"elections"
     }
   },
   {
@@ -2445,11 +2189,9 @@
     "Name":"London Gin Riots (London, England)",
     "Agents":"taxation riot",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"social / economic"
     }
   },
   {
@@ -2464,11 +2206,9 @@
     "Name":"Planned French Invasion of Britain",
     "Agents":"Jacobites in exile and their supporters",
     "Results":"#",
-    "Label":"Normandy, France",
-    "Place (modern)":"Normandy, France",
-    "Historic affiliation":"British Empire / Kingdom of France",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Normandy, France",
+    "Geocoded location":"Normandy, France",
+    "Context":"government"
     }
   },
   {
@@ -2483,11 +2223,9 @@
     "Name":"Jacobite Rebellion, the '45",
     "Agents":"Jacobites versus Hanoverian dynasty",
     "Results":"Government victory, end of Jacobitism as a significant political force",
-    "Label":"Scotland and Northern England",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Scotland and Northern England",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"government"
     }
   },
   {
@@ -2502,11 +2240,9 @@
     "Name":"Jacobite Rebellion, the '45",
     "Agents":"Jacobites versus Hanoverian dynasty",
     "Results":"Government victory, end of Jacobitism as a significant political force",
-    "Label":"Scotland and Northern England",
-    "Place (modern)":"Northern England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Scotland and Northern England",
+    "Geocoded location":"Northern England",
+    "Context":"government"
     }
   },
   {
@@ -2521,11 +2257,9 @@
     "Name":"Northeast Coast Campaign",
     "Agents":"New England colonists versus French colonists and Wabanaki Native Americans",
     "Results":"#",
-    "Label":"Berwick, York County, Maine",
-    "Place (modern)":"Berwick, York County, Maine",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Berwick, York County, Maine",
+    "Geocoded location":"Berwick, York County, Maine",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2540,11 +2274,9 @@
     "Name":"Raid on Saratoga",
     "Agents":"attack by a French and Native American force on the settlement of Saratoga, New York",
     "Results":"French victory",
-    "Label":"Saratoga, North America",
-    "Place (modern)":"Saratoga, New York, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Saratoga, North America",
+    "Geocoded location":"Saratoga, New York, USA",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2559,11 +2291,9 @@
     "Name":"Siege of Ruthven Barracks",
     "Agents":"part of the Jacobite rising of 1745",
     "Results":"#",
-    "Label":"Ruthven, Scotland",
-    "Place (modern)":"Ruthven, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Ruthven, Scotland",
+    "Geocoded location":"Ruthven, Scotland",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -2578,11 +2308,9 @@
     "Name":"Atholl raids",
     "Agents":"Jacobites versus Hanoverian dynasty",
     "Results":"Jacobite victory",
-    "Label":"Atholl, Ireland",
-    "Place (modern)":"Atholl, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Atholl, Ireland",
+    "Geocoded location":"Atholl, Ireland",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -2597,11 +2325,9 @@
     "Name":"Battle of Dornoch",
     "Agents":"Jacobites versus Hanoverian dynasty",
     "Results":"Jacobite victory",
-    "Label":"Dornoch, Sutherland",
-    "Place (modern)":"Dornoch, Sutherland",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Dornoch, Sutherland",
+    "Geocoded location":"Dornoch, Sutherland",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -2616,11 +2342,9 @@
     "Name":"Raids on Lochaber and Shiramore",
     "Agents":"Jacobites versus Hanoverian dynasty",
     "Results":"British-Hanoverian Government victory: the north and western Highlands were cleared of Jacobite rebels, but the Jacobite leader Charles Edward Stuart escaped to France",
-    "Label":"Lochaber, Scotland",
-    "Place (modern)":"Lochaber and Shiramore (Badenoch), Scottish Highlands",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Lochaber, Scotland",
+    "Geocoded location":"Lochaber and Shiramore (Badenoch), Scottish Highlands",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -2635,11 +2359,9 @@
     "Name":"Skirmish of Arisaig",
     "Agents":"#",
     "Results":"#",
-    "Label":"Arisaig, Scottish Highlands",
-    "Place (modern)":"Arisaig, Scottish Highlands",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Arisaig, Scottish Highlands",
+    "Geocoded location":"Arisaig, Scottish Highlands",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -2654,11 +2376,9 @@
     "Name":"Skirmish of Loch Ailort",
     "Agents":"#",
     "Results":"#",
-    "Label":"Loch Ailort, Scottish Highlands",
-    "Place (modern)":"Loch Ailort, Scottish Highlands",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Loch Ailort, Scottish Highlands",
+    "Geocoded location":"Loch Ailort, Scottish Highlands",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -2673,11 +2393,9 @@
     "Name":"Skirmish of Tongue",
     "Agents":"#",
     "Results":"British-Hanoverian Government victory",
-    "Label":"Tongue, Sutherland",
-    "Place (modern)":"Tongue, Highland, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Tongue, Sutherland",
+    "Geocoded location":"Tongue, Highland, Scotland",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -2692,11 +2410,9 @@
     "Name":"Siege of Fort Massachusetts",
     "Agents":"successful siege of Fort Massachusetts (in present-day North Adams, Massachusetts) by a mixed force of more than 1,000 French and Native Americans from New France",
     "Results":"French victory",
-    "Label":"North Adams, Massachusetts",
-    "Place (modern)":"North Adams, Massachusetts, USA",
-    "Historic affiliation":"British Empire / Kingdom of France",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"North Adams, Massachusetts",
+    "Geocoded location":"North Adams, Massachusetts, USA",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2711,11 +2427,9 @@
     "Name":"Knowles Riot / Impressment Riot",
     "Agents":"protest against navy impressment",
     "Results":"#",
-    "Label":"Boston, Massachusetts",
-    "Place (modern)":"Boston, Massachusetts",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Boston, Massachusetts",
+    "Geocoded location":"Boston, Massachusetts",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -2730,11 +2444,9 @@
     "Name":"Northeast Coast Campaign",
     "Agents":"Wabanaki Confederacy of Acadia against the New England settlements",
     "Results":"#",
-    "Label":"Maine, North America",
-    "Place (modern)":"Maine, United States",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Maine, North America",
+    "Geocoded location":"Maine, United States",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2749,11 +2461,9 @@
     "Name":"Raid on Brunswick Town",
     "Agents":"attack by Spanish privateers",
     "Results":"British colonial victory: Spanish raiders were driven off; destruction of one of their vessels.",
-    "Label":"Brunswick Town, North Carolina, North America",
-    "Place (modern)":"Brunswick Town, North Carolina, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"privateering / piracy",
-    "Chapter":"##"
+    "Places of event":"Brunswick Town, North Carolina, North America",
+    "Geocoded location":"Brunswick Town, North Carolina, USA",
+    "Context":"privateering / piracy"
     }
   },
   {
@@ -2768,11 +2478,9 @@
     "Name":"Siege of Grand Pre",
     "Agents":"between the British and the Wabanaki Confederacy and Acadian militia",
     "Results":"British victory",
-    "Label":"Grand-Pré, Nova Scotia (present-day Hortonville, Nova Scotia)",
-    "Place (modern)":"Grandé Pre, Nova Scotia, Canada",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Grand-Pré, Nova Scotia (present-day Hortonville, Nova Scotia)",
+    "Geocoded location":"Grandé Pre, Nova Scotia, Canada",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2787,11 +2495,9 @@
     "Name":"Battle at Chignecto",
     "Agents":"Mi'kmaq militia and\n Acadian militia vs. Kingdom of Great Britain",
     "Results":"British victory",
-    "Label":"Isthmus of Chignecto",
-    "Place (modern)":"Chignecto, Nova Scotia",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Isthmus of Chignecto",
+    "Geocoded location":"Chignecto, Nova Scotia",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2806,11 +2512,9 @@
     "Name":"Tring Witch Hunt",
     "Agents":"local inhabitants attack an alleged witch who is also accused of Jacobite sympathies",
     "Results":"#",
-    "Label":"Tring, Hertfordshire, England",
-    "Place (modern)":"Tring, Hertfordshire, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Tring, Hertfordshire, England",
+    "Geocoded location":"Tring, Hertfordshire, England",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -2825,11 +2529,9 @@
     "Name":"Taunton by-election",
     "Agents":"over 700 rejected votes / result caused rioting",
     "Results":"\ntwo people killed",
-    "Label":"Taunton, England",
-    "Place (modern)":"Taunton, England",
-    "Historic affiliation":"British Empire",
-    "Context":"elections",
-    "Chapter":"##"
+    "Places of event":"Taunton, England",
+    "Geocoded location":"Taunton, England",
+    "Context":"elections"
     }
   },
   {
@@ -2844,11 +2546,9 @@
     "Name":"Sheffield Food Riot",
     "Agents":"social / economic grievances",
     "Results":"#",
-    "Label":"Yorkshire, England",
-    "Place (modern)":"Yorkshire, England",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Yorkshire, England",
+    "Geocoded location":"Yorkshire, England",
+    "Context":"economic / social"
     }
   },
   {
@@ -2863,11 +2563,9 @@
     "Name":"Lunenburg Campaign",
     "Agents":"Mi'kmaq militia and Acadian militia against the Foreign Protestants who the British had settled on the Lunenburg",
     "Results":"#",
-    "Label":"Lunenburg, Nova Scotia, Canada",
-    "Place (modern)":"Lunenburg, Nova Scotia, Canada",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Lunenburg, Nova Scotia, Canada",
+    "Geocoded location":"Lunenburg, Nova Scotia, Canada",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2882,11 +2580,9 @@
     "Name":"Rioting in Dublin",
     "Agents":"response to rumours of a union between Ireland and Britain",
     "Results":"#",
-    "Label":"Dublin, Ireland",
-    "Place (modern)":"Dublin, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Dublin, Ireland",
+    "Geocoded location":"Dublin, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -2901,11 +2597,9 @@
     "Name":"Planned French Invasion of Britain",
     "Agents":"presumed Jacobites (in exile)",
     "Results":"#",
-    "Label":"Normandy, France",
-    "Place (modern)":"Normandy, France",
-    "Historic affiliation":"British Empire / Kingdom of France",
-    "Context":"alleged / planned",
-    "Chapter":"##"
+    "Places of event":"Normandy, France",
+    "Geocoded location":"Normandy, France",
+    "Context":"alleged / planned"
     }
   },
   {
@@ -2920,11 +2614,9 @@
     "Name":"Tacky's War / Tacky's Rebellion",
     "Agents":"uprising of enslaved Akan people against British colonists",
     "Results":"#",
-    "Label":"Colony of Jamaica",
-    "Place (modern)":"Jamaica",
-    "Historic affiliation":"British Empire",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Colony of Jamaica",
+    "Geocoded location":"Jamaica",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -2939,11 +2631,9 @@
     "Name":"Siege of Fort Loudoun",
     "Agents":"Cherokee warriors",
     "Results":"Cherokee victory",
-    "Label":"Little Tennessee River",
-    "Place (modern)":"Little Tennessee River\n Cherokee Country\n now Tennessee",
-    "Historic affiliation":"British Empire / native Americans",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Little Tennessee River",
+    "Geocoded location":"Little Tennessee River\n Cherokee Country\n now Tennessee",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -2958,11 +2648,9 @@
     "Name":"Beginning of the Whiteboy Movement",
     "Agents":"secret agrarian organisation violently defends tenant farmer land rights",
     "Results":"#",
-    "Label":"Munster, Ireland",
-    "Place (modern)":"Munster, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Munster, Ireland",
+    "Geocoded location":"Munster, Ireland",
+    "Context":"economic / social"
     }
   },
   {
@@ -2977,11 +2665,9 @@
     "Name":"Durham Riot",
     "Agents":"opposition to the new ballotting system for militia recruitment",
     "Results":"#",
-    "Label":"Durham, England",
-    "Place (modern)":"Durham, England",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Durham, England",
+    "Geocoded location":"Durham, England",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -2996,11 +2682,9 @@
     "Name":"Hexham Riot",
     "Agents":"riot against new militia regulations",
     "Results":"#",
-    "Label":"Hexham, Yorkshire",
-    "Place (modern)":"Hexham, Yorkshire",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Hexham, Yorkshire",
+    "Geocoded location":"Hexham, Yorkshire",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -3015,11 +2699,9 @@
     "Name":"Oakboy / Hearts of Oak",
     "Agents":"agrarian disturbances by rural population",
     "Results":"#",
-    "Label":"Ulster, Ireland",
-    "Place (modern)":"Ulster, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Ulster, Ireland",
+    "Geocoded location":"Ulster, Ireland",
+    "Context":"social / economic"
     }
   },
   {
@@ -3034,11 +2716,9 @@
     "Name":"Pontiac's War",
     "Agents":"North American tribes joined effort to drive British soldiers and settlers out of the Great Lakes region",
     "Results":"#",
-    "Label":"Great Lakes, North America",
-    "Place (modern)":"Great Lakes Region, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Great Lakes, North America",
+    "Geocoded location":"Great Lakes Region, USA",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -3053,11 +2733,9 @@
     "Name":"Battle of Point Pelee",
     "Agents":"British Regulars vs. Wyandot Warriors",
     "Results":"Native victory",
-    "Label":"Point Pelee, Canada",
-    "Place (modern)":"Point Pelee National Park, Canada",
-    "Historic affiliation":"British Empire / native Americans",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Point Pelee, Canada",
+    "Geocoded location":"Point Pelee National Park, Canada",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -3072,11 +2750,9 @@
     "Name":"Workhouse Riots",
     "Agents":"rioting of the poor (against newly established work houses) in several northern towns",
     "Results":"demolition of a workhouse",
-    "Label":"Northern England",
-    "Place (modern)":"Northern England, United Kingdom",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":""
+    "Places of event":"Northern England",
+    "Geocoded location":"Northern England, United Kingdom",
+    "Context":"social / economic"
     }
   },
   {
@@ -3091,11 +2767,9 @@
     "Name":"American Revolution",
     "Agents":"American colonists (\"patriots\") oppose taxation and colonial administration",
     "Results":"American independence, establishment of republican government",
-    "Label":"Lexington, Massachussetts",
-    "Place (modern)":"Lexington, Massachussetts",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Lexington, Massachussetts",
+    "Geocoded location":"Lexington, Massachussetts",
+    "Context":"government"
     }
   },
   {
@@ -3110,11 +2784,9 @@
     "Name":"Spitalfield Riots",
     "Agents":"labour protest of weavers, following a downturn in the silk weaving industry",
     "Results":"#",
-    "Label":"East End of London",
-    "Place (modern)":"East End, London",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"East End of London",
+    "Geocoded location":"East End, London",
+    "Context":"social / economic"
     }
   },
   {
@@ -3129,11 +2801,9 @@
     "Name":"Stamp Tax Riot",
     "Agents":"taxation protest",
     "Results":"#",
-    "Label":"Boston, Massachusetts",
-    "Place (modern)":"Boston, Massachusetts",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Boston, Massachusetts",
+    "Geocoded location":"Boston, Massachusetts",
+    "Context":"social / economic"
     }
   },
   {
@@ -3148,11 +2818,9 @@
     "Name":"Food Riots",
     "Agents":"opposition to supply shortages and rising prices",
     "Results":"#",
-    "Label":"Black Country, England",
-    "Place (modern)":"Black Country, England",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Black Country, England",
+    "Geocoded location":"Black Country, England",
+    "Context":"social / economic"
     }
   },
   {
@@ -3167,11 +2835,9 @@
     "Name":"Battle of Tiruvannamalai",
     "Agents":"East India Company",
     "Results":"Decisive East India Company victory",
-    "Label":"Tiruvannamalai",
-    "Place (modern)":"Tiruvannamalai, India, Tamil Nadu",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Tiruvannamalai",
+    "Geocoded location":"Tiruvannamalai, India, Tamil Nadu",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -3186,11 +2852,9 @@
     "Name":"St. George's Fields Massacre",
     "Agents":"protest in favour of politician John Wilkes, intervention by Horse Grenadier Guards 3rd regiment of Foot guards",
     "Results":"#",
-    "Label":"St George's Fields, Southwark, in South London",
-    "Place (modern)":"Southwark, South London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"St George's Fields, Southwark, in South London",
+    "Geocoded location":"Southwark, South London, England",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -3205,11 +2869,9 @@
     "Name":"First Carib War",
     "Agents":"Carib inhabitants of Saint Vincent vs. British military",
     "Results":"#",
-    "Label":"Saint Vincent island",
-    "Place (modern)":"Saint Vincent island",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Saint Vincent island",
+    "Geocoded location":"Saint Vincent island",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -3224,11 +2886,9 @@
     "Name":"Pennamite-Yankee War",
     "Agents":"Wyoming Valley along the North Branch of the Susquehanna River was disputed between settlers from Connecticut (Yankees) and Pennsylvania (Pennamites)",
     "Results":"Land titles preserved and transferred to Pennsylvania as part of larger legal settlement",
-    "Label":"Susquehanna River",
-    "Place (modern)":"Susquehanna River",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Susquehanna River",
+    "Geocoded location":"Susquehanna River",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -3243,11 +2903,9 @@
     "Name":"Steelboy / Hearts of Steel disturbances",
     "Agents":"exclusively Protestant movement to address grievances about the sharp rise of rent and evictions",
     "Results":"#",
-    "Label":"County Antrim, Ulster, Ireland",
-    "Place (modern)":"County Antrim, Ulster",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"County Antrim, Ulster, Ireland",
+    "Geocoded location":"County Antrim, Ulster",
+    "Context":"social / economic"
     }
   },
   {
@@ -3262,11 +2920,9 @@
     "Name":"Boston Massacre",
     "Agents":"anti-British / patriot riot resulting in military intervention",
     "Results":"#",
-    "Label":"Boston, Massachusetts",
-    "Place (modern)":"Boston, Massachusetts",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Boston, Massachusetts",
+    "Geocoded location":"Boston, Massachusetts",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -3281,11 +2937,9 @@
     "Name":"Petition of the Freeholders of the Co. of York",
     "Agents":"protest against \"inadequate\" representation in Parliament",
     "Results":"#",
-    "Label":"York, England",
-    "Place (modern)":"York, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"York, England",
+    "Geocoded location":"York, England",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -3300,11 +2954,9 @@
     "Name":"Petition of the Livery of London",
     "Agents":"conflicts relating to the Middlesex election",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"elections",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"elections"
     }
   },
   {
@@ -3319,11 +2971,9 @@
     "Name":"Battle at the Yadkin River",
     "Agents":"Regulator Movement resistance against taxation and local policy",
     "Results":"Regulator victory",
-    "Label":"Crossing of the Yadkin River north of Salisbury, North Carolina",
-    "Place (modern)":"Crossing of the Yadkin River north of Salisbury, North Carolina",
-    "Historic affiliation":"British Empire / United States of America",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Crossing of the Yadkin River north of Salisbury, North Carolina",
+    "Geocoded location":"Crossing of the Yadkin River north of Salisbury, North Carolina",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -3338,11 +2988,9 @@
     "Name":"Battle of Alamance",
     "Agents":"final battle of the Regulator Movement, a rebellion in colonial North Carolina over issues of taxation and local control",
     "Results":"Decisive government victory",
-    "Label":"near Great Alamance Creek in Alamance County, North Carolina",
-    "Place (modern)":"near Great Alamance Creek in Alamance County, North Carolina",
-    "Historic affiliation":"British Empire / United States of America",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"near Great Alamance Creek in Alamance County, North Carolina",
+    "Geocoded location":"near Great Alamance Creek in Alamance County, North Carolina",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -3357,11 +3005,9 @@
     "Name":"Food Riots",
     "Agents":"uprising of the poor",
     "Results":"#",
-    "Label":"British Isles",
-    "Place (modern)":"Great Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"British Isles",
+    "Geocoded location":"Great Britain",
+    "Context":"economic / social"
     }
   },
   {
@@ -3376,11 +3022,9 @@
     "Name":"Pine Tree Riot",
     "Agents":"resistance to British royal authority undertaken by American colonists in New Hampshire",
     "Results":"#",
-    "Label":"Weare, New Hampshire",
-    "Place (modern)":"Weare, New Hampshire,",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Weare, New Hampshire",
+    "Geocoded location":"Weare, New Hampshire,",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -3395,11 +3039,9 @@
     "Name":"Boston Tea Party",
     "Agents":"conflict over trade and taxation",
     "Results":"#",
-    "Label":"Boston, Province of Massachusetts Bay",
-    "Place (modern)":"Boston, Massachusetts",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Boston, Province of Massachusetts Bay",
+    "Geocoded location":"Boston, Massachusetts",
+    "Context":"economic / social"
     }
   },
   {
@@ -3414,11 +3056,9 @@
     "Name":"Battle of Lexington and Concord (American War of Independence till 1783)",
     "Agents":"first skirmish of the American Revolution",
     "Results":"#",
-    "Label":"Lexington, New England",
-    "Place (modern)":"Lexington, New England",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Lexington, New England",
+    "Geocoded location":"Lexington, New England",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -3433,11 +3073,9 @@
     "Name":"Battle off Fairhaven",
     "Agents":"Patriot forces",
     "Results":"Patriot forces retrieve two patriot vessels from HMS Falcon",
-    "Label":"Fairhaven, Massachusetts",
-    "Place (modern)":"Fairhaven, Massachusetts",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Fairhaven, Massachusetts",
+    "Geocoded location":"Fairhaven, Massachusetts",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3452,11 +3090,9 @@
     "Name":"Gunpowder Incident",
     "Agents":"conflict between Lord Dunmore, the Royal Governor, and militia led by Patrick Henry over removal of military supplies",
     "Results":"militia companies mustering throughout the colony",
-    "Label":"Williamsburg, Virginia",
-    "Place (modern)":"Williamsburg, Virginia",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Williamsburg, Virginia",
+    "Geocoded location":"Williamsburg, Virginia",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -3471,11 +3107,9 @@
     "Name":"Seamen’s revolt",
     "Agents":"public protest, sabotage and prison escapes in Liverpool led by seamen",
     "Results":"#",
-    "Label":"Liverpool, England",
-    "Place (modern)":"Liverpool, England",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Liverpool, England",
+    "Geocoded location":"Liverpool, England",
+    "Context":"economic / social"
     }
   },
   {
@@ -3490,11 +3124,9 @@
     "Name":"Snow Campaign",
     "Agents":"one of the first major military operations of the American Revolutionary War in the southern colonies",
     "Results":"Patriot victory",
-    "Label":"Appalachian Mountains, South Carolina",
-    "Place (modern)":"Appalachian Mountains, South Carolina",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Appalachian Mountains, South Carolina",
+    "Geocoded location":"Appalachian Mountains, South Carolina",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3509,11 +3141,9 @@
     "Name":"arsonist attacks on British seaports",
     "Agents":"acts of sabotage / arson committed by craftsman James Aitken (supposedly in favour of the American cause)",
     "Results":"conviction and death sentence",
-    "Label":"Bristol and Plymouth, England",
-    "Place (modern)":"Plymouth, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Bristol and Plymouth, England",
+    "Geocoded location":"Plymouth, England",
+    "Context":"government"
     }
   },
   {
@@ -3528,11 +3158,9 @@
     "Name":"Fortification of Dorchester Heights",
     "Agents":"Continental Army under George Washington's command occupied Dorchester Heights",
     "Results":"British forces evacuate Boston on March 17",
-    "Label":"Dorchester Heights, North America",
-    "Place (modern)":"Dorchester Heights, United States of America",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Dorchester Heights, North America",
+    "Geocoded location":"Dorchester Heights, United States of America",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3547,11 +3175,9 @@
     "Name":"Nottingham Cheese Riot",
     "Agents":"local citizens vs. Merchants",
     "Results":"#",
-    "Label":"Nottingham, Northern England",
-    "Place (modern)":"Nottingham, England, Britian",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Nottingham, Northern England",
+    "Geocoded location":"Nottingham, England, Britian",
+    "Context":"economic / social"
     }
   },
   {
@@ -3566,11 +3192,9 @@
     "Name":"New York and New Jersey Campaign",
     "Agents":"British versus American troops",
     "Results":"British victory in New York, American victory in\n New Jersey",
-    "Label":"New York and New Jersey",
-    "Place (modern)":"New York, U. S. state",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"New York and New Jersey",
+    "Geocoded location":"New York, U. S. state",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3585,11 +3209,9 @@
     "Name":"Capture of the USS Hancock",
     "Agents":"American frigate USS Hancock captured by the British Royal Navy",
     "Results":"British victory",
-    "Label":"off Halifax, Nova Scotia",
-    "Place (modern)":"off Halifax, Nova Scotia",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"off Halifax, Nova Scotia",
+    "Geocoded location":"off Halifax, Nova Scotia",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3604,11 +3226,9 @@
     "Name":"Saratoga-Feldzug",
     "Agents":"British versus American troops",
     "Results":"#",
-    "Label":"Upstate New York",
-    "Place (modern)":"Upstate New York, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Upstate New York",
+    "Geocoded location":"Upstate New York, USA",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3623,11 +3243,9 @@
     "Name":"Big Runaway",
     "Agents":"British versus American troops",
     "Results":"British victory, American evacuation of the West Branch Susquehanna Valley",
-    "Label":"Pennsylvania, United States",
-    "Place (modern)":"Pennsylvania, United States",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Pennsylvania, United States",
+    "Geocoded location":"Pennsylvania, United States",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3642,11 +3260,9 @@
     "Name":"Carleton's Raid",
     "Agents":"British raid led by Major Christopher Carleton",
     "Results":"Successful British raid",
-    "Label":"New York State, North America",
-    "Place (modern)":"New York, U. S. state",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"New York State, North America",
+    "Geocoded location":"New York, U. S. state",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3661,11 +3277,9 @@
     "Name":"Catholic Relief Act Riots",
     "Agents":"citizens protesting against Catholic Emancipation",
     "Results":"#",
-    "Label":"Edinburgh and Glasgow, Scotland",
-    "Place (modern)":"Glasgow, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Edinburgh and Glasgow, Scotland",
+    "Geocoded location":"Glasgow, Scotland",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -3680,11 +3294,9 @@
     "Name":"Catholic Relief Act Riots",
     "Agents":"citizens protesting against Catholic Emancipation",
     "Results":"#",
-    "Label":"Edinburgh and Glasgow, Scotland",
-    "Place (modern)":"Edinburgh, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"Edinburgh and Glasgow, Scotland",
+    "Geocoded location":"Edinburgh, Scotland",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -3699,11 +3311,9 @@
     "Name":"Clow Rebellion",
     "Agents":"Loyalist insurrection",
     "Results":"Patriot Victory",
-    "Label":"Kenton, Delaware",
-    "Place (modern)":"Kenton, Delaware",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Kenton, Delaware",
+    "Geocoded location":"Kenton, Delaware",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3718,11 +3328,9 @@
     "Name":"Frederica naval action",
     "Agents":"three galleys of the Georgia State Navy defeated a British raiding party",
     "Results":"United States victory",
-    "Label":"off St. Simons Island, Georgia, Frederica River",
-    "Place (modern)":"off St. Simons Island, Georgia, Frederica River",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"off St. Simons Island, Georgia, Frederica River",
+    "Geocoded location":"off St. Simons Island, Georgia, Frederica River",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3737,11 +3345,9 @@
     "Name":"Northern theater of the American Revolutionary War after Saratoga",
     "Agents":"British versus American troops",
     "Results":"Tactically inconclusive,\n strategic American victory",
-    "Label":"New York, New Jersey, Pennsylvania, and New England",
-    "Place (modern)":"New York, U. S. state",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"New York, New Jersey, Pennsylvania, and New England",
+    "Geocoded location":"New York, U. S. state",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3756,11 +3362,9 @@
     "Name":"Burning of Fairfield",
     "Agents":"British landing force under the command of General William Tryon attacked the town, engaged and defeated its militia forces",
     "Results":"vast majority of buildings burnt down",
-    "Label":"Fairfield, North America",
-    "Place (modern)":"Fairfield, Connecticut",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Fairfield, North America",
+    "Geocoded location":"Fairfield, Connecticut",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3775,11 +3379,9 @@
     "Name":"Irish Volunteers parade",
     "Agents":"Irish Volunteers demanding removal of restrictions on Irish trade",
     "Results":"#",
-    "Label":"College Green, Dublin, Ireland",
-    "Place (modern)":"College Green, Dublin, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"College Green, Dublin, Ireland",
+    "Geocoded location":"College Green, Dublin, Ireland",
+    "Context":"economic / social"
     }
   },
   {
@@ -3794,11 +3396,9 @@
     "Name":"Border conflicts in the Cape Colony",
     "Agents":"British colonists",
     "Results":"#",
-    "Label":"Cape Colony",
-    "Place (modern)":"Cape Colony",
-    "Historic affiliation":"British Empire / Dutch Republic",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Cape Colony",
+    "Geocoded location":"Cape Colony",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -3813,11 +3413,9 @@
     "Name":"Siege of Fort Vincennes",
     "Agents":"British versus American troops",
     "Results":"American victory",
-    "Label":"Vincennes, Indiana",
-    "Place (modern)":"Vincennes, Indiana",
-    "Historic affiliation":"British Empire / French Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Vincennes, Indiana",
+    "Geocoded location":"Vincennes, Indiana",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3830,13 +3428,11 @@
     "From":1780,
     "to":"#",
     "Name":"Action of 7 June 1780",
-    "Agents":"The action of 7 June 1780 took place during the American War of Independence between the frigates Hermione and HMS Iris.",
+    "Agents":"American frigate Hermione and HMS Iris",
     "Results":"Inconclusive",
-    "Label":"15 miles off Long Island",
-    "Place (modern)":"15 miles off Long Island",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"15 miles off Long Island",
+    "Geocoded location":"15 miles off Long Island",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3851,11 +3447,9 @@
     "Name":"Bird's invasion of Kentucky",
     "Agents":"British and native Americans versus American patriots",
     "Results":"British/native American tactical victory",
-    "Label":"Kentucky County, Virginia",
-    "Place (modern)":"Kentucky County, Virginia",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Kentucky County, Virginia",
+    "Geocoded location":"Kentucky County, Virginia",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3870,11 +3464,9 @@
     "Name":"Elizabethtown and Newark Raid",
     "Agents":"British versus American forces",
     "Results":"British tactical victory",
-    "Label":"Elizabethtown and Newark, New Jersey",
-    "Place (modern)":"Elizabethport, New Jersey",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Elizabethtown and Newark, New Jersey",
+    "Geocoded location":"Elizabethport, New Jersey",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3889,11 +3481,9 @@
     "Name":"Gordon Riots",
     "Agents":"citizens of London protesting against Catholic Emancipaton",
     "Results":"estimated 300-700 deaths, damaged reputation of John Wilkes and the British monarchy",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"religion / cultural identity",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"religion / cultural identity"
     }
   },
   {
@@ -3908,11 +3498,9 @@
     "Name":"Royalton Raid",
     "Agents":"British-led native American raid in 1780 against various towns along the White River Valley in the Vermont Republic",
     "Results":"British victory",
-    "Label":"Vermont Republic, New Connecticut",
-    "Place (modern)":"Vermont Republic, New Connecticut",
-    "Historic affiliation":"British Empire / Native Americans",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Vermont Republic, New Connecticut",
+    "Geocoded location":"Vermont Republic, New Connecticut",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3927,11 +3515,9 @@
     "Name":"Battle of Pine's Bridge",
     "Agents":"loyalists / British troops versus American patriots",
     "Results":"Loyalist victory",
-    "Label":"Yorktown, NY",
-    "Place (modern)":"Yorktown, NY",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Yorktown, NY",
+    "Geocoded location":"Yorktown, NY",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -3946,11 +3532,9 @@
     "Name":"Battle of Blomindon / Battle off Cape Split",
     "Agents":"three armed American privateer vessels against three Nova Scotian vessels",
     "Results":"British victory",
-    "Label":"off Wolfville, Nova Scotia",
-    "Place (modern)":"off Wolfville, Nova Scotia",
-    "Historic affiliation":"British Empire",
-    "Context":"privateering / piracy",
-    "Chapter":"##"
+    "Places of event":"off Wolfville, Nova Scotia",
+    "Geocoded location":"off Wolfville, Nova Scotia",
+    "Context":"privateering / piracy"
     }
   },
   {
@@ -3965,11 +3549,9 @@
     "Name":"Capture of HMS Savage",
     "Agents":"American privateer Congress and the British sloop-of-war HMS Savage",
     "Results":"American victory",
-    "Label":"off South Carolina",
-    "Place (modern)":"off Charleston, South Carolina, Atlantic Ocean",
-    "Historic affiliation":"British Empire",
-    "Context":"privateering / piracy",
-    "Chapter":"##"
+    "Places of event":"off South Carolina",
+    "Geocoded location":"off Charleston, South Carolina, Atlantic Ocean",
+    "Context":"privateering / piracy"
     }
   },
   {
@@ -3984,11 +3566,9 @@
     "Name":"Pennsylvania Line Mutiny / Pennsylvania Winter Mutiny",
     "Agents":"mutiny in the American army",
     "Results":"#",
-    "Label":"Pennsylvania, North America",
-    "Place (modern)":"Pennsylvania, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Pennsylvania, North America",
+    "Geocoded location":"Pennsylvania, USA",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -4003,11 +3583,9 @@
     "Name":"Pyle's Massacre",
     "Agents":"loyalists versus patriots",
     "Results":"Patriot victory",
-    "Label":"present-day Alamance County, North Carolina",
-    "Place (modern)":"Alamance County, North Carolina, United States",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"present-day Alamance County, North Carolina",
+    "Geocoded location":"Alamance County, North Carolina, United States",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -4022,11 +3600,9 @@
     "Name":"Raid on Richmond",
     "Agents":"loyalists / British troops versus patriots",
     "Results":"British Victory\n Severe damage done to Richmond.",
-    "Label":"present-day Richmond, Virginia, and the surrounding area",
-    "Place (modern)":"Richmond, Virginia, USA",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"present-day Richmond, Virginia, and the surrounding area",
+    "Geocoded location":"Richmond, Virginia, USA",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -4041,11 +3617,9 @@
     "Name":"The Revolt in Bihar",
     "Agents":"uprising by chieftains in the Indian state of Bihar against the British East India Company",
     "Results":"#",
-    "Label":"Bihar, Asia",
-    "Place (modern)":"Bihar, Asia",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Bihar, Asia",
+    "Geocoded location":"Bihar, Asia",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -4060,11 +3634,9 @@
     "Name":"Treason of Benedict Arnold",
     "Agents":"American general Arnold defects to British side",
     "Results":"Arnold eventually leaves America",
-    "Label":"West Point and New York, North America",
-    "Place (modern)":"New York, United States",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"West Point and New York, North America",
+    "Geocoded location":"New York, United States",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -4079,11 +3651,9 @@
     "Name":"Skirmish at Waters Creek",
     "Agents":"loyalist / British troops versus patriots",
     "Results":"American victory",
-    "Label":"Newport, Virginia",
-    "Place (modern)":"Newport, Virginia",
-    "Historic affiliation":"British Empire / United States of America",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Newport, Virginia",
+    "Geocoded location":"Newport, Virginia",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -4098,11 +3668,9 @@
     "Name":"Brodhead's Coshocton expedition",
     "Agents":"loyalist / British troops versus patriots",
     "Results":"American victory",
-    "Label":"Coshocton, Ohio",
-    "Place (modern)":"Coshocton, Ohio",
-    "Historic affiliation":"United States of America",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Coshocton, Ohio",
+    "Geocoded location":"Coshocton, Ohio",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -4117,11 +3685,9 @@
     "Name":"Sylhet uprising / Muharram Rebellion",
     "Agents":"rising against the East India Company by the Bengali Muslims led by the Pirzada of Sylhet and his two brothers",
     "Results":"British victory,\n suppression of revolt",
-    "Label":"Sylhet Shahi Eidgah, Asia",
-    "Place (modern)":"Sylhet Shahi Eidgah, Asia",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Sylhet Shahi Eidgah, Asia",
+    "Geocoded location":"Sylhet Shahi Eidgah, Asia",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -4136,11 +3702,9 @@
     "Name":"Battle of Wambaw",
     "Agents":"British troops vs. American force of dragoons and infantry",
     "Results":"British victory",
-    "Label":"Wambaw",
-    "Place (modern)":"Berkeley County, South Carolina",
-    "Historic affiliation":"British Empire",
-    "Context":"supplementary conflict",
-    "Chapter":"##"
+    "Places of event":"Wambaw",
+    "Geocoded location":"Berkeley County, South Carolina",
+    "Context":"supplementary conflict"
     }
   },
   {
@@ -4155,11 +3719,9 @@
     "Name":"Naval battle off Halifax",
     "Agents":"American privateer Jack and the 14-gun Royal Naval brig HMS Observer",
     "Results":"British victory",
-    "Label":"off Halifax / Nova Scotia",
-    "Place (modern)":"off Halifax / Nova Scotia",
-    "Historic affiliation":"British Empire",
-    "Context":"privateering / piracy",
-    "Chapter":"##"
+    "Places of event":"off Halifax / Nova Scotia",
+    "Geocoded location":"off Halifax / Nova Scotia",
+    "Context":"privateering / piracy"
     }
   },
   {
@@ -4174,11 +3736,9 @@
     "Name":"Raid on Lunenburg, Nova Scotia",
     "Agents":"US privateer, Captain Noah Stoddard, and four other privateer vessels attacked the British settlement",
     "Results":"#",
-    "Label":"Lunenburg, Nova Scotia, Canada",
-    "Place (modern)":"Lunenburg, Nova Scotia, Canada",
-    "Historic affiliation":"British Empire",
-    "Context":"privateering / piracy",
-    "Chapter":"##"
+    "Places of event":"Lunenburg, Nova Scotia, Canada",
+    "Geocoded location":"Lunenburg, Nova Scotia, Canada",
+    "Context":"privateering / piracy"
     }
   },
   {
@@ -4193,11 +3753,9 @@
     "Name":"Ulster Volunteer Convention",
     "Agents":"Volunteer support for Patriot demands that the Irish parliament be granted greater autonomy",
     "Results":"delegates from Ulster Volunteer units adopt resolutions",
-    "Label":"Dugannon, Ireland",
-    "Place (modern)":"Dugannon, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Dugannon, Ireland",
+    "Geocoded location":"Dugannon, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -4212,11 +3770,9 @@
     "Name":"Formation of (Protestant) Peep O'Day Boys and (Catholic) Defenders",
     "Agents":"sectarian conflict between agrarian Protestant association and local Catholics",
     "Results":"#",
-    "Label":"Co. Armagh, Ireland",
-    "Place (modern)":"Co. Armagh, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Co. Armagh, Ireland",
+    "Geocoded location":"Co. Armagh, Ireland",
+    "Context":"social / economic"
     }
   },
   {
@@ -4231,11 +3787,9 @@
     "Name":"Whiteboy / Rightboy disturbances",
     "Agents":"agrarian conflict",
     "Results":"#",
-    "Label":"Munster, Ireland",
-    "Place (modern)":"Munster, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Munster, Ireland",
+    "Geocoded location":"Munster, Ireland",
+    "Context":"social / economic"
     }
   },
   {
@@ -4250,11 +3804,9 @@
     "Name":"Margeret Nicholson's assault on King George III",
     "Agents":"knife attack on the king (political motives debated)",
     "Results":"attacker was certified insane and confined in a hospital",
-    "Label":"London, Engand",
-    "Place (modern)":"London, Engand",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"London, Engand",
+    "Geocoded location":"London, Engand",
+    "Context":"government"
     }
   },
   {
@@ -4269,11 +3821,9 @@
     "Name":"Logan's Raid",
     "Agents":"loyalist / British troops versus patriots",
     "Results":"American victory",
-    "Label":"Mackachack, Ohio",
-    "Place (modern)":"Mackachack, near present West Liberty, Ohio",
-    "Historic affiliation":"British Empire / United States of America",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Mackachack, Ohio",
+    "Geocoded location":"Mackachack, near present West Liberty, Ohio",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -4288,11 +3838,9 @@
     "Name":"Shays' Rebellion",
     "Agents":"privately-funded local militia in Massachusetts against court proceedings collecting taxes and debts",
     "Results":"#",
-    "Label":"Western Massachusetts",
-    "Place (modern)":"Massachusetts, USA",
-    "Historic affiliation":"United States of America",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Western Massachusetts",
+    "Geocoded location":"Massachusetts, USA",
+    "Context":"social / economic"
     }
   },
   {
@@ -4307,11 +3855,9 @@
     "Name":"Abaco Slave Revolt",
     "Agents":"first uprising of slaves in the Bahamas",
     "Results":"#",
-    "Label":"Bahamas",
-    "Place (modern)":"Bahamas",
-    "Historic affiliation":"British Empire",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Bahamas",
+    "Geocoded location":"Bahamas",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -4326,11 +3872,9 @@
     "Name":"Doctors' Riot",
     "Agents":"illegal procurement of corpses from the graves of the recently deceased caused a mass expression of discontent from poorer New Yorkers, directed primarily at physicians and medical students",
     "Results":"#",
-    "Label":"New York City",
-    "Place (modern)":"New York City",
-    "Historic affiliation":"United States of America",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"New York City",
+    "Geocoded location":"New York City",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -4345,11 +3889,9 @@
     "Name":"Slave revolt in the British Virgin Islands",
     "Agents":"first slave revolt in the British Virgin Islands",
     "Results":"#",
-    "Label":"Virgin Islands",
-    "Place (modern)":"Virgin Islands",
-    "Historic affiliation":"British Empire",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Virgin Islands",
+    "Geocoded location":"Virgin Islands",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -4364,11 +3906,9 @@
     "Name":"Bastille Day Commemorations on July 14",
     "Agents":"public support for the French Revolution",
     "Results":"#",
-    "Label":"Dublin, Belfast and other larger cities in Ireland and Britain",
-    "Place (modern)":"Dublin, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Dublin, Belfast and other larger cities in Ireland and Britain",
+    "Geocoded location":"Dublin, Ireland",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -4383,11 +3923,9 @@
     "Name":"Bastille Day Commemorations on July 14",
     "Agents":"public support for the French Revolution",
     "Results":"#",
-    "Label":"Dublin, Belfast and other larger cities in Ireland and Britain",
-    "Place (modern)":"Belfast, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Dublin, Belfast and other larger cities in Ireland and Britain",
+    "Geocoded location":"Belfast, Ireland",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -4402,11 +3940,9 @@
     "Name":"Priestley Riots",
     "Agents":"local inhabitants protesting against alleged celebration of the French Revolution",
     "Results":"#",
-    "Label":"Birmingham, England",
-    "Place (modern)":"Birmingham, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Birmingham, England",
+    "Geocoded location":"Birmingham, England",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -4421,11 +3957,9 @@
     "Name":"Sheffield Riot",
     "Agents":"violence against the debtors' goal and the residence of Vicar Wilkinson",
     "Results":"#",
-    "Label":"Sheffield, England",
-    "Place (modern)":"Sheffield, England",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Sheffield, England",
+    "Geocoded location":"Sheffield, England",
+    "Context":"economic / social"
     }
   },
   {
@@ -4440,11 +3974,9 @@
     "Name":"Mina conspiracy / Pointe Coupée Slave Conspiracy",
     "Agents":"a slave revolt in the self-organized African-American Mina community",
     "Results":"#",
-    "Label":"Louisiana, North America",
-    "Place (modern)":"Louisiana, USA",
-    "Historic affiliation":"United States of America",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Louisiana, North America",
+    "Geocoded location":"Louisiana, USA",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -4459,11 +3991,9 @@
     "Name":"Broomhall Riots",
     "Agents":"protest against intended enclosure of land",
     "Results":"#",
-    "Label":"Sheffield, England",
-    "Place (modern)":"Sheffield, England",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Sheffield, England",
+    "Geocoded location":"Sheffield, England",
+    "Context":"economic / social"
     }
   },
   {
@@ -4478,11 +4008,9 @@
     "Name":"King's Birthday Riot",
     "Agents":"planned protest against the Lord Advocate, Dundas; connected to rising food prices and the unpopular Corn Law",
     "Results":"#",
-    "Label":"Edinburgh, Scotland",
-    "Place (modern)":"Edinburgh, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Edinburgh, Scotland",
+    "Geocoded location":"Edinburgh, Scotland",
+    "Context":"economic / social"
     }
   },
   {
@@ -4497,11 +4025,9 @@
     "Name":"Bristol Bridge Massacre",
     "Agents":"taxation riot against bridge toll",
     "Results":"clashes with militia",
-    "Label":"Bristol, England",
-    "Place (modern)":"Bristol, England",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Bristol, England",
+    "Geocoded location":"Bristol, England",
+    "Context":"economic / social"
     }
   },
   {
@@ -4516,11 +4042,9 @@
     "Name":"Sampson Incident",
     "Agents":"American merchant ship Sampson seized by British privateers in the West Indies",
     "Results":"Successful recapture of the American ship",
-    "Label":"West Indies, Caribbean Sea",
-    "Place (modern)":"Caribbean Basin",
-    "Historic affiliation":"British Empire",
-    "Context":"piracy",
-    "Chapter":"##"
+    "Places of event":"West Indies, Caribbean Sea",
+    "Geocoded location":"Caribbean Basin",
+    "Context":"piracy"
     }
   },
   {
@@ -4535,11 +4059,9 @@
     "Name":"Battle of Hightower",
     "Agents":"part of the Cherokee–American wars",
     "Results":"Cherokee defeated",
-    "Label":"Hightower / High Town Cherokee village",
-    "Place (modern)":"Rome, Georgia, United States",
-    "Historic affiliation":"United States of America / native Americans",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Hightower / High Town Cherokee village",
+    "Geocoded location":"Rome, Georgia, United States",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -4554,11 +4076,9 @@
     "Name":"Alleged French Invasion",
     "Agents":"fear of invasion by revolutionary France",
     "Results":"#",
-    "Label":"[Great Britain]",
-    "Place (modern)":"[Great Britain]",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"[Great Britain]",
+    "Geocoded location":"[Great Britain]",
+    "Context":"government"
     }
   },
   {
@@ -4573,11 +4093,9 @@
     "Name":"High Treason Trial of Thomas Hardy (London Corresponding Society)",
     "Agents":"accusations of planned violence and treason against John Hardy and other members of the London Corresponding Society",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"government"
     }
   },
   {
@@ -4592,11 +4110,9 @@
     "Name":"High Treason Trials of David Downie and Robert Watt (Friends of the People / British Convention)",
     "Agents":"allegations of treasonous proceedings",
     "Results":"#",
-    "Label":"Edinburgh, Scotland",
-    "Place (modern)":"Edinburgh, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Edinburgh, Scotland",
+    "Geocoded location":"Edinburgh, Scotland",
+    "Context":"government"
     }
   },
   {
@@ -4611,11 +4127,9 @@
     "Name":"High Treason Trials of James Coigly and Arthur O'Connor",
     "Agents":"treason charges related to unrest in Ireland",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England, Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England, Britain",
+    "Context":"government"
     }
   },
   {
@@ -4630,11 +4144,9 @@
     "Name":"Whiskey Rebellion / Whiskey Insurrection",
     "Agents":"Protests over taxes in Pittsburgh and the Monongahela Valley",
     "Results":"President George Washington invokes martial law and crushes insurrection with 13,000 men.",
-    "Label":"Monongahela Valley, USA",
-    "Place (modern)":"Monongahela Valley, USA",
-    "Historic affiliation":"United States of America",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Monongahela Valley, USA",
+    "Geocoded location":"Monongahela Valley, USA",
+    "Context":"social / economic"
     }
   },
   {
@@ -4649,11 +4161,9 @@
     "Name":"Whiskey Rebellion / Whiskey Insurrection",
     "Agents":"Protests over taxes in Pittsburgh and the Monongahela Valley",
     "Results":"President George Washington invokes martial law and crushes insurrection with 13,000 men.",
-    "Label":"Western Pennsylvania, USA",
-    "Place (modern)":"Western Pennsylvania, USA",
-    "Historic affiliation":"United States of America",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Western Pennsylvania, USA",
+    "Geocoded location":"Western Pennsylvania, USA",
+    "Context":"social / economic"
     }
   },
   {
@@ -4668,11 +4178,9 @@
     "Name":"Battle of Richmond Hill",
     "Agents":"between the Indigenous Darug people and the New South Wales Corps",
     "Results":"Colonial victory",
-    "Label":"Richmond, New South Wales",
-    "Place (modern)":"Richmond, New South Wales, Australia",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Richmond, New South Wales",
+    "Geocoded location":"Richmond, New South Wales, Australia",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -4687,11 +4195,9 @@
     "Name":"Battle of the Diamond / Foundation of the Orange Society",
     "Agents":"planned confrontation between the Catholic Defenders and the Protestant Peep o' Day Boys",
     "Results":"The Peep o' Day Boys were the victors, killing some 6 Defenders, with some wounded Peep o day boys in return.",
-    "Label":"Loughgall, Co. Armagh, Ireland",
-    "Place (modern)":"Loughgall, Co. Armagh, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Loughgall, Co. Armagh, Ireland",
+    "Geocoded location":"Loughgall, Co. Armagh, Ireland",
+    "Context":"economic / social"
     }
   },
   {
@@ -4706,11 +4212,9 @@
     "Name":"Food Riots / Bread Riots",
     "Agents":"regional protest against price rises",
     "Results":"#",
-    "Label":"England and Scotland",
-    "Place (modern)":"England",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"England and Scotland",
+    "Geocoded location":"England",
+    "Context":"economic / social"
     }
   },
   {
@@ -4725,11 +4229,9 @@
     "Name":"Food Riots / Bread Riots",
     "Agents":"regional protest against price rises",
     "Results":"#",
-    "Label":"England and Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"England and Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"economic / social"
     }
   },
   {
@@ -4744,11 +4246,9 @@
     "Name":"London Riot",
     "Agents":"working-class protest in favour of parliamentary reform",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -4763,11 +4263,9 @@
     "Name":"Opening of Parliament Riots",
     "Agents":"popular uprising in the City of London, including an attack on the king's coach; linked with political tension upon the opening of a new session in Parliament",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"government"
     }
   },
   {
@@ -4782,11 +4280,9 @@
     "Name":"Pop-Gun-Plot",
     "Agents":"alleged conspirary to muder King George III",
     "Results":"#",
-    "Label":"London, England",
-    "Place (modern)":"London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"alleged / planned",
-    "Chapter":"##"
+    "Places of event":"London, England",
+    "Geocoded location":"London, England",
+    "Context":"alleged / planned"
     }
   },
   {
@@ -4801,11 +4297,9 @@
     "Name":"Revolt of the housewives",
     "Agents":"food riots with prominent role of women, linked with land enclosures",
     "Results":"#",
-    "Label":"England",
-    "Place (modern)":"England",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"England",
+    "Geocoded location":"England",
+    "Context":"economic / social"
     }
   },
   {
@@ -4820,11 +4314,9 @@
     "Name":"Second Maroon War",
     "Agents":"Maroon community",
     "Results":"Maroon surrender",
-    "Label":"Colony of Jamaica",
-    "Place (modern)":"Colony of Jamaica",
-    "Historic affiliation":"British Empire",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Colony of Jamaica",
+    "Geocoded location":"Colony of Jamaica",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -4839,11 +4331,9 @@
     "Name":"Snow Hill Riot",
     "Agents":"attack on Pickard's Mill",
     "Results":"#",
-    "Label":"Birmingham, England",
-    "Place (modern)":"Birmingham, England",
-    "Historic affiliation":"British Empire",
-    "Context":"economic / social",
-    "Chapter":"##"
+    "Places of event":"Birmingham, England",
+    "Geocoded location":"Birmingham, England",
+    "Context":"economic / social"
     }
   },
   {
@@ -4858,11 +4348,9 @@
     "Name":"slave rebellions in the Caribbean",
     "Agents":"slaves inspired by the Haitian Revolution",
     "Results":"#",
-    "Label":"Cuba, Dominica, Saint Lucia, Saint Vincent, Grenada, Curaçao, Guyana",
-    "Place (modern)":"Carribean Islands",
-    "Historic affiliation":"British Empire / Kingdom of France",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Cuba, Dominica, Saint Lucia, Saint Vincent, Grenada, Curaçao, Guyana",
+    "Geocoded location":"Carribean Islands",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -4877,11 +4365,9 @@
     "Name":"(alleged) Jacobin Plot",
     "Agents":"accusation against Irish military staff to have plotted a French revolutionary invasion",
     "Results":"#",
-    "Label":"[Great Britain]",
-    "Place (modern)":"[Great Britain]",
-    "Historic affiliation":"British Empire",
-    "Context":"alleged / planned",
-    "Chapter":"##"
+    "Places of event":"[Great Britain]",
+    "Geocoded location":"[Great Britain]",
+    "Context":"alleged / planned"
     }
   },
   {
@@ -4896,11 +4382,9 @@
     "Name":"John Hartland Riot",
     "Agents":"riot instigated by journeyman brush-maker John Hartland, attack on a \"crimping house\" (where men are bribed into sailing or army enlistments for drink)",
     "Results":"John Hartland tried",
-    "Label":"St. George's-Fields, Southwark, England",
-    "Place (modern)":"Southwark, England",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"St. George's-Fields, Southwark, England",
+    "Geocoded location":"Southwark, England",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -4915,11 +4399,9 @@
     "Name":"Massacre of Tranent",
     "Agents":"objection to the conscription of Scots into the British Militia",
     "Results":"escalated mass protest with heavy casulties",
-    "Label":"Tranent, East Lothian, Scotland",
-    "Place (modern)":"Tranent, East Lothian, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Tranent, East Lothian, Scotland",
+    "Geocoded location":"Tranent, East Lothian, Scotland",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -4934,11 +4416,9 @@
     "Name":"Rugby School Rebellion",
     "Agents":"mutiny of the boys at Rugby School against the headmaster, Dr Henry Ingles",
     "Results":"#",
-    "Label":"Rugby, England",
-    "Place (modern)":"Rugby, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Rugby, England",
+    "Geocoded location":"Rugby, England",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -4953,11 +4433,9 @@
     "Name":"Scottish Rebellion",
     "Agents":"Scottish Rebellion against the Kingdom of Great Britain",
     "Results":"rebellion failed",
-    "Label":"Scotland",
-    "Place (modern)":"Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Scotland",
+    "Geocoded location":"Scotland, Britain",
+    "Context":"government"
     }
   },
   {
@@ -4972,11 +4450,9 @@
     "Name":"Nore mutinies",
     "Agents":"mutiny by sailors of the British Royal Navy",
     "Results":"#",
-    "Label":"Nore, England",
-    "Place (modern)":"Nore, England",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Nore, England",
+    "Geocoded location":"Nore, England",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -4991,11 +4467,9 @@
     "Name":"Spithead mutinies",
     "Agents":"mutiny by sailors of the British Royal Navy",
     "Results":"#",
-    "Label":"Spithead, England",
-    "Place (modern)":"Spithead, England",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Spithead, England",
+    "Geocoded location":"Spithead, England",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -5010,11 +4484,9 @@
     "Name":"Tranent militia riot / Massacre of Tranent",
     "Agents":"proclamation by local people to object to the conscription of Scots into the British Militia",
     "Results":"#",
-    "Label":"Tranent, East Lothian, Scotland",
-    "Place (modern)":"Tranent, East Lothian, Scotland",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Tranent, East Lothian, Scotland",
+    "Geocoded location":"Tranent, East Lothian, Scotland",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -5029,11 +4501,9 @@
     "Name":"Bali street incident",
     "Agents":"French navy vessels vs. six British East India Company ships",
     "Results":"#",
-    "Label":"Bali",
-    "Place (modern)":"Bali Strait",
-    "Historic affiliation":"British Empire / Republic of France",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Bali",
+    "Geocoded location":"Bali Strait",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -5048,11 +4518,9 @@
     "Name":"Irish Rebellion / United Irish Rising",
     "Agents":"launched by the United Irishmen, aimed at severing the connection with Great Britain and establishing an Irish Republic",
     "Results":"failed",
-    "Label":"Ireland (in particular Leinster and Ulster",
-    "Place (modern)":"Leinster, Ireland",
-    "Historic affiliation":"British Emire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Ireland (in particular Leinster and Ulster",
+    "Geocoded location":"Leinster, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -5067,11 +4535,9 @@
     "Name":"Battle of Rathangan",
     "Agents":"in the context of the Irish Rebellion",
     "Results":"British victory, rebels repulsed 28 May",
-    "Label":"Rathangan, County Kildare, Ireland",
-    "Place (modern)":"Rathangan, County Kildare, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"military regulations / peace-keeping",
-    "Chapter":"##"
+    "Places of event":"Rathangan, County Kildare, Ireland",
+    "Geocoded location":"Rathangan, County Kildare, Ireland",
+    "Context":"military regulations / peace-keeping"
     }
   },
   {
@@ -5086,11 +4552,9 @@
     "Name":"Massacre of Benares",
     "Agents":"uprising led by Wazir Ali Khan in North India, involved death of five British officials and civilians of the East India Company",
     "Results":"rising unsuccessful",
-    "Label":"Benares, India",
-    "Place (modern)":"Benares, India",
-    "Historic affiliation":"British Empire",
-    "Context":"colonial expansion / consolidation",
-    "Chapter":"##"
+    "Places of event":"Benares, India",
+    "Geocoded location":"Benares, India",
+    "Context":"colonial expansion / consolidation"
     }
   },
   {
@@ -5105,11 +4569,9 @@
     "Name":"Freeing Arthur O'Connor",
     "Agents":"alleged design by Sackville Earl of Thanet and others to free United Irishman Arthur O'Connor from custody",
     "Results":"#",
-    "Label":"England, Britain",
-    "Place (modern)":"England, Britain",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"England, Britain",
+    "Geocoded location":"England, Britain",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -5124,11 +4586,9 @@
     "Name":"Fries's Rebellion",
     "Agents":"tax revolt among Pennsylvania Dutch farmers led by John Fries",
     "Results":"#",
-    "Label":"Pennsylvania, North America",
-    "Place (modern)":"Pennsylvania, North America",
-    "Historic affiliation":"United States of America",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Pennsylvania, North America",
+    "Geocoded location":"Pennsylvania, North America",
+    "Context":"social / economic"
     }
   },
   {
@@ -5143,11 +4603,9 @@
     "Name":"Gabriel Prosser's rebellion",
     "Agents":"slaves",
     "Results":"rebellion suppressed",
-    "Label":"Virginia, USA",
-    "Place (modern)":"Virginia, USA",
-    "Historic affiliation":"United States of America",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Virginia, USA",
+    "Geocoded location":"Virginia, USA",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -5162,11 +4620,9 @@
     "Name":"1803 rebellion / Rising of Robert Emmet",
     "Agents":"Robert Emmet and Irish Republicans attempt to seize the seat of British government in Ireland, Dublin Castle, and trigger a nation-wide insurrection",
     "Results":"principal leader, Robert Emmet, executed; others exiled",
-    "Label":"Dublin, Ireland",
-    "Place (modern)":"Dublin, Ireland",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Dublin, Ireland",
+    "Geocoded location":"Dublin, Ireland",
+    "Context":"government"
     }
   },
   {
@@ -5181,11 +4637,9 @@
     "Name":"Igbo Landing (off the coast of St. Simons, Georgia)",
     "Agents":"slave ship revolt",
     "Results":"enslaved Igbo people committed mass suicide rather than submit to slavery in the United States",
-    "Label":"Georgia, United States",
-    "Place (modern)":"Georgia, United States",
-    "Historic affiliation":"United States of America",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Georgia, United States",
+    "Geocoded location":"Georgia, United States",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -5200,11 +4654,9 @@
     "Name":"Castle Hill convict rebellion",
     "Agents":"Irish convicts",
     "Results":"Rebellion crushed violently: many rioters killed",
-    "Label":"Castle Hill, Colony of New South Wales",
-    "Place (modern)":"Castle Hill, New South Wales, Australia",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Castle Hill, Colony of New South Wales",
+    "Geocoded location":"Castle Hill, New South Wales, Australia",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -5219,11 +4671,9 @@
     "Name":"Slave rebellion at Chatham Manor",
     "Agents":"slaves",
     "Results":"rebellion unsuccessful",
-    "Label":"Chatham Manor, United States",
-    "Place (modern)":"Chatham Manor, United States",
-    "Historic affiliation":"United States of America",
-    "Context":"slavery / rights of freed slaves",
-    "Chapter":"##"
+    "Places of event":"Chatham Manor, United States",
+    "Geocoded location":"Chatham Manor, United States",
+    "Context":"slavery / rights of freed slaves"
     }
   },
   {
@@ -5238,11 +4688,9 @@
     "Name":"Rum Rebellion",
     "Agents":"New South Wales Corps arrest local governor",
     "Results":"Deposition and arrest of NSW Governor William Bligh.\n Imposition of martial law.\n Withdrawal and disbandment of NSW Corps in disgrace.\n Appointment of Lachlan Macquarie as governor.",
-    "Label":"Sydney, New South Wales",
-    "Place (modern)":"Sydney, New South Wales, Australia",
-    "Historic affiliation":"British Empire",
-    "Context":"government",
-    "Chapter":"##"
+    "Places of event":"Sydney, New South Wales",
+    "Geocoded location":"Sydney, New South Wales, Australia",
+    "Context":"government"
     }
   },
   {
@@ -5257,11 +4705,9 @@
     "Name":"Old Price Riots",
     "Agents":"local protest against rising price of threatre tickets",
     "Results":"#",
-    "Label":"Covent Garden, London, England",
-    "Place (modern)":"Covent Garden, London, England",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Covent Garden, London, England",
+    "Geocoded location":"Covent Garden, London, England",
+    "Context":"social / economic"
     }
   },
   {
@@ -5276,11 +4722,9 @@
     "Name":"Ely and Littleport riots",
     "Agents":"reaction to unemployment and price rises",
     "Results":"#",
-    "Label":"Littleport, Cambridgeshire, England",
-    "Place (modern)":"Littleport, Cambridgeshire, England",
-    "Historic affiliation":"British Empire",
-    "Context":"social / economic",
-    "Chapter":"##"
+    "Places of event":"Littleport, Cambridgeshire, England",
+    "Geocoded location":"Littleport, Cambridgeshire, England",
+    "Context":"social / economic"
     }
   },
   {
@@ -5295,11 +4739,9 @@
     "Name":"Spa Fields riots",
     "Agents":"riots developing from political mass meetings in opposition to government policy",
     "Results":"#",
-    "Label":"Islington, England",
-    "Place (modern)":"Islington, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Islington, England",
+    "Geocoded location":"Islington, England",
+    "Context":"political freedoms / personal rights"
     }
   },
   {
@@ -5314,11 +4756,9 @@
     "Name":"Peterloo Massacre",
     "Agents":"riot for parliamentary reform",
     "Results":"#",
-    "Label":"Manchester, England",
-    "Place (modern)":"Manchester, England",
-    "Historic affiliation":"British Empire",
-    "Context":"political freedoms / personal rights",
-    "Chapter":"##"
+    "Places of event":"Manchester, England",
+    "Geocoded location":"Manchester, England",
+    "Context":"political freedoms / personal rights"
     }
   }
 ]
