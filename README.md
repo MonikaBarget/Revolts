@@ -10,7 +10,7 @@
 <p>This repository contains data analyses and visualisations relating to different types of public conflict in the eighteenth-century British Empire.</p>
 <br />
 <hr>
-
+<br />
 1) [Chronological table of events (categorised by impact area)](https://monikabarget.github.io/Revolts/event-table.html)
 
 2) [Interactive map of events (British Isles and overseas colonies)](https://monikabarget.github.io/Revolts/event-map.html)
