@@ -45,7 +45,7 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-spacing: 2;
+	border-spacing: 3;
 	border-collapse: separate;
 	text-align: left;
 }
@@ -89,12 +89,12 @@ header h2 {
 }
 
 #container {
-  min-height: 750px;
+  min-height: 700px;
   background: transparent url(./assets/paper2.jpg) 50% 0 no-repeat;
 }
 
 .inner {
-  width: 750px;
+  width: 700px;
   margin: 0 auto;
 }
 
