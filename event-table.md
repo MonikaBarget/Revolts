@@ -9,7 +9,7 @@ The hyperlinks lead to external resources provoding additional background inform
 An **extended and fully searchable table** of violent conflicts in the British Empire and the independent United States between 1513 and 1819 can be viewed [here](https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv). The table is work in progress -- information on agents and outcomes may be missing, and the table is necessarily incomplete. The information given is based on several SPARQL queries relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches in the entire Wikidata database.
 
 
-<table class="table table-bordered table-hover table-condensed">
+<table class="table table-bordered table-hover table-condensed" width="94%">
 <thead><tr><th title="Field #1">START</th>
 <th title="Field #2">END</th>
 <th title="Field #3">EVENT</th>
