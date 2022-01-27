@@ -201,7 +201,7 @@
 <td>Comanche Wars</td>
 <td>Comanche / Spain / later: Mexico and the USA</td>
 <td>Initial Comanche victory over Spain and Mexico,<br/>final Texan and United States victory</td>
-<td>South-central United States (Texas / Oklahoma / New Mexico / Kansas / Colorado) and northern Mexico</td>
+<td>Texas / Oklahoma / New Mexico / Kansas / Colorado / northern Mexico</td>
 <td>Texas, United States</td>
 <td>colonial expansion / consolidation</td>
 
