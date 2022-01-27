@@ -6,9 +6,9 @@
     <figcaption>The riot in Broad Street on 7 June, 1780, engraving by James Heath after a painting by Francis Wheatle, <a href="https://commons.wikimedia.org/wiki/File:Heath_after_Wheatley_-_Gordon_Riots_1780.jpg">Wikimedia Commons</a></figcaption>
 </figure>
 
-
+<br />
 <p>This repository contains data analyses and visualisations relating to different types of public conflict in the eighteenth-century British Empire.</p>
-
+<br />
 <hr>
 
 1) [Chronological table of events (categorised by impact area)](https://monikabarget.github.io/Revolts/event-table.html)
