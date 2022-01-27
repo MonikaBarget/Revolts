@@ -11,6 +11,13 @@
 <hr>
 
 <table class="table table-bordered table-hover table-condensed" style="width:90%; font-size:80%; border: 3px solid black">
+<col style="width:10%">
+<col style="width:10%">
+<col style="width:40%"> 
+<col style="width:20%">
+<col style="width:0%">
+<col style="width:0%">
+<col style="width:20%"> 
 <thead><tr><th title="Field #1">START</th>
 <th title="Field #2">END</th>
 <th title="Field #3">EVENT</th>
@@ -533,8 +540,8 @@
 <td align="right">1730</td>
 <td>#</td>
 <td>Cresap&#39;s War / Conojocular War</td>
-<td>inner-colonial conflict</td>
 <td>border conflict between Pennsylvania and Maryland</td>
+<td>#</td>
 <td>Pennsylvania–Maryland border</td>
 <td>Pennsylvania–Maryland border</td>
 
@@ -740,8 +747,8 @@
 <td align="right">1754</td>
 <td>1754</td>
 <td>Taunton by-election</td>
-<td>The election had over 700 rejected votes / and the result caused rioting in Taunton / during which two people were killed. </td>
-<td>#</td>
+<td>over 700 rejected votes / result caused rioting</td>
+<td>two people killed</td>
 <td>Taunton / England</td>
 <td>Taunton / England</td>
 
@@ -1620,9 +1627,8 @@
 <td>slave rebellions in the Caribbean / influenced by the Haitian Revolution</td>
 <td>slaves</td>
 <td>#</td>
-<td> in Cuba / Jamaica (Second Maroon War / Dominica (Colihault Uprising / Louisiana (Pointe Coupée conspiracy / Saint Lucia (Bush War / so-called &quot;Guerre des Bois&quot; / Saint Vincent (Second Carib War / Grenada (Fédon&#39;s rebellion / Curaçao (led by Tula / Guyana (Demerara Rebellion and in Coro / Venezuela (led by José Leonardo Chirino.[149]</td>
+<td>Cuba / Dominica / Louisiana / Saint Lucia / Saint Vincent / Grenada / Curaçao / Guyana</td>
 <td>Carribean Islands</td>
-
 <td>slavery / rights of freed slaves</td>
 
 
