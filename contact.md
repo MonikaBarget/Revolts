@@ -2,10 +2,9 @@
 
 [MAIL](mailto:m.barget@maastrichtuniversity.nl)
 
-FASoS | Maastricht University 
-90-92 Grote Gracht
-Room E 1.03
-6211 SZ Maastricht, NL 
+FASoS | Maastricht University<br /> 
+90-92 Grote Gracht<br />
+6211 SZ Maastricht, NL<br /> 
 
 **Related publications:**
 
