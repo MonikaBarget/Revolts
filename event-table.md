@@ -16,8 +16,8 @@
 <th title="Field #3">EVENT</th>
 <th title="Field #4">AGENTS</th>
 <th title="Field #5">OUTCOME</th>
-<th title="Field #6">PLACE (HIST.)</th>
-<th title="Field #7">PLACE (MODERN)</th>
+<th title="Field #6">PLACE (hist.)</th>
+<th title="Field #7">PLACE (geocoded)</th>
 <th title="Field #9">RELEVANCE</th>
 </tr></thead>
 <tbody><tr>
@@ -40,33 +40,7 @@
 <td>opposition to King James II/VII</td>
 <td>Protestant Succession established</td>
 <td>Britain / Ireland / North America</td>
-<td>Britain</td>
-
-<td>government</td>
-
-
-</tr>
-<tr>
-<td align="right">1688</td>
-<td>1689</td>
-<td>Glorious Revolution</td>
-<td>opposition to King James II/VII</td>
-<td>Protestant Succession established</td>
 <td>Britain / Ireland / North America</td>
-<td>Ireland</td>
-
-<td>government</td>
-
-
-</tr>
-<tr>
-<td align="right">1688</td>
-<td>1689</td>
-<td>Glorious Revolution</td>
-<td>opposition to King James II/VII</td>
-<td>Protestant Succession established</td>
-<td>Britain / Ireland / North America</td>
-<td>United States of America</td>
 <td>government</td>
 </tr>
 
@@ -173,26 +147,11 @@
 <td>Riot on the Pretender&#39;s Birthday</td>
 <td>supporters of the Stuart dynasty</td>
 <td>#</td>
-<td>Clerkenwell / England</td>
-<td>Clerkenwell / England</td>
-
+<td>Clerkenwell and Whitechapel / England</td>
+<td>Clerkenwell and Whitechapel / England</td>
 <td>government</td>
-
-
 </tr>
-<tr>
-<td align="right">1700</td>
-<td>#</td>
-<td>Riot on the Pretender&#39;s Birthday</td>
-<td>supporters of the Stuart dynasty</td>
-<td>#</td>
-<td>Whitechapel / England</td>
-<td>Whitechapel / England</td>
 
-<td>government</td>
-
-
-</tr>
 <tr>
 <td align="right">1700</td>
 <td>#</td>
@@ -201,9 +160,7 @@
 <td>#</td>
 <td>Dublin / Ireland</td>
 <td>Dublin / Ireland</td>
-
 <td>government</td>
-
 
 </tr>
 <tr>
@@ -214,9 +171,7 @@
 <td>#</td>
 <td>Bristol / England</td>
 <td>Bristol / England</td>
-
 <td>government</td>
-
 
 </tr>
 <tr>
@@ -366,23 +321,10 @@
 <td>#</td>
 <td>#</td>
 <td>[London and Oxford] </td>
-<td>Oxford / England</td>
+<td>London and Oxford / England</td>
 <td>alleged / planned</td>
-
-
 </tr>
-<tr>
-<td align="right">1712</td>
-<td>#</td>
-<td>(intended) Queen&#39;s Birthday Riot</td>
-<td>#</td>
-<td>#</td>
-<td>[London and Oxford] </td>
-<td>London / England</td>
-<td>alleged / planned</td>
 
-
-</tr>
 <tr>
 <td align="right">1712</td>
 <td>#</td>
@@ -455,37 +397,20 @@
 <td>attempted restoration of the Stuart monarchy</td>
 <td>failed</td>
 <td>England and Scotland</td>
-<td>England</td>
-
-<td>government</td>
-
-
-</tr>
-<tr>
-<td align="right">1715</td>
-<td>#</td>
-<td>Jacobite Rebellion / the &#39;15</td>
-<td>attempted restoration of the Stuart monarchy</td>
-<td>failed</td>
 <td>England and Scotland</td>
-<td>Scotland</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1715</td>
 <td>#</td>
 <td>1715 England Riots / Rebellion Riots</td>
 <td>High Church adherents attacked Dissenting meeting-houses</td>
 <td>#</td>
-<td>England / Britain</td>
-<td>England / Britain</td>
-
+<td>England</td>
+<td>England</td>
 <td>religion / cultural identity</td>
 
-
 </tr>
 <tr>
 <td align="right">1715</td>
@@ -494,25 +419,10 @@
 <td>local risings in support of the Jacobite cause</td>
 <td>#</td>
 <td>Manchester / cities in northern England and Scotland</td>
-<td>Scotland</td>
-
+<td>Manchester and Scotland</td>
 <td>government</td>
-
-
 </tr>
-<tr>
-<td align="right">1715</td>
-<td>#</td>
-<td>Jacobite Riots</td>
-<td>local risings in support of the Jacobite cause</td>
-<td>#</td>
-<td>Manchester / cities in northern England and Scotland</td>
-<td>Manchester / England</td>
 
-<td>government</td>
-
-
-</tr>
 <tr>
 <td align="right">1716</td>
 <td>#</td>
@@ -521,11 +431,9 @@
 <td>#</td>
 <td>Cambridge / England</td>
 <td>Cambridge / England</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1716</td>
 <td>#</td>
@@ -534,11 +442,9 @@
 <td>&quot;rabble broke the windows of those who were celebrating and provoked the rioting by soldiers / scholars and townsmen&quot;</td>
 <td>Oxford / England</td>
 <td>Oxford / England</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1719</td>
 <td>#</td>
@@ -546,25 +452,10 @@
 <td>attempt to restore the exiled James Francis Edward Stuart</td>
 <td>failed</td>
 <td>Spain / Scotland</td>
-<td>Spain</td>
-
-<td>government</td>
-
-
-</tr>
-<tr>
-<td align="right">1719</td>
-<td>#</td>
-<td>‘The Nineteen’ / Jacobite rising of 1719</td>
-<td>attempt to restore the exiled James Francis Edward Stuart</td>
-<td>failed</td>
 <td>Spain / Scotland</td>
-<td>Scotland / Great Britain</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1719</td>
 <td>1720</td>
