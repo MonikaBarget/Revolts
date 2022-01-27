@@ -12,7 +12,7 @@
 
 1) <a href="https://monikabarget.github.io/Revolts/event-table.html">Chronological table of events (categorised by impact area)</a>
 
-2) <a href="https://monikabarget.github.io/Revolts/event-map.html">Interactive map of events (British Isles and overseas colonies)</a>
+2) <a href="https://monikabarget.github.io/Revolts/events.html">Interactive map of events (British Isles and overseas colonies)</a>
 
 3) <a href="https://monikabarget.github.io/Revolts/sermons.html">Interactive map of rebellion sermon publication</a>
 
