@@ -1,8 +1,10 @@
 ### Events
 
 #### Table of selected (alleged / planned) unrest
-<br>
-<p>The events listed took place in the British Isles and / or overseas colonies and point to the strong cultural and political exchanges between the different parts of the Empire. The <strong>classification</strong> of the events on the right-hand side gives a general overview of the different motivations that could drive 18th-century uprisings although the factors mentioned are by no means exclusive. There were, in fact, many overlaps between religious / cultural, social / economic and political aims.</p> 
+
+<p>The events listed took place in the British Isles and / or overseas colonies and point to the strong cultural and political exchanges between the different parts of the Empire.</p>
+
+<p>The <strong>classification</strong> of the events on the right-hand side gives a general overview of the different motivations that could drive 18th-century uprisings although the factors mentioned are by no means exclusive. There were, in fact, many overlaps between religious / cultural, social / economic and political aims.</p> 
 
 <p>The <strong>hyperlinks</strong> lead to external resources provoding additional background information. Whenever possible, articles in the Encyclopedia Britannica, (local) government websites or academic e-publications have been linked. In other cases, Wikipedia articles are provided as a starting point for further research.</p>
 
