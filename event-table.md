@@ -11,7 +11,7 @@
 <hr>
 <strong>Selected events between the Monmouth Rebellion and Peterloo Massacre:</strong>
 <hr>
-<table class="table table-bordered table-hover table-condensed" style="width:90%; font-size:80%; border: 3px solid black">
+<table class="table table-bordered table-hover table-condensed" style="width:90%; font-size:80%; border: 2px solid black">
 <col style="width:10%">
 <col style="width:10%">
 <col style="width:40%"> 
@@ -747,12 +747,11 @@
 <tr>
 <td align="right">1754</td>
 <td>1754</td>
-<td>Taunton by-election</td>
+  <td><a href="https://en.wikipedia.org/wiki/1754_Taunton_by-election">Taunton by-election</a></td>
 <td>over 700 rejected votes / result caused rioting</td>
 <td>two people killed</td>
 <td>Taunton / England</td>
 <td>Taunton / England</td>
-
 <td>elections</td>
 
 
@@ -760,7 +759,7 @@
 <tr>
 <td align="right">1756</td>
 <td>#</td>
-<td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Sheffield Food Riot></a></td>
+<td><a href="https://www.cambridge.org/core/books/abs/social-unrest-and-popular-protest-in-england-17801840/food-riots/EDFCA6D64CDE820A9A63831A186DAD34">Sheffield Food Riot</a></td>
 <td>social / economic grievances</td>
 <td>#</td>
 <td>Yorkshire / England</td>
