@@ -10,7 +10,7 @@
 
 <hr>
 
-<table class="table table-bordered table-hover table-condensed" style="width:90%; border: 3px solid black">
+<table class="table table-bordered table-hover table-condensed" style="width:90%; font-size:80%; border: 3px solid black">
 <thead><tr><th title="Field #1">START</th>
 <th title="Field #2">END</th>
 <th title="Field #3">EVENT</th>
