@@ -1093,7 +1093,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -105.2551187,54.5259614 ]
+       "coordinates":  [ -71,44 ]
     },
     "properties": {
     "From":1688,
