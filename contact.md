@@ -8,7 +8,11 @@ FASoS | Maastricht University<br />
 
 **Related publications:**
 
-Barget, Monika. ‘The Agreeable Contrast - British Caricatures of the 1745 Jacobite Rebellion’. In: New Approaches to Religion and the Enlightenment, edited by Brett McInelly and Paul Kerry. Vancouver, British Columbia: Fairleigh Dickinson University Press, 2018.
+Barget, Monika. ‘Stadt, Land und suburbaner Raum als Orte des Widerstands: Das britische Empire im 18. Jahrhundert’. Zeitschrift für Agrargeschichte und Agrarsoziologie 2/2017: Ländliche Akteure zwischen Protest und Revolution (18. bis 21. Jahrhundert) (2017): 35–54.
+
+———. ‘« Rebelle malgré lui » - récits de réconciliation et de réintégration dans les biographies politiques britanniques du XVIIIe siècle’. Edited by Stéphane Haffemayer. Histoire et Civilisation du Livre. Revue Internationale XIV (2018): 247–68.
+
+———. ‘The Agreeable Contrast - British Caricatures of the 1745 Jacobite Rebellion’. In: New Approaches to Religion and the Enlightenment, edited by Brett McInelly and Paul Kerry. Vancouver, British Columbia: Fairleigh Dickinson University Press, 2018.
 
 ———. ‘“Hired mobs” – öffentliche Meinung und gesteuerte Menge im frühneuzeitlichen Großbritannien’. In: Jenseits der Ordnung? Zur Mächtigkeit der Vielen in der Frühen Neuzeit, edited by Rudolf Schlögl and Jan Marco Sawilla, 45-74 (56 Normseiten). Berlin: Neofelis, 2019.
 
