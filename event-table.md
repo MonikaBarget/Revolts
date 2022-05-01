@@ -973,11 +973,11 @@
 </tr>
 <tr>
 <td align="right">1778</td>
-<td>1779</td>
+<td>1778</td>
 <td>Catholic Relief Act Riots </td>
 <td>citizens protesting against Catholic Emancipation</td>
 <td>#</td>
-<td>Edinburgh and Glasgow / Scotland</td>
+<td>Glasgow / Scotland</td>
 <td>Glasgow / Scotland</td>
 
 <td>religion / cultural identity</td>
@@ -985,12 +985,12 @@
 
 </tr>
 <tr>
-<td align="right">1778</td>
+<td align="right">1779</td>
 <td>1779</td>
 <td>Catholic Relief Act Riots </td>
 <td>citizens protesting against Catholic Emancipation</td>
 <td>#</td>
-<td>Edinburgh and Glasgow / Scotland</td>
+<td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
 
 <td>religion / cultural identity</td>
@@ -1030,7 +1030,7 @@
 <td>British colonists</td>
 <td>#</td>
 <td>Cape Colony</td>
-<td>Cape Colony</td>
+<td>South Africa</td>
 <td>colonial expansion / consolidation</td>
 
 
@@ -1064,7 +1064,7 @@
 <tr>
 <td align="right">1781</td>
 <td>#</td>
-<td>The Revolt in Bihar </td>
+<td>Revolt in Bihar </td>
 <td>uprising by chieftains in the Indian state of Bihar against the British East India Company</td>
 <td>#</td>
 <td>Bihar / Asia</td>
@@ -1148,7 +1148,7 @@
 <td>London / Engand</td>
 <td>London / Engand</td>
 
-<td>government</td>
+<td>mental illness</td>
 
 
 </tr>
