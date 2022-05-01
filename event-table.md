@@ -73,69 +73,7 @@
 <td>Dover / New Hampshire</td>
 <td>colonial expansion / consolidation</td>
 </tr>
-  
-<tr>
-<td align="right">1689</td>
-<td>#</td>
-<td>Siege of Pemaquid</td>
-<td>attack Abenaki warriors on the English fort</td>
-<td>successful attack</td>
-<td>Pemaquid / Fort Charles / North America</td>
-<td>Pemaquid / Fort Charles / North America</td>
 
-<td>colonial expansion / consolidation</td>
-
-
-</tr>
-<tr>
-<td align="right">1690</td>
-<td>#</td>
-<td>Raid on Salmon Falls</td>
-<td>Acadian and Wabanaki Confederacy</td>
-<td>Acadian and Wabanaki Confederacy victory</td>
-<td>Salmon Falls</td>
-<td>Salmon Falls (present-day Berwick / Maine)</td>
-
-<td>colonial expansion / consolidation</td>
-
-
-</tr>
-<tr>
-<td align="right">1691</td>
-<td>#</td>
-<td>Siege of Athlone</td>
-<td>Jacobites versus Williamites</td>
-<td>Williamite victory</td>
-<td>Athlone / Ireland</td>
-<td>Athlone / Ireland</td>
-<td>government</td>
-</tr>
-  
-<tr>
-<td align="right">1694</td>
-<td>#</td>
-<td>Raid on Oyster River</td>
-<td>French colonists / Abenaki warriors / English-speaking settlers</td>
-<td>New France and Abenaki victory</td>
-<td>Oyster River</td>
-<td>Oyster River (present-day Durham / New Hampshire)</td>
-
-<td>colonial expansion / consolidation</td>
-
-
-</tr>
-<tr>
-<td align="right">1694</td>
-<td>1700</td>
-<td>Komenda Wars</td>
-<td>wars largely between the Dutch West India Company and the British Royal African Company</td>
-<td>#</td>
-<td>Fort Komenda</td>
-<td>Fort Komenda / Ghana</td>
-<td>colonial expansion / consolidation</td>
-
-
-</tr>
 <tr>
 <td align="right">1697</td>
 <td>#</td>
@@ -144,11 +82,9 @@
 <td>French victory</td>
 <td>Haverhill / Province of Massachusetts Bay</td>
 <td>Haverhill / Massachusetts</td>
-
 <td>colonial expansion / consolidation</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1700</td>
 <td>#</td>
@@ -169,8 +105,8 @@
 <td>Dublin / Ireland</td>
 <td>Dublin / Ireland</td>
 <td>government</td>
-
 </tr>
+  
 <tr>
 <td align="right">1700</td>
 <td>#</td>
@@ -180,21 +116,8 @@
 <td>Bristol / England</td>
 <td>Bristol / England</td>
 <td>government</td>
-
 </tr>
-<tr>
-<td align="right">1703</td>
-<td>#</td>
-<td>Battle of Falmouth</td>
-<td>New France and Wabanaki Confederacy vs. Massachusetts Bay Colony</td>
-<td>#</td>
-<td>Falmouth / Maine</td>
-<td>Falmouth / Maine</td>
-
-<td>colonial expansion / consolidation</td>
-
-
-</tr>
+  
 <tr>
 <td align="right">1706</td>
 <td>1875</td>
@@ -226,7 +149,6 @@
 <td>British victory over the Jacobites /<br/>France unable to disembark troops /<br/>strategic gains for France as the British had to divert troops away to Scotland</td>
 <td>Scotland</td>
 <td>Scotland</td>
-
 <td>government</td>
 
 
@@ -252,11 +174,9 @@
 <td>#</td>
 <td>Boston / MA</td>
 <td>Boston / MA</td>
-
-<td>economic / social</td>
-
-
+  <td>economic / social</td>
 </tr>
+  
 <tr>
 <td align="right">1710</td>
 <td>#</td>
@@ -265,11 +185,9 @@
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Gainsborough / Lincolnshire / England</td>
 <td>Gainsborough / Lincolnshire / England</td>
-
 <td>religion / cultural identity</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1710</td>
 <td>#</td>
@@ -278,11 +196,9 @@
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Wrexham / Wales</td>
 <td>Wrexham / Wales</td>
-
 <td>religion / cultural identity</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1710</td>
 <td>#</td>
@@ -291,11 +207,9 @@
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>Barnstaple / Devon / England</td>
 <td>Barnstaple / Devon / England</td>
-
 <td>religion / cultural identity</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1710</td>
 <td>#</td>
@@ -304,11 +218,9 @@
 <td>one of the riots that led to the passing of the Riot Act</td>
 <td>London City / England</td>
 <td>London City / England</td>
-
 <td>religion / cultural identity</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1711</td>
 <td>#</td>
@@ -317,11 +229,9 @@
 <td>#</td>
 <td>North Carolina / North America</td>
 <td>North Carolina / USA</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1712</td>
 <td>#</td>
@@ -341,11 +251,9 @@
 <td>#</td>
 <td>New York</td>
 <td>New York</td>
-
 <td>slavery / rights of freed slaves</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1712</td>
 <td>#</td>
@@ -354,11 +262,9 @@
 <td>#</td>
 <td>Dublin / Ireland</td>
 <td>Dublin / Ireland</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1713</td>
 <td>1713</td>
@@ -367,11 +273,9 @@
 <td>#</td>
 <td>Dublin / Kingdom of Ireland</td>
 <td>Dublin / Ireland</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1714</td>
 <td>#</td>
@@ -380,24 +284,20 @@
 <td>#</td>
 <td>England / Britain</td>
 <td>England / Britain</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1714</td>
 <td>#</td>
-<td>Oxford Riots</td>
+<td>Prince's birthday riots</td>
 <td>Tory riots on the occasion of the Prince of Wales&#39;s birthday</td>
 <td>#</td>
 <td>Oxford / England</td>
 <td>Oxford / England</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1715</td>
 <td>#</td>
@@ -446,8 +346,8 @@
 <td align="right">1716</td>
 <td>#</td>
 <td>Prince&#39;s Birthday Riot</td>
-<td>Heads of University and Mayor &quot;neglected to make any public rejoicings&quot;</td>
-<td>&quot;rabble broke the windows of those who were celebrating and provoked the rioting by soldiers / scholars and townsmen&quot;</td>
+<td>Heads of University and Mayor &quot;neglected to make public rejoicings&quot;</td>
+<td>&quot;crowd broke the windows of those who were celebrating and provoked the rioting by soldiers / scholars and townsmen&quot;</td>
 <td>Oxford / England</td>
 <td>Oxford / England</td>
 <td>political freedoms / personal rights</td>
@@ -472,11 +372,9 @@
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1721</td>
 <td>#</td>
@@ -485,11 +383,9 @@
 <td>failed</td>
 <td>London / England</td>
 <td>London / England</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1722</td>
 <td>1725</td>
@@ -499,9 +395,8 @@
 <td>Vermont and Maine</td>
 <td>Vermont and Maine</td>
 <td>colonial expansion / consolidation</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1726</td>
 <td>#</td>
@@ -532,11 +427,9 @@
 <td>#</td>
 <td>Jamaica</td>
 <td>Jamaica</td>
-
 <td>slavery / rights of freed slaves</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1730</td>
 <td>#</td>
@@ -545,11 +438,9 @@
 <td>#</td>
 <td>Pennsylvania–Maryland border</td>
 <td>Pennsylvania–Maryland border</td>
-
 <td>colonial expansion / consolidation</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1733</td>
 <td>#</td>
@@ -558,11 +449,9 @@
 <td>#</td>
 <td>Saint John / Virgin Islands</td>
 <td>Saint John / U.S. Virgin Islands</td>
-
 <td>slavery / rights of freed slaves</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1736</td>
 <td>#</td>
@@ -571,11 +460,9 @@
 <td>#</td>
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1736</td>
 <td>#</td>
@@ -584,11 +471,9 @@
 <td>#</td>
 <td>Scotland</td>
 <td>Scotland</td>
-
 <td>economic / social</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1736</td>
 <td>#</td>
@@ -597,11 +482,9 @@
 <td>#</td>
 <td>Scotland</td>
 <td>Scotland</td>
-
 <td>economic / social</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1739</td>
 <td>1740</td>
@@ -610,7 +493,6 @@
 <td>#</td>
 <td>British Isles</td>
 <td>Great Britain</td>
-
 <td>economic / social</td>
 
 
@@ -772,7 +654,7 @@
 <tr>
 <td align="right">1759</td>
 <td>#</td>
-<td>Rioting in Dublin</td>
+<td>Riots outside the Irish Parliament in Dublin</td>
 <td>response to rumours of a union between Ireland and Britain</td>
 <td>#</td>
 <td>Dublin / Ireland</td>
@@ -888,7 +770,7 @@
 <tr>
 <td align="right">1765</td>
 <td>1769</td>
-<td>Spitalfield Riots</td>
+<td>Spitalfields Riots</td>
 <td>labour protest of weavers / following a downturn in the silk weaving industry</td>
 <td>#</td>
 <td>East End of London</td>
