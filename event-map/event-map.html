@@ -8,16 +8,25 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/MarkerCluster.css">
+        <link rel="stylesheet" href="css/MarkerCluster.Default.css">
         <link rel="stylesheet" href="css/leaflet-search.css">
-        <link rel="stylesheet" href="css/filter.css">
-<link rel="stylesheet" href="css/nouislider.min.css">
         <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <section align="right">
+           <div id="text" style="text-align:left; color:black; font-family:Arial, Helvetica, sans-serif">
+               <p><strong>Selected conflicts in the British Empire -- ca. 1500 to 1819</strong><hr>The <strong>colour scheme</strong> reflects different types of events which can be (de)selected in the <strong>filter</strong>. 
+               The categories are subject to interpretation and simplification of the insurgents' motives.
+               <strong>Event descriptions</strong> in the labels have mainly been harvested from Wikidata / Wikipedia. 
+               Checking and updating the data is an on-going process. The current version of the geocoded data can be downloaded in <a href="https://github.com/MonikaBarget/Revolts/blob/master/MAP_events.geojson" target="_blank">GeoJSON format</a>.
+               <hr>
+               The <strong>MAGNIFYING GLASS</strong> permits searches for locations, the <strong>BINOCULARS</strong> select event names (e.g. Jacobite Rebellion). The autofocus on relevant events only works for smaller map sections.
+               </p>
+           </div>
+        </section> 
         <style>
-        html, body, #map {
-            width: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
+        #map {
+            width: 1200px;
+            height: 800px;
         }
         </style>
         <title>Selected conflicts in the British Empire -- ca. 1500 to 1819</title>
@@ -35,36 +44,9 @@
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
         <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
+        <script src="js/leaflet.markercluster.js"></script>
         <script src="js/leaflet-search.js"></script>
-        <script src="js/tailDT.js"></script>
-<script src="js/nouislider.min.js"></script>
-<script src="js/wNumb.js"></script>
-        <script src="data/MAP_events_v2_1.js"></script>
-        <section>
-           <div id="text" style="text-align:left; color:black; font-family:Arial, Helvetica, sans-serif">
-               <p><strong>Selected conflicts in the British Empire -- ca. 1500 to 1819</strong><hr>The <strong>colour scheme</strong> reflects different types of events which can be (de)selected in the <strong>filter</strong>. 
-               The categories are subject to interpretation and simplification of the insurgents' motives.
-               <strong>Event descriptions</strong> in the labels have mainly been harvested from Wikidata / Wikipedia. 
-               Checking and updating the data is an on-going process. The current version of the geocoded data can be downloaded in <a href="https://github.com/MonikaBarget/Revolts/blob/master/MAP_events.geojson" target="_blank">GeoJSON format</a>.
-               <hr>
-               The <strong>MAGNIFYING GLASS</strong> permits searches for locations, the <strong>BINOCULARS</strong> select dates. The autofocus on relevant events only works for smaller map sections.
-               </p>
-           </div>
-        </section>   
-        <style>
-            section {
-                     position: relative;
-                     border: 1px solid;
-                     width: 225px;
-                     display: inline;
-                     float: right;
-                     clear:right; 
-                     margin-top: -340px;   
-                     padding: 15px;
-                     background-color: #a4d8cf;
-                     font-size: 12px;
-                    }
-        </style>
+        <script src="data/NewRiotMAP_1.js"></script>
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -108,7 +90,7 @@
         });
         layer_OSMStandard_0;
         map.addLayer(layer_OSMStandard_0);
-        function pop_MAP_events_v2_1(feature, layer) {
+        function pop_NewRiotMAP_1(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -130,40 +112,131 @@
                         <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">to</th>\
-                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>to</strong><br />' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Agents</th>\
-                        <td>' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Agents</strong><br />' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Results</strong><br />' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Results</th>\
+                        <td>' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Places of event</th>\
-                        <td>' + (feature.properties['Places of event'] !== null ? autolinker.link(feature.properties['Places of event'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Type</th>\
+                        <td>' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Geocoded location</th>\
-                        <td>' + (feature.properties['Geocoded location'] !== null ? autolinker.link(feature.properties['Geocoded location'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Label</th>\
+                        <td>' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Context</th>\
-                        <td>' + (feature.properties['Context'] !== null ? autolinker.link(feature.properties['Context'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA COUNTRY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA COUNTRY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COUNTRY NAME'] !== null ? autolinker.link(feature.properties['COUNTRY NAME'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA LOCATION ID'] !== null ? autolinker.link(feature.properties['WIKIDATA LOCATION ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA LOCATION NAME'] !== null ? autolinker.link(feature.properties['WIKIDATA LOCATION NAME'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD18'] !== null ? autolinker.link(feature.properties['FIELD18'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD19'] !== null ? autolinker.link(feature.properties['FIELD19'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD20'] !== null ? autolinker.link(feature.properties['FIELD20'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD21'] !== null ? autolinker.link(feature.properties['FIELD21'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD22'] !== null ? autolinker.link(feature.properties['FIELD22'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD23'] !== null ? autolinker.link(feature.properties['FIELD23'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD24'] !== null ? autolinker.link(feature.properties['FIELD24'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD25'] !== null ? autolinker.link(feature.properties['FIELD25'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD26'] !== null ? autolinker.link(feature.properties['FIELD26'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD27'] !== null ? autolinker.link(feature.properties['FIELD27'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD28'] !== null ? autolinker.link(feature.properties['FIELD28'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD29'] !== null ? autolinker.link(feature.properties['FIELD29'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD30'] !== null ? autolinker.link(feature.properties['FIELD30'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD31'] !== null ? autolinker.link(feature.properties['FIELD31'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD32'] !== null ? autolinker.link(feature.properties['FIELD32'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD33'] !== null ? autolinker.link(feature.properties['FIELD33'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD34'] !== null ? autolinker.link(feature.properties['FIELD34'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD35'] !== null ? autolinker.link(feature.properties['FIELD35'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD36'] !== null ? autolinker.link(feature.properties['FIELD36'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD37'] !== null ? autolinker.link(feature.properties['FIELD37'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD38'] !== null ? autolinker.link(feature.properties['FIELD38'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD39'] !== null ? autolinker.link(feature.properties['FIELD39'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD40'] !== null ? autolinker.link(feature.properties['FIELD40'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FIELD41'] !== null ? autolinker.link(feature.properties['FIELD41'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_MAP_events_v2_1_0(feature) {
-            switch(String(feature.properties['Context'])) {
+        function style_NewRiotMAP_1_0(feature) {
+            switch(String(feature.properties['Type'])) {
                 case 'alleged / planned':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -173,13 +246,29 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(137,201,121,1.0)',
+                fillColor: 'rgba(104,201,82,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'blood sport':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(170,223,55,1.0)',
                 interactive: true,
             }
                     break;
                 case 'colonial expansion / consolidation':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -189,13 +278,13 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(87,160,205,1.0)',
+                fillColor: 'rgba(224,36,70,1.0)',
                 interactive: true,
             }
                     break;
-                case 'economic / social':
+                case 'context unclear':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -205,13 +294,45 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(204,127,107,1.0)',
+                fillColor: 'rgba(20,112,231,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'diplomatic crisis':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(219,176,122,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'drunkenness':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(79,187,236,1.0)',
                 interactive: true,
             }
                     break;
                 case 'elections':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -221,13 +342,13 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(138,117,230,1.0)',
+                fillColor: 'rgba(169,223,128,1.0)',
                 interactive: true,
             }
                     break;
                 case 'government':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -237,13 +358,13 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(235,160,48,1.0)',
+                fillColor: 'rgba(215,107,154,1.0)',
                 interactive: true,
             }
                     break;
                 case 'involving clans':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -253,13 +374,61 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(87,202,156,1.0)',
+                fillColor: 'rgba(236,21,168,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'law enforcement':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(206,219,19,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'mental illness':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(210,75,66,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'military':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,14,224,1.0)',
                 interactive: true,
             }
                     break;
                 case 'military regulations / peace-keeping':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -269,13 +438,13 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(202,67,94,1.0)',
+                fillColor: 'rgba(129,96,201,1.0)',
                 interactive: true,
             }
                     break;
-                case 'piracy':
+                case 'personal disputes':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -285,13 +454,29 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(210,210,26,1.0)',
+                fillColor: 'rgba(129,96,201,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'personal gain':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(87,115,239,1.0)',
                 interactive: true,
             }
                     break;
                 case 'political freedoms / personal rights':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -301,13 +486,29 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(61,94,213,1.0)',
+                fillColor: 'rgba(26,227,191,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'prisons':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(37,223,50,1.0)',
                 interactive: true,
             }
                     break;
                 case 'privateering / piracy':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -317,13 +518,13 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(75,232,230,1.0)',
+                fillColor: 'rgba(36,23,217,1.0)',
                 interactive: true,
             }
                     break;
                 case 'religion / cultural identity':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -333,13 +534,13 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(61,208,90,1.0)',
+                fillColor: 'rgba(131,230,187,1.0)',
                 interactive: true,
             }
                     break;
                 case 'slavery / rights of freed slaves':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -349,13 +550,13 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(206,99,208,1.0)',
+                fillColor: 'rgba(223,115,216,1.0)',
                 interactive: true,
             }
                     break;
                 case 'social / economic':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -365,13 +566,13 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(173,116,213,1.0)',
+                fillColor: 'rgba(194,42,228,1.0)',
                 interactive: true,
             }
                     break;
                 case 'supplementary conflict':
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -381,13 +582,29 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(158,208,81,1.0)',
+                fillColor: 'rgba(230,96,38,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'tresspassing on property':
+                    return {
+                pane: 'pane_NewRiotMAP_1',
+                radius: 3.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(218,178,14,1.0)',
                 interactive: true,
             }
                     break;
                 default:
                     return {
-                pane: 'pane_MAP_events_v2_1',
+                pane: 'pane_NewRiotMAP_1',
                 radius: 3.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -397,32 +614,36 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(206,52,147,1.0)',
+                fillColor: 'rgba(74,207,216,1.0)',
                 interactive: true,
             }
                     break;
             }
         }
-        map.createPane('pane_MAP_events_v2_1');
-        map.getPane('pane_MAP_events_v2_1').style.zIndex = 401;
-        map.getPane('pane_MAP_events_v2_1').style['mix-blend-mode'] = 'normal';
-        var layer_MAP_events_v2_1 = new L.geoJson(json_MAP_events_v2_1, {
+        map.createPane('pane_NewRiotMAP_1');
+        map.getPane('pane_NewRiotMAP_1').style.zIndex = 401;
+        map.getPane('pane_NewRiotMAP_1').style['mix-blend-mode'] = 'normal';
+        var layer_NewRiotMAP_1 = new L.geoJson(json_NewRiotMAP_1, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_MAP_events_v2_1',
-            layerName: 'layer_MAP_events_v2_1',
-            pane: 'pane_MAP_events_v2_1',
-            onEachFeature: pop_MAP_events_v2_1,
+            dataVar: 'json_NewRiotMAP_1',
+            layerName: 'layer_NewRiotMAP_1',
+            pane: 'pane_NewRiotMAP_1',
+            onEachFeature: pop_NewRiotMAP_1,
             pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_MAP_events_v2_1_0(feature));
+                return L.circleMarker(latlng, style_NewRiotMAP_1_0(feature));
             },
         });
-        bounds_group.addLayer(layer_MAP_events_v2_1);
-        map.addLayer(layer_MAP_events_v2_1);
+        var cluster_NewRiotMAP_1 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_NewRiotMAP_1.addLayer(layer_NewRiotMAP_1);
+
+        bounds_group.addLayer(layer_NewRiotMAP_1);
+        cluster_NewRiotMAP_1.addTo(map);
         var osmGeocoder = new L.Control.Geocoder({
             collapsed: true,
             position: 'topleft',
@@ -433,199 +654,25 @@
         .className += ' fa fa-search';
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'NewRiotMAP<br /><table><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_allegedplanned0.png" /></td><td>alleged / planned</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_bloodsport1.png" /></td><td>blood sport</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_colonialexpansionconsolidation2.png" /></td><td>colonial expansion / consolidation</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_contextunclear3.png" /></td><td>context unclear</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_diplomaticcrisis4.png" /></td><td>diplomatic crisis</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_drunkenness5.png" /></td><td>drunkenness</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_elections6.png" /></td><td>elections</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_government7.png" /></td><td>government</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_involvingclans8.png" /></td><td>involving clans</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_lawenforcement9.png" /></td><td>law enforcement</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_mentalillness10.png" /></td><td>mental illness</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_military11.png" /></td><td>military</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_militaryregulationspeacekeeping12.png" /></td><td>military regulations / peace-keeping</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_personaldisputes13.png" /></td><td>personal disputes</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_personalgain14.png" /></td><td>personal gain</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_politicalfreedomspersonalrights15.png" /></td><td>political freedoms / personal rights</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_prisons16.png" /></td><td>prisons</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_privateeringpiracy17.png" /></td><td>privateering / piracy</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_religionculturalidentity18.png" /></td><td>religion / cultural identity</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_slaveryrightsoffreedslaves19.png" /></td><td>slavery / rights of freed slaves</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_socialeconomic20.png" /></td><td>social / economic</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_supplementaryconflict21.png" /></td><td>supplementary conflict</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_tresspassingonproperty22.png" /></td><td>tresspassing on property</td></tr><tr><td style="text-align: center;"><img src="legend/NewRiotMAP_1_23.png" /></td><td></td></tr></table>': cluster_NewRiotMAP_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
         setBounds();
-        var i = 0;
-        layer_MAP_events_v2_1.eachLayer(function(layer) {
-            var context = {
-                feature: layer.feature,
-                variables: {}
-            };
-            layer.bindTooltip((layer.feature.properties['Name'] !== null?String('<div style="color: #000000; font-size: 7pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Name']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_MAP_events_v2_1'});
-            labels.push(layer);
-            totalMarkers += 1;
-              layer.added = true;
-              addLabel(layer, i);
-              i++;
-        });
         map.addControl(new L.Control.Search({
-            layer: layer_MAP_events_v2_1,
+            layer: cluster_NewRiotMAP_1,
             initial: false,
             hideMarkerOnCollapse: true,
-            propertyName: 'From'}));
+            propertyName: 'Name'}));
         document.getElementsByClassName('search-button')[0].className +=
          ' fa fa-binoculars';
-        var mapDiv = document.getElementById('map');
-        var row = document.createElement('div');
-        row.className="row";
-        row.id="all";
-        row.style.height = "100%";
-        var col1 = document.createElement('div');
-        col1.className="col9";
-        col1.id = "mapWindow";
-        col1.style.height = "99%";
-        col1.style.width = "80%";
-        col1.style.display = "inline-block";
-        var col2 = document.createElement('div');
-        col2.className="col3";
-        col2.id = "menu";
-        col2.style.display = "inline-block";
-        mapDiv.parentNode.insertBefore(row, mapDiv);
-        document.getElementById("all").appendChild(col1);
-        document.getElementById("all").appendChild(col2);
-        col1.appendChild(mapDiv)
-        var Filters = {"Context": "str"};
-        function filterFunc() {
-          map.eachLayer(function(lyr){
-          if ("options" in lyr && "dataVar" in lyr["options"]){
-            features = this[lyr["options"]["dataVar"]].features.slice(0);
-            try{
-              for (key in Filters){
-                keyS = key.replace(/[^a-zA-Z0-9_]/g, "")
-                if (Filters[key] == "str" || Filters[key] == "bool"){
-                  var selection = [];
-                  var options = document.getElementById("sel_" + keyS).options
-                  for (var i=0; i < options.length; i++) {
-                    if (options[i].selected) selection.push(options[i].value);
-                  }
-                    try{
-                      if (key in features[0].properties){
-                        for (i = features.length - 1;
-                          i >= 0; --i){
-                          if (selection.indexOf(
-                          features[i].properties[key])<0
-                          && selection.length>0) {
-                          features.splice(i,1);
-                          }
-                        }
-                      }
-                    } catch(err){
-                  }
-                }
-                if (Filters[key] == "int"){
-                  sliderVals =  document.getElementById(
-                    "div_" + keyS).noUiSlider.get();
-                  try{
-                    if (key in features[0].properties){
-                    for (i = features.length - 1; i >= 0; --i){
-                      if (parseInt(features[i].properties[key])
-                          < sliderVals[0]
-                          || parseInt(features[i].properties[key])
-                          > sliderVals[1]){
-                            features.splice(i,1);
-                          }
-                        }
-                      }
-                    } catch(err){
-                    }
-                  }
-                if (Filters[key] == "real"){
-                  sliderVals =  document.getElementById(
-                    "div_" + keyS).noUiSlider.get();
-                  try{
-                    if (key in features[0].properties){
-                    for (i = features.length - 1; i >= 0; --i){
-                      if (features[i].properties[key]
-                          < sliderVals[0]
-                          || features[i].properties[key]
-                          > sliderVals[1]){
-                            features.splice(i,1);
-                          }
-                        }
-                      }
-                    } catch(err){
-                    }
-                  }
-                if (Filters[key] == "date"
-                  || Filters[key] == "datetime"
-                  || Filters[key] == "time"){
-                  try{
-                    if (key in features[0].properties){
-                      HTMLkey = key.replace(/[&\/\\#,+()$~%.'":*?<>{} ]/g, '');
-                      startdate = document.getElementById("dat_" +
-                        HTMLkey + "_date1").value.replace(" ", "T");
-                      enddate = document.getElementById("dat_" +
-                        HTMLkey + "_date2").value.replace(" ", "T");
-                      for (i = features.length - 1; i >= 0; --i){
-                        if (features[i].properties[key] < startdate
-                          || features[i].properties[key] > enddate){
-                          features.splice(i,1);
-                        }
-                      }
-                    }
-                  } catch(err){
-                  }
-                }
-              }
-            } catch(err){
-            }
-          this[lyr["options"]["layerName"]].clearLayers();
-          this[lyr["options"]["layerName"]].addData(features);
-        var i = 0;
-        layer_MAP_events_v2_1.eachLayer(function(layer) {
-            var context = {
-                feature: layer.feature,
-                variables: {}
-            };
-            layer.bindTooltip((layer.feature.properties['Name'] !== null?String('<div style="color: #000000; font-size: 7pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Name']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_MAP_events_v2_1'});
-            labels.push(layer);
-            totalMarkers += 1;
-              layer.added = true;
-              addLabel(layer, i);
-              i++;
-        });
-          }
-          })
-        }
-            document.getElementById("menu").appendChild(
-                document.createElement("div"));
-            var div_Context = document.createElement('div');
-            div_Context.id = "div_Context";
-            div_Context.className= "filterselect";
-            document.getElementById("menu").appendChild(div_Context);
-            sel_Context = document.createElement('select');
-            sel_Context.multiple = true;
-            sel_Context.size = 10;
-            sel_Context.id = "sel_Context";
-            var Context_options_str = "<option value='' unselected></option>";
-            sel_Context.onchange = function(){filterFunc()};
-            Context_options_str  += '<option value="alleged / planned">alleged / planned</option>';
-            Context_options_str  += '<option value="colonial expansion / consolidation">colonial expansion / consolidation</option>';
-            Context_options_str  += '<option value="elections">elections</option>';
-            Context_options_str  += '<option value="government">government</option>';
-            Context_options_str  += '<option value="involving clans">involving clans</option>';
-            Context_options_str  += '<option value="military regulations / peace-keeping">military regulations / peace-keeping</option>';
-            Context_options_str  += '<option value="political freedoms / personal rights">political freedoms / personal rights</option>';
-            Context_options_str  += '<option value="privateering / piracy">privateering / piracy</option>';
-            Context_options_str  += '<option value="religion / cultural identity">religion / cultural identity</option>';
-            Context_options_str  += '<option value="slavery / rights of freed slaves">slavery / rights of freed slaves</option>';
-            Context_options_str  += '<option value="social / economic">social / economic</option>';
-            Context_options_str  += '<option value="supplementary conflict">supplementary conflict</option>';
-            sel_Context.innerHTML = Context_options_str;
-            div_Context.appendChild(sel_Context);
-            var lab_Context = document.createElement('div');
-            lab_Context.innerHTML = 'Context';
-            lab_Context.className = 'filterlabel';
-            div_Context.appendChild(lab_Context);
-            var reset_Context = document.createElement('div');
-            reset_Context.innerHTML = 'clear filter';
-            reset_Context.className = 'filterlabel';
-            reset_Context.onclick = function() {
-                var options = document.getElementById("sel_Context").options;
-                for (var i=0; i < options.length; i++) {
-                    options[i].selected = false;
-                }
-                filterFunc();
-            };
-            div_Context.appendChild(reset_Context);
-        resetLabels([layer_MAP_events_v2_1]);
+        resetLabels([layer_NewRiotMAP_1]);
         map.on("zoomend", function(){
-            resetLabels([layer_MAP_events_v2_1]);
+            resetLabels([layer_NewRiotMAP_1]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer_MAP_events_v2_1]);
+            resetLabels([layer_NewRiotMAP_1]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer_MAP_events_v2_1]);
+            resetLabels([layer_NewRiotMAP_1]);
         });
         </script>
     </body>
