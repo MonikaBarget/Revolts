@@ -1,12 +1,10 @@
 ### Chronological table of (alleged / planned) unrest
 
-<p>The events listed took place in the British Isles and / or overseas colonies and point to the strong cultural and political exchanges between the different parts of the Empire.</p>
+<p>Different forms of unrest in the British Isles as well as the British colonies pointed to strong cultural and political exchanges between the different parts of the Empire. In a <a href="https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv" target="_blank"><strong>a fully searchable data table</strong></a>, I have assembled events of (alleged / planned) conflicts in the British Empire and the independent United States between 1513 and 1819. The table is work in progress -- information on agents and outcomes may be missing or dubitable. The information given is based on <a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL queries</a> in the <a href="https://query.wikidata.org/">Wikidata Query Service</a> as well as abstracts of archival items found in the <a href="https://www.nationalarchives.gov.uk/">National Archives of the UK</a> online catalogue. The relevant Wikidata IDs and archival signatures have been added.</p>
 
-<p>The <strong>classification</strong> of the events on the right-hand side gives a general overview of the different motivations that could drive 18th-century uprisings although the factors mentioned are by no means exclusive. There were, in fact, many overlaps between religious / cultural, social / economic and political aims.</p> 
+<p>The <strong>thematic classification</strong> of the events on the right-hand side of the table gives a general overview of the different motivations that could drive 18th-century uprisings although the factors mentioned are by no means exclusive. There were, in fact, many overlaps between religious, cultural, social, economic and political aims. Therefore, the data table is meant as a starting point for further research.</p> 
 
-<p>The <strong>hyperlinks</strong> lead to external resources provoding additional background information. Articles in the Encyclopedia Britannica, (local) government websites or academic e-publications have been linked alongside Wikipedia entries as starting points for further research.</p>
-
-<p>More details are also given in the <a href="https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv" target="_blank"><strong>fully searchable table</strong></a> of violent conflicts in the British Empire and the independent United States between 1513 and 1819. The table is work in progress -- information on agents and outcomes may be missing or dubitable. The information given is based on several <a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL queries</a> relating to early-modern uprisings in Wikidata. SPARQL is a query language that permits complex searches via the <a href="https://query.wikidata.org/">Wikidata Query Service</a>.</p>
+<p>The selected events listed below are mentioned in my publications on political violence in the 18th century. The <strong>hyperlinks</strong> lead to external resources provoding preliminary background information. Articles in the Encyclopedia Britannica, (local) government websites or academic e-publications have been linked alongside Wikipedia entries.</p>
 
 <hr>
 <strong>Selected events between the Monmouth Rebellion and Peterloo Massacre:</strong>
@@ -64,28 +62,6 @@
 </tr>
   
 <tr>
-<td align="right">1689</td>
-<td>#</td>
-<td>Raid on  Dover / Cochecho Massacre</td>
-<td>French and Wabanaki Confederacy vs. New England Colonies</td>
-<td>French and Wabanaki Confederacy victory</td>
-<td>Dover / New Hampshire</td>
-<td>Dover / New Hampshire</td>
-<td>colonial expansion / consolidation</td>
-</tr>
-
-<tr>
-<td align="right">1697</td>
-<td>#</td>
-<td>Raid on Haverhill</td>
-<td>French-speaking colonists / English-speaking colonists</td>
-<td>French victory</td>
-<td>Haverhill / Province of Massachusetts Bay</td>
-<td>Haverhill / Massachusetts</td>
-<td>colonial expansion / consolidation</td>
-</tr>
-  
-<tr>
 <td align="right">1700</td>
 <td>#</td>
 <td>Riot on the Pretender&#39;s Birthday</td>
@@ -117,18 +93,7 @@
 <td>Bristol / England</td>
 <td>government</td>
 </tr>
-  
-<tr>
-<td align="right">1706</td>
-<td>1875</td>
-<td>Comanche Wars</td>
-<td>Comanche / Spain / later: Mexico and the USA</td>
-<td>Initial Comanche victory over Spain and Mexico,<br/>final Texan and United States victory</td>
-<td>Texas / Oklahoma / New Mexico / Kansas / Colorado / northern Mexico</td>
-<td>Texas, United States</td>
-<td>colonial expansion / consolidation</td>
 
-</tr>
 <tr>
 <td align="right">1706</td>
 <td>1707</td>
@@ -138,7 +103,6 @@
 <td>Scotland / Britain</td>
 <td>Scotland / Britain</td>
 <td>government</td>
-
 
 </tr>
 <tr>
@@ -150,9 +114,8 @@
 <td>Scotland</td>
 <td>Scotland</td>
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1709</td>
 <td>1710</td>
@@ -161,11 +124,9 @@
 <td>#</td>
 <td>British Isles</td>
 <td>Great Britain</td>
-
 <td>economic / social</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1710</td>
 <td>1713</td>
@@ -224,8 +185,8 @@
 <tr>
 <td align="right">1711</td>
 <td>#</td>
-<td>Cary&#39;s Rebellion </td>
-<td>against the government in North Carolina</td>
+<td><a href="https://en.wikipedia.org/wiki/Cary%27s_Rebellion">Cary&#39;s Rebellion</a></td>
+<td>against the government in North Carolina, fuelled also by religious division</td>
 <td>#</td>
 <td>North Carolina / North America</td>
 <td>North Carolina / USA</td>
@@ -253,18 +214,7 @@
 <td>New York</td>
 <td>slavery / rights of freed slaves</td>
 </tr>
-  
-<tr>
-<td align="right">1712</td>
-<td>#</td>
-<td>King William&#39;s birthday Riot / Theatre Riot</td>
-<td>riot between Whig and Tory partisans</td>
-<td>#</td>
-<td>Dublin / Ireland</td>
-<td>Dublin / Ireland</td>
-<td>political freedoms / personal rights</td>
-</tr>
-  
+
 <tr>
 <td align="right">1713</td>
 <td>1713</td>
@@ -318,8 +268,8 @@
 <td>England</td>
 <td>England</td>
 <td>religion / cultural identity</td>
-
 </tr>
+  
 <tr>
 <td align="right">1715</td>
 <td>#</td>
@@ -329,17 +279,6 @@
 <td>Manchester / cities in northern England and Scotland</td>
 <td>Manchester and Scotland</td>
 <td>government</td>
-</tr>
-
-<tr>
-<td align="right">1716</td>
-<td>#</td>
-<td>Cambridge clashes</td>
-<td>between Whigs and Tories</td>
-<td>#</td>
-<td>Cambridge / England</td>
-<td>Cambridge / England</td>
-<td>political freedoms / personal rights</td>
 </tr>
   
 <tr>
@@ -387,17 +326,6 @@
 </tr>
   
 <tr>
-<td align="right">1722</td>
-<td>1725</td>
-<td>Dummer&#39;s War / Father Rale&#39;s War / Lovewell&#39;s War / Greylock&#39;s War / the Three Years&#39; War / the 4th Anglo-Abenaki War / Wabanaki-New England War</td>
-<td>series of battles between New England and the Wabanaki Confederacy (specifically the Miꞌkmaq / Maliseet / and Abenaki) allied with New France</td>
-<td>#</td>
-<td>Vermont and Maine</td>
-<td>Vermont and Maine</td>
-<td>colonial expansion / consolidation</td>
-</tr>
-  
-<tr>
 <td align="right">1726</td>
 <td>#</td>
 <td><a href="https://books.google.nl/books?id=K5JOAAAAIAAJ&pg=PA207&lpg=PA207&dq=Lincoln+Riot+1726&source=bl&ots=1wuORw7lPN&sig=ACfU3U0cWyxWIM03NJngeYEHuOJ41NddIw&hl=en&sa=X&ved=2ahUKEwiiw5OBvqz1AhUSsaQKHTRSBqEQ6AF6BAgLEAM#v=onepage&q=Lincoln%20Riot%201726&f=false">Lincoln Riot</a></td>
@@ -417,28 +345,6 @@
 <td>Falmouth / England</td>
 <td>Falmouth / England</td>
 <td>economic / social</td>
-</tr>
-  
-<tr>
-<td align="right">1728</td>
-<td>1740</td>
-<td>First Maroon War</td>
-<td>uprising of Jamaican Maroons against the British Empire</td>
-<td>#</td>
-<td>Jamaica</td>
-<td>Jamaica</td>
-<td>slavery / rights of freed slaves</td>
-</tr>
-  
-<tr>
-<td align="right">1730</td>
-<td>#</td>
-<td>Cresap&#39;s War / Conojocular War</td>
-<td>border conflict between Pennsylvania and Maryland</td>
-<td>#</td>
-<td>Pennsylvania–Maryland border</td>
-<td>Pennsylvania–Maryland border</td>
-<td>colonial expansion / consolidation</td>
 </tr>
   
 <tr>
@@ -475,41 +381,16 @@
 </tr>
   
 <tr>
-<td align="right">1736</td>
+<td align="right">1725</td>
 <td>#</td>
-<td><a href="https://en.wikipedia.org/wiki/Malt_Tax_Riot">Malt Tax Riot</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Malt_tax_riots">Malt Tax Riot</a></td>
 <td>taxation riot</td>
 <td>#</td>
-<td>Scotland</td>
-<td>Scotland</td>
+<td>Glasgow, Scotland</td>
+<td>Glasgow, Scotland</td>
 <td>economic / social</td>
 </tr>
-  
-<tr>
-<td align="right">1739</td>
-<td>1740</td>
-<td>Food Riots</td>
-<td>uprising of the poor</td>
-<td>#</td>
-<td>British Isles</td>
-<td>Great Britain</td>
-<td>economic / social</td>
-
-
-</tr>
-<tr>
-<td align="right">1739</td>
-<td>#</td>
-<td>Stono Rebellion </td>
-<td>slave uprising</td>
-<td>#</td>
-<td>South Carolina / USA</td>
-<td>South Carolina / USA</td>
-
-<td>slavery / rights of freed slaves</td>
-
-
-</tr>
+ 
 <tr>
 <td align="right">1740</td>
 <td>1741</td>
@@ -518,24 +399,20 @@
 <td>permanent change in the country&#39;s demographic and economic landscape</td>
 <td>Ireland (e.g. Drogheda and other parts of the Empire</td>
 <td>Drogheda / Ireland</td>
-
 <td>economic / social</td>
-
 
 </tr>
 <tr>
 <td align="right">1741</td>
 <td>#</td>
-<td>New York Conspiracy</td>
+<td><a href="https://www.britannica.com/event/New-York-slave-rebellion-of-1741">New York Conspiracy</a></td>
 <td>purported plot by slaves (and poor whites) to depose the colonial government</td>
-<td>#</td>
+<td>trials followed but the plot could never be proven</td>
 <td>New York / United States</td>
 <td>New York / United States</td>
-
-<td>government</td>
-
-
+<td>alleged / planned</td>
 </tr>
+  
 <tr>
 <td align="right">1742</td>
 <td>#</td>
@@ -544,24 +421,20 @@
 <td>#</td>
 <td>Philadelphia / United States</td>
 <td>Philadelphia / United States</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1743</td>
 <td>#</td>
-<td>London Gin Riots (London / England)</td>
-<td>taxation riot</td>
+  <td><a href="https://en.wikipedia.org/wiki/Gin_Craze">London Gin Riots (London / England)</a></td>
+<td>one of several 18th-century riots opposing legislation meant to reduce gin consumption among the lower classes</td>
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1744</td>
 <td>#</td>
@@ -571,35 +444,30 @@
 <td>Normandy / France</td>
 <td>Normandy / France</td>
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1745</td>
 <td>1746</td>
 <td>Jacobite Rebellion / the &#39;45</td>
-<td>Jacobites versus Hanoverian dynasty</td>
+<td>Jacobite attempt to re-institute the Stuart monarchy (opposing the Hanoverian dynasty)</td>
 <td>Government victory / end of Jacobitism as a significant political force</td>
 <td>Scotland and Northern England</td>
 <td>Scotland</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1745</td>
 <td>1746</td>
 <td>Jacobite Rebellion / the &#39;45</td>
-<td>Jacobites versus Hanoverian dynasty</td>
+<td>Jacobite attempt to re-institute the Stuart monarchy (opposing the Hanoverian dynasty)</td>
 <td>Government victory / end of Jacobitism as a significant political force</td>
 <td>Scotland and Northern England</td>
 <td>Northern England</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1747</td>
 <td>#</td>
@@ -608,11 +476,9 @@
 <td>#</td>
 <td>Boston / Massachusetts</td>
 <td>Boston / Massachusetts</td>
-
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1751</td>
 <td>#</td>
@@ -621,11 +487,9 @@
 <td>#</td>
 <td>Tring / Hertfordshire / England</td>
 <td>Tring / Hertfordshire / England</td>
-
-<td>political freedoms / personal rights</td>
-
-
+<td>politically influenced witch hunt</td>
 </tr>
+  
 <tr>
 <td align="right">1754</td>
 <td>1754</td>
@@ -635,9 +499,8 @@
 <td>Taunton / England</td>
 <td>Taunton / England</td>
 <td>elections</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1756</td>
 <td>#</td>
@@ -646,24 +509,20 @@
 <td>#</td>
 <td>Yorkshire / England</td>
 <td>Yorkshire / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1759</td>
+<td>Dublin riot</td>
+<td>rioting outside houses of parliament / response to rumours of a union between Ireland and Britain</td>
 <td>#</td>
-<td>Riots outside the Irish Parliament in Dublin</td>
-<td>response to rumours of a union between Ireland and Britain</td>
 <td>#</td>
 <td>Dublin / Ireland</td>
 <td>Dublin / Ireland</td>
-
 <td>government</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1759</td>
 <td>#</td>
@@ -673,9 +532,8 @@
 <td>Normandy / France</td>
 <td>Normandy / France</td>
 <td>alleged / planned</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1760</td>
 <td>#</td>
@@ -684,24 +542,20 @@
 <td>#</td>
 <td>Colony of Jamaica</td>
 <td>Jamaica</td>
-
 <td>slavery / rights of freed slaves</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1761</td>
 <td>#</td>
-<td>Beginning of the Whiteboy Movement</td>
+  <td><a href="https://en.wikipedia.org/wiki/Whiteboys">Beginning of the Whiteboy Movement</a></td>
 <td>secret agrarian organisation violently defends tenant farmer land rights</td>
 <td>#</td>
 <td>Munster / Ireland</td>
 <td>Munster / Ireland</td>
-
 <td>economic / social</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1761</td>
 <td>#</td>
@@ -710,11 +564,9 @@
 <td>#</td>
 <td>Durham / England</td>
 <td>Durham / England</td>
-
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1761</td>
 <td>#</td>
@@ -723,102 +575,52 @@
 <td>#</td>
 <td>Hexham / Yorkshire</td>
 <td>Hexham / Yorkshire</td>
-
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+  
 <tr>
 <td align="right">1763</td>
 <td>#</td>
-<td>Oakboy / Hearts of Oak</td>
-<td>agrarian disturbances by rural population</td>
+  <td><a href="https://www.jstor.org/stable/30008257">Oakboy / Hearts of Oak</a></td>
+<td>agrarian disturbances by rural population, involving many Ulster Presbyterians</td>
 <td>#</td>
 <td>Ulster / Ireland</td>
 <td>Ulster / Ireland</td>
-
 <td>economic / social</td>
-
-
 </tr>
-<tr>
-<td align="right">1765</td>
-<td>#</td>
-<td>Workhouse Riots</td>
-<td>rioting of the poor (against newly established work houses) in several northern towns</td>
-<td>demolition of a workhouse</td>
-<td>Northern England</td>
-<td>Northern England / United Kingdom</td>
-
-<td>economic / social</td>
-
-
-</tr>
+ 
 <tr>
 <td align="right">1765</td>
 <td>1783</td>
-<td>American Revolution</td>
+  <td><a href="https://www.britannica.com/event/American-Revolution">American Revolution</a></td>
 <td>American colonists (&quot;patriots&quot;) oppose taxation and colonial administration</td>
 <td>American independence / establishment of republican government</td>
 <td>Lexington / Massachussetts</td>
 <td>Lexington / Massachussetts</td>
-
 <td>government</td>
-
-
 </tr>
-<tr>
-<td align="right">1765</td>
-<td>1769</td>
-<td>Spitalfields Riots</td>
-<td>labour protest of weavers / following a downturn in the silk weaving industry</td>
-<td>#</td>
-<td>East End of London</td>
-<td>East End / London</td>
 
-<td>economic / social</td>
-
-
-</tr>
 <tr>
 <td align="right">1765</td>
 <td>#</td>
-<td>Stamp Tax Riot</td>
+  <td><a href="https://investigatinghistory.ashp.cuny.edu/module2.php">Stamp Act Riots</a></td>
 <td>taxation protest</td>
-<td>#</td>
+<td>property damage and harassment of officials</td>
 <td>Boston / Massachusetts</td>
 <td>Boston / Massachusetts</td>
-
 <td>economic / social</td>
-
-
 </tr>
-<tr>
-<td align="right">1766</td>
-<td>1768</td>
-<td>Food Riots</td>
-<td>opposition to supply shortages and rising prices</td>
-<td>#</td>
-<td>Black Country / England</td>
-<td>Black Country / England</td>
-
-<td>economic / social</td>
-
-
-</tr>
-<tr>
+  
 <td align="right">1768</td>
 <td>#</td>
-<td>St. George&#39;s Fields Massacre</td>
+<td><a href="https://committees.parliament.uk/committee/326/petitions-committee/news/99182/the-massacre-of-st-georges-fields-and-the-petition-of-william-allen/">St. George&#39;s Fields Massacre</a></td>
 <td>protest in favour of politician John Wilkes / intervention by Horse Grenadier Guards 3rd regiment of Foot guards</td>
-<td>#</td>
+<td>seven people killed during armed intervention</td>
 <td>St George&#39;s Fields / Southwark / in South London</td>
 <td>Southwark / South London / England</td>
-
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1769</td>
 <td>#</td>
@@ -827,11 +629,9 @@
 <td>#</td>
 <td>County Antrim / Ulster / Ireland</td>
 <td>County Antrim / Ulster</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1770</td>
 <td>#</td>
@@ -840,11 +640,9 @@
 <td>#</td>
 <td>Boston / Massachusetts</td>
 <td>Boston / Massachusetts</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1770</td>
 <td>#</td>
@@ -854,8 +652,8 @@
 <td>York / England</td>
 <td>York / England</td>
 <td>political freedoms / personal rights</td>
-
 </tr>
+
 <tr>
 <td align="right">1770</td>
 <td>#</td>
@@ -865,8 +663,8 @@
 <td>London / England</td>
 <td>London / England</td>
 <td>elections</td>
-
 </tr>
+
 <tr>
 <td align="right">1772</td>
 <td>1773</td>
@@ -875,24 +673,9 @@
 <td>#</td>
 <td>British Isles</td>
 <td>Great Britain</td>
-
 <td>economic / social</td>
-
-
 </tr>
-<tr>
-<td align="right">1772</td>
-<td>#</td>
-<td>Pine Tree Riot</td>
-<td>resistance to British royal authority undertaken by American colonists in New Hampshire</td>
-<td>#</td>
-<td>Weare / New Hampshire</td>
-<td>Weare / New Hampshire /</td>
 
-<td>political freedoms / personal rights</td>
-
-
-</tr>
 <tr>
 <td align="right">1773</td>
 <td>#</td>
@@ -901,11 +684,9 @@
 <td>#</td>
 <td>Boston / Province of Massachusetts Bay</td>
 <td>Boston / Massachusetts</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1775</td>
 <td>#</td>
@@ -914,11 +695,9 @@
 <td>#</td>
 <td>Lexington / New England</td>
 <td>Lexington / New England</td>
-
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1775</td>
 <td>#</td>
@@ -927,63 +706,42 @@
 <td>#</td>
 <td>Liverpool / England</td>
 <td>Liverpool / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
-<tr>
-<td align="right">1775</td>
-<td>#</td>
-<td>Snow Campaign</td>
-<td>one of the first major military operations of the American Revolutionary War in the southern colonies</td>
-<td>Patriot victory</td>
-<td>Appalachian Mountains / South Carolina</td>
-<td>Appalachian Mountains / South Carolina</td>
 
-<td>supplementary conflict</td>
-
-
-</tr>
 <tr>
 <td align="right">1776</td>
 <td>#</td>
-<td>arsonist attacks on British seaports</td>
-<td>acts of sabotage / arson committed by craftsman James Aitken (supposedly in favour of the American cause)</td>
+<td><a href="https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Aitken,_James">Arsonist attacks on British seaports</a></td>
+<td>acts of sabotage / arson committed by craftsman James Aitken (known as "John the Painter"), supposedly committed in favour of the American cause</td>
 <td>conviction and death sentence</td>
 <td> Bristol and Plymouth / England</td>
 <td>Plymouth / England</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1776</td>
 <td>#</td>
-<td>Nottingham Cheese Riot</td>
+  <td><a href="https://en.wikipedia.org/wiki/Nottingham_cheese_riot">Nottingham Cheese Riot</a></td>
 <td>local citizens vs. Merchants</td>
-<td>#</td>
+<td>military intervention</td>
 <td>Nottingham / Northern England</td>
 <td>Nottingham / England / Britian</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1778</td>
 <td>1778</td>
-<td>Catholic Relief Act Riots </td>
+<td><a href="https://www.britannica.com/topic/Catholic-Relief-Act-Great-Britain-1778">Catholic Relief Act Riots</a></td>
 <td>citizens protesting against Catholic Emancipation</td>
-<td>#</td>
+<td>property of local Catholics destroyed, armed intervention but debates whether authorities had acted early enough</td>
 <td>Glasgow / Scotland</td>
 <td>Glasgow / Scotland</td>
-
 <td>religion / cultural identity</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1779</td>
 <td>1779</td>
@@ -992,49 +750,21 @@
 <td>#</td>
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
-
 <td>religion / cultural identity</td>
-
-
 </tr>
-<tr>
-<td align="right">1778</td>
-<td>#</td>
-<td>Clow Rebellion</td>
-<td>Loyalist insurrection</td>
-<td>Patriot Victory</td>
-<td>Kenton / Delaware</td>
-<td>Kenton / Delaware</td>
-
-<td>supplementary conflict</td>
-
 
 </tr>
 <tr>
 <td align="right">1779</td>
 <td>#</td>
-<td>Irish Volunteers parade </td>
+<td><a href="https://www.britannica.com/topic/Irish-Volunteers-18th-century-Irish-history">Irish Volunteers parade</a></td>
 <td>Irish Volunteers demanding removal of restrictions on Irish trade</td>
 <td>#</td>
 <td>College Green / Dublin / Ireland</td>
 <td>College Green / Dublin / Ireland</td>
-
 <td>economic / social</td>
-
-
 </tr>
-<tr>
-<td align="right">1779</td>
-<td>#</td>
-<td>Border conflicts in the Cape Colony</td>
-<td>British colonists</td>
-<td>#</td>
-<td>Cape Colony</td>
-<td>South Africa</td>
-<td>colonial expansion / consolidation</td>
 
-
-</tr>
 <tr>
 <td align="right">1780</td>
 <td>#</td>
@@ -1043,24 +773,20 @@
 <td>estimated 300-700 deaths / damaged reputation of John Wilkes and the British monarchy</td>
 <td>London / England</td>
 <td>London / England</td>
-
 <td>religion / cultural identity</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1781</td>
 <td>#</td>
-<td>Pennsylvania Line Mutiny / Pennsylvania Winter Mutiny</td>
+<td><a href="https://en.wikipedia.org/wiki/Pennsylvania_Line_Mutiny">Pennsylvania Line Mutiny / Pennsylvania Winter Mutiny</a></td>
 <td>mutiny in the American army</td>
 <td>#</td>
 <td>Pennsylvania / North America</td>
 <td>Pennsylvania / USA</td>
-
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1781</td>
 <td>#</td>
@@ -1069,11 +795,9 @@
 <td>#</td>
 <td>Bihar / Asia</td>
 <td>Bihar / Asia</td>
-
 <td>colonial expansion / consolidation</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1781</td>
 <td>#</td>
@@ -1082,37 +806,20 @@
 <td>Arnold eventually leaves America</td>
 <td>West Point and New York / North America</td>
 <td>New York / United States</td>
-
 <td>supplementary conflict</td>
-
-
 </tr>
-<tr>
-<td align="right">1782</td>
-<td>#</td>
-<td>Sylhet uprising / Muharram Rebellion</td>
-<td>rising against the East India Company by the Bengali Muslims led by the Pirzada of Sylhet and his two brothers</td>
-<td>British victory /<br/>suppression of revolt</td>
-<td>Sylhet Shahi Eidgah / Asia</td>
-<td>Sylhet Shahi Eidgah / Asia</td>
 
-<td>colonial expansion / consolidation</td>
-
-
-</tr>
 <tr>
 <td align="right">1782</td>
 <td>#</td>
 <td>Ulster Volunteer Convention</td>
-<td>Volunteer support for Patriot demands that the Irish parliament be granted greater autonomy  </td>
+<td>Volunteer support for Patriot demands that the Irish parliament be granted greater autonomy</td>
 <td>delegates from Ulster Volunteer units adopt resolutions</td>
 <td>Dugannon / Ireland</td>
 <td>Dugannon / Ireland</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1784</td>
 <td>#</td>
@@ -1121,11 +828,9 @@
 <td>#</td>
 <td>Co. Armagh / Ireland</td>
 <td>Co. Armagh / Ireland</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1785</td>
 <td>#</td>
@@ -1134,11 +839,9 @@
 <td>#</td>
 <td>Munster / Ireland</td>
 <td>Munster / Ireland</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1786</td>
 <td>#</td>
@@ -1147,24 +850,20 @@
 <td>attacker was certified insane and confined in a hospital</td>
 <td>London / Engand</td>
 <td>London / Engand</td>
-
 <td>mental illness</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1786</td>
 <td>1787</td>
-<td>Shays&#39; Rebellion </td>
+<td><a href="https://en.wikipedia.org/wiki/Shays%27_Rebellion">Says&#39; Rebellion</a></td>
 <td>privately-funded local militia in Massachusetts against court proceedings collecting taxes and debts</td>
-<td>#</td>
+<td>rebellion put down</td>
 <td>Western Massachusetts</td>
 <td>Massachusetts / USA</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1787</td>
 <td>#</td>
@@ -1173,24 +872,9 @@
 <td>#</td>
 <td>Bahamas</td>
 <td>Bahamas</td>
-
 <td>slavery / rights of freed slaves</td>
-
-
 </tr>
-<tr>
-<td align="right">1788</td>
-<td>#</td>
-<td>Doctors&#39; Riot</td>
-<td>illegal procurement of corpses from the graves of the recently deceased caused a mass expression of discontent from poorer New Yorkers / directed primarily at physicians and medical students</td>
-<td>#</td>
-<td>New York City</td>
-<td>New York City</td>
 
-<td>political freedoms / personal rights</td>
-
-
-</tr>
 <tr>
 <td align="right">1790</td>
 <td>#</td>
@@ -1199,11 +883,9 @@
 <td>#</td>
 <td>Virgin Islands</td>
 <td>Virgin Islands</td>
-
 <td>slavery / rights of freed slaves</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1791</td>
 <td>#</td>
@@ -1212,11 +894,9 @@
 <td>#</td>
 <td>Dublin / Belfast and other larger cities in Ireland and Britain</td>
 <td>Dublin / Ireland</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1791</td>
 <td>#</td>
@@ -1225,11 +905,9 @@
 <td>#</td>
 <td>Dublin / Belfast and other larger cities in Ireland and Britain</td>
 <td>Belfast / Ireland</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1791</td>
 <td>#</td>
@@ -1238,50 +916,20 @@
 <td>#</td>
 <td>Birmingham / England</td>
 <td>Birmingham / England</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1791</td>
 <td>#</td>
-<td>Sheffield Riot</td>
-<td>violence against the debtors&#39; goal and the residence of Vicar Wilkinson</td>
-<td>#</td>
+<td><a href="https://www.ourbroomhall.org.uk/content/explore/topics/politics/the-broom-hall-riots">Sheffield Riot / Broomhall Riots</a></td>
+<td>violence against the debtors&#39; goal and the residence of Vicar Wilkinson during a protest against enclosure of 6,000 acres of common land and the widening of a road at the expense of the local graveyard</td>
+<td>furniture belonging to Wilkinson burnt</td>
 <td>Sheffield / England</td>
 <td>Sheffield / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
-<tr>
-<td align="right">1791</td>
-<td>#</td>
-<td>Mina conspiracy / Pointe Coupée Slave Conspiracy</td>
-<td>a slave revolt in the self-organized African-American Mina community</td>
-<td>#</td>
-<td>Louisiana / North America</td>
-<td>Louisiana / USA</td>
 
-<td>slavery / rights of freed slaves</td>
-
-
-</tr>
-<tr>
-<td align="right">1792</td>
-<td>#</td>
-<td><a href="https://www.ourbroomhall.org.uk/content/explore/topics/politics/the-broom-hall-riots">Broomhall Riots</a></td>
-<td>protest against intended enclosure of land</td>
-<td>#</td>
-<td>Sheffield / England</td>
-<td>Sheffield / England</td>
-
-<td>economic / social</td>
-
-
-</tr>
 <tr>
 <td align="right">1792</td>
 <td>#</td>
@@ -1290,24 +938,20 @@
 <td>#</td>
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1793</td>
 <td>#</td>
-<td>Bristol Bridge Massacre</td>
-<td>taxation riot against bridge toll</td>
-<td>clashes with militia</td>
+<td><a href="https://en.wikipedia.org/wiki/Bristol_riots">Bristol Riots / Bristol Bridge Massacre</a></td>
+<td>taxation riot against bridge toll, suspected political (revolutionary) motives</td>
+<td>violently quelled, eleven people killed and 45 injured</td>
 <td>Bristol / England</td>
 <td>Bristol / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1794</td>
 <td>#</td>
@@ -1316,11 +960,9 @@
 <td>#</td>
 <td>[Great Britain]</td>
 <td>[Great Britain]</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1794</td>
 <td>#</td>
@@ -1329,11 +971,9 @@
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1794</td>
 <td>#</td>
@@ -1342,9 +982,7 @@
 <td>#</td>
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
-
 <td>government</td>
-
 
 </tr>
 <tr>
@@ -1355,11 +993,9 @@
 <td>#</td>
 <td>London / England</td>
 <td>London / England / Britain</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1794</td>
 <td>#</td>
@@ -1368,153 +1004,86 @@
 <td>President George Washington invokes martial law and crushes insurrection with 13 /000 men.</td>
 <td>Monongahela Valley / USA</td>
 <td>Monongahela Valley / USA</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
-<td align="right">1794</td>
-<td>#</td>
-<td>Whiskey Rebellion / Whiskey Insurrection</td>
+<td align="right">1791</td>
+<td>1794</td>
+<td><a href="https://en.wikipedia.org/wiki/Whiskey_Rebellion">Whiskey Rebellion / Whiskey Insurrection</a></td>
 <td>Protests over taxes in Pittsburgh and the Monongahela Valley </td>
 <td>President George Washington invokes martial law and crushes insurrection with 13 /000 men.</td>
 <td>Western Pennsylvania / USA</td>
 <td>Western Pennsylvania / USA</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
-<td align="right">1795</td>
+<td align="right">1794</td>
 <td>#</td>
-<td>Battle of the Diamond / Foundation of the Orange Society</td>
-<td>planned confrontation between the Catholic Defenders and the Protestant Peep o&#39; Day Boys</td>
-<td>The Peep o&#39; Day Boys were the victors / killing some 6 Defenders / with some wounded Peep o day boys in return.</td>
-<td>Loughgall / Co. Armagh / Ireland</td>
-<td>Loughgall / Co. Armagh / Ireland</td>
-
-<td>economic / social</td>
-
-
-</tr>
-<tr>
-<td align="right">1795</td>
-<td>#</td>
-<td>Food Riots / Bread Riots</td>
-<td>regional protest against price rises</td>
-<td>#</td>
-<td>England and Scotland</td>
-<td>England</td>
-
-<td>economic / social</td>
-
-
-</tr>
-<tr>
-<td align="right">1795</td>
-<td>#</td>
-<td>Food Riots / Bread Riots</td>
-<td>regional protest against price rises</td>
-<td>#</td>
-<td>England and Scotland</td>
-<td>Scotland</td>
-
-<td>economic / social</td>
-
-
-</tr>
-<tr>
-<td align="right">1795</td>
-<td>#</td>
-<td>London Riot</td>
-<td>working-class protest in favour of parliamentary reform</td>
-<td>#</td>
-<td>London / England</td>
-<td>London / England</td>
-
-<td>political freedoms / personal rights</td>
-
-
-</tr>
-<tr>
-<td align="right">1795</td>
-<td>#</td>
-<td>Opening of Parliament Riots</td>
-<td>popular uprising in the City of London / including an attack on the king&#39;s coach, linked with political tension upon the opening of a new session in Parliament</td>
-<td>#</td>
-<td>London / England</td>
-<td>London / England</td>
-
-<td>government</td>
-
-
-</tr>
-<tr>
-<td align="right">1795</td>
-<td>#</td>
-<td>Pop-Gun-Plot</td>
+<td><a href="https://en.wikipedia.org/wiki/Popgun_Plot">Pop-Gun-Plot</a></td>
 <td>alleged conspirary to muder King George III</td>
 <td>#</td>
 <td>London / England</td>
 <td>London / England</td>
-
 <td>alleged / planned</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1795</td>
 <td>#</td>
-<td>Revolt of the housewives</td>
+<td><a href="https://www.britannica.com/topic/Battle-of-the-Diamond">Battle of the Diamond / Foundation of the Orange Society</a></td>
+<td>planned confrontation between the Catholic Defenders and the Protestant Peep o&#39; Day Boys</td>
+<td>The Peep o&#39; Day Boys were the victors / killing some 6 Defenders / with some wounded Peep o day boys in return.</td>
+<td>Loughgall / Co. Armagh / Ireland</td>
+<td>Loughgall / Co. Armagh / Ireland</td>
+<td>economic / social</td>
+</tr>
+
+<tr>
+<td align="right">1795</td>
+<td>#</td>
+<td>Food Riots / Bread Riots (cf. "Revolt of the Housewives")</td>
+<td>regional protest against price rises</td>
+<td>#</td>
+<td>England and Scotland</td>
+<td>England and Scotland</td>
+<td>economic / social</td>
+</tr>
+
+<tr>
+<td align="right">1795</td>
+<td>#</td>
+<td><a href="https://pasttenseblog.wordpress.com/2018/10/29/today-in-london-riotous-history-1795-king-george-iii-attacked-by-angry-crowds/">Opening of Parliament Riots</a></td>
+<td>popular uprising in the City of London / including an attack on the king&#39;s coach, linked with political tension upon the opening of a new session in Parliament</td>
+<td>#</td>
+<td>London / England</td>
+<td>London / England</td>
+<td>government</td>
+</tr>
+
+<tr>
+<td align="right">1795</td>
+<td>#</td>
+<td><a href="https://en.wikipedia.org/wiki/Revolt_of_the_housewives">"Revolt of the housewives"</a></td>
 <td>food riots with prominent role of women / linked with land enclosures</td>
 <td>#</td>
 <td>England</td>
 <td>England</td>
-
 <td>economic / social</td>
-
-
 </tr>
-<tr>
-<td align="right">1795</td>
-<td>1796</td>
-<td>Second Maroon War</td>
-<td>Maroon community</td>
-<td>Maroon surrender</td>
-<td>Colony of Jamaica</td>
-<td>Colony of Jamaica</td>
 
-<td>slavery / rights of freed slaves</td>
-
-
-</tr>
 <tr>
 <td align="right">1795</td>
 <td>#</td>
-<td>Snow Hill Riot</td>
-<td>attack on Pickard&#39;s Mill</td>
-<td>#</td>
+<td><a href="https://books.google.nl/books?id=inTJAwAAQBAJ&pg=PT141&lpg=PT141&dq=Snow+hill+riot+1795&source=bl&ots=Pceaxe3_1Q&sig=ACfU3U0s3ofkIfGywJFZVR4chWzJqJaXXg&hl=de&sa=X&ved=2ahUKEwiX89Tbn8n3AhX8wAIHHXUECogQ6AF6BAgWEAM#v=onepage&q=Snow%20hill%20riot%201795&f=false"Snow Hill Riot</a></td>
+<td>high cost of corn and every kind of provision led local people to assemble and protest, attack on Pickard&#39;s Mill</td>
+<td>magistrates not able to quell riot, armed intervention, 2 people shot and several arrested,"inflammatory and seditious handbills" distributed after the riot, reward of £100 to discover the authors</td>
 <td>Birmingham / England</td>
 <td>Birmingham / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
-<tr>
-<td align="right">1795</td>
-<td>1796</td>
-<td>slave rebellions in the Caribbean / influenced by the Haitian Revolution</td>
-<td>slaves</td>
-<td>#</td>
-<td>Cuba / Dominica / Louisiana / Saint Lucia / Saint Vincent / Grenada / Curaçao / Guyana</td>
-<td>Carribean Islands</td>
-<td>slavery / rights of freed slaves</td>
 
-
-</tr>
 <tr>
 <td align="right">1796</td>
 <td>#</td>
@@ -1523,11 +1092,9 @@
 <td>#</td>
 <td>[Great Britain]</td>
 <td>[Great Britain]</td>
-
 <td>alleged / planned</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1796</td>
 <td>#</td>
@@ -1536,76 +1103,42 @@
 <td>John Hartland tried</td>
 <td>St. George&#39;s-Fields / Southwark / England</td>
 <td>Southwark / England</td>
-
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1797</td>
-<td>#</td>
-<td>Rugby School Rebellion</td>
-<td>mutiny of the boys at Rugby School against the headmaster / Dr Henry Ingles</td>
-<td>#</td>
-<td>Rugby / England</td>
-<td>Rugby / England</td>
-
-<td>political freedoms / personal rights</td>
-
-
-</tr>
-<tr>
-<td align="right">1797</td>
-<td>#</td>
-<td>Scottish Rebellion</td>
-<td>Scottish Rebellion against the Kingdom of Great Britain</td>
-<td>rebellion failed</td>
+<td>1802</td>
+<td><a href="https://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-95551">United Scotsmen Movement (fears of Scottish rebellion)</a></td>
+<td>authorities fear that United Scotsmen engage in national and international conspiracy</td>
+<td>Illegal Oaths Act passed in 1797 hindered the society's further growth</td>
 <td>Scotland</td>
 <td>Scotland</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1797</td>
 <td>#</td>
-<td>Nore mutinies </td>
+<td><a href="https://en.wikipedia.org/wiki/Spithead_and_Nore_mutinies">Spithead and Nore mutinies</a></td>
 <td>mutiny by sailors of the British Royal Navy</td>
-<td>#</td>
-<td>Nore / England</td>
-<td>Nore / England</td>
-
+<td>comparatively lenient treatment of men involved in both cases, crews in Spithead received a pay raise</td>
+<td>Spithead and Nore / Britain</td>
+<td>Spithead and Nore / Britain</td>
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1797</td>
-<td>#</td>
-<td>Spithead mutinies </td>
-<td>mutiny by sailors of the British Royal Navy</td>
-<td>#</td>
-<td>Spithead / England</td>
-<td>Spithead / England</td>
-
-<td>military regulations / peace-keeping</td>
-
-
-</tr>
-<tr>
-<td align="right">1797</td>
-<td>#</td>
-<td>Tranent militia riot / Massacre of Tranent</td>
+<td>1797</td>
+<td><a href="http://www.scottishmining.co.uk/506.html">Tranent militia riot / Massacre of Tranent</a></td>
 <td>proclamation by local people to object to the conscription of Scots into the British Militia</td>
 <td>#</td>
 <td>Tranent / East Lothian / Scotland</td>
 <td>Tranent / East Lothian / Scotland</td>
-
 <td>military regulations / peace-keeping</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1798</td>
 <td>#</td>
@@ -1615,22 +1148,8 @@
 <td>Ireland (in particular Leinster and Ulster</td>
 <td>Leinster / Ireland</td>
 <td>government</td>
-
-
 </tr>
-<tr>
-<td align="right">1799</td>
-<td>#</td>
-<td>Massacre of Benares</td>
-<td>uprising led by Wazir Ali Khan in North India / involved death of five British officials and civilians of the East India Company</td>
-<td>rising unsuccessful</td>
-<td>Benares / India</td>
-<td>Benares / India</td>
 
-<td>colonial expansion / consolidation</td>
-
-
-</tr>
 <tr>
 <td align="right">1799</td>
 <td>#</td>
@@ -1639,37 +1158,9 @@
 <td>#</td>
 <td>England / Britain</td>
 <td>England / Britain</td>
-
-<td>political freedoms / personal rights</td>
-
-
+<td>alleged / planned</td>
 </tr>
-<tr>
-<td align="right">1799</td>
-<td>1800</td>
-<td>Fries&#39;s Rebellion</td>
-<td>tax revolt among Pennsylvania Dutch farmers led by John Fries</td>
-<td>#</td>
-<td>Pennsylvania / North America</td>
-<td>Pennsylvania / North America</td>
 
-<td>economic / social</td>
-
-
-</tr>
-<tr>
-<td align="right">1800</td>
-<td>#</td>
-<td>Gabriel Prosser&#39;s rebellion</td>
-<td>slaves</td>
-<td>rebellion suppressed</td>
-<td>Virginia / USA</td>
-<td>Virginia / USA</td>
-
-<td>slavery / rights of freed slaves</td>
-
-
-</tr>
 <tr>
 <td align="right">1803</td>
 <td>#</td>
@@ -1678,24 +1169,9 @@
 <td>principal leader / Robert Emmet / executed, others exiled</td>
 <td>Dublin / Ireland</td>
 <td> Dublin / Ireland</td>
-
 <td>government</td>
-
-
 </tr>
-<tr>
-<td align="right">1803</td>
-<td>#</td>
-<td>Igbo Landing (off the coast of St. Simons / Georgia)  </td>
-<td>slave ship revolt</td>
-<td>enslaved Igbo people committed mass suicide rather than submit to slavery in the United States</td>
-<td>Georgia / United States</td>
-<td>Georgia / United States</td>
 
-<td>slavery / rights of freed slaves</td>
-
-
-</tr>
 <tr>
 <td align="right">1804</td>
 <td>#</td>
@@ -1704,24 +1180,9 @@
 <td>Rebellion crushed violently: many rioters killed</td>
 <td>Castle Hill / Colony of New South Wales</td>
 <td>Castle Hill / New South Wales / Australia</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
-<tr>
-<td align="right">1805</td>
-<td>#</td>
-<td>Slave rebellion at Chatham Manor</td>
-<td>slaves</td>
-<td>rebellion unsuccessful</td>
-<td>Chatham Manor / United States</td>
-<td>Chatham Manor / United States</td>
 
-<td>slavery / rights of freed slaves</td>
-
-
-</tr>
 <tr>
 <td align="right">1808</td>
 <td>1810</td>
@@ -1730,11 +1191,9 @@
 <td>Deposition and arrest of NSW Governor William Bligh.<br/>Imposition of martial law.<br/>Withdrawal and disbandment of NSW Corps in disgrace.<br/>Appointment of Lachlan Macquarie as governor.</td>
 <td>Sydney / New South Wales</td>
 <td>Sydney / New South Wales / Australia</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1809</td>
 <td>#</td>
@@ -1743,11 +1202,9 @@
 <td>#</td>
 <td>Covent Garden / London / England</td>
 <td>Covent Garden / London / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1816</td>
 <td>#</td>
@@ -1756,11 +1213,9 @@
 <td>#</td>
 <td>Littleport / Cambridgeshire / England</td>
 <td>Littleport / Cambridgeshire / England</td>
-
 <td>economic / social</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1816</td>
 <td>#</td>
@@ -1769,11 +1224,9 @@
 <td>#</td>
 <td>Islington / England</td>
 <td>Islington / England</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1819</td>
 <td>#</td>
@@ -1782,9 +1235,7 @@
 <td>#</td>
 <td>Manchester / England</td>
 <td>Manchester / England</td>
-
 <td>political freedoms / personal rights</td>
-
-
 </tr>
+
 </tbody></table>
