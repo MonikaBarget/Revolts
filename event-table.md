@@ -9,6 +9,7 @@
 <hr>
 <strong>Selected events between the Monmouth Rebellion and Peterloo Massacre:</strong>
 <hr>
+
 <table class="table table-bordered table-hover table-condensed" style="width:95%; font-size:80%; border: 2px solid black">
 <col style="width:10%">
 <col style="width:10%">
@@ -17,7 +18,9 @@
 <col data-visible="false">
 <col data-visible="false">
 <col style="width:20%"> 
-<thead><tr><th title="Field #1">START</th>
+<thead>
+<tr>
+<th title="Field #1">START</th>
 <th title="Field #2">END</th>
 <th title="Field #3">EVENT</th>
 <th title="Field #4">AGENTS</th>
@@ -25,20 +28,20 @@
 <th title="Field #6">PLACE (hist.)</th>
 <th title="Field #7">PLACE (geocoded)</th>
 <th title="Field #9">CATEGORY</th>
-</tr></thead>
-<tbody><tr>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="right">1685</td>
-<td>#</td>
+<td>1685</td>
 <td><a href="https://en.wikipedia.org/wiki/Monmouth_Rebellion">Monmouth Rebellion</a></td>
 <td>Duke of Monmouth against royal forces</td>
 <td>Royalist victory</td>
 <td>South West England</td>
 <td>South West England</td>
-
 <td>government</td>
-
-
 </tr>
+
 <tr>
 <td align="right">1688</td>
 <td>1689</td>
@@ -49,17 +52,6 @@
 <td>Britain / Ireland / North America</td>
 <td>government</td>
 </tr>
-
-<tr>
-<td align="right">1689</td>
-<td>#</td>
-<td>Rising in Boston</td>
-<td>against Governor Sir Edmund Andros</td>
-<td>#</td>
-<td>Boston / Massachussetts</td>
-<td>Boston / Massachussetts</td>
-<td>government</td>
-</tr>
   
 <tr>
 <td align="right">1700</td>
@@ -67,30 +59,8 @@
 <td>Riot on the Pretender&#39;s Birthday</td>
 <td>supporters of the Stuart dynasty</td>
 <td>#</td>
-<td>Clerkenwell and Whitechapel / England</td>
-<td>Clerkenwell and Whitechapel / England</td>
-<td>government</td>
-</tr>
-
-<tr>
-<td align="right">1700</td>
-<td>#</td>
-<td>Riot on the Pretender&#39;s Birthday</td>
-<td>&quot;Catholic mob&quot; / supporters of the Stuart dynasty</td>
-<td>#</td>
-<td>Dublin / Ireland</td>
-<td>Dublin / Ireland</td>
-<td>government</td>
-</tr>
-  
-<tr>
-<td align="right">1700</td>
-<td>#</td>
-<td>Riot on the Pretender&#39;s Birthday</td>
-<td>supporters of the Stuart dynasty</td>
-<td>#</td>
-<td>Bristol / England</td>
-<td>Bristol / England</td>
+<td>Clerkenwell and Whitechapel / England, Bristol / England, Dublin / Ireland</td>
+<td>Clerkenwell and Whitechapel / England, Bristol / England, Dublin / Ireland</td>
 <td>government</td>
 </tr>
 
@@ -98,7 +68,7 @@
 <td align="right">1706</td>
 <td>1707</td>
 <td><a href="https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/mob-unrest-and-disorder-for-scotland/">Union Act Riots</a></td>
-<td>civil unrest and disorder in Scottish towns</td>
+<td>civil unrest and disorder in Scottish towns in reaction to the English-Scottish union</td>
 <td>#</td>
 <td>Scotland / Britain</td>
 <td>Scotland / Britain</td>
@@ -109,7 +79,7 @@
 <td align="right">1708</td>
 <td>#</td>
 <td>Planned Invasion of 1708</td>
-<td>Jacobites in French / French supporters of the Stuart dynasty</td>
+<td>Jacobites in France / French supporters of the Stuart dynasty</td>
 <td>British victory over the Jacobites /<br/>France unable to disembark troops /<br/>strategic gains for France as the British had to divert troops away to Scotland</td>
 <td>Scotland</td>
 <td>Scotland</td>
@@ -130,58 +100,25 @@
 <tr>
 <td align="right">1710</td>
 <td>1713</td>
-<td><a href="https://en.wikipedia.org/wiki/Boston_Bread_Riot">Boston Bread Riot</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Boston_Bread_Riot">Boston Bread Riots</a></td>
 <td>series of three riots by the poor</td>
 <td>#</td>
 <td>Boston / MA</td>
 <td>Boston / MA</td>
   <td>economic / social</td>
 </tr>
-  
-<tr>
-<td align="right">1710</td>
-<td>#</td>
-<td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
-<td>local support for oppositional (high Church) preacher Henry Sacheverell / attacks on the homes and meeting-houses of Dissenters</td>
-<td>one of the riots that led to the passing of the Riot Act</td>
-<td>Gainsborough / Lincolnshire / England</td>
-<td>Gainsborough / Lincolnshire / England</td>
-<td>religion / cultural identity</td>
-</tr>
-  
+    
 <tr>
 <td align="right">1710</td>
 <td>#</td>
 <td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
 <td>support for oppositional (high Church) preacher Henry Sacheverell / attacks on the homes and meeting-houses of Dissenters</td>
 <td>one of the riots that led to the passing of the Riot Act</td>
-<td>Wrexham / Wales</td>
-<td>Wrexham / Wales</td>
+<td>London / England, Barnstaple / Devon / England, Wrexham / Wales, Gainsborough / Lincolnshire / England</td>
+<td>London / England, Barnstaple / Devon / England, Wrexham / Wales, Gainsborough / Lincolnshire / England</td>
 <td>religion / cultural identity</td>
 </tr>
-  
-<tr>
-<td align="right">1710</td>
-<td>#</td>
-<td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
-<td>support for oppositional (high Church) preacher Henry Sacheverell / attacks on the homes and meeting-houses of Dissenters</td>
-<td>one of the riots that led to the passing of the Riot Act</td>
-<td>Barnstaple / Devon / England</td>
-<td>Barnstaple / Devon / England</td>
-<td>religion / cultural identity</td>
-</tr>
-  
-<tr>
-<td align="right">1710</td>
-<td>#</td>
-<td><a href="https://en.wikipedia.org/wiki/Sacheverell_riots">Sacheverell Riots</a></td>
-<td>local support for oppositional (high Church) preacher Henry Sacheverell / attacks on the homes and meeting-houses of Dissenters</td>
-<td>one of the riots that led to the passing of the Riot Act</td>
-<td>London City / England</td>
-<td>London City / England</td>
-<td>religion / cultural identity</td>
-</tr>
-  
+    
 <tr>
 <td align="right">1711</td>
 <td>#</td>
@@ -334,8 +271,8 @@
 <td>Lincoln / England</td>
 <td>Lincoln / England</td>
 <td>religion / cultural identity</td>
-
 </tr>
+
 <tr>
 <td align="right">1727</td>
 <td>1729</td>
@@ -790,17 +727,6 @@
 <tr>
 <td align="right">1781</td>
 <td>#</td>
-<td>Revolt in Bihar </td>
-<td>uprising by chieftains in the Indian state of Bihar against the British East India Company</td>
-<td>#</td>
-<td>Bihar / Asia</td>
-<td>Bihar / Asia</td>
-<td>colonial expansion / consolidation</td>
-</tr>
-
-<tr>
-<td align="right">1781</td>
-<td>#</td>
 <td>Treason of Benedict Arnold</td>
 <td>American general Arnold defects to British side</td>
 <td>Arnold eventually leaves America</td>
@@ -1205,4 +1131,5 @@
 <td>political freedoms / personal rights</td>
 </tr>
 
-</tbody></table>
+</tbody>
+</table>
