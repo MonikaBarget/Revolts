@@ -24,7 +24,7 @@
 <th title="Field #5">OUTCOME</th>
 <th title="Field #6">PLACE (hist.)</th>
 <th title="Field #7">PLACE (geocoded)</th>
-<th title="Field #9">RELEVANCE</th>
+<th title="Field #9">CATEGORY</th>
 </tr></thead>
 <tbody><tr>
 <td align="right">1685</td>
@@ -865,28 +865,6 @@
 </tr>
 
 <tr>
-<td align="right">1787</td>
-<td>#</td>
-<td>Abaco Slave Revolt </td>
-<td>first uprising of slaves in the Bahamas</td>
-<td>#</td>
-<td>Bahamas</td>
-<td>Bahamas</td>
-<td>slavery / rights of freed slaves</td>
-</tr>
-
-<tr>
-<td align="right">1790</td>
-<td>#</td>
-<td>Slave revolt in the British Virgin Islands</td>
-<td>first slave revolt in the British Virgin Islands</td>
-<td>#</td>
-<td>Virgin Islands</td>
-<td>Virgin Islands</td>
-<td>slavery / rights of freed slaves</td>
-</tr>
-
-<tr>
 <td align="right">1791</td>
 <td>#</td>
 <td>Bastille Day Commemorations on July 14</td>
@@ -997,24 +975,13 @@
 </tr>
 
 <tr>
-<td align="right">1794</td>
-<td>#</td>
-<td>Whiskey Rebellion / Whiskey Insurrection</td>
-<td>Protests over taxes in Pittsburgh and the Monongahela Valley </td>
-<td>President George Washington invokes martial law and crushes insurrection with 13 /000 men.</td>
-<td>Monongahela Valley / USA</td>
-<td>Monongahela Valley / USA</td>
-<td>economic / social</td>
-</tr>
-
-<tr>
 <td align="right">1791</td>
 <td>1794</td>
 <td><a href="https://en.wikipedia.org/wiki/Whiskey_Rebellion">Whiskey Rebellion / Whiskey Insurrection</a></td>
 <td>Protests over taxes in Pittsburgh and the Monongahela Valley </td>
 <td>President George Washington invokes martial law and crushes insurrection with 13 /000 men.</td>
-<td>Western Pennsylvania / USA</td>
-<td>Western Pennsylvania / USA</td>
+<td>Western Pennsylvania and Monongahela Valley / USA</td>
+<td>Western Pennsylvania and Monongahela Valley / USA</td>
 <td>economic / social</td>
 </tr>
 
@@ -1053,7 +1020,7 @@
 
 <tr>
 <td align="right">1795</td>
-<td>#</td>
+<td>1795</td>
 <td><a href="https://pasttenseblog.wordpress.com/2018/10/29/today-in-london-riotous-history-1795-king-george-iii-attacked-by-angry-crowds/">Opening of Parliament Riots</a></td>
 <td>popular uprising in the City of London / including an attack on the king&#39;s coach, linked with political tension upon the opening of a new session in Parliament</td>
 <td>#</td>
@@ -1064,7 +1031,7 @@
 
 <tr>
 <td align="right">1795</td>
-<td>#</td>
+<td>1795</td>
 <td><a href="https://en.wikipedia.org/wiki/Revolt_of_the_housewives">"Revolt of the housewives"</a></td>
 <td>food riots with prominent role of women / linked with land enclosures</td>
 <td>#</td>
@@ -1075,8 +1042,8 @@
 
 <tr>
 <td align="right">1795</td>
-<td>#</td>
-<td><a href="https://books.google.nl/books?id=inTJAwAAQBAJ&pg=PT141&lpg=PT141&dq=Snow+hill+riot+1795&source=bl&ots=Pceaxe3_1Q&sig=ACfU3U0s3ofkIfGywJFZVR4chWzJqJaXXg&hl=de&sa=X&ved=2ahUKEwiX89Tbn8n3AhX8wAIHHXUECogQ6AF6BAgWEAM#v=onepage&q=Snow%20hill%20riot%201795&f=false"Snow Hill Riot</a></td>
+<td>1795</td>
+<td><a href="https://books.google.nl/books?id=inTJAwAAQBAJ&pg=PT141&lpg=PT141&dq=Snow+hill+riot+1795&source=bl&ots=Pceaxe3_1Q&sig=ACfU3U0s3ofkIfGywJFZVR4chWzJqJaXXg&hl=de&sa=X&ved=2ahUKEwiX89Tbn8n3AhX8wAIHHXUECogQ6AF6BAgWEAM#v=onepage&q=Snow%20hill%20riot%201795&f=false">Snow Hill Riot</a></td>
 <td>high cost of corn and every kind of provision led local people to assemble and protest, attack on Pickard&#39;s Mill</td>
 <td>magistrates not able to quell riot, armed intervention, 2 people shot and several arrested,"inflammatory and seditious handbills" distributed after the riot, reward of £100 to discover the authors</td>
 <td>Birmingham / England</td>
@@ -1086,7 +1053,7 @@
 
 <tr>
 <td align="right">1796</td>
-<td>#</td>
+<td>1796</td>
 <td>(alleged) Jacobin Plot</td>
 <td>accusation against Irish military staff to have plotted a French revolutionary invasion</td>
 <td>#</td>
@@ -1097,7 +1064,7 @@
 
 <tr>
 <td align="right">1796</td>
-<td>#</td>
+<td>1796</td>
 <td>John Hartland Riot</td>
 <td>riot instigated by journeyman brush-maker John Hartland / attack on a &quot;crimping house&quot; (where men are bribed into sailing or army enlistments for drink)</td>
 <td>John Hartland tried</td>
@@ -1119,7 +1086,7 @@
 
 <tr>
 <td align="right">1797</td>
-<td>#</td>
+<td>1797</td>
 <td><a href="https://en.wikipedia.org/wiki/Spithead_and_Nore_mutinies">Spithead and Nore mutinies</a></td>
 <td>mutiny by sailors of the British Royal Navy</td>
 <td>comparatively lenient treatment of men involved in both cases, crews in Spithead received a pay raise</td>
