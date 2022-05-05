@@ -1,0 +1,25 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.238156,51.8642449 ]
+    },
+    "properties": {
+    "From":1789,
+    "to":1789,
+    "Name":"Riot",
+    "Agents":"riot of the mob after soldiers called out to disperse bull-baiting crowd",
+    "Results":"#",
+    "Type":"blood sport",
+    "Label":"Gloucestershire, England",
+    "Place (modern)":"Gloucestershire, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Gloucestershire Archives D214/F1/93",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  }
+]
+}

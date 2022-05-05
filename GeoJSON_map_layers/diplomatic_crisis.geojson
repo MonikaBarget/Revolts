@@ -1,0 +1,25 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1661,
+    "to":"#",
+    "Name":"London Carriage Dispute",
+    "Agents":"#",
+    "Results":"#",
+    "Type":"diplomatic crisis",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q1869164"
+    }
+  }
+]
+}

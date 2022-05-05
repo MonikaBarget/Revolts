@@ -1,0 +1,145 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.0030714,-33.7348232 ]
+    },
+    "properties": {
+    "From":1804,
+    "to":1804,
+    "Name":"Castle Hill convict rebellion",
+    "Agents":"Irish convicts",
+    "Results":"Rebellion crushed violently: many rioters killed",
+    "Type":"prisons",
+    "Label":"Castle Hill, Colony of New South Wales",
+    "Place (modern)":"Castle Hill, New South Wales, Australia",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.8847827,52.4728804 ]
+    },
+    "properties": {
+    "From":1786,
+    "to":1786,
+    "Name":"Prison Riot",
+    "Agents":"Thomas Colley alias Collier, labourer, Robert Cooke, bucklemaker, John Ball, labourer, William Lewis, swordhiltmaker, all of Birmingham accused of riot and assault in the prison of the Court of Requests at Deritend",
+    "Results":"accused man indicted",
+    "Type":"prisons",
+    "Label":"Deritend, England",
+    "Place (modern)":"Deritend, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Shakespeare Birthplace Trust ER10/2/3",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1714,
+    "to":1714,
+    "Name":"Attempt to rescue prisoners and riot",
+    "Agents":"attempt to rescue the prisoners and riot",
+    "Results":"events reported from Dublin Castle to London",
+    "Type":"prisons",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 63/370/97",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1768,
+    "to":1768,
+    "Name":"Riot at King's Bench",
+    "Agents":"riot at the King's Bench prison and in the Borough of Southwark in May",
+    "Results":"#",
+    "Type":"prisons",
+    "Label":"King's Bench Prison, England",
+    "Place (modern)":"King's Bench Prison, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, T 1/468/265-273",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1752,
+    "to":1752,
+    "Name":"Riot at Newgate",
+    "Agents":"riot at Newgate",
+    "Results":"#",
+    "Type":"prisons",
+    "Label":"Newgate Prison, London, England",
+    "Place (modern)":"Newgate Prison, London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, WO 94/48/1",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1799,
+    "to":1799,
+    "Name":"Riot",
+    "Agents":"outrages on the Debtors' Side of Newgate [Prison]",
+    "Results":"Although the Lord Mayor had put a stop to the dancing, daily scenes of drunkenness and riot continued. An anonymous letter writer advocated the prohibition of the sale of spirits and beer beyond a certain allowance; the closure of the wards at a stated hour; and giving [John Kirby], the Keeper, more authority over those imprisoned for debt.",
+    "Type":"prisons",
+    "Label":"Newgate Prison, London, England",
+    "Place (modern)":"Newgate Prison, London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, HO 42/46/38",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0739108,53.9614205 ]
+    },
+    "properties": {
+    "From":1741,
+    "to":1741,
+    "Name":"Prison Riots",
+    "Agents":"York Castle prison riot involving Joseph Marsh, William Fountain and others",
+    "Results":"#",
+    "Type":"prisons",
+    "Label":"York, Yorkshire, England",
+    "Place (modern)":"York, Yorkshire, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 36/57/13",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  }
+]
+}

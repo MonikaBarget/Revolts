@@ -1,0 +1,1525 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.0937528,57.1498891 ]
+    },
+    "properties": {
+    "From":1746,
+    "to":"1746",
+    "Name":"Anniversary of accession riot",
+    "Agents":"riot of 1 August 1746 on the anniversary of the accession of King George I. A mob, encouraged by Captain Morgan and Sergeant Wilson, had destroyed properties which showed no signs of celebration for the anniversary.",
+    "Results":"town magistrates asked that Morgan and Wilson be presented for prosecution",
+    "Type":"government",
+    "Label":"Aberdeen, Scotland",
+    "Place (modern)":"Aberdeen, Scotland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 36/86/1/24",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.391463,51.9489469 ]
+    },
+    "properties": {
+    "From":1718,
+    "to":"1718",
+    "Name":"Riot",
+    "Agents":"riot at Brecon [Breconshire] Richard Davis, T Sandys and others, on June 10, on 'the day of thanksgiving for the victory over the [Jacobite] rebels at Preston', mentioning Mr Birch, Mr Ellis, and attorney Henry Williams.",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Brecon, Breconshire",
+    "Place (modern)":"Brecon, Breconshire",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 35/11/118B",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "From":1700,
+    "to":"1700",
+    "Name":"Riot on the Pretender's Birthday",
+    "Agents":"riot by supporters of the Stuart dynasty",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Bristol, England",
+    "Place (modern)":"Bristol, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "From":1735,
+    "to":"1735",
+    "Name":"Anniversary of accession riot",
+    "Agents":"Riot and assault: destruction at Bristol of fireworks intended for George II's accession celebrations.",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Bristol, England",
+    "Place (modern)":"Bristol, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, KB 33/5/3",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "From":1776,
+    "to":"1776",
+    "Name":"James Atiken's arsonist attacks",
+    "Agents":"acts of sabotage / arson committed by craftsman James Aitken on British seaports (supposedly in favour of the American cause)",
+    "Results":"conviction and death sentence",
+    "Type":"government",
+    "Label":"Bristol, England",
+    "Place (modern)":"Bristol, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.4923145,54.7877149 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"1689",
+    "Name":"Glorious Revolution",
+    "Agents":"opposition to King James II / VII, against a Catholic succession",
+    "Results":"Stuart family forced into exile, Protestant Succession established",
+    "Type":"government",
+    "Label":"Britain, Ireland, North America",
+    "Place (modern)":"Britain, Ireland, North America",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.170037,51.4869429 ]
+    },
+    "properties": {
+    "From":1793,
+    "to":"1793",
+    "Name":"Riot",
+    "Agents":"John MARTIN for uttering seditious words against the King on 19 Dec 33 Geo III and intention with others to riot at Chelsea",
+    "Results":"arrest and trial",
+    "Type":"government",
+    "Label":"Chelsea, England",
+    "Place (modern)":"Chelsea, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, TS 11/1118/5748",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1078746,51.5264898 ]
+    },
+    "properties": {
+    "From":1700,
+    "to":"1700",
+    "Name":"Riot on the Pretender's Birthday",
+    "Agents":"supporters of the Stuart dynasty",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Clerkenwell, England",
+    "Place (modern)":"Clerkenwell, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1700,
+    "to":"1700",
+    "Name":"Riot on the Pretender's Birthday",
+    "Agents":"Catholic mob",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1759,
+    "to":"1759",
+    "Name":"Riot",
+    "Agents":"rioting outside houses of parliament, response to rumours of a union between Ireland and Britain",
+    "Results":"Lord Lieutenant had the rioting quelled",
+    "Type":"government",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 63/416/3312",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1760,
+    "to":"1760",
+    "Name":"Riot",
+    "Agents":"riots outside Parliament House in Dublin, opposition of Presbyterians to government, raising of troops, etc.",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 63/418/3416",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "From":1803,
+    "to":"1803",
+    "Name":"1803 rebellion / Rising of Robert Emmet",
+    "Agents":"Robert Emmet and Irish Republicans attempt to seize the seat of British government in Ireland, Dublin Castle, and trigger a nation-wide insurrection",
+    "Results":"principal leader, Robert Emmet, executed; others exiled",
+    "Type":"government",
+    "Label":"Dublin, Ireland",
+    "Place (modern)":"Dublin, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.7669352,54.5082725 ]
+    },
+    "properties": {
+    "From":1782,
+    "to":"#",
+    "Name":"Ulster Volunteer Convention",
+    "Agents":"Volunteer support for Patriot demands that the Irish parliament be granted greater autonomy",
+    "Results":"delegates from Ulster Volunteer units adopt resolutions",
+    "Type":"government",
+    "Label":"Dugannon, Ireland",
+    "Place (modern)":"Dugannon, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "From":1714,
+    "to":"1714",
+    "Name":"Coronation Riot",
+    "Agents":"local population rioting on 21 October, incited by the coronation of King George I",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Edinburgh, Scotland",
+    "Place (modern)":"Edinburgh, Scotland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 55/1/36",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"High Treason Trials of David Downie and Robert Watt (Friends of the People / British Convention)",
+    "Agents":"allegations of treasonous proceedings",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Edinburgh, Scotland",
+    "Place (modern)":"Edinburgh, Scotland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1642,
+    "to":"1660",
+    "Name":"English Revolution / English Civil Wars",
+    "Agents":"civil war between supporters of Parliament and adherents of the Crown",
+    "Results":"execution of Charles I and the temporary establishment of a republican Commonwealth",
+    "Type":"government",
+    "Label":"England",
+    "Place (modern)":"England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"1716",
+    "Name":"Jacobite Rebellion / the '15",
+    "Agents":"attempted restoration of the Stuart monarchy",
+    "Results":"failed",
+    "Type":"government",
+    "Label":"England and Scotland",
+    "Place (modern)":"England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1722,
+    "to":"1722",
+    "Name":"Samuel Pope's riot",
+    "Agents":"incident involving excessive drinking, the harrassing of a woman, and threatening with swords; Samuel Pope was accused of causing a riot and also suspected of being a supporter of the [Jacobite] Pretender, [being] forced to drink to the 'Pretender' [James Francis Edward Stuart] when in Paris.",
+    "Results":"He is bound for two thousand pounds to appear at Hicks Hall, and two hundred for involvement in a riot. Mr Delafaye has told him to find a relative who would present a petition to the King on his behalf, and testify to his good character.",
+    "Type":"government",
+    "Label":"England",
+    "Place (modern)":"England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 35/32/155A",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6920536,53.1423672 ]
+    },
+    "properties": {
+    "From":1641,
+    "to":"1642",
+    "Name":"Irish Rebellion",
+    "Agents":"uprising by Irish Catholics to end (legal) discrimination, obtain extended self-government and contain plantations",
+    "Results":"Founding of the Irish Catholic Confederation / beginning of the Confederate War",
+    "Type":"government",
+    "Label":"Ireland",
+    "Place (modern)":"Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6920536,53.1423672 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"1689",
+    "Name":"Glorious Revolution",
+    "Agents":"opposition to King James II / VII, against a Catholic succession",
+    "Results":"Stuart family forced into exile, Protestant Succession established",
+    "Type":"government",
+    "Label":"Britain, Ireland, North America",
+    "Place (modern)":"Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6920536,53.1423672 ]
+    },
+    "properties": {
+    "From":1742,
+    "to":"1742",
+    "Name":"Suspected French-Jacobite invasion",
+    "Agents":"a renegade Frenchman informed Thompson that he read letters from Ireland in Maurepas' office suggesting French arms smuggling; no Irish regiments in the French army have been assigned to active service suggesting that France may be planning to assist an insurrection in Ireland;",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Ireland",
+    "Place (modern)":"Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 78/227A/26",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1605,
+    "to":"1605",
+    "Name":"Gunpowder Plot",
+    "Agents":"Catholic plan to blow up the House of Lords",
+    "Results":"unsuccessful",
+    "Type":"government",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1680,
+    "to":"1680",
+    "Name":"Alleged plot of the \"Popish Midwife\"",
+    "Agents":"Elizabeth Cellier, a Catholic midwife, was accused of planning the murder of Charles II and blaming it on a Presbyterian conspiracy, accusations raised by Thomas Dangerfield (alias Willoughby) whom Cellier had visited in Newgate prison",
+    "Results":"Cellier could prove her innocence but was later sentenced for involvement in another alleged plot.",
+    "Type":"government",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1712,
+    "to":"1712",
+    "Name":"Riot",
+    "Agents":"Folio 160. J Whitman to [John] Barbot. The mob continually surround 'the house'; the justices of the peace are doing nothing to suppress the riot.",
+    "Results":"Folio 161. [?Copy] of note from J Whitman concerning the riot, with postscript by J[?ohn] B[?arbot]: 'all this may be only threatenings, but whatever it be it's much terrifying'.",
+    "Type":"government",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 34/37/93+94",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1721,
+    "to":"#",
+    "Name":"Atterbury Plot",
+    "Agents":"conspiracy led by Francis Atterbury, Bishop of Rochester and Dean of Westminster, aimed at the restoration of the House of Stuart",
+    "Results":"failed",
+    "Type":"government",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1759,
+    "to":"1759",
+    "Name":"Riot",
+    "Agents":"Duke of Bedford to Rt Hon William Pitt. Enclosing address from both houses of parliament thanking him for his interposition in quelling the riot outside parliament (SP 63/416/3312).",
+    "Results":"Rt Hon William Pitt to Duke of Bedford. Draft letter expressing opinions of HM's servants on the riot outside the houses of parliament. Dated at Whitehall.",
+    "Type":"government",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 63/416/3316",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1794,
+    "to":"#",
+    "Name":"High Treason Trial of Thomas Hardy / London Corresponding Society",
+    "Agents":"accusations of planned violence and treason against John Hardy and other members of the London Corresponding Society, related to unrest in Ireland",
+    "Results":"#",
+    "Type":"government",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1795,
+    "to":"1795",
+    "Name":"Riot",
+    "Agents":"consecutive nightly riots, crowd aiming to get to Mr. Pitt's house to pull it down, but kept off by the military. The Duchess of Gloucester was in great danger, returning from the circus; she was pursued by the mob, crying no Royalty, no Pitt, till she got very near to her own house'",
+    "Results":"civil power should be strengthened and a military force be raised in anticipation of an invasion by the French. The force would be used when the nature of the riot had been ascertained, whether it be premeditated or by those sympathetic to the French.",
+    "Type":"government",
+    "Label":"London, England",
+    "Place (modern)":"London, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Lancashire Archives DDKE/acc. 7840 HMC/1393A, UK National Archives, HO 42/38/48",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.2426305,53.4807593 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"#",
+    "Name":"Jacobite Riots",
+    "Agents":"local risings in support of the Jacobite cause",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Manchester, cities in northern England and Scotland",
+    "Place (modern)":"Manchester, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.5566638,52.2217725 ]
+    },
+    "properties": {
+    "From":1569,
+    "to":"1573",
+    "Name":"First Desmond Rebellion",
+    "Agents":"rebellions by the Earl of Desmond, the head of the Fitzmaurice/FitzGerald Dynasty in Munster, and his followers, the Geraldines and their allies, against the threat of the extension of their South Welsh Tewdwr cousins and of Elizabethan English government",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Iwamura Castle",
+    "Place (modern)":"Munster, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8226541,43.9653889 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"1689",
+    "Name":"Glorious Revolution",
+    "Agents":"opposition to King James II / VII, against a Catholic succession",
+    "Results":"Stuart family forced into exile, Protestant Succession established",
+    "Type":"government",
+    "Label":"Britain, Ireland, North America",
+    "Place (modern)":"New England, USA",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0059728,40.7127753 ]
+    },
+    "properties": {
+    "From":1741,
+    "to":"1741",
+    "Name":"New York Conspiracy",
+    "Agents":"purported plot by slaves (and poor whites) to depose the colonial government",
+    "Results":"#",
+    "Type":"government",
+    "Label":"New York, United States",
+    "Place (modern)":"New York, United States",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.9298493,33.6188829 ]
+    },
+    "properties": {
+    "From":1765,
+    "to":"1765",
+    "Name":"Pariot riot in Newport",
+    "Agents":"patriot riot in Newport; Dr Thomas Moffatt (physician) suffered losses during the riot",
+    "Results":"Dr Thomas Moffatt's applications for compensation were considered years later, following recommendation by the Agent that otherwise money for the colony should be retained.",
+    "Type":"government",
+    "Label":"Newport, North America",
+    "Place (modern)":"Newport, North America",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, T 1/437/182-186; UK National Archives, T 1/541/386-387",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.0192997,35.7595731 ]
+    },
+    "properties": {
+    "From":1711,
+    "to":"1711",
+    "Name":"Cary's Rebellion",
+    "Agents":"against the government in North Carolina",
+    "Results":"#",
+    "Type":"government",
+    "Label":"North Carolina, North America",
+    "Place (modern)":"North Carolina, USA",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577263,51.7520209 ]
+    },
+    "properties": {
+    "From":1714,
+    "to":"1714",
+    "Name":"Oxford Riots",
+    "Agents":"Tory riots on the occasion of the Prince of Wales's birthday",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Oxford, England",
+    "Place (modern)":"Oxford, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.1426565,50.3754565 ]
+    },
+    "properties": {
+    "From":1776,
+    "to":"1776",
+    "Name":"James Atiken's arsonist attacks",
+    "Agents":"acts of sabotage / arson committed by craftsman James Aitken on British seaports (supposedly in favour of the American cause)",
+    "Results":"conviction and death sentence",
+    "Type":"government",
+    "Label":"Plymouth, England",
+    "Place (modern)":"Plymouth, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1685,
+    "to":"#",
+    "Name":"Argyll Rebellion",
+    "Agents":"attempt to overthrow King James II, led by Archibald Campbell, 9th Earl of Argyll",
+    "Results":"most of the leaders, inlcuding Argyll, caught and executed",
+    "Type":"government",
+    "Label":"Scotland, Britain",
+    "Place (modern)":"Scotland, Britain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1706,
+    "to":"1707",
+    "Name":"Union Act Riots",
+    "Agents":"civil unrest and disorder in Scottish towns",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Scotland, Britain",
+    "Place (modern)":"Scotland, Britain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1708,
+    "to":"1708",
+    "Name":"Planned Invasion of 1708",
+    "Agents":"Jacobites in French, French supporters of the Stuart dynasty",
+    "Results":"British victory over the Jacobites,\n  France unable to disembark troops,\n  strategic gains for France as the British had to divert troops away to Scotland",
+    "Type":"government",
+    "Label":"Scotland, Britain",
+    "Place (modern)":"Scotland, Britain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"1716",
+    "Name":"Jacobite Rebellion / the '15",
+    "Agents":"attempted restoration of the Stuart monarchy",
+    "Results":"failed",
+    "Type":"government",
+    "Label":"England and Scotland",
+    "Place (modern)":"Scotland, Britain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1715,
+    "to":"#",
+    "Name":"Jacobite Riots",
+    "Agents":"local risings in support of the Jacobite cause",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Manchester, cities in northern England and Scotland",
+    "Place (modern)":"Scotland, Britain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1797,
+    "to":"1797",
+    "Name":"Intended Scottish Rebellion",
+    "Agents":"plans for a Scottish Rebellion against the Kingdom of Great Britain; a French emissary toured Scotland, lecturing to radical groups on French plans to assist the revolutionary agenda of the United Scotsmen",
+    "Results":"rebellion failed",
+    "Type":"government",
+    "Label":"Scotland, Britain",
+    "Place (modern)":"Scotland, Britain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.2092955,-33.8688197 ]
+    },
+    "properties": {
+    "From":1808,
+    "to":"1810",
+    "Name":"Rum Rebellion",
+    "Agents":"New South Wales Corps arrest local governor",
+    "Results":"Deposition and arrest of NSW Governor William Bligh.\n  Imposition of martial law.\n  Withdrawal and disbandment of NSW Corps in disgrace.\n  Appointment of Lachlan Macquarie as governor.",
+    "Type":"government",
+    "Label":"Sydney, New South Wales",
+    "Place (modern)":"Sydney, New South Wales, Australia",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9612273,54.7616555 ]
+    },
+    "properties": {
+    "From":1798,
+    "to":"1798",
+    "Name":"Irish Rebellion / United Irish Rising (failed)",
+    "Agents":"launched by the United Irishmen, aimed at severing the connection with Great Britain and establishing an Irish Republic",
+    "Results":"failed",
+    "Type":"government",
+    "Label":"Ireland (in particular Leinster and Ulster",
+    "Place (modern)":"Ulster, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "From":1765,
+    "to":"1783",
+    "Name":"American Revolution",
+    "Agents":"American colonists (\"patriots\") oppose taxation and colonial administration",
+    "Results":"American independence, establishment of republican government",
+    "Type":"government",
+    "Label":"North America",
+    "Place (modern)":"United States of America",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.6568942,37.4315734 ]
+    },
+    "properties": {
+    "From":1676,
+    "to":"1676",
+    "Name":"Bacon's Rebellion / Virginia Rebellion",
+    "Agents":"armed rebellion by Virginia settlers against Governor Berkeley",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Virginia, North America",
+    "Place (modern)":"Virginia, North America",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.982919,52.586214 ]
+    },
+    "properties": {
+    "From":1750,
+    "to":"1750",
+    "Name":"Walsall riot",
+    "Agents":"riot at Walsall, Staffordshire, on 29 May 1750 [whereby an effigy of George II was hung on Church Hill]",
+    "Results":"Thomas James and several other persons concerned in the riot at Walsall; examination of Thomas Francis, otherwise Woolley, who was implicated in a riot at Walsall. Money was collected to help in the defence of Thomas James and other accused persons.",
+    "Type":"government",
+    "Label":"Walsall, England",
+    "Place (modern)":"Walsall, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Birmingham: Archives, Heritage and Photography Service MS 3069/Acc1926-021/328833 and related items",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1356583,51.4974948 ]
+    },
+    "properties": {
+    "From":1714,
+    "to":"1714",
+    "Name":"Coronation Riot",
+    "Agents":"riot following King George I's coronation on October 28, incited by Matthew Falconer; Falconer verbally abused Elizabeth Jennings and her husband who were celebrating the Coronation, inciting a riot in which Mr. Jennings was physically abused.",
+    "Results":"court investigation followed",
+    "Type":"government",
+    "Label":"Westminster, England",
+    "Place (modern)":"Westminster, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"UK National Archives, SP 35/4/50",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0650534,51.5148198 ]
+    },
+    "properties": {
+    "From":1700,
+    "to":"1700",
+    "Name":"Riot on the Pretender's Birthday",
+    "Agents":"supporters of the Stuart dynasty",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Whitechapel, England",
+    "Place (modern)":"Whitechapel, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"1746",
+    "Name":"Jacobite Rebellion, the '45",
+    "Agents":"Jacobites versus Hanoverian dynasty",
+    "Results":"Government victory, end of Jacobitism as a significant political force",
+    "Type":"government",
+    "Label":"Northern England",
+    "Place (modern)":"Northern England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q1049945"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1745,
+    "to":"1746",
+    "Name":"Jacobite Rebellion, the '45",
+    "Agents":"Jacobites versus Hanoverian dynasty",
+    "Results":"Government victory, end of Jacobitism as a significant political force",
+    "Type":"government",
+    "Label":"Scotland",
+    "Place (modern)":"Scotland, Britain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q1049945"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2551187,54.5259614 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"#",
+    "Name":"King William’s War",
+    "Agents":"opposition to King James II / VII, against a Catholic succession",
+    "Results":"Stuart family forced into exile, Protestant Succession established",
+    "Type":"government",
+    "Label":"North America",
+    "Place (modern)":"North America",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q1070342"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.5566638,52.2217725 ]
+    },
+    "properties": {
+    "From":1579,
+    "to":"1583",
+    "Name":"Second Desmond Rebellion",
+    "Agents":"rebellions by the Earl of Desmond, the head of the Fitzmaurice/FitzGerald Dynasty in Munster, and his followers, the Geraldines and their allies, against the threat of the extension of their South Welsh Tewdwr cousins and of Elizabethan English government",
+    "Results":"English victory; famine throughout Plantation of Munster",
+    "Type":"government",
+    "Label":"Provinces of Munster and Leinster, Ireland",
+    "Place (modern)":"Munster, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q11030407"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.416007,51.055688 ]
+    },
+    "properties": {
+    "From":1688,
+    "to":"1688",
+    "Name":"Wincanton Skirmish",
+    "Agents":"small patrol of the English Army led by the Irish officer Patrick Sarsfield, clashed with a detachment of the invading Dutch Army",
+    "Results":"Indecisive",
+    "Type":"government",
+    "Label":"Wincanton, Somerset",
+    "Place (modern)":"Wincanton, Somerset",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q11688250"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6920536,53.1423672 ]
+    },
+    "properties": {
+    "From":1573,
+    "to":"#",
+    "Name":"Desmond-Rebellions",
+    "Agents":"uprisings against English rule in Ireland",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Ireland",
+    "Place (modern)":"Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q1200808"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.9406898,53.4239331 ]
+    },
+    "properties": {
+    "From":1691,
+    "to":"1691",
+    "Name":"Siege of Athlone",
+    "Agents":"Jacobites versus Williamites",
+    "Results":"Williamite victory",
+    "Type":"government",
+    "Label":"Athlone, Ireland",
+    "Place (modern)":"Athlone, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q16238739"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.774936,50.83761 ]
+    },
+    "properties": {
+    "From":1642,
+    "to":"1642",
+    "Name":"Siege of Chichester",
+    "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
+    "Results":"Parliamentarian victory",
+    "Type":"government",
+    "Label":"Chichester, England",
+    "Place (modern)":"Chichester, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q16931400"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4290148,53.8337367 ]
+    },
+    "properties": {
+    "From":1554,
+    "to":"1554",
+    "Name":"Wyatt Plot",
+    "Agents":"popular rising opposing Queen Mary's intention to marry Philip of Spain",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Britain",
+    "Place (modern)":"Great Britain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q1760515"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.999461,50.7772135 ]
+    },
+    "properties": {
+    "From":1685,
+    "to":"1685",
+    "Name":"Monmouth Rebellion",
+    "Agents":"Duke of Monmouth against royal forces",
+    "Results":"Royalist victory",
+    "Type":"government",
+    "Label":"South West England",
+    "Place (modern)":"South West England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q1940446"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9400718,53.5284751 ]
+    },
+    "properties": {
+    "From":1643,
+    "to":"1643",
+    "Name":"Battle of Portlester",
+    "Agents":"between the Ulster Army under Eoghan Ã“ NÃ©ill and a largely Protestant government force from Dublin under Lord Moore",
+    "Results":"Irish Confederate Victory",
+    "Type":"government",
+    "Label":"Portlester, Meath, Ireland",
+    "Place (modern)":"Portlester, Meath, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q19871089"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "From":1689,
+    "to":"1689",
+    "Name":"Rising in Boston 1689",
+    "Agents":"revolt by local militia and citizens against Governor Sir Edmund Andros, linked with the events of the Glorious Revolution",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Boston, Province of Massachusetts Bay",
+    "Place (modern)":"Boston, Massachusetts",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q3136592"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2263955,57.4595749 ]
+    },
+    "properties": {
+    "From":1653,
+    "to":"1653",
+    "Name":"Glencairn-Rising",
+    "Agents":"Royalists rising against Oliver Cromwell's Protectorate",
+    "Results":"#",
+    "Type":"government",
+    "Label":"Scottish Highlands",
+    "Place (modern)":"Scottish Highlands",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q3491709"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.218002,52.5776957 ]
+    },
+    "properties": {
+    "From":1650,
+    "to":"1650",
+    "Name":"Siege of Kilkenny",
+    "Agents":"Irish Confederates versus New Model Army of the English Parliamentarians",
+    "Results":"English Parliamentarian victory",
+    "Type":"government",
+    "Label":"County Kilkenny",
+    "Place (modern)":"County Kilkenny",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q42377494"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.831672,52.681602 ]
+    },
+    "properties": {
+    "From":1643,
+    "to":"1643",
+    "Name":"Siege of Lichfield",
+    "Agents":"Royalists under the command of Prince Rupert besieged the Parliamentary garrison under the command of Colonel Russell",
+    "Results":"Royalist victory",
+    "Type":"government",
+    "Label":"Lichfield, Staffordshire, England",
+    "Place (modern)":"Lichfield, Staffordshire, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q42377514"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1743197,52.3555177 ]
+    },
+    "properties": {
+    "From":1569,
+    "to":"1570",
+    "Name":"Rising of the North",
+    "Agents":"Catholic nobles trying to depose Queen Elizabeth I of England and replace her with Mary, Queen of Scots",
+    "Results":"Elizabethan victory,\n Elizabeth's authority strengthened\n Aristocracy of North weakened",
+    "Type":"government",
+    "Label":"Northern England",
+    "Place (modern)":"Northern England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q427513"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1719,
+    "to":"#",
+    "Name":"‘The Nineteen’ / Jacobite Rising",
+    "Agents":"attempt to restore the exiled James Francis Edward Stuart, supported by Spain",
+    "Results":"invasion of England cancelled / failed",
+    "Type":"government",
+    "Label":"Scotland, Britain",
+    "Place (modern)":"Scotland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q47004504"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.74922,40.463667 ]
+    },
+    "properties": {
+    "From":1719,
+    "to":"#",
+    "Name":"‘The Nineteen’ / Jacobite Rising",
+    "Agents":"attempt to restore the exiled James Francis Edward Stuart, supported by Spain",
+    "Results":"invasion of England cancelled / failed",
+    "Type":"government",
+    "Label":"Spain",
+    "Place (modern)":"Spain",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q47004504"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1565,
+    "to":"1565",
+    "Name":"Chaseabout Raid",
+    "Agents":"rebellion by James Stewart, 1st Earl of Moray, against his half sister, Mary, Queen of Scots",
+    "Results":"Victory for Mary",
+    "Type":"government",
+    "Label":"Scottish Lowlands",
+    "Place (modern)":"Scottish Lowlands",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q5087234"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026458,56.4906712 ]
+    },
+    "properties": {
+    "From":1568,
+    "to":"1573",
+    "Name":"Marian civil war",
+    "Agents":"supporters of King James VI",
+    "Results":"Victory for supporters of King James VI",
+    "Type":"government",
+    "Label":"Kingdom of scotland",
+    "Place (modern)":"Kingdom of scotland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q6762017"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.80657,53.0700391 ]
+    },
+    "properties": {
+    "From":1644,
+    "to":"1644",
+    "Name":"Relief of Newark",
+    "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
+    "Results":"Royalist victory",
+    "Type":"government",
+    "Label":"Newark-on-Trent, Nottinghamshire",
+    "Place (modern)":"Newark-on-Trent, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q7311096"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.149331,52.56279 ]
+    },
+    "properties": {
+    "From":1644,
+    "to":"1644",
+    "Name":"Relief of Montgomery Castle",
+    "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
+    "Results":"Parliamentarian victory",
+    "Type":"government",
+    "Label":"Montgomery, Powys",
+    "Place (modern)":"Montgomery, Wales",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q7311097"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.8915829,52.5159097 ]
+    },
+    "properties": {
+    "From":1647,
+    "to":"1647",
+    "Name":"Sack of Cashel",
+    "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
+    "Results":"English Parliamentarians take the town and massacre its garrison",
+    "Type":"government",
+    "Label":"Cashel, Tipperary, Ireland",
+    "Place (modern)":"Cashel, Tipperary, Ireland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q7396807"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.224721,57.477773 ]
+    },
+    "properties": {
+    "From":1650,
+    "to":"1650",
+    "Name":"Siege of Inverness",
+    "Agents":"Scottish Royalists vs. Covenanters (Clan Fraser of Lovat)",
+    "Results":"Covenanters withstand the siege and Royalists are forced to retreat",
+    "Type":"government",
+    "Label":"Inverness, Scotland",
+    "Place (modern)":"Inverness, Scotland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q7510100"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0879769,50.8197675 ]
+    },
+    "properties": {
+    "From":1642,
+    "to":"1642",
+    "Name":"Siege of Portsmouth",
+    "Agents":"Royalists (\"Cavaliers\") versus Parliamentarians (\"Roundheads\")",
+    "Results":"Parliamentarian victory",
+    "Type":"government",
+    "Label":"Portsmouth, Hampshire, England",
+    "Place (modern)":"Portsmouth, Hampshire, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q7510327"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.4856781,51.5742447 ]
+    },
+    "properties": {
+    "From":1601,
+    "to":"1601",
+    "Name":"Earl of Essex Rebellion",
+    "Agents":"led by Robert Devereux, 2nd Earl of Essex, in 1601 against Queen Elizabeth I of England and the court faction led by Sir Robert Cecil",
+    "Results":"unsuccessful",
+    "Type":"government",
+    "Label":"Essex",
+    "Place (modern)":"Essex",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q7731362"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "From":1648,
+    "to":"1648",
+    "Name":"Whiggamore Raid",
+    "Agents":"Kirk faction of the Covenanters vs. Committee of Estates / Engagers",
+    "Results":"Edinburgh taken by Kirk Party, \n  Committee of Estates relocates to Stirling",
+    "Type":"government",
+    "Label":"Edinburgh, Scotland",
+    "Place (modern)":"Edinburgh, Scotland",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"Wikidata",
+    "WIKIDATA ENTITY ID":"Q7993592"
+    }
+  }
+]
+}

@@ -1,0 +1,25 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "From":1786,
+    "to":1786,
+    "Name":"Margeret Nicholson's assault on King George III",
+    "Agents":"knife attack on the king (political motives debated)",
+    "Results":"attacker was certified insane and confined in a hospital",
+    "Type":"mental illness",
+    "Label":"London, Engand",
+    "Place (modern)":"London, Engand",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  }
+]
+}

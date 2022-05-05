@@ -1,0 +1,25 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.655879,51.796078 ]
+    },
+    "properties": {
+    "From":1751,
+    "to":1751,
+    "Name":"Tring Witch Hunt",
+    "Agents":"local inhabitants attack an alleged witch who is also accused of Jacobite sympathies",
+    "Results":"#",
+    "Type":"politicised witch hunt",
+    "Label":"Tring, Hertfordshire, England",
+    "Place (modern)":"Tring, Hertfordshire, England",
+    "Historic affiliation":"British Empire",
+    "Archival sources":"#",
+    "WIKIDATA ENTITY ID":"#"
+    }
+  }
+]
+}
