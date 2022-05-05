@@ -770,7 +770,7 @@
 <td>#</td>
 <td><a href="https://en.wikipedia.org/wiki/Gordon_Riots">Gordon Riots</a></td>
 <td>citizens of London protesting against Catholic Emancipaton</td>
-<td>estimated 300-700 deaths / damaged reputation of John Wilkes and the British monarchy</td>
+  <td><a href="https://www.bl.uk/collection-items/newspaper-report-of-the-gordon-riots-1780">estimated 300 deaths</a> / damaged reputation of John Wilkes and the British monarchy</td>
 <td>London / England</td>
 <td>London / England</td>
 <td>religion / cultural identity</td>
