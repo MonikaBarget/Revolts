@@ -73,8 +73,8 @@
 <td>Scotland / Britain</td>
 <td>Scotland / Britain</td>
 <td>government</td>
-
 </tr>
+  
 <tr>
 <td align="right">1708</td>
 <td>#</td>
@@ -263,8 +263,19 @@
 </tr>
   
 <tr>
-<td align="right">1726</td>
+<td align="right">1725</td>
 <td>#</td>
+<td><a href="https://en.wikipedia.org/wiki/Malt_tax_riots">Malt Tax Riot</a></td>
+<td>taxation riot</td>
+<td>#</td>
+<td>Glasgow, Scotland</td>
+<td>Glasgow, Scotland</td>
+<td>economic / social</td>
+</tr>
+  
+<tr>
+<td align="right">1726</td>
+<td>1726</td>
 <td><a href="https://books.google.nl/books?id=K5JOAAAAIAAJ&pg=PA207&lpg=PA207&dq=Lincoln+Riot+1726&source=bl&ots=1wuORw7lPN&sig=ACfU3U0cWyxWIM03NJngeYEHuOJ41NddIw&hl=en&sa=X&ved=2ahUKEwiiw5OBvqz1AhUSsaQKHTRSBqEQ6AF6BAgLEAM#v=onepage&q=Lincoln%20Riot%201726&f=false">Lincoln Riot</a></td>
 <td>local riot against the removal of the spires on the cathedral of Lincoln</td>
 <td>#</td>
@@ -285,49 +296,27 @@
 </tr>
   
 <tr>
-<td align="right">1733</td>
-<td>#</td>
-<td>Slave insurrection on St. John</td>
-<td>slaves</td>
-<td>#</td>
-<td>Saint John / Virgin Islands</td>
-<td>Saint John / U.S. Virgin Islands</td>
-<td>slavery / rights of freed slaves</td>
-</tr>
-  
-<tr>
 <td align="right">1736</td>
 <td>#</td>
 <td><a href="https://www.britannica.com/event/Porteous-Riots)">Porteous Riots</a></td>
-<td>local population opposing Captain Porteous /sparked by the hanging of a smuggler</td>
+<td>local population opposing Captain Porteous, sparked by the hanging of a smuggler</td>
 <td>#</td>
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
-<td>political freedoms / personal rights</td>
+<td>law enforcement</td>
 </tr>
   
 <tr>
 <td align="right">1736</td>
 <td>#</td>
-<td><a href="http://news.bbc.co.uk/hi/english/static/in_depth/programmes/2001/booze/history.stm">Gin Act Riots</a></td>
-<td>taxation riot</td>
+<td><a href="http://news.bbc.co.uk/hi/english/static/in_depth/programmes/2001/booze/history.stm">(Rumoured) Gin Act Riots</a></td>
+<td>one of several 18th-century riots opposing legislation meant to reduce gin consumption among the lower classes</td>
 <td>#</td>
-<td>Scotland</td>
-<td>Scotland</td>
+<td>England</td>
+<td>England</td>
 <td>economic / social</td>
 </tr>
-  
-<tr>
-<td align="right">1725</td>
-<td>#</td>
-<td><a href="https://en.wikipedia.org/wiki/Malt_tax_riots">Malt Tax Riot</a></td>
-<td>taxation riot</td>
-<td>#</td>
-<td>Glasgow, Scotland</td>
-<td>Glasgow, Scotland</td>
-<td>economic / social</td>
-</tr>
- 
+   
 <tr>
 <td align="right">1740</td>
 <td>1741</td>
@@ -660,8 +649,8 @@
 <tr>
 <td align="right">1776</td>
 <td>#</td>
-  <td><a href="https://en.wikipedia.org/wiki/Nottingham_cheese_riot">Nottingham Cheese Riot</a></td>
-<td>local citizens vs. Merchants</td>
+<td><a href="https://en.wikipedia.org/wiki/Nottingham_cheese_riot">Nottingham Cheese Riot</a></td>
+<td>local citizens opposing merchants</td>
 <td>military intervention</td>
 <td>Nottingham / Northern England</td>
 <td>Nottingham / England / Britian</td>
