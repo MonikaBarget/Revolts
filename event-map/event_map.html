@@ -1,0 +1,2843 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/MarkerCluster.css">
+        <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+        <link rel="stylesheet" href="css/leaflet-search.css">
+        <link rel="stylesheet" href="css/filter.css">
+<link rel="stylesheet" href="css/nouislider.min.css">
+        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <section align="right">
+           <div id="text" style="text-align:left; color:black; font-family:Arial, Helvetica, sans-serif; font-size: 11;">
+               <p><strong>Selected conflicts in the British Empire -- ca. 1500 to 1819</strong><hr>The <strong>colour scheme</strong> reflects different types of events which can be (de)selected in the <strong>filters</strong>. 
+               The categories are subject to interpretation and simplification of the insurgents' motives.
+               <strong>Event descriptions</strong> in the labels are based on Wikidata / Wikipedia entries or item abstracts provided by the National Archives of the UK. Sources are indicated in the item labels. 
+               Checking and updating the data is an on-going process. The current version of the geocoded data can be downloaded in <a href="https://github.com/MonikaBarget/Revolts/tree/master/GeoJSON_map_layers" target="_blank">GeoJSON format</a>.
+               <hr>
+               The <strong>MAGNIFYING GLASS</strong> permits searches for locations by place name. Clicking on a place name in the dropdown menu re-centers the map accordingly.
+               </p>
+           </div>
+        </section> 
+        <style>
+        html, body, #map {
+            width: 99.5%;
+            height: 95%;
+            padding: 3;
+            margin: 2;
+        }
+        </style>
+        <title>Selected conflicts in the British Empire -- ca. 1500 to 1819</title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
+        <script src="js/leaflet.markercluster.js"></script>
+        <script src="js/leaflet-search.js"></script>
+        <script src="js/tailDT.js"></script>
+<script src="js/nouislider.min.js"></script>
+<script src="js/wNumb.js"></script>
+        <script src="data/witchhunt_1.js"></script>
+        <script src="data/trespassing_2.js"></script>
+        <script src="data/supplementaryconflict_3.js"></script>
+        <script src="data/socialeconomic_4.js"></script>
+        <script src="data/slaveryrightsoffreedslaves_5.js"></script>
+        <script src="data/religionculturalidentity_6.js"></script>
+        <script src="data/privateeringpiracy_7.js"></script>
+        <script src="data/prisonsprisoners_8.js"></script>
+        <script src="data/politicalfreedoms_9.js"></script>
+        <script src="data/personalgain_10.js"></script>
+        <script src="data/personaldisputes_11.js"></script>
+        <script src="data/militaryregulationspeacekeeping_12.js"></script>
+        <script src="data/mentalillness_13.js"></script>
+        <script src="data/lawenforcement_14.js"></script>
+        <script src="data/involvingclans_15.js"></script>
+        <script src="data/government_16.js"></script>
+        <script src="data/elections_17.js"></script>
+        <script src="data/drunkenness_18.js"></script>
+        <script src="data/contextunclear_19.js"></script>
+        <script src="data/colonialexpansion_20.js"></script>
+        <script src="data/bloodsport_21.js"></script>
+        <script src="data/allegedplanned_22.js"></script>
+        <script>
+        var highlightLayer;
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+
+            if (e.target.feature.geometry.type === 'LineString') {
+              highlightLayer.setStyle({
+                color: '#ffff00',
+              });
+            } else {
+              highlightLayer.setStyle({
+                fillColor: '#ffff00',
+                fillOpacity: 1
+              });
+            }
+            highlightLayer.openPopup();
+        }
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:27, minZoom:1
+        }).fitBounds([[42.61661674151335,-55.71962889162443],[56.03836798108707,-9.833253802984855]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_OSMStandard_0');
+        map.getPane('pane_OSMStandard_0').style.zIndex = 400;
+        var layer_OSMStandard_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            pane: 'pane_OSMStandard_0',
+            opacity: 1.0,
+            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            minZoom: 1,
+            maxZoom: 27,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OSMStandard_0;
+        map.addLayer(layer_OSMStandard_0);
+        function pop_witchhunt_1(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_witchhunt_1_0() {
+            return {
+                pane: 'pane_witchhunt_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,158,23,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_witchhunt_1');
+        map.getPane('pane_witchhunt_1').style.zIndex = 401;
+        map.getPane('pane_witchhunt_1').style['mix-blend-mode'] = 'normal';
+        var layer_witchhunt_1 = new L.geoJson(json_witchhunt_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_witchhunt_1',
+            layerName: 'layer_witchhunt_1',
+            pane: 'pane_witchhunt_1',
+            onEachFeature: pop_witchhunt_1,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_witchhunt_1_0(feature));
+            },
+        });
+        var cluster_witchhunt_1 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_witchhunt_1.addLayer(layer_witchhunt_1);
+
+        bounds_group.addLayer(layer_witchhunt_1);
+        cluster_witchhunt_1.addTo(map);
+        function pop_trespassing_2(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_trespassing_2_0() {
+            return {
+                pane: 'pane_trespassing_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(232,113,141,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_trespassing_2');
+        map.getPane('pane_trespassing_2').style.zIndex = 402;
+        map.getPane('pane_trespassing_2').style['mix-blend-mode'] = 'normal';
+        var layer_trespassing_2 = new L.geoJson(json_trespassing_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_trespassing_2',
+            layerName: 'layer_trespassing_2',
+            pane: 'pane_trespassing_2',
+            onEachFeature: pop_trespassing_2,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_trespassing_2_0(feature));
+            },
+        });
+        var cluster_trespassing_2 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_trespassing_2.addLayer(layer_trespassing_2);
+
+        bounds_group.addLayer(layer_trespassing_2);
+        cluster_trespassing_2.addTo(map);
+        function pop_supplementaryconflict_3(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_supplementaryconflict_3_0() {
+            return {
+                pane: 'pane_supplementaryconflict_3',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(141,90,153,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_supplementaryconflict_3');
+        map.getPane('pane_supplementaryconflict_3').style.zIndex = 403;
+        map.getPane('pane_supplementaryconflict_3').style['mix-blend-mode'] = 'normal';
+        var layer_supplementaryconflict_3 = new L.geoJson(json_supplementaryconflict_3, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_supplementaryconflict_3',
+            layerName: 'layer_supplementaryconflict_3',
+            pane: 'pane_supplementaryconflict_3',
+            onEachFeature: pop_supplementaryconflict_3,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_supplementaryconflict_3_0(feature));
+            },
+        });
+        var cluster_supplementaryconflict_3 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_supplementaryconflict_3.addLayer(layer_supplementaryconflict_3);
+
+        bounds_group.addLayer(layer_supplementaryconflict_3);
+        cluster_supplementaryconflict_3.addTo(map);
+        function pop_socialeconomic_4(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_socialeconomic_4_0() {
+            return {
+                pane: 'pane_socialeconomic_4',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(243,166,178,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_socialeconomic_4');
+        map.getPane('pane_socialeconomic_4').style.zIndex = 404;
+        map.getPane('pane_socialeconomic_4').style['mix-blend-mode'] = 'normal';
+        var layer_socialeconomic_4 = new L.geoJson(json_socialeconomic_4, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_socialeconomic_4',
+            layerName: 'layer_socialeconomic_4',
+            pane: 'pane_socialeconomic_4',
+            onEachFeature: pop_socialeconomic_4,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_socialeconomic_4_0(feature));
+            },
+        });
+        var cluster_socialeconomic_4 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_socialeconomic_4.addLayer(layer_socialeconomic_4);
+
+        bounds_group.addLayer(layer_socialeconomic_4);
+        cluster_socialeconomic_4.addTo(map);
+        function pop_slaveryrightsoffreedslaves_5(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_slaveryrightsoffreedslaves_5_0() {
+            return {
+                pane: 'pane_slaveryrightsoffreedslaves_5',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(114,155,111,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_slaveryrightsoffreedslaves_5');
+        map.getPane('pane_slaveryrightsoffreedslaves_5').style.zIndex = 405;
+        map.getPane('pane_slaveryrightsoffreedslaves_5').style['mix-blend-mode'] = 'normal';
+        var layer_slaveryrightsoffreedslaves_5 = new L.geoJson(json_slaveryrightsoffreedslaves_5, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_slaveryrightsoffreedslaves_5',
+            layerName: 'layer_slaveryrightsoffreedslaves_5',
+            pane: 'pane_slaveryrightsoffreedslaves_5',
+            onEachFeature: pop_slaveryrightsoffreedslaves_5,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_slaveryrightsoffreedslaves_5_0(feature));
+            },
+        });
+        var cluster_slaveryrightsoffreedslaves_5 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_slaveryrightsoffreedslaves_5.addLayer(layer_slaveryrightsoffreedslaves_5);
+
+        bounds_group.addLayer(layer_slaveryrightsoffreedslaves_5);
+        cluster_slaveryrightsoffreedslaves_5.addTo(map);
+        function pop_religionculturalidentity_6(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_religionculturalidentity_6_0() {
+            return {
+                pane: 'pane_religionculturalidentity_6',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(213,180,60,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_religionculturalidentity_6');
+        map.getPane('pane_religionculturalidentity_6').style.zIndex = 406;
+        map.getPane('pane_religionculturalidentity_6').style['mix-blend-mode'] = 'normal';
+        var layer_religionculturalidentity_6 = new L.geoJson(json_religionculturalidentity_6, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_religionculturalidentity_6',
+            layerName: 'layer_religionculturalidentity_6',
+            pane: 'pane_religionculturalidentity_6',
+            onEachFeature: pop_religionculturalidentity_6,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_religionculturalidentity_6_0(feature));
+            },
+        });
+        var cluster_religionculturalidentity_6 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_religionculturalidentity_6.addLayer(layer_religionculturalidentity_6);
+
+        bounds_group.addLayer(layer_religionculturalidentity_6);
+        cluster_religionculturalidentity_6.addTo(map);
+        function pop_privateeringpiracy_7(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_privateeringpiracy_7_0() {
+            return {
+                pane: 'pane_privateeringpiracy_7',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(164,113,88,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_privateeringpiracy_7');
+        map.getPane('pane_privateeringpiracy_7').style.zIndex = 407;
+        map.getPane('pane_privateeringpiracy_7').style['mix-blend-mode'] = 'normal';
+        var layer_privateeringpiracy_7 = new L.geoJson(json_privateeringpiracy_7, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_privateeringpiracy_7',
+            layerName: 'layer_privateeringpiracy_7',
+            pane: 'pane_privateeringpiracy_7',
+            onEachFeature: pop_privateeringpiracy_7,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_privateeringpiracy_7_0(feature));
+            },
+        });
+        var cluster_privateeringpiracy_7 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_privateeringpiracy_7.addLayer(layer_privateeringpiracy_7);
+
+        bounds_group.addLayer(layer_privateeringpiracy_7);
+        cluster_privateeringpiracy_7.addTo(map);
+        function pop_prisonsprisoners_8(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_prisonsprisoners_8_0() {
+            return {
+                pane: 'pane_prisonsprisoners_8',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,182,111,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_prisonsprisoners_8');
+        map.getPane('pane_prisonsprisoners_8').style.zIndex = 408;
+        map.getPane('pane_prisonsprisoners_8').style['mix-blend-mode'] = 'normal';
+        var layer_prisonsprisoners_8 = new L.geoJson(json_prisonsprisoners_8, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_prisonsprisoners_8',
+            layerName: 'layer_prisonsprisoners_8',
+            pane: 'pane_prisonsprisoners_8',
+            onEachFeature: pop_prisonsprisoners_8,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_prisonsprisoners_8_0(feature));
+            },
+        });
+        var cluster_prisonsprisoners_8 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_prisonsprisoners_8.addLayer(layer_prisonsprisoners_8);
+
+        bounds_group.addLayer(layer_prisonsprisoners_8);
+        cluster_prisonsprisoners_8.addTo(map);
+        function pop_politicalfreedoms_9(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_politicalfreedoms_9_0() {
+            return {
+                pane: 'pane_politicalfreedoms_9',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(125,139,143,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_politicalfreedoms_9');
+        map.getPane('pane_politicalfreedoms_9').style.zIndex = 409;
+        map.getPane('pane_politicalfreedoms_9').style['mix-blend-mode'] = 'normal';
+        var layer_politicalfreedoms_9 = new L.geoJson(json_politicalfreedoms_9, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_politicalfreedoms_9',
+            layerName: 'layer_politicalfreedoms_9',
+            pane: 'pane_politicalfreedoms_9',
+            onEachFeature: pop_politicalfreedoms_9,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_politicalfreedoms_9_0(feature));
+            },
+        });
+        var cluster_politicalfreedoms_9 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_politicalfreedoms_9.addLayer(layer_politicalfreedoms_9);
+
+        bounds_group.addLayer(layer_politicalfreedoms_9);
+        cluster_politicalfreedoms_9.addTo(map);
+        function pop_personalgain_10(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_personalgain_10_0() {
+            return {
+                pane: 'pane_personalgain_10',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(145,82,45,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_personalgain_10');
+        map.getPane('pane_personalgain_10').style.zIndex = 410;
+        map.getPane('pane_personalgain_10').style['mix-blend-mode'] = 'normal';
+        var layer_personalgain_10 = new L.geoJson(json_personalgain_10, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_personalgain_10',
+            layerName: 'layer_personalgain_10',
+            pane: 'pane_personalgain_10',
+            onEachFeature: pop_personalgain_10,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_personalgain_10_0(feature));
+            },
+        });
+        var cluster_personalgain_10 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_personalgain_10.addLayer(layer_personalgain_10);
+
+        bounds_group.addLayer(layer_personalgain_10);
+        cluster_personalgain_10.addTo(map);
+        function pop_personaldisputes_11(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_personaldisputes_11_0() {
+            return {
+                pane: 'pane_personaldisputes_11',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(190,178,151,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_personaldisputes_11');
+        map.getPane('pane_personaldisputes_11').style.zIndex = 411;
+        map.getPane('pane_personaldisputes_11').style['mix-blend-mode'] = 'normal';
+        var layer_personaldisputes_11 = new L.geoJson(json_personaldisputes_11, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_personaldisputes_11',
+            layerName: 'layer_personaldisputes_11',
+            pane: 'pane_personaldisputes_11',
+            onEachFeature: pop_personaldisputes_11,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_personaldisputes_11_0(feature));
+            },
+        });
+        var cluster_personaldisputes_11 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_personaldisputes_11.addLayer(layer_personaldisputes_11);
+
+        bounds_group.addLayer(layer_personaldisputes_11);
+        cluster_personaldisputes_11.addTo(map);
+        function pop_militaryregulationspeacekeeping_12(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_militaryregulationspeacekeeping_12_0() {
+            return {
+                pane: 'pane_militaryregulationspeacekeeping_12',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(196,60,57,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_militaryregulationspeacekeeping_12');
+        map.getPane('pane_militaryregulationspeacekeeping_12').style.zIndex = 412;
+        map.getPane('pane_militaryregulationspeacekeeping_12').style['mix-blend-mode'] = 'normal';
+        var layer_militaryregulationspeacekeeping_12 = new L.geoJson(json_militaryregulationspeacekeeping_12, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_militaryregulationspeacekeeping_12',
+            layerName: 'layer_militaryregulationspeacekeeping_12',
+            pane: 'pane_militaryregulationspeacekeeping_12',
+            onEachFeature: pop_militaryregulationspeacekeeping_12,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_militaryregulationspeacekeeping_12_0(feature));
+            },
+        });
+        var cluster_militaryregulationspeacekeeping_12 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_militaryregulationspeacekeeping_12.addLayer(layer_militaryregulationspeacekeeping_12);
+
+        bounds_group.addLayer(layer_militaryregulationspeacekeeping_12);
+        cluster_militaryregulationspeacekeeping_12.addTo(map);
+        function pop_mentalillness_13(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_mentalillness_13_0() {
+            return {
+                pane: 'pane_mentalillness_13',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(229,182,54,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_mentalillness_13');
+        map.getPane('pane_mentalillness_13').style.zIndex = 413;
+        map.getPane('pane_mentalillness_13').style['mix-blend-mode'] = 'normal';
+        var layer_mentalillness_13 = new L.geoJson(json_mentalillness_13, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_mentalillness_13',
+            layerName: 'layer_mentalillness_13',
+            pane: 'pane_mentalillness_13',
+            onEachFeature: pop_mentalillness_13,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_mentalillness_13_0(feature));
+            },
+        });
+        var cluster_mentalillness_13 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_mentalillness_13.addLayer(layer_mentalillness_13);
+
+        bounds_group.addLayer(layer_mentalillness_13);
+        cluster_mentalillness_13.addTo(map);
+        function pop_lawenforcement_14(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_lawenforcement_14_0() {
+            return {
+                pane: 'pane_lawenforcement_14',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(225,89,137,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_lawenforcement_14');
+        map.getPane('pane_lawenforcement_14').style.zIndex = 414;
+        map.getPane('pane_lawenforcement_14').style['mix-blend-mode'] = 'normal';
+        var layer_lawenforcement_14 = new L.geoJson(json_lawenforcement_14, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_lawenforcement_14',
+            layerName: 'layer_lawenforcement_14',
+            pane: 'pane_lawenforcement_14',
+            onEachFeature: pop_lawenforcement_14,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_lawenforcement_14_0(feature));
+            },
+        });
+        var cluster_lawenforcement_14 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_lawenforcement_14.addLayer(layer_lawenforcement_14);
+
+        bounds_group.addLayer(layer_lawenforcement_14);
+        cluster_lawenforcement_14.addTo(map);
+        function pop_involvingclans_15(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_involvingclans_15_0() {
+            return {
+                pane: 'pane_involvingclans_15',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(190,207,80,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_involvingclans_15');
+        map.getPane('pane_involvingclans_15').style.zIndex = 415;
+        map.getPane('pane_involvingclans_15').style['mix-blend-mode'] = 'normal';
+        var layer_involvingclans_15 = new L.geoJson(json_involvingclans_15, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_involvingclans_15',
+            layerName: 'layer_involvingclans_15',
+            pane: 'pane_involvingclans_15',
+            onEachFeature: pop_involvingclans_15,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_involvingclans_15_0(feature));
+            },
+        });
+        var cluster_involvingclans_15 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_involvingclans_15.addLayer(layer_involvingclans_15);
+
+        bounds_group.addLayer(layer_involvingclans_15);
+        cluster_involvingclans_15.addTo(map);
+        function pop_government_16(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_government_16_0() {
+            return {
+                pane: 'pane_government_16',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(152,125,183,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_government_16');
+        map.getPane('pane_government_16').style.zIndex = 416;
+        map.getPane('pane_government_16').style['mix-blend-mode'] = 'normal';
+        var layer_government_16 = new L.geoJson(json_government_16, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_government_16',
+            layerName: 'layer_government_16',
+            pane: 'pane_government_16',
+            onEachFeature: pop_government_16,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_government_16_0(feature));
+            },
+        });
+        var cluster_government_16 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_government_16.addLayer(layer_government_16);
+
+        bounds_group.addLayer(layer_government_16);
+        cluster_government_16.addTo(map);
+        function pop_elections_17(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_elections_17_0() {
+            return {
+                pane: 'pane_elections_17',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(231,113,72,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_elections_17');
+        map.getPane('pane_elections_17').style.zIndex = 417;
+        map.getPane('pane_elections_17').style['mix-blend-mode'] = 'normal';
+        var layer_elections_17 = new L.geoJson(json_elections_17, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_elections_17',
+            layerName: 'layer_elections_17',
+            pane: 'pane_elections_17',
+            onEachFeature: pop_elections_17,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_elections_17_0(feature));
+            },
+        });
+        var cluster_elections_17 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_elections_17.addLayer(layer_elections_17);
+
+        bounds_group.addLayer(layer_elections_17);
+        cluster_elections_17.addTo(map);
+        function pop_drunkenness_18(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_drunkenness_18_0() {
+            return {
+                pane: 'pane_drunkenness_18',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(183,72,75,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_drunkenness_18');
+        map.getPane('pane_drunkenness_18').style.zIndex = 418;
+        map.getPane('pane_drunkenness_18').style['mix-blend-mode'] = 'normal';
+        var layer_drunkenness_18 = new L.geoJson(json_drunkenness_18, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_drunkenness_18',
+            layerName: 'layer_drunkenness_18',
+            pane: 'pane_drunkenness_18',
+            onEachFeature: pop_drunkenness_18,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_drunkenness_18_0(feature));
+            },
+        });
+        var cluster_drunkenness_18 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_drunkenness_18.addLayer(layer_drunkenness_18);
+
+        bounds_group.addLayer(layer_drunkenness_18);
+        cluster_drunkenness_18.addTo(map);
+        function pop_contextunclear_19(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_contextunclear_19_0() {
+            return {
+                pane: 'pane_contextunclear_19',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(232,113,141,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_contextunclear_19');
+        map.getPane('pane_contextunclear_19').style.zIndex = 419;
+        map.getPane('pane_contextunclear_19').style['mix-blend-mode'] = 'normal';
+        var layer_contextunclear_19 = new L.geoJson(json_contextunclear_19, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_contextunclear_19',
+            layerName: 'layer_contextunclear_19',
+            pane: 'pane_contextunclear_19',
+            onEachFeature: pop_contextunclear_19,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_contextunclear_19_0(feature));
+            },
+        });
+        var cluster_contextunclear_19 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_contextunclear_19.addLayer(layer_contextunclear_19);
+
+        bounds_group.addLayer(layer_contextunclear_19);
+        cluster_contextunclear_19.addTo(map);
+        function pop_colonialexpansion_20(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_colonialexpansion_20_0() {
+            return {
+                pane: 'pane_colonialexpansion_20',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(141,90,153,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_colonialexpansion_20');
+        map.getPane('pane_colonialexpansion_20').style.zIndex = 420;
+        map.getPane('pane_colonialexpansion_20').style['mix-blend-mode'] = 'normal';
+        var layer_colonialexpansion_20 = new L.geoJson(json_colonialexpansion_20, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_colonialexpansion_20',
+            layerName: 'layer_colonialexpansion_20',
+            pane: 'pane_colonialexpansion_20',
+            onEachFeature: pop_colonialexpansion_20,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_colonialexpansion_20_0(feature));
+            },
+        });
+        var cluster_colonialexpansion_20 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_colonialexpansion_20.addLayer(layer_colonialexpansion_20);
+
+        bounds_group.addLayer(layer_colonialexpansion_20);
+        cluster_colonialexpansion_20.addTo(map);
+        function pop_bloodsport_21(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_bloodsport_21_0() {
+            return {
+                pane: 'pane_bloodsport_21',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(243,166,178,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_bloodsport_21');
+        map.getPane('pane_bloodsport_21').style.zIndex = 421;
+        map.getPane('pane_bloodsport_21').style['mix-blend-mode'] = 'normal';
+        var layer_bloodsport_21 = new L.geoJson(json_bloodsport_21, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_bloodsport_21',
+            layerName: 'layer_bloodsport_21',
+            pane: 'pane_bloodsport_21',
+            onEachFeature: pop_bloodsport_21,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_bloodsport_21_0(feature));
+            },
+        });
+        var cluster_bloodsport_21 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_bloodsport_21.addLayer(layer_bloodsport_21);
+
+        bounds_group.addLayer(layer_bloodsport_21);
+        cluster_bloodsport_21.addTo(map);
+        function pop_allegedplanned_22(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">From</th>\
+                        <td>' + (feature.properties['From'] !== null ? autolinker.link(feature.properties['From'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">to</th>\
+                        <td>' + (feature.properties['to'] !== null ? autolinker.link(feature.properties['to'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Agents'] !== null ? autolinker.link(feature.properties['Agents'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Results'] !== null ? autolinker.link(feature.properties['Results'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label'] !== null ? autolinker.link(feature.properties['Label'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Place (modern)'] !== null ? autolinker.link(feature.properties['Place (modern)'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Historic affiliation'] !== null ? autolinker.link(feature.properties['Historic affiliation'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Archival sources'] !== null ? autolinker.link(feature.properties['Archival sources'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['WIKIDATA ENTITY ID'] !== null ? autolinker.link(feature.properties['WIKIDATA ENTITY ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_allegedplanned_22_0() {
+            return {
+                pane: 'pane_allegedplanned_22',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(114,155,111,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_allegedplanned_22');
+        map.getPane('pane_allegedplanned_22').style.zIndex = 422;
+        map.getPane('pane_allegedplanned_22').style['mix-blend-mode'] = 'normal';
+        var layer_allegedplanned_22 = new L.geoJson(json_allegedplanned_22, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_allegedplanned_22',
+            layerName: 'layer_allegedplanned_22',
+            pane: 'pane_allegedplanned_22',
+            onEachFeature: pop_allegedplanned_22,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_allegedplanned_22_0(feature));
+            },
+        });
+        var cluster_allegedplanned_22 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_allegedplanned_22.addLayer(layer_allegedplanned_22);
+
+        bounds_group.addLayer(layer_allegedplanned_22);
+        cluster_allegedplanned_22.addTo(map);
+        var osmGeocoder = new L.Control.Geocoder({
+            collapsed: true,
+            position: 'topleft',
+            text: 'Search',
+            title: 'Testing'
+        }).addTo(map);
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .className += ' fa fa-search';
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .title += 'Search for a place';
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'<img src="legend/allegedplanned_22.png" /> alleged / planned': cluster_allegedplanned_22,'<img src="legend/bloodsport_21.png" /> blood sport': cluster_bloodsport_21,'<img src="legend/colonialexpansion_20.png" /> colonial expansion ': cluster_colonialexpansion_20,'<img src="legend/contextunclear_19.png" /> context unclear': cluster_contextunclear_19,'<img src="legend/drunkenness_18.png" /> drunkenness': cluster_drunkenness_18,'<img src="legend/elections_17.png" /> elections': cluster_elections_17,'<img src="legend/government_16.png" /> government': cluster_government_16,'<img src="legend/involvingclans_15.png" /> involving clans': cluster_involvingclans_15,'<img src="legend/lawenforcement_14.png" /> law enforcement': cluster_lawenforcement_14,'<img src="legend/mentalillness_13.png" /> mental illness': cluster_mentalillness_13,'<img src="legend/militaryregulationspeacekeeping_12.png" /> military regulations / peace-keeping': cluster_militaryregulationspeacekeeping_12,'<img src="legend/personaldisputes_11.png" /> personal disputes': cluster_personaldisputes_11,'<img src="legend/personalgain_10.png" /> personal gain': cluster_personalgain_10,'<img src="legend/politicalfreedoms_9.png" /> political freedoms': cluster_politicalfreedoms_9,'<img src="legend/prisonsprisoners_8.png" /> prisons / prisoners': cluster_prisonsprisoners_8,'<img src="legend/privateeringpiracy_7.png" /> privateering / piracy': cluster_privateeringpiracy_7,'<img src="legend/religionculturalidentity_6.png" /> religion / cultural identity': cluster_religionculturalidentity_6,'<img src="legend/slaveryrightsoffreedslaves_5.png" /> slavery / rights of freed slaves': cluster_slaveryrightsoffreedslaves_5,'<img src="legend/socialeconomic_4.png" /> social / economic': cluster_socialeconomic_4,'<img src="legend/supplementaryconflict_3.png" /> supplementary conflict': cluster_supplementaryconflict_3,'<img src="legend/trespassing_2.png" /> trespassing': cluster_trespassing_2,'<img src="legend/witchhunt_1.png" /> witch hunt': cluster_witchhunt_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        map.addControl(new L.Control.Search({
+            layer: cluster_social_economic_4,
+            initial: false,
+            hideMarkerOnCollapse: true,
+            propertyName: 'Name'}));
+        document.getElementsByClassName('search-button')[0].className +=
+         ' fa fa-binoculars';
+        var mapDiv = document.getElementById('map');
+        var row = document.createElement('div');
+        row.className="row";
+        row.id="all";
+        row.style.height = "100%";
+        var col1 = document.createElement('div');
+        col1.className="col9";
+        col1.id = "mapWindow";
+        col1.style.height = "99%";
+        col1.style.width = "80%";
+        col1.style.display = "inline-block";
+        var col2 = document.createElement('div');
+        col2.className="col3";
+        col2.id = "menu";
+        col2.style.display = "inline-block";
+        mapDiv.parentNode.insertBefore(row, mapDiv);
+        document.getElementById("all").appendChild(col1);
+        document.getElementById("all").appendChild(col2);
+        col1.appendChild(mapDiv)
+        var Filters = {"Name": "str"};
+        function filterFunc() {
+          map.eachLayer(function(lyr){
+          if ("options" in lyr && "dataVar" in lyr["options"]){
+            features = this[lyr["options"]["dataVar"]].features.slice(0);
+            try{
+              for (key in Filters){
+                keyS = key.replace(/[^a-zA-Z0-9_]/g, "")
+                if (Filters[key] == "str" || Filters[key] == "bool"){
+                  var selection = [];
+                  var options = document.getElementById("sel_" + keyS).options
+                  for (var i=0; i < options.length; i++) {
+                    if (options[i].selected) selection.push(options[i].value);
+                  }
+                    try{
+                      if (key in features[0].properties){
+                        for (i = features.length - 1;
+                          i >= 0; --i){
+                          if (selection.indexOf(
+                          features[i].properties[key])<0
+                          && selection.length>0) {
+                          features.splice(i,1);
+                          }
+                        }
+                      }
+                    } catch(err){
+                  }
+                }
+                if (Filters[key] == "int"){
+                  sliderVals =  document.getElementById(
+                    "div_" + keyS).noUiSlider.get();
+                  try{
+                    if (key in features[0].properties){
+                    for (i = features.length - 1; i >= 0; --i){
+                      if (parseInt(features[i].properties[key])
+                          < sliderVals[0]
+                          || parseInt(features[i].properties[key])
+                          > sliderVals[1]){
+                            features.splice(i,1);
+                          }
+                        }
+                      }
+                    } catch(err){
+                    }
+                  }
+                if (Filters[key] == "real"){
+                  sliderVals =  document.getElementById(
+                    "div_" + keyS).noUiSlider.get();
+                  try{
+                    if (key in features[0].properties){
+                    for (i = features.length - 1; i >= 0; --i){
+                      if (features[i].properties[key]
+                          < sliderVals[0]
+                          || features[i].properties[key]
+                          > sliderVals[1]){
+                            features.splice(i,1);
+                          }
+                        }
+                      }
+                    } catch(err){
+                    }
+                  }
+                if (Filters[key] == "date"
+                  || Filters[key] == "datetime"
+                  || Filters[key] == "time"){
+                  try{
+                    if (key in features[0].properties){
+                      HTMLkey = key.replace(/[&\/\\#,+()$~%.'":*?<>{} ]/g, '');
+                      startdate = document.getElementById("dat_" +
+                        HTMLkey + "_date1").value.replace(" ", "T");
+                      enddate = document.getElementById("dat_" +
+                        HTMLkey + "_date2").value.replace(" ", "T");
+                      for (i = features.length - 1; i >= 0; --i){
+                        if (features[i].properties[key] < startdate
+                          || features[i].properties[key] > enddate){
+                          features.splice(i,1);
+                        }
+                      }
+                    }
+                  } catch(err){
+                  }
+                }
+              }
+            } catch(err){
+            }
+          this[lyr["options"]["layerName"]].clearLayers();
+          this[lyr["options"]["layerName"]].addData(features);
+          }
+          })
+        }
+            document.getElementById("menu").appendChild(
+                document.createElement("div"));
+            var div_Name = document.createElement('div');
+            div_Name.id = "div_Name";
+            div_Name.className= "filterselect";
+            document.getElementById("menu").appendChild(div_Name);
+            sel_Name = document.createElement('select');
+            sel_Name.multiple = true;
+            sel_Name.size = 10;
+            sel_Name.id = "sel_Name";
+            var Name_options_str = "<option value='' unselected></option>";
+            sel_Name.onchange = function(){filterFunc()};
+            Name_options_str  += '<option value="(Jacobite) Riots / Thomas Bean Riot">(Jacobite) Riots / Thomas Bean Riot</option>';
+            Name_options_str  += '<option value="(Rumoured) Gin Act Riots">(Rumoured) Gin Act Riots</option>';
+            Name_options_str  += '<option value="(alleged) Jacobin Plot">(alleged) Jacobin Plot</option>';
+            Name_options_str  += '<option value="(intended) Queen&apos;s Birthday Riot">(intended) Queen&apos;s Birthday Riot</option>';
+            Name_options_str  += '<option value="(unsuccessful) New York Slave Revolt of 1712">(unsuccessful) New York Slave Revolt of 1712</option>';
+            Name_options_str  += '<option value="1715 England Riots / Rebellion Riots">1715 England Riots / Rebellion Riots</option>';
+            Name_options_str  += '<option value="1803 rebellion / Rising of Robert Emmet">1803 rebellion / Rising of Robert Emmet</option>';
+            Name_options_str  += '<option value="Abaco Slave Revolt">Abaco Slave Revolt</option>';
+            Name_options_str  += '<option value="Accession day riot">Accession day riot</option>';
+            Name_options_str  += '<option value="Action at Osborne&apos;s">Action at Osborne&apos;s</option>';
+            Name_options_str  += '<option value="Action of 17 July 1628">Action of 17 July 1628</option>';
+            Name_options_str  += '<option value="Action of 29 April 1758">Action of 29 April 1758</option>';
+            Name_options_str  += '<option value="Action of 7 June 1780">Action of 7 June 1780</option>';
+            Name_options_str  += '<option value="Action of 9 February 1799">Action of 9 February 1799</option>';
+            Name_options_str  += '<option value="Alleged French Invasion">Alleged French Invasion</option>';
+            Name_options_str  += '<option value="Alleged corn or bread riot">Alleged corn or bread riot</option>';
+            Name_options_str  += '<option value="Alleged plot of the "Popish Midwife"">Alleged plot of the "Popish Midwife"</option>';
+            Name_options_str  += '<option value="Alleged riot at Thurso">Alleged riot at Thurso</option>';
+            Name_options_str  += '<option value="Alleged riot plans by John Martin">Alleged riot plans by John Martin</option>';
+            Name_options_str  += '<option value="American Revolution">American Revolution</option>';
+            Name_options_str  += '<option value="Ancicipated food riot">Ancicipated food riot</option>';
+            Name_options_str  += '<option value="Anniversary of accession riot">Anniversary of accession riot</option>';
+            Name_options_str  += '<option value="Anticipated Riot">Anticipated Riot</option>';
+            Name_options_str  += '<option value="Anticipated Riots">Anticipated Riots</option>';
+            Name_options_str  += '<option value="Anticipated food riots">Anticipated food riots</option>';
+            Name_options_str  += '<option value="Anticipated riot">Anticipated riot</option>';
+            Name_options_str  += '<option value="Anticipated riot of manufacturers and common people">Anticipated riot of manufacturers and common people</option>';
+            Name_options_str  += '<option value="Anticipated riots">Anticipated riots</option>';
+            Name_options_str  += '<option value="Anticipated riots against law enforcement">Anticipated riots against law enforcement</option>';
+            Name_options_str  += '<option value="Anticipated sailors&apos; riot">Anticipated sailors&apos; riot</option>';
+            Name_options_str  += '<option value="Anticipated tinners&apos; riot">Anticipated tinners&apos; riot</option>';
+            Name_options_str  += '<option value="Apprentices&apos; riot in Plymouth">Apprentices&apos; riot in Plymouth</option>';
+            Name_options_str  += '<option value="Argyll Rebellion">Argyll Rebellion</option>';
+            Name_options_str  += '<option value="Assault and riot">Assault and riot</option>';
+            Name_options_str  += '<option value="Atholl raids">Atholl raids</option>';
+            Name_options_str  += '<option value="Attack on James Scott">Attack on James Scott</option>';
+            Name_options_str  += '<option value="Attempt to rescue prisoners and riot">Attempt to rescue prisoners and riot</option>';
+            Name_options_str  += '<option value="Attempted riot">Attempted riot</option>';
+            Name_options_str  += '<option value="Atterbury Plot">Atterbury Plot</option>';
+            Name_options_str  += '<option value="Bacon&apos;s Rebellion / Virginia Rebellion">Bacon&apos;s Rebellion / Virginia Rebellion</option>';
+            Name_options_str  += '<option value="Bali street incident">Bali street incident</option>';
+            Name_options_str  += '<option value="Ball riot">Ball riot</option>';
+            Name_options_str  += '<option value="Banker (canal construction worker) riot">Banker (canal construction worker) riot</option>';
+            Name_options_str  += '<option value="Bankers&apos; riot">Bankers&apos; riot</option>';
+            Name_options_str  += '<option value="Bastille Day Commemorations on July 14">Bastille Day Commemorations on July 14</option>';
+            Name_options_str  += '<option value="Battle at Chignecto">Battle at Chignecto</option>';
+            Name_options_str  += '<option value="Battle at the Yadkin River">Battle at the Yadkin River</option>';
+            Name_options_str  += '<option value="Battle of Alamance">Battle of Alamance</option>';
+            Name_options_str  += '<option value="Battle of Ardnaree">Battle of Ardnaree</option>';
+            Name_options_str  += '<option value="Battle of Bayona Islands (Spanish fleet against Anglo-Dutch battle ships)">Battle of Bayona Islands (Spanish fleet against Anglo-Dutch battle ships)</option>';
+            Name_options_str  += '<option value="Battle of Blomindon / Battle off Cape Split">Battle of Blomindon / Battle off Cape Split</option>';
+            Name_options_str  += '<option value="Battle of Bloody Run">Battle of Bloody Run</option>';
+            Name_options_str  += '<option value="Battle of Bun Garbhain">Battle of Bun Garbhain</option>';
+            Name_options_str  += '<option value="Battle of Calicut">Battle of Calicut</option>';
+            Name_options_str  += '<option value="Battle of Cape Lopez">Battle of Cape Lopez</option>';
+            Name_options_str  += '<option value="Battle of Carinish">Battle of Carinish</option>';
+            Name_options_str  += '<option value="Battle of Dornoch">Battle of Dornoch</option>';
+            Name_options_str  += '<option value="Battle of Dryfe Sands">Battle of Dryfe Sands</option>';
+            Name_options_str  += '<option value="Battle of Falmouth">Battle of Falmouth</option>';
+            Name_options_str  += '<option value="Battle of Garbharry">Battle of Garbharry</option>';
+            Name_options_str  += '<option value="Battle of Glen Affric">Battle of Glen Affric</option>';
+            Name_options_str  += '<option value="Battle of Glendale">Battle of Glendale</option>';
+            Name_options_str  += '<option value="Battle of Hightower">Battle of Hightower</option>';
+            Name_options_str  += '<option value="Battle of Kilmacrennan">Battle of Kilmacrennan</option>';
+            Name_options_str  += '<option value="Battle of Knockavoe">Battle of Knockavoe</option>';
+            Name_options_str  += '<option value="Battle of Lexington and Concord">Battle of Lexington and Concord</option>';
+            Name_options_str  += '<option value="Battle of Logiebride / Tumult in Ross">Battle of Logiebride / Tumult in Ross</option>';
+            Name_options_str  += '<option value="Battle of Melrose">Battle of Melrose</option>';
+            Name_options_str  += '<option value="Battle of Padmanabham">Battle of Padmanabham</option>';
+            Name_options_str  += '<option value="Battle of Pine&apos;s Bridge">Battle of Pine&apos;s Bridge</option>';
+            Name_options_str  += '<option value="Battle of Point Pelee">Battle of Point Pelee</option>';
+            Name_options_str  += '<option value="Battle of Portlester">Battle of Portlester</option>';
+            Name_options_str  += '<option value="Battle of Rathangan">Battle of Rathangan</option>';
+            Name_options_str  += '<option value="Battle of Richmond Hill">Battle of Richmond Hill</option>';
+            Name_options_str  += '<option value="Battle of Summerdale">Battle of Summerdale</option>';
+            Name_options_str  += '<option value="Battle of Tiruvannamalai">Battle of Tiruvannamalai</option>';
+            Name_options_str  += '<option value="Battle of Torran-Roy">Battle of Torran-Roy</option>';
+            Name_options_str  += '<option value="Battle of Wambaw">Battle of Wambaw</option>';
+            Name_options_str  += '<option value="Battle of the Bay of Biscay (Anglo-Spanish War)">Battle of the Bay of Biscay (Anglo-Spanish War)</option>';
+            Name_options_str  += '<option value="Battle of the Diamond / Foundation of the Orange Society">Battle of the Diamond / Foundation of the Orange Society</option>';
+            Name_options_str  += '<option value="Battle off Fairhaven">Battle off Fairhaven</option>';
+            Name_options_str  += '<option value="Bawdy House Riots">Bawdy House Riots</option>';
+            Name_options_str  += '<option value="Beer exportation riot">Beer exportation riot</option>';
+            Name_options_str  += '<option value="Beginning of the Whiteboy Movement">Beginning of the Whiteboy Movement</option>';
+            Name_options_str  += '<option value="Betrayal of Clannabuidhe / Clandeboye massacre">Betrayal of Clannabuidhe / Clandeboye massacre</option>';
+            Name_options_str  += '<option value="Beverley Riot">Beverley Riot</option>';
+            Name_options_str  += '<option value="Big Runaway">Big Runaway</option>';
+            Name_options_str  += '<option value="Bird&apos;s invasion of Kentucky">Bird&apos;s invasion of Kentucky</option>';
+            Name_options_str  += '<option value="Bishops&apos; War">Bishops&apos; War</option>';
+            Name_options_str  += '<option value="Blackburn riot">Blackburn riot</option>';
+            Name_options_str  += '<option value="Border conflicts in the Cape Colony">Border conflicts in the Cape Colony</option>';
+            Name_options_str  += '<option value="Border disputes between New York and Connecticut">Border disputes between New York and Connecticut</option>';
+            Name_options_str  += '<option value="Boston Bread Riots">Boston Bread Riots</option>';
+            Name_options_str  += '<option value="Boston Massacre">Boston Massacre</option>';
+            Name_options_str  += '<option value="Boston Tea Party">Boston Tea Party</option>';
+            Name_options_str  += '<option value="Bread riots">Bread riots</option>';
+            Name_options_str  += '<option value="Bridgwater Army Riots">Bridgwater Army Riots</option>';
+            Name_options_str  += '<option value="Bristol Bridge Riot / Massacre">Bristol Bridge Riot / Massacre</option>';
+            Name_options_str  += '<option value="Brodhead&apos;s Coshocton expedition">Brodhead&apos;s Coshocton expedition</option>';
+            Name_options_str  += '<option value="Broomhall Riots">Broomhall Riots</option>';
+            Name_options_str  += '<option value="Burning of Fairfield">Burning of Fairfield</option>';
+            Name_options_str  += '<option value="Burning the Duke of Brunswick in Effigy">Burning the Duke of Brunswick in Effigy</option>';
+            Name_options_str  += '<option value="Calico Riots">Calico Riots</option>';
+            Name_options_str  += '<option value="Cambridge disturbances">Cambridge disturbances</option>';
+            Name_options_str  += '<option value="Capture of HMS Savage">Capture of HMS Savage</option>';
+            Name_options_str  += '<option value="Capture of the Fancy">Capture of the Fancy</option>';
+            Name_options_str  += '<option value="Capture of the USS Hancock">Capture of the USS Hancock</option>';
+            Name_options_str  += '<option value="Capture of the Vigilant">Capture of the Vigilant</option>';
+            Name_options_str  += '<option value="Capture of the sloop William">Capture of the sloop William</option>';
+            Name_options_str  += '<option value="Caribbean slave revolts">Caribbean slave revolts</option>';
+            Name_options_str  += '<option value="Carleton&apos;s Raid">Carleton&apos;s Raid</option>';
+            Name_options_str  += '<option value="Carnavon / Carnarfon riot">Carnavon / Carnarfon riot</option>';
+            Name_options_str  += '<option value="Cary&apos;s Rebellion">Cary&apos;s Rebellion</option>';
+            Name_options_str  += '<option value="Castle Hill convict rebellion">Castle Hill convict rebellion</option>';
+            Name_options_str  += '<option value="Catholic Relief Act Riots">Catholic Relief Act Riots</option>';
+            Name_options_str  += '<option value="Charing Cross Riot">Charing Cross Riot</option>';
+            Name_options_str  += '<option value="Chaseabout Raid">Chaseabout Raid</option>';
+            Name_options_str  += '<option value="Chipchase Riots">Chipchase Riots</option>';
+            Name_options_str  += '<option value="Church Riot">Church Riot</option>';
+            Name_options_str  += '<option value="Clow Rebellion">Clow Rebellion</option>';
+            Name_options_str  += '<option value="Coal heavers&apos; riot">Coal heavers&apos; riot</option>';
+            Name_options_str  += '<option value="Colchester riot">Colchester riot</option>';
+            Name_options_str  += '<option value="Colliers riot">Colliers riot</option>';
+            Name_options_str  += '<option value="Colliers&apos; riot">Colliers&apos; riot</option>';
+            Name_options_str  += '<option value="Colliers&apos; toll complaint">Colliers&apos; toll complaint</option>';
+            Name_options_str  += '<option value="Corn Price Riot">Corn Price Riot</option>';
+            Name_options_str  += '<option value="Corn Riot">Corn Riot</option>';
+            Name_options_str  += '<option value="Corn price riot">Corn price riot</option>';
+            Name_options_str  += '<option value="Corn riot">Corn riot</option>';
+            Name_options_str  += '<option value="Coronation Riot">Coronation Riot</option>';
+            Name_options_str  += '<option value="Coronation riot">Coronation riot</option>';
+            Name_options_str  += '<option value="Coupar Riots">Coupar Riots</option>';
+            Name_options_str  += '<option value="Cresap&apos;s War (inner-colonial conflict)">Cresap&apos;s War (inner-colonial conflict)</option>';
+            Name_options_str  += '<option value="Crew riot">Crew riot</option>';
+            Name_options_str  += '<option value="Crimp Riots">Crimp Riots</option>';
+            Name_options_str  += '<option value="Desmond-Rebellions">Desmond-Rebellions</option>';
+            Name_options_str  += '<option value="Disorders aboard HMS Gibraltar">Disorders aboard HMS Gibraltar</option>';
+            Name_options_str  += '<option value="Disturbance at the London Corresponding Society">Disturbance at the London Corresponding Society</option>';
+            Name_options_str  += '<option value="Doctors&apos; Riot">Doctors&apos; Riot</option>';
+            Name_options_str  += '<option value="Dublin election riot">Dublin election riot</option>';
+            Name_options_str  += '<option value="Dummer&apos;s War">Dummer&apos;s War</option>';
+            Name_options_str  += '<option value="Dummer&apos;s War / Father Rale&apos;s War / Lovewell&apos;s War / Greylock&apos;s War / the Three Years&apos; War / the 4th Anglo-Abenaki War / Wabanaki-New England War">Dummer&apos;s War / Father Rale&apos;s War / Lovewell&apos;s War / Greylock&apos;s War / the Three Years&apos; War / the 4th Anglo-Abenaki War / Wabanaki-New England War</option>';
+            Name_options_str  += '<option value="Durham Riot">Durham Riot</option>';
+            Name_options_str  += '<option value="Earl of Essex Rebellion">Earl of Essex Rebellion</option>';
+            Name_options_str  += '<option value="Election Riot">Election Riot</option>';
+            Name_options_str  += '<option value="Election riot">Election riot</option>';
+            Name_options_str  += '<option value="Elizabethtown and Newark Raid">Elizabethtown and Newark Raid</option>';
+            Name_options_str  += '<option value="Ely and Littleport riots">Ely and Littleport riots</option>';
+            Name_options_str  += '<option value="Enclosure Riot">Enclosure Riot</option>';
+            Name_options_str  += '<option value="Enclosure riot">Enclosure riot</option>';
+            Name_options_str  += '<option value="English Revolution / English Civil Wars">English Revolution / English Civil Wars</option>';
+            Name_options_str  += '<option value="Evil May Day">Evil May Day</option>';
+            Name_options_str  += '<option value="Expected food riots">Expected food riots</option>';
+            Name_options_str  += '<option value="Expected navagators&apos; riot">Expected navagators&apos; riot</option>';
+            Name_options_str  += '<option value="First Carib War">First Carib War</option>';
+            Name_options_str  += '<option value="First Desmond Rebellion">First Desmond Rebellion</option>';
+            Name_options_str  += '<option value="First Maroon War">First Maroon War</option>';
+            Name_options_str  += '<option value="Flour Riot">Flour Riot</option>';
+            Name_options_str  += '<option value="Food Riot">Food Riot</option>';
+            Name_options_str  += '<option value="Food Riots">Food Riots</option>';
+            Name_options_str  += '<option value="Food Riots / Bread Riots">Food Riots / Bread Riots</option>';
+            Name_options_str  += '<option value="Food Riots / Irish Famine">Food Riots / Irish Famine</option>';
+            Name_options_str  += '<option value="Food Riots in Britain">Food Riots in Britain</option>';
+            Name_options_str  += '<option value="Food riot">Food riot</option>';
+            Name_options_str  += '<option value="Food riot at Ely">Food riot at Ely</option>';
+            Name_options_str  += '<option value="Formation of (Protestant) Peep O&apos;Day Boys and (Catholic) Defenders">Formation of (Protestant) Peep O&apos;Day Boys and (Catholic) Defenders</option>';
+            Name_options_str  += '<option value="Fortification of Dorchester Heights">Fortification of Dorchester Heights</option>';
+            Name_options_str  += '<option value="Frederica naval action">Frederica naval action</option>';
+            Name_options_str  += '<option value="Freeing Arthur O&apos;Connor">Freeing Arthur O&apos;Connor</option>';
+            Name_options_str  += '<option value="Fries&apos;s Rebellion">Fries&apos;s Rebellion</option>';
+            Name_options_str  += '<option value="Gabriel Prosser&apos;s rebellion">Gabriel Prosser&apos;s rebellion</option>';
+            Name_options_str  += '<option value="Galway Riot">Galway Riot</option>';
+            Name_options_str  += '<option value="Glencairn-Rising">Glencairn-Rising</option>';
+            Name_options_str  += '<option value="Glorious Revolution">Glorious Revolution</option>';
+            Name_options_str  += '<option value="Gordon Riots">Gordon Riots</option>';
+            Name_options_str  += '<option value="Gosport Riot">Gosport Riot</option>';
+            Name_options_str  += '<option value="Great Eastpm Riots">Great Eastpm Riots</option>';
+            Name_options_str  += '<option value="Great Swamp Fight">Great Swamp Fight</option>';
+            Name_options_str  += '<option value="Grey Lock&apos;s War">Grey Lock&apos;s War</option>';
+            Name_options_str  += '<option value="Gunnis Lake Mine protest">Gunnis Lake Mine protest</option>';
+            Name_options_str  += '<option value="Gunpowder Incident">Gunpowder Incident</option>';
+            Name_options_str  += '<option value="Gunpowder Plot">Gunpowder Plot</option>';
+            Name_options_str  += '<option value="Henley Riot">Henley Riot</option>';
+            Name_options_str  += '<option value="Hexham Riot">Hexham Riot</option>';
+            Name_options_str  += '<option value="High Treason Trial of Thomas Hardy / London Corresponding Society">High Treason Trial of Thomas Hardy / London Corresponding Society</option>';
+            Name_options_str  += '<option value="High Treason Trials of David Downie and Robert Watt (Friends of the People / British Convention)">High Treason Trials of David Downie and Robert Watt (Friends of the People / British Convention)</option>';
+            Name_options_str  += '<option value="Holywell riot">Holywell riot</option>';
+            Name_options_str  += '<option value="Igbo Landing (off the coast of St. Simons, Georgia)">Igbo Landing (off the coast of St. Simons, Georgia)</option>';
+            Name_options_str  += '<option value="Impressment riot">Impressment riot</option>';
+            Name_options_str  += '<option value="In-effigy burning of Mr. Thompson">In-effigy burning of Mr. Thompson</option>';
+            Name_options_str  += '<option value="Indian Wars">Indian Wars</option>';
+            Name_options_str  += '<option value="Industrial riot">Industrial riot</option>';
+            Name_options_str  += '<option value="Inn and alehouse riots">Inn and alehouse riots</option>';
+            Name_options_str  += '<option value="Intended Scottish Rebellion">Intended Scottish Rebellion</option>';
+            Name_options_str  += '<option value="Irish Rebellion">Irish Rebellion</option>';
+            Name_options_str  += '<option value="Irish Rebellion / United Irish Rising (failed)">Irish Rebellion / United Irish Rising (failed)</option>';
+            Name_options_str  += '<option value="Irish Regiment Riot">Irish Regiment Riot</option>';
+            Name_options_str  += '<option value="Irish Volunteers parade">Irish Volunteers parade</option>';
+            Name_options_str  += '<option value="Jacobite Rebellion / the &apos;15">Jacobite Rebellion / the &apos;15</option>';
+            Name_options_str  += '<option value="Jacobite Rebellion, the &apos;45">Jacobite Rebellion, the &apos;45</option>';
+            Name_options_str  += '<option value="Jacobite Riots">Jacobite Riots</option>';
+            Name_options_str  += '<option value="James Atiken&apos;s arsonist attacks">James Atiken&apos;s arsonist attacks</option>';
+            Name_options_str  += '<option value="John Hartland Riot">John Hartland Riot</option>';
+            Name_options_str  += '<option value="Kett&apos;s Rebellion">Kett&apos;s Rebellion</option>';
+            Name_options_str  += '<option value="King Philip&apos;s War / Metacom&apos;s Rebellion">King Philip&apos;s War / Metacom&apos;s Rebellion</option>';
+            Name_options_str  += '<option value="King William&apos;s birthday Riot / Theatre Riot">King William&apos;s birthday Riot / Theatre Riot</option>';
+            Name_options_str  += '<option value="King William’s War">King William’s War</option>';
+            Name_options_str  += '<option value="King&apos;s Birthday Riot">King&apos;s Birthday Riot</option>';
+            Name_options_str  += '<option value="King&apos;s birthday Riot">King&apos;s birthday Riot</option>';
+            Name_options_str  += '<option value="Knowles Riot / Impressment Riot">Knowles Riot / Impressment Riot</option>';
+            Name_options_str  += '<option value="Komenda Wars">Komenda Wars</option>';
+            Name_options_str  += '<option value="Lady&apos;s Day Assembly">Lady&apos;s Day Assembly</option>';
+            Name_options_str  += '<option value="Lancashire Riot">Lancashire Riot</option>';
+            Name_options_str  += '<option value="Licentiates&apos; riot">Licentiates&apos; riot</option>';
+            Name_options_str  += '<option value="Limerick Riot">Limerick Riot</option>';
+            Name_options_str  += '<option value="Lincoln Riot">Lincoln Riot</option>';
+            Name_options_str  += '<option value="Lithgow (Linlithgow?) Riot">Lithgow (Linlithgow?) Riot</option>';
+            Name_options_str  += '<option value="Local costum interpreted as riot">Local costum interpreted as riot</option>';
+            Name_options_str  += '<option value="Logan&apos;s Raid">Logan&apos;s Raid</option>';
+            Name_options_str  += '<option value="London Gin Riots">London Gin Riots</option>';
+            Name_options_str  += '<option value="London Riot">London Riot</option>';
+            Name_options_str  += '<option value="Lunenburg Campaign">Lunenburg Campaign</option>';
+            Name_options_str  += '<option value="Machine breaking in Huddersfield">Machine breaking in Huddersfield</option>';
+            Name_options_str  += '<option value="Malt Tax Riot">Malt Tax Riot</option>';
+            Name_options_str  += '<option value="Margeret Nicholson&apos;s assault on King George III">Margeret Nicholson&apos;s assault on King George III</option>';
+            Name_options_str  += '<option value="Marian civil war">Marian civil war</option>';
+            Name_options_str  += '<option value="Market place riot">Market place riot</option>';
+            Name_options_str  += '<option value="Market riot">Market riot</option>';
+            Name_options_str  += '<option value="Massacre of Benares">Massacre of Benares</option>';
+            Name_options_str  += '<option value="Massacre of Tranent / Tranent Militia Riot">Massacre of Tranent / Tranent Militia Riot</option>';
+            Name_options_str  += '<option value="Meeting House Riot">Meeting House Riot</option>';
+            Name_options_str  += '<option value="Melsham riot">Melsham riot</option>';
+            Name_options_str  += '<option value="Mildenhall riots">Mildenhall riots</option>';
+            Name_options_str  += '<option value="Militia Act Riot">Militia Act Riot</option>';
+            Name_options_str  += '<option value="Militia Law Riot">Militia Law Riot</option>';
+            Name_options_str  += '<option value="Militia Riot">Militia Riot</option>';
+            Name_options_str  += '<option value="Mina conspiracy / Pointe Coupé Slave Conspiracy">Mina conspiracy / Pointe Coupé Slave Conspiracy</option>';
+            Name_options_str  += '<option value="Miners&apos; Riot">Miners&apos; Riot</option>';
+            Name_options_str  += '<option value="Monmouth Rebellion">Monmouth Rebellion</option>';
+            Name_options_str  += '<option value="Mutiny / Shipwrights&apos; Riot">Mutiny / Shipwrights&apos; Riot</option>';
+            Name_options_str  += '<option value="Mutiny / Strike in Chatham">Mutiny / Strike in Chatham</option>';
+            Name_options_str  += '<option value="Naval battle off Halifax">Naval battle off Halifax</option>';
+            Name_options_str  += '<option value="New Cut riot">New Cut riot</option>';
+            Name_options_str  += '<option value="New York Conspiracy">New York Conspiracy</option>';
+            Name_options_str  += '<option value="New York and New Jersey Campaign">New York and New Jersey Campaign</option>';
+            Name_options_str  += '<option value="Newcastle riot">Newcastle riot</option>';
+            Name_options_str  += '<option value="Nore mutinies">Nore mutinies</option>';
+            Name_options_str  += '<option value="North Briton No. 45 riot">North Briton No. 45 riot</option>';
+            Name_options_str  += '<option value="Northeast Coast Campaign">Northeast Coast Campaign</option>';
+            Name_options_str  += '<option value="Northern theater of the American Revolutionary War after Saratoga">Northern theater of the American Revolutionary War after Saratoga</option>';
+            Name_options_str  += '<option value="Norwich riot">Norwich riot</option>';
+            Name_options_str  += '<option value="Nottingham Cheese Riot">Nottingham Cheese Riot</option>';
+            Name_options_str  += '<option value="Nottingham Militia Riot">Nottingham Militia Riot</option>';
+            Name_options_str  += '<option value="O&apos;Doherty&apos;s Rebellion">O&apos;Doherty&apos;s Rebellion</option>';
+            Name_options_str  += '<option value="Oakboy / Hearts of Oak">Oakboy / Hearts of Oak</option>';
+            Name_options_str  += '<option value="Occupation of the mint">Occupation of the mint</option>';
+            Name_options_str  += '<option value="Old Price Riots">Old Price Riots</option>';
+            Name_options_str  += '<option value="Opening of Parliament Riots">Opening of Parliament Riots</option>';
+            Name_options_str  += '<option value="Opera Riot">Opera Riot</option>';
+            Name_options_str  += '<option value="Organised poaching and riot">Organised poaching and riot</option>';
+            Name_options_str  += '<option value="Oxford Riots">Oxford Riots</option>';
+            Name_options_str  += '<option value="Oxfordshire Rising of 1596">Oxfordshire Rising of 1596</option>';
+            Name_options_str  += '<option value="Pariot riot in Newport">Pariot riot in Newport</option>';
+            Name_options_str  += '<option value="Pennamite-Yankee War">Pennamite-Yankee War</option>';
+            Name_options_str  += '<option value="Pennsylvania Line Mutiny / Pennsylvania Winter Mutiny">Pennsylvania Line Mutiny / Pennsylvania Winter Mutiny</option>';
+            Name_options_str  += '<option value="Peterloo Massacre">Peterloo Massacre</option>';
+            Name_options_str  += '<option value="Petition of the Freeholders of the Co. of York">Petition of the Freeholders of the Co. of York</option>';
+            Name_options_str  += '<option value="Petition of the Livery of London">Petition of the Livery of London</option>';
+            Name_options_str  += '<option value="Philadelphia Election Riot">Philadelphia Election Riot</option>';
+            Name_options_str  += '<option value="Pilgrimage of Grace">Pilgrimage of Grace</option>';
+            Name_options_str  += '<option value="Pine Tree Riot">Pine Tree Riot</option>';
+            Name_options_str  += '<option value="Piracy on Lake Nicaragua">Piracy on Lake Nicaragua</option>';
+            Name_options_str  += '<option value="Pitmen&apos;s riot">Pitmen&apos;s riot</option>';
+            Name_options_str  += '<option value="Planned French Invasion of Britain">Planned French Invasion of Britain</option>';
+            Name_options_str  += '<option value="Planned Invasion of 1708">Planned Invasion of 1708</option>';
+            Name_options_str  += '<option value="Playhouse Passage riot">Playhouse Passage riot</option>';
+            Name_options_str  += '<option value="Plundering the Baltimore off Anglesey">Plundering the Baltimore off Anglesey</option>';
+            Name_options_str  += '<option value="Pontiac&apos;s War">Pontiac&apos;s War</option>';
+            Name_options_str  += '<option value="Pop-Gun-Plot">Pop-Gun-Plot</option>';
+            Name_options_str  += '<option value="Popish Plot">Popish Plot</option>';
+            Name_options_str  += '<option value="Porteous Riots">Porteous Riots</option>';
+            Name_options_str  += '<option value="Post-election riots in Dumfries">Post-election riots in Dumfries</option>';
+            Name_options_str  += '<option value="Potato market riot">Potato market riot</option>';
+            Name_options_str  += '<option value="Prayer Book Rebellion">Prayer Book Rebellion</option>';
+            Name_options_str  += '<option value="Pretended Riot in Mitcham">Pretended Riot in Mitcham</option>';
+            Name_options_str  += '<option value="Priestley Riots">Priestley Riots</option>';
+            Name_options_str  += '<option value="Prison Riot">Prison Riot</option>';
+            Name_options_str  += '<option value="Prison Riots">Prison Riots</option>';
+            Name_options_str  += '<option value="Protest by journeyman woolcombers">Protest by journeyman woolcombers</option>';
+            Name_options_str  += '<option value="Pyle&apos;s Massacre">Pyle&apos;s Massacre</option>';
+            Name_options_str  += '<option value="Queen Anne’s War / 2nd French and Indian War">Queen Anne’s War / 2nd French and Indian War</option>';
+            Name_options_str  += '<option value="Raid on Brunswick Town">Raid on Brunswick Town</option>';
+            Name_options_str  += '<option value="Raid on Dover / Cochecho Massacre">Raid on Dover / Cochecho Massacre</option>';
+            Name_options_str  += '<option value="Raid on Haverhill">Raid on Haverhill</option>';
+            Name_options_str  += '<option value="Raid on Lunenburg, Nova Scotia">Raid on Lunenburg, Nova Scotia</option>';
+            Name_options_str  += '<option value="Raid on Oyster River">Raid on Oyster River</option>';
+            Name_options_str  += '<option value="Raid on Richmond">Raid on Richmond</option>';
+            Name_options_str  += '<option value="Raid on Salmon Falls">Raid on Salmon Falls</option>';
+            Name_options_str  += '<option value="Raid on Saratoga">Raid on Saratoga</option>';
+            Name_options_str  += '<option value="Raid on St. Augustine">Raid on St. Augustine</option>';
+            Name_options_str  += '<option value="Raid on Tabasco (English military expedition during the Angloâ€“Spanish War)">Raid on Tabasco (English military expedition during the Angloâ€“Spanish War)</option>';
+            Name_options_str  += '<option value="Raids on Lochaber and Shiramore">Raids on Lochaber and Shiramore</option>';
+            Name_options_str  += '<option value="Relief of Montgomery Castle">Relief of Montgomery Castle</option>';
+            Name_options_str  += '<option value="Relief of Newark">Relief of Newark</option>';
+            Name_options_str  += '<option value="Revolt of the housewives">Revolt of the housewives</option>';
+            Name_options_str  += '<option value="Rhode Island Riot">Rhode Island Riot</option>';
+            Name_options_str  += '<option value="Richmond Park Riot">Richmond Park Riot</option>';
+            Name_options_str  += '<option value="Riot">Riot</option>';
+            Name_options_str  += '<option value="Riot (at the merchants&apos; address to the King)">Riot (at the merchants&apos; address to the King)</option>';
+            Name_options_str  += '<option value="Riot (linked with organised poaching)">Riot (linked with organised poaching)</option>';
+            Name_options_str  += '<option value="Riot [probably identical with Slaughterhouse Riot]">Riot [probably identical with Slaughterhouse Riot]</option>';
+            Name_options_str  += '<option value="Riot accusation against Thomas Moss et. Al.">Riot accusation against Thomas Moss et. Al.</option>';
+            Name_options_str  += '<option value="Riot against Dissenters">Riot against Dissenters</option>';
+            Name_options_str  += '<option value="Riot against arrests for treason">Riot against arrests for treason</option>';
+            Name_options_str  += '<option value="Riot and assault">Riot and assault</option>';
+            Name_options_str  += '<option value="Riot and forceable entry">Riot and forceable entry</option>';
+            Name_options_str  += '<option value="Riot and house breaking">Riot and house breaking</option>';
+            Name_options_str  += '<option value="Riot and misdemeanour">Riot and misdemeanour</option>';
+            Name_options_str  += '<option value="Riot and robbery">Riot and robbery</option>';
+            Name_options_str  += '<option value="Riot and unlawful assembly">Riot and unlawful assembly</option>';
+            Name_options_str  += '<option value="Riot at Cugglestone">Riot at Cugglestone</option>';
+            Name_options_str  += '<option value="Riot at King&apos;s Bench">Riot at King&apos;s Bench</option>';
+            Name_options_str  += '<option value="Riot at Maryport">Riot at Maryport</option>';
+            Name_options_str  += '<option value="Riot at Newgate">Riot at Newgate</option>';
+            Name_options_str  += '<option value="Riot at Stillingfleet">Riot at Stillingfleet</option>';
+            Name_options_str  += '<option value="Riot in Chester">Riot in Chester</option>';
+            Name_options_str  += '<option value="Riot in Dumfries">Riot in Dumfries</option>';
+            Name_options_str  += '<option value="Riot in Elgin">Riot in Elgin</option>';
+            Name_options_str  += '<option value="Riot in Palace Yard">Riot in Palace Yard</option>';
+            Name_options_str  += '<option value="Riot in St. Stephen&apos;s Green">Riot in St. Stephen&apos;s Green</option>';
+            Name_options_str  += '<option value="Riot in Thames Street">Riot in Thames Street</option>';
+            Name_options_str  += '<option value="Riot in Thurso">Riot in Thurso</option>';
+            Name_options_str  += '<option value="Riot in response to the killing of Robert Park">Riot in response to the killing of Robert Park</option>';
+            Name_options_str  += '<option value="Riot in the country of the laird of Bainagoun">Riot in the country of the laird of Bainagoun</option>';
+            Name_options_str  += '<option value="Riot of turnpike cutters">Riot of turnpike cutters</option>';
+            Name_options_str  += '<option value="Riot on Jersey">Riot on Jersey</option>';
+            Name_options_str  += '<option value="Riot on the Pretender&apos;s Birthday">Riot on the Pretender&apos;s Birthday</option>';
+            Name_options_str  += '<option value="Riot on the heath">Riot on the heath</option>';
+            Name_options_str  += '<option value="Riot, assault and rescue">Riot, assault and rescue</option>';
+            Name_options_str  += '<option value="Riot, assault and rescuing a prisoner">Riot, assault and rescuing a prisoner</option>';
+            Name_options_str  += '<option value="Riot, assault and trespass">Riot, assault and trespass</option>';
+            Name_options_str  += '<option value="Riots">Riots</option>';
+            Name_options_str  += '<option value="Riots (in the West Country)">Riots (in the West Country)</option>';
+            Name_options_str  += '<option value="Riots against magistrates and constables">Riots against magistrates and constables</option>';
+            Name_options_str  += '<option value="Riots against the Militia Act">Riots against the Militia Act</option>';
+            Name_options_str  += '<option value="Riots in Dudley and Bromsgrove">Riots in Dudley and Bromsgrove</option>';
+            Name_options_str  += '<option value="Riots in St. George&apos;s Fields">Riots in St. George&apos;s Fields</option>';
+            Name_options_str  += '<option value="Rising in Boston 1689">Rising in Boston 1689</option>';
+            Name_options_str  += '<option value="Rising nationalist tensions in Ireland">Rising nationalist tensions in Ireland</option>';
+            Name_options_str  += '<option value="Rising of the North">Rising of the North</option>';
+            Name_options_str  += '<option value="Ropemakers&apos; Riot">Ropemakers&apos; Riot</option>';
+            Name_options_str  += '<option value="Royalton Raid">Royalton Raid</option>';
+            Name_options_str  += '<option value="Rugby School Rebellion">Rugby School Rebellion</option>';
+            Name_options_str  += '<option value="Rum Rebellion">Rum Rebellion</option>';
+            Name_options_str  += '<option value="Sacheverell Riot">Sacheverell Riot</option>';
+            Name_options_str  += '<option value="Sack of Cashel">Sack of Cashel</option>';
+            Name_options_str  += '<option value="Sailor and marine riot">Sailor and marine riot</option>';
+            Name_options_str  += '<option value="Sailors&apos; riot">Sailors&apos; riot</option>';
+            Name_options_str  += '<option value="Sailors&apos; riot / alleged marines&apos; riot">Sailors&apos; riot / alleged marines&apos; riot</option>';
+            Name_options_str  += '<option value="Sampson Incident">Sampson Incident</option>';
+            Name_options_str  += '<option value="Samuel Pope&apos;s riot">Samuel Pope&apos;s riot</option>';
+            Name_options_str  += '<option value="Saratoga Campaign">Saratoga Campaign</option>';
+            Name_options_str  += '<option value="Saratoga-Feldzug">Saratoga-Feldzug</option>';
+            Name_options_str  += '<option value="Scotch drover riot">Scotch drover riot</option>';
+            Name_options_str  += '<option value="Seamen Riot">Seamen Riot</option>';
+            Name_options_str  += '<option value="Seamen’s revolt">Seamen’s revolt</option>';
+            Name_options_str  += '<option value="Second Desmond Rebellion">Second Desmond Rebellion</option>';
+            Name_options_str  += '<option value="Second Maroon War">Second Maroon War</option>';
+            Name_options_str  += '<option value="Shays&apos; Rebellion">Shays&apos; Rebellion</option>';
+            Name_options_str  += '<option value="Sheffield Food Riot">Sheffield Food Riot</option>';
+            Name_options_str  += '<option value="Sheffield Riot">Sheffield Riot</option>';
+            Name_options_str  += '<option value="Ship riot">Ship riot</option>';
+            Name_options_str  += '<option value="Shipwrights&apos; Riot">Shipwrights&apos; Riot</option>';
+            Name_options_str  += '<option value="Shipwrights&apos; Riot / Strike">Shipwrights&apos; Riot / Strike</option>';
+            Name_options_str  += '<option value="Siege of Athlone">Siege of Athlone</option>';
+            Name_options_str  += '<option value="Siege of Chichester">Siege of Chichester</option>';
+            Name_options_str  += '<option value="Siege of Fort Loudoun">Siege of Fort Loudoun</option>';
+            Name_options_str  += '<option value="Siege of Fort Massachusetts">Siege of Fort Massachusetts</option>';
+            Name_options_str  += '<option value="Siege of Fort Vincennes">Siege of Fort Vincennes</option>';
+            Name_options_str  += '<option value="Siege of Grand Pre">Siege of Grand Pre</option>';
+            Name_options_str  += '<option value="Siege of Inverness">Siege of Inverness</option>';
+            Name_options_str  += '<option value="Siege of Kilkenny">Siege of Kilkenny</option>';
+            Name_options_str  += '<option value="Siege of Lichfield">Siege of Lichfield</option>';
+            Name_options_str  += '<option value="Siege of Pemaquid">Siege of Pemaquid</option>';
+            Name_options_str  += '<option value="Siege of Portsmouth">Siege of Portsmouth</option>';
+            Name_options_str  += '<option value="Siege of Ruthven Barracks">Siege of Ruthven Barracks</option>';
+            Name_options_str  += '<option value="Siege of Tory Island">Siege of Tory Island</option>';
+            Name_options_str  += '<option value="Skirmish at Waters Creek">Skirmish at Waters Creek</option>';
+            Name_options_str  += '<option value="Skirmish of Alness">Skirmish of Alness</option>';
+            Name_options_str  += '<option value="Skirmish of Arisaig">Skirmish of Arisaig</option>';
+            Name_options_str  += '<option value="Skirmish of Loch Ailort">Skirmish of Loch Ailort</option>';
+            Name_options_str  += '<option value="Skirmish of Tongue">Skirmish of Tongue</option>';
+            Name_options_str  += '<option value="Slave insurrection on St. John">Slave insurrection on St. John</option>';
+            Name_options_str  += '<option value="Slave rebellion at Chatham Manor">Slave rebellion at Chatham Manor</option>';
+            Name_options_str  += '<option value="Slave revolt in the British Virgin Islands">Slave revolt in the British Virgin Islands</option>';
+            Name_options_str  += '<option value="Smaller riots">Smaller riots</option>';
+            Name_options_str  += '<option value="Snow Campaign">Snow Campaign</option>';
+            Name_options_str  += '<option value="Snow Hill Riot">Snow Hill Riot</option>';
+            Name_options_str  += '<option value="Spa Fields riots">Spa Fields riots</option>';
+            Name_options_str  += '<option value="Spitalfields Riots">Spitalfields Riots</option>';
+            Name_options_str  += '<option value="Spithead mutinies">Spithead mutinies</option>';
+            Name_options_str  += '<option value="St. George&apos;s Fields Massacre">St. George&apos;s Fields Massacre</option>';
+            Name_options_str  += '<option value="Stamp Tax Riot">Stamp Tax Riot</option>';
+            Name_options_str  += '<option value="Stand-off at Bengrime">Stand-off at Bengrime</option>';
+            Name_options_str  += '<option value="Steelboy / Hearts of Steel disturbances">Steelboy / Hearts of Steel disturbances</option>';
+            Name_options_str  += '<option value="Stono Rebellion">Stono Rebellion</option>';
+            Name_options_str  += '<option value="Supposed riot and assault">Supposed riot and assault</option>';
+            Name_options_str  += '<option value="Suspected Charing Cross riot">Suspected Charing Cross riot</option>';
+            Name_options_str  += '<option value="Suspected French-Jacobite invasion">Suspected French-Jacobite invasion</option>';
+            Name_options_str  += '<option value="Suspected Riot">Suspected Riot</option>';
+            Name_options_str  += '<option value="Suspected food riot">Suspected food riot</option>';
+            Name_options_str  += '<option value="Suspected riot">Suspected riot</option>';
+            Name_options_str  += '<option value="Suspected riots">Suspected riots</option>';
+            Name_options_str  += '<option value="Suspected tinners&apos; riot in Cornwall">Suspected tinners&apos; riot in Cornwall</option>';
+            Name_options_str  += '<option value="Sylhet uprising / Muharram Rebellion">Sylhet uprising / Muharram Rebellion</option>';
+            Name_options_str  += '<option value="Tacky&apos;s War / Tacky&apos;s Rebellion">Tacky&apos;s War / Tacky&apos;s Rebellion</option>';
+            Name_options_str  += '<option value="Taunton by-election">Taunton by-election</option>';
+            Name_options_str  += '<option value="The Killing Time">The Killing Time</option>';
+            Name_options_str  += '<option value="The Nine Years&apos; War or &apos;Tyrone&apos;s Rebellion&apos;">The Nine Years&apos; War or &apos;Tyrone&apos;s Rebellion&apos;</option>';
+            Name_options_str  += '<option value="The Revolt in Bihar">The Revolt in Bihar</option>';
+            Name_options_str  += '<option value="Tinners&apos; Riot">Tinners&apos; Riot</option>';
+            Name_options_str  += '<option value="Tinners&apos; riot">Tinners&apos; riot</option>';
+            Name_options_str  += '<option value="Treason of Benedict Arnold">Treason of Benedict Arnold</option>';
+            Name_options_str  += '<option value="Tring Witch Hunt">Tring Witch Hunt</option>';
+            Name_options_str  += '<option value="Trooper riot">Trooper riot</option>';
+            Name_options_str  += '<option value="Turnpike riot">Turnpike riot</option>';
+            Name_options_str  += '<option value="USS Delaware vs La Croyable">USS Delaware vs La Croyable</option>';
+            Name_options_str  += '<option value="Ulster Volunteer Convention">Ulster Volunteer Convention</option>';
+            Name_options_str  += '<option value="Union Act Riots">Union Act Riots</option>';
+            Name_options_str  += '<option value="Various Riots">Various Riots</option>';
+            Name_options_str  += '<option value="Wage riots">Wage riots</option>';
+            Name_options_str  += '<option value="Walsall riot">Walsall riot</option>';
+            Name_options_str  += '<option value="Wapping Riot">Wapping Riot</option>';
+            Name_options_str  += '<option value="Watts&apos; West Indies and Virginia expedition">Watts&apos; West Indies and Virginia expedition</option>';
+            Name_options_str  += '<option value="Weavers&apos; Riot">Weavers&apos; Riot</option>';
+            Name_options_str  += '<option value="Weavers&apos; riot">Weavers&apos; riot</option>';
+            Name_options_str  += '<option value="Wellington factory riot">Wellington factory riot</option>';
+            Name_options_str  += '<option value="Wheat riot">Wheat riot</option>';
+            Name_options_str  += '<option value="Wheeler&apos;s Surprise">Wheeler&apos;s Surprise</option>';
+            Name_options_str  += '<option value="Whiggamore Raid">Whiggamore Raid</option>';
+            Name_options_str  += '<option value="Whiskey Rebellion / Whiskey Insurrection">Whiskey Rebellion / Whiskey Insurrection</option>';
+            Name_options_str  += '<option value="Whitby Riot">Whitby Riot</option>';
+            Name_options_str  += '<option value="Whiteboy / Rightboy disturbances">Whiteboy / Rightboy disturbances</option>';
+            Name_options_str  += '<option value="Wincanton Skirmish">Wincanton Skirmish</option>';
+            Name_options_str  += '<option value="Woolcombers&apos; riot">Woolcombers&apos; riot</option>';
+            Name_options_str  += '<option value="Workers&apos; riot">Workers&apos; riot</option>';
+            Name_options_str  += '<option value="Workhouse Riots">Workhouse Riots</option>';
+            Name_options_str  += '<option value="Workmen riot">Workmen riot</option>';
+            Name_options_str  += '<option value="Wyatt Plot">Wyatt Plot</option>';
+            Name_options_str  += '<option value="Yeoman Riot">Yeoman Riot</option>';
+            Name_options_str  += '<option value="[Jacobite] Riot">[Jacobite] Riot</option>';
+            Name_options_str  += '<option value="slave rebellions in the Caribbean">slave rebellions in the Caribbean</option>';
+            Name_options_str  += '<option value="‘The Nineteen’ / Jacobite Rising">‘The Nineteen’ / Jacobite Rising</option>';
+            sel_Name.innerHTML = Name_options_str;
+            div_Name.appendChild(sel_Name);
+            var lab_Name = document.createElement('div');
+            lab_Name.innerHTML = 'Name';
+            lab_Name.className = 'filterlabel';
+            div_Name.appendChild(lab_Name);
+            var reset_Name = document.createElement('div');
+            reset_Name.innerHTML = 'clear filter';
+            reset_Name.className = 'filterlabel';
+            reset_Name.onclick = function() {
+                var options = document.getElementById("sel_Name").options;
+                for (var i=0; i < options.length; i++) {
+                    options[i].selected = false;
+                }
+                filterFunc();
+            };
+            div_Name.appendChild(reset_Name);
+        </script>
+    </body>
+</html>
