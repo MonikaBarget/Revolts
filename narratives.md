@@ -8,7 +8,7 @@ Word trees are a form of visualising narrative structures in text sources. The w
 This word tree shows the context in which the word "rebellion" often appeared in publications of all genres.
 
 <figure>
-<img src="./assets/WordTreeRebellion.png" width:"150">
+<img src="./assets/WordTreeRebellion.png" align="center" width:"150"/>
 <figure/>
   
 ### (Royal) proclamations
@@ -16,7 +16,7 @@ This word tree shows the context in which the word "rebellion" often appeared in
 This word tree represents titles of (royal) proclamations on rebellions.
   
 <figure>
-<img src="./assets/WordTreeProclamation.png" width:"150">
+<img src="./assets/WordTreeProclamation.png" align="center" width:"150"/>
 <figure/>
   
 ### Sermon titles
