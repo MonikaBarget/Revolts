@@ -26,11 +26,11 @@ These two word trees visualise titles of printed sermons in two timeframes:
 a) published between 1684 and 1750
   
 <figure>
-<img src="./assets/WordTreeSermons_1684-1750.png" width:"150">
+<img src="./assets/WordTreeSermons_1684-1750.png" align="center" width:"150"/>
 <figure/>
   
 b) published between 1750 and 1800
   
 <figure>
-<img src="./assets/WordTreeSermons_1750-1800.png" width:"150">
+<img src="./assets/WordTreeSermons_1750-1800.png" align="center" width:"150"/>
 <figure/>
