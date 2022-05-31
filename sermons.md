@@ -8,10 +8,10 @@ Click [here](https://github.com/MonikaBarget/Revolts/blob/master/MAP_sermons-per
 
 English-language Christian periodicals first published before 1800 by denomination (data from Wikidata):
 
-<img src="./charts/ChristianPeriodicals_before1800.png" width="550"/>
+<img src="./charts/ChristianPeriodicals_before1800.png" width="750"/>
 
 English-language Christian periodicals first published after 1800 by denomination (data from Wikidata):
 
-<img src="./charts/ChristianPeriodicals_after1800.png" width="550"/>
+<img src="./charts/ChristianPeriodicals_after1800.png" width="750"/>
 
 
