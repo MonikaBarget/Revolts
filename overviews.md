@@ -1,10 +1,6 @@
-<h3>Overviews of British and colonial media production</h3>
+### British and colonial media production
 
-
-
-Other tables and charts relating to the publication of **provincial papers** and the circulation of manuscript material will follow over time.
-
-<h3>Tagged vocabulary extracted from eighteenth-century publications</h3>
+<h3>Tagged vocabulary extracted from eighteenth-century riot and rebellion publications</h3>
 
 Vocabulary relating to agents, media and political concepts of the eighteenth-century have been semi-automatically extracted from eighteenth-century publications and tagged in order to consistently analyse discourse developments over time and across space.
 
@@ -24,3 +20,6 @@ Vocabulary relating to agents, media and political concepts of the eighteenth-ce
 
 [Vocabulary relating to time](https://github.com/MonikaBarget/Revolts/blob/master/VOCABULARY_time_version40.csv) 
 
+<h3>Overviews of newspaper publishing</h3>
+
+Material relating to the publication of newspapers (above all **provincial papers**) will follow over time. 
