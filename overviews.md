@@ -1,4 +1,4 @@
-### British and colonial media production
+<h2>British and colonial media production</h2>
 
 <h3>Tagged vocabulary extracted from eighteenth-century riot and rebellion publications</h3>
 
