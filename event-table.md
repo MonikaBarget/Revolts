@@ -18,7 +18,6 @@
 <col data-visible="false">
 <col data-visible="false">
 <col style="width:20%"> 
-<thead>
 <tr>
 <th title="Field #1">START</th>
 <th title="Field #2">END</th>
@@ -29,8 +28,6 @@
 <th title="Field #7">PLACE (geocoded)</th>
 <th title="Field #9">CATEGORY</th>
 </tr>
-</thead>
-<tbody>
 <tr>
 <td align="right">1685</td>
 <td>1685</td>
@@ -1119,6 +1116,4 @@
 <td>Manchester / England</td>
 <td>political freedoms / personal rights</td>
 </tr>
-
-</tbody>
 </table>
