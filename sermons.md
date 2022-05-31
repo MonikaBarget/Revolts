@@ -6,5 +6,12 @@ Zoomable map of places in the British Isles where anti-rebellion sermons between
   
 Click [here](https://github.com/MonikaBarget/Revolts/blob/master/MAP_sermons-per-place.geojson) to download and re-use the GeoJSON file.
 
+English-language Christian periodicals first published before 1800 by denomination (data from Wikidata):
+
+[<img src="./charts/ChristianPeriodicals_before1800.png"/>](https://monikabarget.github.io/Revolts/sermon-map/sermon-map.html)
+
+English-language Christian periodicals first published after 1800 by denomination (data from Wikidata):
+
+[<img src="./charts/ChristianPeriodicals_after1800.png"/>](https://monikabarget.github.io/Revolts/sermon-map/sermon-map.html)
 
 
