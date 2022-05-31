@@ -12,11 +12,9 @@ This word tree shows the context in which the word "rebellion" often appeared in
 ### (Royal) proclamations
 
 This word tree represents titles of (royal) proclamations on rebellions.
-  
-<figure>
+ 
 <img src="./charts/WordTreeProclamation.png" align="center" width="650"/>
-<figure/>
-  
+
 ### Sermon titles
 
 These two word trees visualise titles of printed sermons in two timeframes:
