@@ -14,7 +14,7 @@
 
 2) <a href="https://monikabarget.github.io/Revolts/events.html">Interactive map of events (British Isles and overseas colonies)</a>
 
-3) <a href="https://monikabarget.github.io/Revolts/sermons.html">Interactive map of rebellion sermon publication</a>
+3) <a href="https://monikabarget.github.io/Revolts/sermons.html">Rebellion sermons and religious periodicals</a>
 
 4) <a href="https://monikabarget.github.io/Revolts/overviews.html">Overviews of British and colonial media production</a>
 
