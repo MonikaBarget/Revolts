@@ -9,7 +9,6 @@
 <hr>
 <strong>Selected events between the Monmouth Rebellion and Peterloo Massacre:</strong>
 <hr>
-
 <table class="table table-bordered table-hover table-condensed" style="width:95%; font-size:80%; border: 2px solid black">
 <col style="width:10%">
 <col style="width:10%">
@@ -471,7 +470,7 @@
 <tr>
 <td align="right">1761</td>
 <td>#</td>
-  <td><a href="https://en.wikipedia.org/wiki/Whiteboys">Beginning of the Whiteboy Movement</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Whiteboys">Beginning of the Whiteboy Movement</a></td>
 <td>secret agrarian organisation violently defends tenant farmer land rights</td>
 <td>#</td>
 <td>Munster / Ireland</td>
@@ -504,7 +503,7 @@
 <tr>
 <td align="right">1763</td>
 <td>#</td>
-  <td><a href="https://www.jstor.org/stable/30008257">Oakboy / Hearts of Oak</a></td>
+<td><a href="https://www.jstor.org/stable/30008257">Oakboy / Hearts of Oak</a></td>
 <td>agrarian disturbances by rural population, involving many Ulster Presbyterians</td>
 <td>#</td>
 <td>Ulster / Ireland</td>
