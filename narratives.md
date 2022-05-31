@@ -1,5 +1,5 @@
 
-## Narrative structures / sermons
+## Narrative structures
 
 Word trees are a form of visualising narrative structures in text sources. The word trees below show common structures in publication titles relating to uprisings of the eighteenth century in Britain and the colonies. The word trees were created with Python. 
 
