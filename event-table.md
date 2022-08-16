@@ -18,7 +18,8 @@
 <col style="width:20%"/>
 <col style="width:10%"/>
 <col style="width:10%"/>
-<col style="width:20%"/> 
+<col style="width:10%"/>
+<col style="width:10%"/>
 </colgroup>
   
 <tr>
