@@ -7,8 +7,8 @@
 <p align="justify>The selected events listed below are mentioned in my publications on political violence in the 18th century. The <strong>hyperlinks</strong> lead to external resources provoding preliminary background information. Articles in the Encyclopedia Britannica, (local) government websites or academic e-publications have been linked alongside Wikipedia entries.</p>
 
 <hr>
+          
 <p><strong>Selected events between the Monmouth Rebellion and the Peterloo Massacre:</strong></p>
-<hr>
 
 <table class="table table-bordered table-hover table-condensed" style="width:95%; font-size:80%; border: 2px solid black">
 
