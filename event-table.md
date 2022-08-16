@@ -108,7 +108,7 @@
 <td>#</td>
 <td>Boston / MA</td>
 <td>Boston / MA</td>
-  <td>economic / social</td>
+<td>economic / social</td>
 </tr>
     
 <tr>
@@ -329,8 +329,8 @@
 <td>Ireland (e.g. Drogheda and other parts of the Empire</td>
 <td>Drogheda / Ireland</td>
 <td>economic / social</td>
-
 </tr>
+  
 <tr>
 <td align="right">1741</td>
 <td>#</td>
@@ -1123,5 +1123,3 @@
 <td>political freedoms / personal rights</td>
 </tr>
 </table>
-
-
