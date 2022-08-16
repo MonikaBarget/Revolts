@@ -12,10 +12,10 @@
 <table class="table table-bordered table-hover table-condensed" style="width:95%; font-size:80%; border: 2px solid black">
 <col style="width:10%">
 <col style="width:10%">
-<col style="width:40%"> 
+<col style="width:20%"> 
 <col style="width:20%">
-<col data-visible="false">
-<col data-visible="false">
+<col style="width:10%">
+<col style="width:10%">
 <col style="width:20%"> 
 <tr>
 <th title="Field #1">START</th>
