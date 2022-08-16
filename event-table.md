@@ -8,6 +8,7 @@
 
 <hr>
 <p><strong>Selected events between the Monmouth Rebellion and the Peterloo Massacre:</strong></p>
+<hr>
 
 <table class="table table-bordered table-hover table-condensed" style="width:95%; font-size:80%; border: 2px solid black">
 
