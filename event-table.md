@@ -1,4 +1,4 @@
-### Chronological table of (alleged / planned) unrest
+<h2>Chronological table of (alleged / planned) unrest</h2>
 
 <p>Different forms of unrest in the British Isles as well as the British colonies pointed to strong cultural and political exchanges between the different parts of the Empire. In a <a href="https://github.com/MonikaBarget/Revolts/blob/master/TABLE_events_1513-1819.csv" target="_blank"><strong>a fully searchable data table</strong></a>, I have assembled events of (alleged / planned) conflicts in the British Empire and the independent United States between 1513 and 1819. The table is work in progress -- information on agents and outcomes may be missing or dubitable. The information given is based on <a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL queries</a> in the <a href="https://query.wikidata.org/">Wikidata Query Service</a> as well as abstracts of archival items found in the <a href="https://www.nationalarchives.gov.uk/">National Archives of the UK</a> online catalogue. The relevant Wikidata IDs and archival signatures have been added.</p>
 
@@ -12,13 +12,13 @@
 <table class="table table-bordered table-hover table-condensed" style="width:95%; font-size:80%; border: 2px solid black">
 
 <colgroup>
-<col style="width:10%">
-<col style="width:10%">
-<col style="width:20%"> 
-<col style="width:20%">
-<col style="width:10%">
-<col style="width:10%">
-<col style="width:20%"> 
+<col style="width:10%"/>
+<col style="width:10%"/>
+<col style="width:20%"/> 
+<col style="width:20%"/>
+<col style="width:10%"/>
+<col style="width:10%"/>
+<col style="width:20%"/> 
 </colgroup>
   
 <tr>
