@@ -17,6 +17,7 @@
 <col style="width:10%">
 <col style="width:10%">
 <col style="width:20%"> 
+  
 <tr>
 <th title="Field #1">START</th>
 <th title="Field #2">END</th>
@@ -27,6 +28,7 @@
 <th title="Field #7">PLACE (geocoded)</th>
 <th title="Field #9">CATEGORY</th>
 </tr>
+  
 <tr>
 <td align="right">1685</td>
 <td>1685</td>
