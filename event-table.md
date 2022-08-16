@@ -4,7 +4,7 @@
 
 <p align="justify">The <strong>thematic classification</strong> of the events on the right-hand side of the table gives a general overview of the different motivations that could drive 18th-century uprisings although the factors mentioned are by no means exclusive. There were, in fact, many overlaps between religious, cultural, social, economic and political aims. Therefore, the data table is meant as a starting point for further research.</p> 
 
-<p align="justify>The selected events listed below are mentioned in my publications on political violence in the 18th century. The <strong>hyperlinks</strong> lead to external resources provoding preliminary background information. Articles in the Encyclopedia Britannica, (local) government websites or academic e-publications have been linked alongside Wikipedia entries.</p>
+<p align="justify">The selected events listed below are mentioned in my publications on political violence in the 18th century. The <strong>hyperlinks</strong> lead to external resources provoding preliminary background information. Articles in the Encyclopedia Britannica, (local) government websites or academic e-publications have been linked alongside Wikipedia entries.</p>
 
 <hr>
           
