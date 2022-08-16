@@ -29,7 +29,7 @@
 <th title="Field #5">OUTCOME</th>
 <th title="Field #6">PLACE (hist.)</th>
 <th title="Field #7">PLACE (geocoded)</th>
-<th title="Field #9">CATEGORY</th>
+<th title="Field #8">CATEGORY</th>
 </tr>
   
 <tr>
