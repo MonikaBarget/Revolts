@@ -1,12 +1,12 @@
 <h2>British and colonial media production</h2>
 
-<h3>Overviews of different types of uprisings mentioned in early modern British newspapers</h3>
+<h3>Overviews of different types of uprisings mentioned in eighteenth-century British newspapers</h3>
 
-The following chart is based on the overall number of results retrieved for each keyword in the digitised newspapers of the British Newspaper Archives.
+The following chart is based on the overall number of results retrieved for each keyword in the digitised newspapers of the <a href="https://www.britishnewspaperarchive.co.uk/">British Newspaper Archives</a>. For the years 1700 and 1799, these digitized articles contain more than 15000 entries for riot and rebellion, whereas there are only 7000 mentions for tumult and 6000 mentions for revolt. Uprising, disturbance, and insurrection were even more rarely used in newspapers but came up in historical and legal texts of the time. 
 
 <img src=".\charts\Revolts-in-Newspapers.png" width="90%" style="padding: 10px"/>
 
-Material relating to the publication of newspapers (above all **provincial papers**) will follow over time. 
+Further material relating to the publication of newspapers (above all **provincial papers**) will be added over time. 
 
 <h3>Tagged vocabulary extracted from eighteenth-century riot and rebellion publications</h3>
 
