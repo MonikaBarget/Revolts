@@ -6,6 +6,10 @@ FASoS | Maastricht University<br />
 90-92 Grote Gracht<br />
 6211 SZ Maastricht, NL<br /> 
 
+**Public metadata library:**
+
+<a href="https://www.zotero.org/groups/2351893/british_riots_and_revolts_of_the_enlightenment_age">British riots and revolts of the Enlightenment Age</a>
+
 **Related publications:**
 
 Barget, Monika. ‘Stadt, Land und suburbaner Raum als Orte des Widerstands: Das britische Empire im 18. Jahrhundert’. Zeitschrift für Agrargeschichte und Agrarsoziologie 2/2017: Ländliche Akteure zwischen Protest und Revolution (18. bis 21. Jahrhundert) (2017): 35–54.
