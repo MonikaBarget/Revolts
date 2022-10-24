@@ -43,7 +43,7 @@ lyr_ESRIPhysical_0.setVisible(true);lyr_Sermons_Oct2022_1.setVisible(true);
 var layersList = [lyr_ESRIPhysical_0,lyr_Sermons_Oct2022_1];
 lyr_Sermons_Oct2022_1.set('fieldAliases', {'Place': 'Place', 'Country': 'Country', 'Full Address': 'Full Address', 'Count': 'Count', });
 lyr_Sermons_Oct2022_1.set('fieldImages', {'Place': 'TextEdit', 'Country': 'TextEdit', 'Full Address': 'TextEdit', 'Count': 'Range', });
-lyr_Sermons_Oct2022_1.set('fieldLabels', {'Place': 'header label', 'Country': 'inline label', 'Full Address': 'no label', 'Count': 'inline label', });
+lyr_Sermons_Oct2022_1.set('fieldLabels', {'Place': 'header label', 'Country': 'inline label', 'Full Address': 'inline label', 'Count': 'inline label', });
 lyr_Sermons_Oct2022_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
