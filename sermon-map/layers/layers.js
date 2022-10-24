@@ -1,42 +1,49 @@
 var wms_layers = [];
 
 
-        var lyr_OSMStandard_0 = new ol.layer.Tile({
-            'title': 'OSM Standard',
+        var lyr_ESRIPhysical_0 = new ol.layer.Tile({
+            'title': 'ESRI Physical',
             'type': 'base',
             'opacity': 1.000000,
             
             
             source: new ol.source.XYZ({
-    attributions: ' &middot; <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
-                url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
+    attributions: ' ',
+                url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}'
             })
         });
-var format_sermonsperplace_1 = new ol.format.GeoJSON();
-var features_sermonsperplace_1 = format_sermonsperplace_1.readFeatures(json_sermonsperplace_1, 
+var format_Sermons_Oct2022_1 = new ol.format.GeoJSON();
+var features_Sermons_Oct2022_1 = format_Sermons_Oct2022_1.readFeatures(json_Sermons_Oct2022_1, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_sermonsperplace_1 = new ol.source.Vector({
+var jsonSource_Sermons_Oct2022_1 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_sermonsperplace_1.addFeatures(features_sermonsperplace_1);
-var lyr_sermonsperplace_1 = new ol.layer.Vector({
+jsonSource_Sermons_Oct2022_1.addFeatures(features_Sermons_Oct2022_1);
+var lyr_Sermons_Oct2022_1 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_sermonsperplace_1, 
-                style: style_sermonsperplace_1,
+                source:jsonSource_Sermons_Oct2022_1, 
+                style: style_Sermons_Oct2022_1,
                 interactive: true,
-    title: 'sermons-per-place<br />\
-    <img src="styles/legend/sermonsperplace_1_0.png" /> 1 - 1<br />\
-    <img src="styles/legend/sermonsperplace_1_1.png" /> 1 - 1<br />\
-    <img src="styles/legend/sermonsperplace_1_2.png" /> 1 - 2<br />\
-    <img src="styles/legend/sermonsperplace_1_3.png" /> 2 - 8<br />\
-    <img src="styles/legend/sermonsperplace_1_4.png" /> 8 - 480<br />'
+    title: 'Sermons_Oct2022<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_0.png" /> 1<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_1.png" /> 2<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_2.png" /> 3<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_3.png" /> 4<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_4.png" /> 6<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_5.png" /> 7<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_6.png" /> 12<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_7.png" /> 14<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_8.png" /> 20<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_9.png" /> 59<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_10.png" /> 229<br />\
+    <img src="styles/legend/Sermons_Oct2022_1_11.png" /> <br />'
         });
 
-lyr_OSMStandard_0.setVisible(true);lyr_sermonsperplace_1.setVisible(true);
-var layersList = [lyr_OSMStandard_0,lyr_sermonsperplace_1];
-lyr_sermonsperplace_1.set('fieldAliases', {'Place': 'Place', 'Region (modern)': 'Region (modern)', 'Continent': 'Continent', 'Full Address': 'Full Address', 'Number': 'Number', });
-lyr_sermonsperplace_1.set('fieldImages', {'Place': 'TextEdit', 'Region (modern)': 'TextEdit', 'Continent': 'TextEdit', 'Full Address': 'TextEdit', 'Number': 'Range', });
-lyr_sermonsperplace_1.set('fieldLabels', {'Place': 'no label', 'Region (modern)': 'no label', 'Continent': 'no label', 'Full Address': 'no label', 'Number': 'inline label', });
-lyr_sermonsperplace_1.on('precompose', function(evt) {
+lyr_ESRIPhysical_0.setVisible(true);lyr_Sermons_Oct2022_1.setVisible(true);
+var layersList = [lyr_ESRIPhysical_0,lyr_Sermons_Oct2022_1];
+lyr_Sermons_Oct2022_1.set('fieldAliases', {'Place': 'Place', 'Country': 'Country', 'Full Address': 'Full Address', 'Count': 'Count', });
+lyr_Sermons_Oct2022_1.set('fieldImages', {'Place': 'TextEdit', 'Country': 'TextEdit', 'Full Address': 'TextEdit', 'Count': 'Range', });
+lyr_Sermons_Oct2022_1.set('fieldLabels', {'Place': 'header label', 'Country': 'inline label', 'Full Address': 'no label', 'Count': 'inline label', });
+lyr_Sermons_Oct2022_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
