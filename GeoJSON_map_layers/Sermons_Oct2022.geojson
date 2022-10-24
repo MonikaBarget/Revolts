@@ -47,7 +47,7 @@
        "coordinates":  [ -0.026577,52.97894 ]
     },
     "properties": {
-    "Place":"Boston, England",
+    "Place":"Boston",
     "Country":"UK",
     "Full Address":"Boston, England UK ",
     "Count":1
@@ -126,8 +126,8 @@
     },
     "properties": {
     "Place":"Dublin",
-    "Country":"UK",
-    "Full Address":"Dublin UK ",
+    "Country":"Ireland",
+    "Full Address":"Dublin Ireland",
     "Count":59
     }
   },
