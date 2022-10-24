@@ -682,7 +682,6 @@
 <td>religion / cultural identity</td>
 </tr>
 
-</tr>
 <tr>
 <td align="right">1779</td>
 <td>#</td>
