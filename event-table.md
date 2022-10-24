@@ -532,7 +532,7 @@
 <tr>
 <td align="right">1765</td>
 <td>#</td>
-  <td><a href="https://investigatinghistory.ashp.cuny.edu/module2.php">Stamp Act Riots</a></td>
+<td><a href="https://investigatinghistory.ashp.cuny.edu/module2.php">Stamp Act Riots</a></td>
 <td>taxation protest</td>
 <td>property damage and harassment of officials</td>
 <td>Boston / Massachusetts</td>
@@ -878,8 +878,8 @@
 <td>Edinburgh / Scotland</td>
 <td>Edinburgh / Scotland</td>
 <td>government</td>
-
 </tr>
+
 <tr>
 <td align="right">1794</td>
 <td>#</td>
