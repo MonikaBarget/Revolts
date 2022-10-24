@@ -1,0 +1,356 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.0937528,57.1498891 ]
+    },
+    "properties": {
+    "Place":"Aberdeen",
+    "Country":"UK",
+    "Full Address":"Aberdeen UK ",
+    "Count":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.93012,54.597285 ]
+    },
+    "properties": {
+    "Place":"Belfast",
+    "Country":"UK",
+    "Full Address":"Belfast UK ",
+    "Count":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0588801,42.3600825 ]
+    },
+    "properties": {
+    "Place":"Boston",
+    "Country":"USA",
+    "Full Address":"Boston USA ",
+    "Count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.026577,52.97894 ]
+    },
+    "properties": {
+    "Place":"Boston, England",
+    "Country":"UK",
+    "Full Address":"Boston, England UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.58791,51.454513 ]
+    },
+    "properties": {
+    "Place":"Bristol",
+    "Country":"UK",
+    "Full Address":"Bristol UK ",
+    "Count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.3596827,51.3781018 ]
+    },
+    "properties": {
+    "Place":"Bath",
+    "Country":"UK",
+    "Full Address":"Bath UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1275862,51.5072178 ]
+    },
+    "properties": {
+    "Place":"London",
+    "Country":"UK",
+    "Full Address":"London UK ",
+    "Count":229
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1312729,52.1950788 ]
+    },
+    "properties": {
+    "Place":"Cambridge",
+    "Country":"UK",
+    "Full Address":"Cambridge UK ",
+    "Count":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.2978802,52.6292567 ]
+    },
+    "properties": {
+    "Place":"Norwich",
+    "Country":"UK",
+    "Full Address":"Norwich UK ",
+    "Count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "Place":"Dublin",
+    "Country":"UK",
+    "Full Address":"Dublin UK ",
+    "Count":59
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "Place":"Edinburgh",
+    "Country":"UK",
+    "Full Address":"Edinburgh UK ",
+    "Count":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5274889,50.7260367 ]
+    },
+    "properties": {
+    "Place":"Exon, Exeter",
+    "Country":"UK",
+    "Full Address":"Exon, Exeter UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.251806,55.864237 ]
+    },
+    "properties": {
+    "Place":"Glasgow",
+    "Country":"UK",
+    "Full Address":"Glasgow UK ",
+    "Count":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.3274198,53.7676236 ]
+    },
+    "properties": {
+    "Place":"Hull",
+    "Country":"UK",
+    "Full Address":"Hull UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1601246,52.9451889 ]
+    },
+    "properties": {
+    "Place":"Lincoln",
+    "Country":"UK",
+    "Full Address":"Lincoln UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1397592,52.6368778 ]
+    },
+    "properties": {
+    "Place":"Leicester",
+    "Country":"UK",
+    "Full Address":"Leicester UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1549892,52.9540223 ]
+    },
+    "properties": {
+    "Place":"Nottingham",
+    "Country":"UK",
+    "Full Address":"Nottingham UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9915726,53.4083714 ]
+    },
+    "properties": {
+    "Place":"Liverpool",
+    "Country":"UK",
+    "Full Address":"Liverpool UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.2426305,53.4807593 ]
+    },
+    "properties": {
+    "Place":"Manchester",
+    "Country":"UK",
+    "Full Address":"Manchester UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577263,51.7520209 ]
+    },
+    "properties": {
+    "Place":"Oxford",
+    "Country":"UK",
+    "Full Address":"Oxford UK ",
+    "Count":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1652215,39.9525839 ]
+    },
+    "properties": {
+    "Place":"Philadelphia",
+    "Country":"USA",
+    "Full Address":"Philadelphia USA ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.8048782,51.0932288 ]
+    },
+    "properties": {
+    "Place":"Sarum",
+    "Country":"UK",
+    "Full Address":"Sarum UK ",
+    "Count":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.7553268,52.7073029 ]
+    },
+    "properties": {
+    "Place":"Shrewsbury",
+    "Country":"UK",
+    "Full Address":"Shrewsbury UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.4049018,50.9105468 ]
+    },
+    "properties": {
+    "Place":"Southampton",
+    "Country":"UK",
+    "Full Address":"Southampton UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.148731,52.456891 ]
+    },
+    "properties": {
+    "Place":"Stourbridge",
+    "Country":"UK",
+    "Full Address":"Stourbridge UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.505924,53.683298 ]
+    },
+    "properties": {
+    "Place":"Wakefield",
+    "Country":"UK",
+    "Full Address":"Wakefield UK ",
+    "Count":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0739108,53.9614205 ]
+    },
+    "properties": {
+    "Place":"York",
+    "Country":"UK",
+    "Full Address":"York UK ",
+    "Count":12
+    }
+  }
+]
+}
