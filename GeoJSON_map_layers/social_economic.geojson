@@ -190,7 +190,7 @@
     "properties": {
     "From":1753,
     "to":"1753",
-    "Name":"Turnpike riot",
+    "Name":"Turnpike Riot",
     "Agents":"[turnpike] riot in Bristol, descruction of toll bars",
     "Results":"William Fudge killed, Attorney-General asked to issue a nolle prosequi for all involved in suppressing the riot, including local marchant John Brickdale.",
     "Type":"social / economic",
@@ -370,7 +370,7 @@
     "properties": {
     "From":1795,
     "to":"1795",
-    "Name":"Food riot",
+    "Name":"Food Riot",
     "Agents":"riotous mob had forced the sale of meat at 4d per pound",
     "Results":"#",
     "Type":"social / economic",
@@ -430,7 +430,7 @@
     "properties": {
     "From":1795,
     "to":"1795",
-    "Name":"Food riot",
+    "Name":"Food Riot",
     "Agents":"food riot among iron and coal workers, 400 to 500 men with bludgeons had had to be dispersed",
     "Results":"riot was only suppressed by the masters of the works and by the yeomanry cavalry",
     "Type":"social / economic",
@@ -470,7 +470,7 @@
     "properties": {
     "From":1779,
     "to":"1779",
-    "Name":"Irish Volunteers parade",
+    "Name":"Irish Volunteers' Parade",
     "Agents":"demanding removal of restrictions on Irish trade",
     "Results":"#",
     "Type":"social / economic",
@@ -631,7 +631,7 @@
     "From":1795,
     "to":"1795",
     "Name":"Riot",
-    "Agents":"dangerous riot at Diss",
+    "Agents":"'Dangerous Riot' at Diss",
     "Results":"#",
     "Type":"social / economic",
     "Label":"Diss, England",
@@ -1350,7 +1350,7 @@
     "properties": {
     "From":1723,
     "to":"1723",
-    "Name":"Wage riots",
+    "Name":"Wage Riots",
     "Agents":"riot at Mansfield 26 October 1723 caused by the reading of the statute for assessing and appointing rates and wages for artificers, labourers and servants",
     "Results":"#",
     "Type":"social / economic",
